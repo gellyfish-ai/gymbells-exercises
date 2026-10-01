@@ -1,4 +1,4 @@
-// Gym Bells exercises: search and filters over exercises.json and text/en.json (built by exercise-art, tools/publish_public.py).
+// GymBells exercises: search and filters over exercises.json and text/en.json (built by exercise-art, tools/publish_public.py).
 const $ = (id) => document.getElementById(id);
 const norm = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
 let items = [], labels = {};

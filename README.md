@@ -1,9 +1,9 @@
-# Gym Bells exercises
+# GymBells exercises
 
 **[Browse the catalogue →](https://gellyfish-ai.github.io/gymbells-exercises/)**
 
 199 gym exercises with illustrations, a start and an end picture each, plus names, other names,
-steps, equipment and muscles. They are made for the [Gym Bells](https://gellyfish.dev/gymbells/) app and
+steps, equipment and muscles. They are made for the [GymBells](https://gellyfish.dev/gymbells/) app and
 shared here for non-commercial use. Release 0.2.0 (2026-10-01).
 
 <table>
@@ -31,9 +31,9 @@ and open http://localhost:8000.
 
 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) for the pictures, data and text; the site code
 (`index.html`, `site.js`, `site.css`) is MIT. See [LICENSE](LICENSE), which also notes the public-domain
-fields from free-exercise-db. Credit Gym Bells and link to it wherever you use the pictures or the text:
+fields from free-exercise-db. Credit GymBells and link to it wherever you use the pictures or the text:
 
-> Exercise illustrations by [Gym Bells](https://gellyfish.dev/gymbells/), CC BY-NC 4.0
+> Exercise illustrations by [GymBells](https://gellyfish.dev/gymbells/), CC BY-NC 4.0
 
 ## Commercial licence
 

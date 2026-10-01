@@ -1305,6 +1305,19 @@
         "Keep your hips down; if they lift, use a lighter weight."
       ]
     },
+    "Lying_Triceps_Press": {
+      "name": "Lying Triceps Press",
+      "other_names": [
+        "Lying Triceps Extension"
+      ],
+      "steps": [
+        "Lie on a flat bench and hold an EZ bar above your chest with an overhand grip, hands about shoulder-width apart or closer.",
+        "Keep your upper arms still and bend your elbows to lower the bar towards your forehead.",
+        "Stop just before the bar reaches your head, then straighten your arms to press it back up.",
+        "Keep your elbows pointing up and close together throughout.",
+        "Move slowly near your head, and use a weight you can control."
+      ]
+    },
     "Machine_Bench_Press": {
       "name": "Machine Bench Press",
       "other_names": [],

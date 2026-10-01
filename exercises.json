@@ -1914,6 +1914,21 @@
       "category": "strength",
       "aliases": []
     },
+    "Lying_Triceps_Press": {
+      "pose": "lying-triceps-press",
+      "equipment": [
+        "ez_bar",
+        "flat_bench"
+      ],
+      "primary_muscles": [
+        "triceps"
+      ],
+      "secondary_muscles": [],
+      "level": "intermediate",
+      "mechanic": "isolation",
+      "category": "strength",
+      "aliases": []
+    },
     "Machine_Bench_Press": {
       "pose": "machine-bench-press",
       "equipment": [

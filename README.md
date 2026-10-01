@@ -2,7 +2,7 @@
 
 **[Browse the catalogue →](https://gellyfish-ai.github.io/gymbells-exercises/)**
 
-199 gym exercises with illustrations, a start and an end picture each, plus names, other names,
+200 gym exercises with illustrations, a start and an end picture each, plus names, other names,
 steps, equipment and muscles. They are made for the [GymBells](https://gellyfish.dev/gymbells/) app and
 shared here for non-commercial use. Release 0.2.0 (2026-10-01).
 
@@ -13,7 +13,7 @@ shared here for non-commercial use. Release 0.2.0 (2026-10-01).
 <tr><td align="center"><a href="https://gellyfish-ai.github.io/gymbells-exercises/#Barbell_Hip_Thrust"><img src="images/barbell-hip-thrust/start.png" width="180" alt=""><img src="images/barbell-hip-thrust/end.png" width="180" alt=""></a><br><b>Barbell Hip Thrust</b></td><td align="center"><a href="https://gellyfish-ai.github.io/gymbells-exercises/#Seated_Cable_Rows"><img src="images/seated-cable-row/start.png" width="180" alt=""><img src="images/seated-cable-row/end.png" width="180" alt=""></a><br><b>Seated Cable Row</b></td></tr>
 </table>
 
-By equipment: Dumbbell 43, Barbell 42, Cable machine 25, Bodyweight 17, Kettlebell 10, Band 6, Smith machine 6, Lat pulldown machine 5, Flat bench 4, Dip bars 3, EZ bar 3, Leg press machine 3, Pull-up bar 3, other 29.
+By equipment: Dumbbell 43, Barbell 42, Cable machine 25, Bodyweight 17, Kettlebell 10, Band 6, Smith machine 6, Lat pulldown machine 5, EZ bar 4, Flat bench 4, Dip bars 3, Leg press machine 3, Pull-up bar 3, other 29.
 
 ## Files
 

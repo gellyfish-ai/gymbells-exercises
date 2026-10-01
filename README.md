@@ -4,7 +4,8 @@
 steps, equipment and muscles. They are made for the [Gym Bells](https://gellyfish.dev/gymbells/) app and
 shared here for non-commercial use. Release 0.2.0 (2026-10-01).
 
-Browse them at the site: `index.html`, served by GitHub Pages.
+Browse them on the site, `index.html`. It loads the JSON files, so open it through a web server
+(`python3 -m http.server`, then http://localhost:8000), not as a file.
 
 ## Files
 

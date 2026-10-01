@@ -1,0 +1,19 @@
+Gym Bells exercise catalogue, free tier
+Copyright (c) 2026 Albert Donaire.
+
+DRAFT (issue #11). This wording has not been checked yet; the repository stays private until it is.
+
+The images (images/), the exercise data (exercises.json) and the English text (text/en.json) in this
+repository are licensed under the Creative Commons Attribution-NonCommercial 4.0 International licence
+(CC BY-NC 4.0): https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+In short, and the legal code above is what applies:
+- You may copy, share and adapt them for non-commercial purposes.
+- You must give credit, link to Gym Bells and to the licence, and say if you changed anything.
+  Credit line: "Exercise illustrations by Gym Bells (https://gellyfish.dev/gymbells/), CC BY-NC 4.0"
+- Commercial use is not covered by this licence.
+
+Commercial use, full-size transparent images, translations and other colours are available under a
+separate commercial licence: https://gellyfish.dev/gymbells/
+
+The site code (index.html, site.js, site.css) may be reused under the same terms.

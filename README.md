@@ -19,7 +19,9 @@ Exercise ids never change. An empty equipment list means bodyweight only.
 
 ## Licence
 
-[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), see [LICENSE](LICENSE). Credit Gym Bells
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) for the pictures, data and text; the site code
+(`index.html`, `site.js`, `site.css`) is MIT. See [LICENSE](LICENSE), which also notes the public-domain
+fields from free-exercise-db. Credit Gym Bells
 and link to it wherever you use the pictures or the text:
 
 > Exercise illustrations by [Gym Bells](https://gellyfish.dev/gymbells/), CC BY-NC 4.0

@@ -1,19 +1,98 @@
-Gym Bells exercise catalogue, free tier
+Gym Bells Exercise Catalogue - Free Tier
 Copyright (c) 2026 Albert Donaire.
 
-DRAFT (issue #11). This wording has not been checked yet; the repository stays private until it is.
 
-The images (images/), the exercise data (exercises.json) and the English text (text/en.json) in this
-repository are licensed under the Creative Commons Attribution-NonCommercial 4.0 International licence
-(CC BY-NC 4.0): https://creativecommons.org/licenses/by-nc/4.0/legalcode
+LICENCE
 
-In short, and the legal code above is what applies:
-- You may copy, share and adapt them for non-commercial purposes.
-- You must give credit, link to Gym Bells and to the licence, and say if you changed anything.
-  Credit line: "Exercise illustrations by Gym Bells (https://gellyfish.dev/gymbells/), CC BY-NC 4.0"
-- Commercial use is not covered by this licence.
+The following materials in this repository are licensed under the Creative Commons
+Attribution-NonCommercial 4.0 International Licence (CC BY-NC 4.0):
 
-Commercial use, full-size transparent images, translations and other colours are available under a
-separate commercial licence: https://gellyfish.dev/gymbells/
+  * the exercise illustrations in images/;
+  * the exercise data in exercises.json; and
+  * the English-language text in text/en.json.
 
-The site code (index.html, site.js, site.css) may be reused under the same terms.
+The full licence terms are available at:
+https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Under the CC BY-NC 4.0 Licence, you may copy, redistribute, remix, transform, and build upon these
+materials for non-commercial purposes, subject to the terms of that licence.
+
+
+ATTRIBUTION
+
+When you use these materials, you must provide appropriate attribution, include a link to Gym Bells
+and the licence, and indicate whether you made any changes.
+
+The following attribution is appropriate:
+
+  Exercise illustrations by Gym Bells (https://gellyfish.dev/gymbells/), CC BY-NC 4.0
+
+
+PUBLIC-DOMAIN DATA
+
+Some fields in exercises.json - specifically the exercise ids, muscles, level, mechanic, and
+category - derive from free-exercise-db (https://github.com/yuhonas/free-exercise-db), which was
+released into the public domain.
+
+The CC BY-NC 4.0 licence applies only to our own contributions and does not restrict material that is
+already in the public domain.
+
+
+COMMERCIAL USE
+
+Commercial use is not permitted under the CC BY-NC 4.0 licence.
+
+Commercial use, as well as access to full-size transparent images, translations, additional colour
+variants, and other materials or rights not included in the free tier, may be available under a
+separate commercial licence from Gym Bells.
+
+For commercial licensing and other licensing options, please visit:
+https://gellyfish.dev/gymbells/
+
+
+WEBSITE SOURCE CODE
+
+The public browsing website consists of:
+
+  * index.html
+  * site.js
+  * site.css
+
+These files are licensed under the MIT License below.
+
+The MIT License permits reuse, modification, distribution, and commercial use of this code, subject
+to its terms.
+
+The exercise illustrations, exercise data, and text displayed by the website remain subject to their
+respective licences described above.
+
+MIT License
+
+Copyright (c) 2026 Albert Donaire
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+IMPORTANT
+
+This notice is intended to summarise the licensing of the Gym Bells free-tier materials. The
+applicable licence terms control in the event of any inconsistency between this summary and the
+relevant licence text.
+
+This notice does not grant any rights beyond those provided by the applicable licences.

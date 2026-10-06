@@ -1,0 +1,1274 @@
+{
+  "id": "kettlebell-only",
+  "name": "Kettlebell Only",
+  "description": "Three workouts a week for 8 weeks with kettlebells alone: swings, cleans, presses, snatches, squats, get-ups and carries. The program starts with one moderate bell and moves to a heavier one for the last block; with one bell, do the two-handed exercises holding it by the horns. Learn the swing well before the snatch. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+  "level": "intermediate",
+  "phases": [
+    {
+      "name": "Learn the Bell",
+      "description": "Moderate weight, learning the swing, clean and get-up",
+      "weekStart": 1,
+      "weekEnd": 3,
+      "restBetweenExercises": 60,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Kettlebell Swing",
+              "catalogueId": "Kettlebell_Swing",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "One-Arm_Kettlebell_Swings",
+                "Kettlebell_Romanian_Deadlift"
+              ]
+            },
+            {
+              "name": "Goblet Squat",
+              "catalogueId": "Goblet_Squat",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Front_Squats_With_Two_Kettlebells",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Double Kettlebell Press",
+              "catalogueId": "Two-Arm_Kettlebell_Military_Press",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "One-Arm Kettlebell Row",
+              "catalogueId": "One-Arm_Kettlebell_Row",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Bent-Over_Row"
+              ]
+            },
+            {
+              "name": "Kettlebell Halo",
+              "catalogueId": "Kettlebell_Halo",
+              "sets": 2,
+              "repRangeMin": 5,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Kettlebell Suitcase Carry",
+              "catalogueId": "Kettlebell_Suitcase_Carry",
+              "sets": 2,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "metres",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Farmers_Walk"
+              ]
+            },
+            {
+              "name": "Kettlebell Russian Twist",
+              "catalogueId": "Kettlebell_Russian_Twist",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Russian_Twist"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Kettlebell Clean and Press",
+              "catalogueId": "Kettlebell_Clean_and_Press",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per side",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Kettlebell Goblet Reverse Lunge",
+              "catalogueId": "Kettlebell_Goblet_Reverse_Lunge",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": "Reps per leg",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Reverse_Lunge"
+              ]
+            },
+            {
+              "name": "Kettlebell Romanian Deadlift",
+              "catalogueId": "Kettlebell_Romanian_Deadlift",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_One-Legged_Deadlift"
+              ]
+            },
+            {
+              "name": "Kettlebell Floor Press",
+              "catalogueId": "Kettlebell_Floor_Press",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pushups",
+                "Push-Ups_With_Feet_Elevated"
+              ]
+            },
+            {
+              "name": "Kettlebell Windmill",
+              "catalogueId": "Kettlebell_Windmill",
+              "sets": 2,
+              "repRangeMin": 5,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Turkish_Get-Up_Squat_style",
+                "Kettlebell_Russian_Twist"
+              ]
+            },
+            {
+              "name": "Kettlebell Russian Twist",
+              "catalogueId": "Kettlebell_Russian_Twist",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Russian_Twist"
+              ]
+            },
+            {
+              "name": "Kettlebell Halo",
+              "catalogueId": "Kettlebell_Halo",
+              "sets": 2,
+              "repRangeMin": 5,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        },
+        {
+          "name": "Workout C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Kettlebell Snatch",
+              "catalogueId": "Kettlebell_Snatch",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per side",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Swing"
+              ]
+            },
+            {
+              "name": "Double Kettlebell Front Squat",
+              "catalogueId": "Front_Squats_With_Two_Kettlebells",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Kettlebell Turkish Get-Up",
+              "catalogueId": "Kettlebell_Turkish_Get-Up_Squat_style",
+              "sets": 3,
+              "repRangeMin": 2,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per side, slowly",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Windmill"
+              ]
+            },
+            {
+              "name": "Kettlebell Bent-Over Row",
+              "catalogueId": "Kettlebell_Bent-Over_Row",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "One-Arm_Kettlebell_Row"
+              ]
+            },
+            {
+              "name": "Kettlebell Single-Leg Deadlift",
+              "catalogueId": "Kettlebell_One-Legged_Deadlift",
+              "sets": 2,
+              "repRangeMin": 5,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Single-Leg_Deadlift",
+                "Kettlebell_Romanian_Deadlift"
+              ]
+            },
+            {
+              "name": "Kettlebell Farmer's Walk",
+              "catalogueId": "Kettlebell_Farmers_Walk",
+              "sets": 2,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "metres",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Suitcase_Carry"
+              ]
+            },
+            {
+              "name": "Kettlebell Halo",
+              "catalogueId": "Kettlebell_Halo",
+              "sets": 2,
+              "repRangeMin": 5,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Volume",
+      "description": "More sets and reps with the same bell",
+      "weekStart": 4,
+      "weekEnd": 6,
+      "restBetweenExercises": 60,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Kettlebell Swing",
+              "catalogueId": "Kettlebell_Swing",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "One-Arm_Kettlebell_Swings",
+                "Kettlebell_Romanian_Deadlift"
+              ]
+            },
+            {
+              "name": "Goblet Squat",
+              "catalogueId": "Goblet_Squat",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Front_Squats_With_Two_Kettlebells",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Double Kettlebell Press",
+              "catalogueId": "Two-Arm_Kettlebell_Military_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "One-Arm Kettlebell Row",
+              "catalogueId": "One-Arm_Kettlebell_Row",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Bent-Over_Row"
+              ]
+            },
+            {
+              "name": "Kettlebell Halo",
+              "catalogueId": "Kettlebell_Halo",
+              "sets": 3,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Kettlebell Suitcase Carry",
+              "catalogueId": "Kettlebell_Suitcase_Carry",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "metres",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Farmers_Walk"
+              ]
+            },
+            {
+              "name": "Kettlebell Russian Twist",
+              "catalogueId": "Kettlebell_Russian_Twist",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Russian_Twist"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Kettlebell Clean and Press",
+              "catalogueId": "Kettlebell_Clean_and_Press",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per side",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Kettlebell Goblet Reverse Lunge",
+              "catalogueId": "Kettlebell_Goblet_Reverse_Lunge",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": "Reps per leg",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Reverse_Lunge"
+              ]
+            },
+            {
+              "name": "Kettlebell Romanian Deadlift",
+              "catalogueId": "Kettlebell_Romanian_Deadlift",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_One-Legged_Deadlift"
+              ]
+            },
+            {
+              "name": "Kettlebell Floor Press",
+              "catalogueId": "Kettlebell_Floor_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pushups",
+                "Push-Ups_With_Feet_Elevated"
+              ]
+            },
+            {
+              "name": "Kettlebell Windmill",
+              "catalogueId": "Kettlebell_Windmill",
+              "sets": 3,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Turkish_Get-Up_Squat_style",
+                "Kettlebell_Russian_Twist"
+              ]
+            },
+            {
+              "name": "Kettlebell Russian Twist",
+              "catalogueId": "Kettlebell_Russian_Twist",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Russian_Twist"
+              ]
+            },
+            {
+              "name": "Kettlebell Halo",
+              "catalogueId": "Kettlebell_Halo",
+              "sets": 3,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        },
+        {
+          "name": "Workout C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Kettlebell Snatch",
+              "catalogueId": "Kettlebell_Snatch",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per side",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Swing"
+              ]
+            },
+            {
+              "name": "Double Kettlebell Front Squat",
+              "catalogueId": "Front_Squats_With_Two_Kettlebells",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Kettlebell Turkish Get-Up",
+              "catalogueId": "Kettlebell_Turkish_Get-Up_Squat_style",
+              "sets": 3,
+              "repRangeMin": 2,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per side, slowly",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Windmill"
+              ]
+            },
+            {
+              "name": "Kettlebell Bent-Over Row",
+              "catalogueId": "Kettlebell_Bent-Over_Row",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "One-Arm_Kettlebell_Row"
+              ]
+            },
+            {
+              "name": "Kettlebell Single-Leg Deadlift",
+              "catalogueId": "Kettlebell_One-Legged_Deadlift",
+              "sets": 3,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Single-Leg_Deadlift",
+                "Kettlebell_Romanian_Deadlift"
+              ]
+            },
+            {
+              "name": "Kettlebell Farmer's Walk",
+              "catalogueId": "Kettlebell_Farmers_Walk",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "metres",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Suitcase_Carry"
+              ]
+            },
+            {
+              "name": "Kettlebell Halo",
+              "catalogueId": "Kettlebell_Halo",
+              "sets": 3,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heavier Bell",
+      "description": "A heavier bell for fewer reps",
+      "weekStart": 7,
+      "weekEnd": 8,
+      "restBetweenExercises": 90,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Kettlebell Swing",
+              "catalogueId": "Kettlebell_Swing",
+              "sets": 5,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 24.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "One-Arm_Kettlebell_Swings",
+                "Kettlebell_Romanian_Deadlift"
+              ]
+            },
+            {
+              "name": "Goblet Squat",
+              "catalogueId": "Goblet_Squat",
+              "sets": 5,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 24.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Front_Squats_With_Two_Kettlebells",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Double Kettlebell Press",
+              "catalogueId": "Two-Arm_Kettlebell_Military_Press",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 18.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "One-Arm Kettlebell Row",
+              "catalogueId": "One-Arm_Kettlebell_Row",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 24.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Bent-Over_Row"
+              ]
+            },
+            {
+              "name": "Kettlebell Halo",
+              "catalogueId": "Kettlebell_Halo",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Kettlebell Suitcase Carry",
+              "catalogueId": "Kettlebell_Suitcase_Carry",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "metres",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 24.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Farmers_Walk"
+              ]
+            },
+            {
+              "name": "Kettlebell Russian Twist",
+              "catalogueId": "Kettlebell_Russian_Twist",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Russian_Twist"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Kettlebell Clean and Press",
+              "catalogueId": "Kettlebell_Clean_and_Press",
+              "sets": 5,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per side",
+              "defaultWeight": 18.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Kettlebell Goblet Reverse Lunge",
+              "catalogueId": "Kettlebell_Goblet_Reverse_Lunge",
+              "sets": 5,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": "Reps per leg",
+              "defaultWeight": 18.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Reverse_Lunge"
+              ]
+            },
+            {
+              "name": "Kettlebell Romanian Deadlift",
+              "catalogueId": "Kettlebell_Romanian_Deadlift",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_One-Legged_Deadlift"
+              ]
+            },
+            {
+              "name": "Kettlebell Floor Press",
+              "catalogueId": "Kettlebell_Floor_Press",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 24.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pushups",
+                "Push-Ups_With_Feet_Elevated"
+              ]
+            },
+            {
+              "name": "Kettlebell Windmill",
+              "catalogueId": "Kettlebell_Windmill",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Turkish_Get-Up_Squat_style",
+                "Kettlebell_Russian_Twist"
+              ]
+            },
+            {
+              "name": "Kettlebell Russian Twist",
+              "catalogueId": "Kettlebell_Russian_Twist",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Russian_Twist"
+              ]
+            },
+            {
+              "name": "Kettlebell Halo",
+              "catalogueId": "Kettlebell_Halo",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        },
+        {
+          "name": "Workout C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Kettlebell Snatch",
+              "catalogueId": "Kettlebell_Snatch",
+              "sets": 5,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per side",
+              "defaultWeight": 18.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Swing"
+              ]
+            },
+            {
+              "name": "Double Kettlebell Front Squat",
+              "catalogueId": "Front_Squats_With_Two_Kettlebells",
+              "sets": 5,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 18.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Kettlebell Turkish Get-Up",
+              "catalogueId": "Kettlebell_Turkish_Get-Up_Squat_style",
+              "sets": 4,
+              "repRangeMin": 2,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per side, slowly",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Windmill"
+              ]
+            },
+            {
+              "name": "Kettlebell Bent-Over Row",
+              "catalogueId": "Kettlebell_Bent-Over_Row",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 24.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "One-Arm_Kettlebell_Row"
+              ]
+            },
+            {
+              "name": "Kettlebell Single-Leg Deadlift",
+              "catalogueId": "Kettlebell_One-Legged_Deadlift",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 18.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Single-Leg_Deadlift",
+                "Kettlebell_Romanian_Deadlift"
+              ]
+            },
+            {
+              "name": "Kettlebell Farmer's Walk",
+              "catalogueId": "Kettlebell_Farmers_Walk",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "metres",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 24.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Suitcase_Carry"
+              ]
+            },
+            {
+              "name": "Kettlebell Halo",
+              "catalogueId": "Kettlebell_Halo",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

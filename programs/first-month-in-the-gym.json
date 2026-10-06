@@ -1,0 +1,638 @@
+{
+  "id": "first-month-in-the-gym",
+  "name": "First Month in the Gym",
+  "description": "Four weeks for a complete beginner, three workouts a week alternating A and B. Machines and dumbbells come first because they are the easiest to learn safely; the goblet squat and dumbbell press prepare for barbell work. Use a weight you could lift a few more times at the end of each set. After the month, move on to Beginner Barbell Strength, Full Body Hypertrophy or Two Days a Week.",
+  "level": "beginner",
+  "phases": [
+    {
+      "name": "Learn",
+      "description": "Two sets of each exercise to learn how it should feel",
+      "weekStart": 1,
+      "weekEnd": 2,
+      "restBetweenExercises": 90,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Leg Press",
+              "catalogueId": "Leg_Press",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 50.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hack_Squat",
+                "Smith_Machine_Squat",
+                "Dumbbell_Goblet_Squat",
+                "Barbell_Squat"
+              ]
+            },
+            {
+              "name": "Machine Bench Press",
+              "catalogueId": "Machine_Bench_Press",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Leverage_Chest_Press",
+                "Cable_Chest_Press",
+                "Dumbbell_Bench_Press",
+                "Smith_Machine_Bench_Press",
+                "Barbell_Bench_Press_-_Medium_Grip",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Lat Pulldown, Wide Grip",
+              "catalogueId": "Wide-Grip_Lat_Pulldown",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pullups",
+                "Lat_Pulldown_Neutral_Grip",
+                "Close-Grip_Front_Lat_Pulldown",
+                "One_Arm_Lat_Pulldown"
+              ]
+            },
+            {
+              "name": "Lying Leg Curl",
+              "catalogueId": "Lying_Leg_Curls",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 15.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Leg_Curl",
+                "Standing_Leg_Curl",
+                "Ball_Leg_Curl",
+                "Nordic_Hamstring_Curl"
+              ]
+            },
+            {
+              "name": "Machine Shoulder Press",
+              "catalogueId": "Machine_Shoulder_Military_Press",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 15.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Dumbbell_Press",
+                "Smith_Machine_Overhead_Shoulder_Press",
+                "Cable_Shoulder_Press",
+                "Seated_Barbell_Press",
+                "Dumbbell_Shoulder_Press"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 2,
+              "repRangeMin": 15,
+              "repRangeMax": 20,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Ab_Roller",
+                "Hollow_Hold"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Goblet Squat",
+              "catalogueId": "Goblet_Squat",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Goblet_Squat",
+                "Front_Squats_With_Two_Kettlebells",
+                "Dumbbell_Squat",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Bench Press",
+              "catalogueId": "Dumbbell_Bench_Press",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Bench_Press_-_Medium_Grip",
+                "Machine_Bench_Press",
+                "Smith_Machine_Bench_Press",
+                "Cable_Chest_Press",
+                "Dumbbell_Floor_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Seated Cable Row",
+              "catalogueId": "Seated_Cable_Rows",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Cable_Row_V-Bar",
+                "Leverage_Iso_Row",
+                "Dumbbell_Incline_Row",
+                "Bent_Over_Barbell_Row",
+                "Inverted_Row"
+              ]
+            },
+            {
+              "name": "Dumbbell Glute Bridge",
+              "catalogueId": "Dumbbell_Glute_Bridge",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Glute_Bridge",
+                "Butt_Lift_Bridge",
+                "Dumbbell_Hip_Thrust"
+              ]
+            },
+            {
+              "name": "Dumbbell Curl",
+              "catalogueId": "Dumbbell_Bicep_Curl",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 5.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Alternate_Bicep_Curl",
+                "Barbell_Curl",
+                "EZ-Bar_Curl",
+                "Standing_Biceps_Cable_Curl",
+                "Seated_Dumbbell_Curl",
+                "Machine_Bicep_Curl"
+              ]
+            },
+            {
+              "name": "Triceps Pushdown",
+              "catalogueId": "Triceps_Pushdown",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Triceps_Pushdown_-_Rope_Attachment",
+                "Reverse_Grip_Triceps_Pushdown",
+                "Machine_Triceps_Extension",
+                "Bench_Dips",
+                "Tricep_Dumbbell_Kickback"
+              ]
+            },
+            {
+              "name": "Dead Bug",
+              "catalogueId": "Dead_Bug",
+              "sets": 2,
+              "repRangeMin": 15,
+              "repRangeMax": 20,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bird_Dog",
+                "Hollow_Hold",
+                "Plank"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Build",
+      "description": "Three sets, a little heavier each week",
+      "weekStart": 3,
+      "weekEnd": 4,
+      "restBetweenExercises": 90,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Leg Press",
+              "catalogueId": "Leg_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 60.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hack_Squat",
+                "Smith_Machine_Squat",
+                "Dumbbell_Goblet_Squat",
+                "Barbell_Squat"
+              ]
+            },
+            {
+              "name": "Machine Bench Press",
+              "catalogueId": "Machine_Bench_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Leverage_Chest_Press",
+                "Cable_Chest_Press",
+                "Dumbbell_Bench_Press",
+                "Smith_Machine_Bench_Press",
+                "Barbell_Bench_Press_-_Medium_Grip",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Lat Pulldown, Wide Grip",
+              "catalogueId": "Wide-Grip_Lat_Pulldown",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pullups",
+                "Lat_Pulldown_Neutral_Grip",
+                "Close-Grip_Front_Lat_Pulldown",
+                "One_Arm_Lat_Pulldown"
+              ]
+            },
+            {
+              "name": "Lying Leg Curl",
+              "catalogueId": "Lying_Leg_Curls",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 18.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Leg_Curl",
+                "Standing_Leg_Curl",
+                "Ball_Leg_Curl",
+                "Nordic_Hamstring_Curl"
+              ]
+            },
+            {
+              "name": "Machine Shoulder Press",
+              "catalogueId": "Machine_Shoulder_Military_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 18.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Dumbbell_Press",
+                "Smith_Machine_Overhead_Shoulder_Press",
+                "Cable_Shoulder_Press",
+                "Seated_Barbell_Press",
+                "Dumbbell_Shoulder_Press"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Ab_Roller",
+                "Hollow_Hold"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Goblet Squat",
+              "catalogueId": "Goblet_Squat",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Goblet_Squat",
+                "Front_Squats_With_Two_Kettlebells",
+                "Dumbbell_Squat",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Bench Press",
+              "catalogueId": "Dumbbell_Bench_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Bench_Press_-_Medium_Grip",
+                "Machine_Bench_Press",
+                "Smith_Machine_Bench_Press",
+                "Cable_Chest_Press",
+                "Dumbbell_Floor_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Seated Cable Row",
+              "catalogueId": "Seated_Cable_Rows",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Cable_Row_V-Bar",
+                "Leverage_Iso_Row",
+                "Dumbbell_Incline_Row",
+                "Bent_Over_Barbell_Row",
+                "Inverted_Row"
+              ]
+            },
+            {
+              "name": "Dumbbell Glute Bridge",
+              "catalogueId": "Dumbbell_Glute_Bridge",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Glute_Bridge",
+                "Butt_Lift_Bridge",
+                "Dumbbell_Hip_Thrust"
+              ]
+            },
+            {
+              "name": "Dumbbell Curl",
+              "catalogueId": "Dumbbell_Bicep_Curl",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Alternate_Bicep_Curl",
+                "Barbell_Curl",
+                "EZ-Bar_Curl",
+                "Standing_Biceps_Cable_Curl",
+                "Seated_Dumbbell_Curl",
+                "Machine_Bicep_Curl"
+              ]
+            },
+            {
+              "name": "Triceps Pushdown",
+              "catalogueId": "Triceps_Pushdown",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Triceps_Pushdown_-_Rope_Attachment",
+                "Reverse_Grip_Triceps_Pushdown",
+                "Machine_Triceps_Extension",
+                "Bench_Dips",
+                "Tricep_Dumbbell_Kickback"
+              ]
+            },
+            {
+              "name": "Dead Bug",
+              "catalogueId": "Dead_Bug",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bird_Dog",
+                "Hollow_Hold",
+                "Plank"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

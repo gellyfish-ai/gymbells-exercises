@@ -1,0 +1,528 @@
+{
+  "id": "core-and-posture",
+  "name": "Core and Posture",
+  "description": "Two short sessions a week for 8 weeks, done on their own or after another workout. They train the core to resist moving, as it does when you lift and carry, and the upper back and shoulders that hold good posture. About 20 minutes each; move slowly and keep the lower back still.",
+  "level": "beginner",
+  "phases": [
+    {
+      "name": "Control",
+      "description": "Slow reps and short holds",
+      "weekStart": 1,
+      "weekEnd": 4,
+      "restBetweenExercises": 45,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Core A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Dead Bug",
+              "catalogueId": "Dead_Bug",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bird_Dog",
+                "Hollow_Hold",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Pallof Press",
+              "catalogueId": "Pallof_Press",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap"
+              ]
+            },
+            {
+              "name": "Side Plank",
+              "catalogueId": "Side_Bridge",
+              "sets": 2,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Side_Bend",
+                "Dumbbell_Suitcase_Carry"
+              ]
+            },
+            {
+              "name": "Bird Dog",
+              "catalogueId": "Bird_Dog",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dead_Bug",
+                "Superman"
+              ]
+            },
+            {
+              "name": "Face Pull",
+              "catalogueId": "Face_Pull",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Wall Angel",
+              "catalogueId": "Wall_Angel",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Prone_Y_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Core B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 2,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 1,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Ab_Roller",
+                "Hollow_Hold"
+              ]
+            },
+            {
+              "name": "Reverse Crunch",
+              "catalogueId": "Reverse_Crunch",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Flat_Bench_Lying_Leg_Raise",
+                "Hanging_Knee_Raise"
+              ]
+            },
+            {
+              "name": "Suitcase Carry",
+              "catalogueId": "Dumbbell_Suitcase_Carry",
+              "sets": 2,
+              "repRangeMin": 20,
+              "repRangeMax": 20,
+              "measure": "metres",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 14.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Suitcase_Carry",
+                "Farmers_Walk",
+                "Kettlebell_Farmers_Walk"
+              ]
+            },
+            {
+              "name": "Back Extension",
+              "catalogueId": "Hyperextensions_Back_Extensions",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Hyperextension",
+                "Good_Morning",
+                "Dumbbell_Romanian_Deadlift"
+              ]
+            },
+            {
+              "name": "Band Pull-Apart",
+              "catalogueId": "Band_Pull_Apart",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Face_Pull",
+                "Reverse_Flyes",
+                "Cable_Rear_Delt_Fly"
+              ]
+            },
+            {
+              "name": "Cat-Cow",
+              "catalogueId": "Cat-Cow",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Endurance",
+      "description": "More sets, longer holds",
+      "weekStart": 5,
+      "weekEnd": 8,
+      "restBetweenExercises": 45,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Core A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Dead Bug",
+              "catalogueId": "Dead_Bug",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bird_Dog",
+                "Hollow_Hold",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Pallof Press",
+              "catalogueId": "Pallof_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap"
+              ]
+            },
+            {
+              "name": "Side Plank",
+              "catalogueId": "Side_Bridge",
+              "sets": 3,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Side_Bend",
+                "Dumbbell_Suitcase_Carry"
+              ]
+            },
+            {
+              "name": "Bird Dog",
+              "catalogueId": "Bird_Dog",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dead_Bug",
+                "Superman"
+              ]
+            },
+            {
+              "name": "Face Pull",
+              "catalogueId": "Face_Pull",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Wall Angel",
+              "catalogueId": "Wall_Angel",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Prone_Y_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Core B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 1,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Ab_Roller",
+                "Hollow_Hold"
+              ]
+            },
+            {
+              "name": "Reverse Crunch",
+              "catalogueId": "Reverse_Crunch",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Flat_Bench_Lying_Leg_Raise",
+                "Hanging_Knee_Raise"
+              ]
+            },
+            {
+              "name": "Suitcase Carry",
+              "catalogueId": "Dumbbell_Suitcase_Carry",
+              "sets": 3,
+              "repRangeMin": 30,
+              "repRangeMax": 30,
+              "measure": "metres",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 17.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Suitcase_Carry",
+                "Farmers_Walk",
+                "Kettlebell_Farmers_Walk"
+              ]
+            },
+            {
+              "name": "Back Extension",
+              "catalogueId": "Hyperextensions_Back_Extensions",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Hyperextension",
+                "Good_Morning",
+                "Dumbbell_Romanian_Deadlift"
+              ]
+            },
+            {
+              "name": "Band Pull-Apart",
+              "catalogueId": "Band_Pull_Apart",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Face_Pull",
+                "Reverse_Flyes",
+                "Cable_Rear_Delt_Fly"
+              ]
+            },
+            {
+              "name": "Cat-Cow",
+              "catalogueId": "Cat-Cow",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

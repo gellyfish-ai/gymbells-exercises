@@ -2,17 +2,24 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>GymBells exercises</title>
 <meta name="description" content="297 gym exercises with start and end illustrations, steps, equipment and muscles. Free for non-commercial use, CC BY-NC 4.0.">
-<link rel="stylesheet" href="site.css">
+<link rel="stylesheet" href="tokens.css?v=0e09b793">
+<link rel="stylesheet" href="site.css?v=0e09b793">
 </head>
 <body>
+<nav class="top" aria-label="Site"><div class="wrap">
+  <a class="brand" href="index.html">GymBells exercises</a>
+  <span class="links"><a href="index.html" aria-current="page">Catalogue</a><a href="programs.html">Programs</a><a href="programs.html">Programs</a><a href="more.html">Licensing</a></span>
+  <a class="app" href="https://gymbells.gellyfish.dev">Get the app</a>
+</div></nav>
 <header>
-  <h1>GymBells exercises</h1>
-  <p>297 exercises, a start and an end picture each, with steps, equipment and muscles.
-    Free for non-commercial use with credit (<a href="LICENSE">CC BY-NC 4.0</a>).
-    Made for the <a href="https://gellyfish.dev/gymbells/">GymBells</a> app.</p>
+  <h1>297 exercises, each drawn at the start and at the end.</h1>
+  <p>Every one has its steps, equipment and muscles, with the worked muscles in red. Made for the
+    <a href="https://gymbells.gellyfish.dev">GymBells</a> workout tracker.</p>
+  <p class="meta">Free for non-commercial use with credit (<a href="LICENSE">CC BY-NC 4.0</a>). <a href="programs.html">35 training programs</a>
+    use these exercises. Other looks, larger pictures and 12 languages <a href="more.html">can be licensed</a>.</p>
 </header>
 <form id="filters" role="search" onsubmit="return false">
   <input id="q" type="search" placeholder="Search names, e.g. RDL, skull crusher" aria-label="Search" autocomplete="off">
@@ -20,23 +27,23 @@
   <select id="muscle" aria-label="Muscle"><option value="">All muscles</option></select>
   <select id="level" aria-label="Level"><option value="">All levels</option></select>
 </form>
-<p id="count" aria-live="polite"></p>
+<p id="count" class="num" aria-live="polite"></p>
 <main id="grid"></main>
 <dialog id="detail" aria-labelledby="d-name">
   <button id="close" type="button" aria-label="Close">×</button>
   <h2 id="d-name"></h2>
   <p id="d-aka"></p>
-  <div class="pair"><figure><img id="d-start" alt=""><figcaption>Start</figcaption></figure>
-    <figure><img id="d-end" alt=""><figcaption>End</figcaption></figure></div>
+  <div class="pair"><figure><img id="d-start" alt="" width="512" height="512"><figcaption>Start</figcaption></figure>
+    <figure><img id="d-end" alt="" width="512" height="512"><figcaption>End</figcaption></figure></div>
   <dl id="d-facts"></dl>
   <ol id="d-steps"></ol>
-  <p class="credit">Credit: Exercise illustrations by <a href="https://gellyfish.dev/gymbells/">GymBells</a>, CC BY-NC 4.0</p>
+  <div id="d-related"></div>
+  <p class="credit">Credit: Exercise illustrations by <a href="https://gymbells.gellyfish.dev">GymBells</a>, CC BY-NC 4.0</p>
 </dialog>
 <footer>
-  <p>Release 0.3.0 (2026-10-06). Data: <a href="exercises.json">exercises.json</a>, <a href="text/en.json">text/en.json</a>.
-    Commercial licence, full-size transparent images, translations or your own colours:
-    <a href="https://gellyfish.dev/gymbells/">contact us</a>.</p>
+  <p><span class="num">Release 0.3.0 · 2026-10-06</span><a href="exercises.json">exercises.json</a><a href="text/en.json">text/en.json</a><a href="programs.html">Programs</a><a href="more.html">Licensing</a>
+    <a href="LICENSE">CC BY-NC 4.0</a><a href="https://gymbells.gellyfish.dev">GymBells app</a></p>
 </footer>
-<script src="site.js"></script>
+<script src="site.js?v=0e09b793"></script>
 </body>
 </html>

@@ -1,0 +1,509 @@
+{
+  "id": "beginner-barbell-strength",
+  "name": "Beginner Barbell Strength",
+  "description": "A first barbell program: squat, bench press, overhead press, row and deadlift. Workouts A and B alternate three days a week for 12 weeks. Start light and add 2.5 kg to a lift whenever you complete all its sets and reps; if you miss the reps twice in a row, take 10% off and build back up.",
+  "level": "beginner",
+  "phases": [
+    {
+      "name": "Learn the Lifts",
+      "description": "Light weights and sets of eight to practise each lift",
+      "weekStart": 1,
+      "weekEnd": 3,
+      "restBetweenExercises": 120,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Barbell Bench Press",
+              "catalogueId": "Barbell_Bench_Press_-_Medium_Grip",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Bent-Over Barbell Row",
+              "catalogueId": "Bent_Over_Barbell_Row",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Ab_Roller",
+                "Hollow_Hold"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Barbell Overhead Press",
+              "catalogueId": "Standing_Military_Press",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Barbell Deadlift",
+              "catalogueId": "Barbell_Deadlift",
+              "sets": 1,
+              "repRangeMin": 8,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Chin-Up",
+              "catalogueId": "Chin-Up",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Use an assisted machine or band if needed",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Underhand_Cable_Pulldowns",
+                "Pullups",
+                "Band_Assisted_Pull-Up"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Linear Progression",
+      "description": "Sets of five, adding weight every workout",
+      "weekStart": 4,
+      "weekEnd": 9,
+      "restBetweenExercises": 180,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Barbell Bench Press",
+              "catalogueId": "Barbell_Bench_Press_-_Medium_Grip",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 32.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Bent-Over Barbell Row",
+              "catalogueId": "Bent_Over_Barbell_Row",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 32.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Ab_Roller",
+                "Hollow_Hold"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Barbell Overhead Press",
+              "catalogueId": "Standing_Military_Press",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Barbell Deadlift",
+              "catalogueId": "Barbell_Deadlift",
+              "sets": 1,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 55.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Chin-Up",
+              "catalogueId": "Chin-Up",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Use an assisted machine or band if needed",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Underhand_Cable_Pulldowns",
+                "Pullups",
+                "Band_Assisted_Pull-Up"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heavier Triples",
+      "description": "More sets of three, adding weight every week",
+      "weekStart": 10,
+      "weekEnd": 12,
+      "restBetweenExercises": 180,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 45.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Barbell Bench Press",
+              "catalogueId": "Barbell_Bench_Press_-_Medium_Grip",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 37.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Bent-Over Barbell Row",
+              "catalogueId": "Bent_Over_Barbell_Row",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 37.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 40,
+              "repRangeMax": 60,
+              "measure": "seconds",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Ab_Roller",
+                "Hollow_Hold"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 45.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Barbell Overhead Press",
+              "catalogueId": "Standing_Military_Press",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Barbell Deadlift",
+              "catalogueId": "Barbell_Deadlift",
+              "sets": 2,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 65.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Chin-Up",
+              "catalogueId": "Chin-Up",
+              "sets": 3,
+              "repRangeMin": 6,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Use an assisted machine or band if needed",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Underhand_Cable_Pulldowns",
+                "Pullups",
+                "Band_Assisted_Pull-Up"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

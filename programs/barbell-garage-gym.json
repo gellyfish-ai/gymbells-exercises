@@ -1,0 +1,1788 @@
+{
+  "id": "barbell-garage-gym",
+  "name": "Barbell Garage Gym",
+  "description": "Three full-body workouts a week for 12 weeks with what fits in a garage: a barbell and plates, a power rack with a pull-up bar and a flat bench that inclines. Each workout has a squat or deadlift, a press, a row or pull-up and some accessory work. The weights rise through three blocks with a deload in week 9. Lift inside the rack with the safety bars set just below your lowest position. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+  "level": "intermediate",
+  "phases": [
+    {
+      "name": "Base",
+      "description": "Three sets of eight to ten",
+      "weekStart": 1,
+      "weekEnd": 4,
+      "restBetweenExercises": 120,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Front_Barbell_Squat",
+                "Box_Squat"
+              ]
+            },
+            {
+              "name": "Barbell Bench Press",
+              "catalogueId": "Barbell_Bench_Press_-_Medium_Grip",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 35.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Floor_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Pendlay Row",
+              "catalogueId": "Pendlay_Row",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 35.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bent_Over_Barbell_Row",
+                "Seal_Row"
+              ]
+            },
+            {
+              "name": "Barbell Curl",
+              "catalogueId": "Barbell_Curl",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Curl"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Hollow_Hold"
+              ]
+            },
+            {
+              "name": "Lying Triceps Press",
+              "catalogueId": "Lying_Triceps_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Skullcrusher",
+                "Barbell_Skull_Crusher"
+              ]
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "catalogueId": "Hanging_Leg_Raise",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Barbell Deadlift",
+              "catalogueId": "Barbell_Deadlift",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 60.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Sumo_Deadlift",
+                "Rack_Pull"
+              ]
+            },
+            {
+              "name": "Barbell Overhead Press",
+              "catalogueId": "Standing_Military_Press",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Barbell_Press",
+                "Push_Press"
+              ]
+            },
+            {
+              "name": "Pull-Up",
+              "catalogueId": "Pullups",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Use a band if needed",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Chin-Up"
+              ]
+            },
+            {
+              "name": "Barbell Reverse Lunge",
+              "catalogueId": "Barbell_Reverse_Lunge",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Lunge",
+                "Bodyweight_Reverse_Lunge"
+              ]
+            },
+            {
+              "name": "Barbell Rollout",
+              "catalogueId": "Barbell_Ab_Rollout_-_On_Knees",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Barbell Curl",
+              "catalogueId": "Barbell_Curl",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Curl"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "seconds",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Hollow_Hold"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Barbell Front Squat",
+              "catalogueId": "Front_Barbell_Squat",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Zercher_Squat",
+                "Barbell_Squat"
+              ]
+            },
+            {
+              "name": "Incline Barbell Bench Press",
+              "catalogueId": "Barbell_Incline_Bench_Press_-_Medium_Grip",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Push-Ups_With_Feet_Elevated"
+              ]
+            },
+            {
+              "name": "Bent-Over Barbell Row",
+              "catalogueId": "Bent_Over_Barbell_Row",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 35.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pendlay_Row",
+                "Reverse_Grip_Bent-Over_Rows",
+                "Seal_Row"
+              ]
+            },
+            {
+              "name": "Barbell Hip Thrust",
+              "catalogueId": "Barbell_Hip_Thrust",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Lying Triceps Press",
+              "catalogueId": "Lying_Triceps_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Skullcrusher",
+                "Barbell_Skull_Crusher"
+              ]
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "catalogueId": "Hanging_Leg_Raise",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            },
+            {
+              "name": "Barbell Curl",
+              "catalogueId": "Barbell_Curl",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Curl"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Build",
+      "description": "Sets of five to six on the main lifts",
+      "weekStart": 5,
+      "weekEnd": 8,
+      "restBetweenExercises": 150,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 4,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 47.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Front_Barbell_Squat",
+                "Box_Squat"
+              ]
+            },
+            {
+              "name": "Barbell Bench Press",
+              "catalogueId": "Barbell_Bench_Press_-_Medium_Grip",
+              "sets": 4,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 42.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Floor_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Pendlay Row",
+              "catalogueId": "Pendlay_Row",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 37.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bent_Over_Barbell_Row",
+                "Seal_Row"
+              ]
+            },
+            {
+              "name": "Barbell Curl",
+              "catalogueId": "Barbell_Curl",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Curl"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Hollow_Hold"
+              ]
+            },
+            {
+              "name": "Lying Triceps Press",
+              "catalogueId": "Lying_Triceps_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Skullcrusher",
+                "Barbell_Skull_Crusher"
+              ]
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "catalogueId": "Hanging_Leg_Raise",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Barbell Deadlift",
+              "catalogueId": "Barbell_Deadlift",
+              "sets": 4,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 72.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Sumo_Deadlift",
+                "Rack_Pull"
+              ]
+            },
+            {
+              "name": "Barbell Overhead Press",
+              "catalogueId": "Standing_Military_Press",
+              "sets": 4,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Barbell_Press",
+                "Push_Press"
+              ]
+            },
+            {
+              "name": "Pull-Up",
+              "catalogueId": "Pullups",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Use a band if needed",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Chin-Up"
+              ]
+            },
+            {
+              "name": "Barbell Reverse Lunge",
+              "catalogueId": "Barbell_Reverse_Lunge",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 27.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Lunge",
+                "Bodyweight_Reverse_Lunge"
+              ]
+            },
+            {
+              "name": "Barbell Rollout",
+              "catalogueId": "Barbell_Ab_Rollout_-_On_Knees",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Barbell Curl",
+              "catalogueId": "Barbell_Curl",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Curl"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "seconds",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Hollow_Hold"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Barbell Front Squat",
+              "catalogueId": "Front_Barbell_Squat",
+              "sets": 4,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 35.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Zercher_Squat",
+                "Barbell_Squat"
+              ]
+            },
+            {
+              "name": "Incline Barbell Bench Press",
+              "catalogueId": "Barbell_Incline_Bench_Press_-_Medium_Grip",
+              "sets": 4,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 35.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Push-Ups_With_Feet_Elevated"
+              ]
+            },
+            {
+              "name": "Bent-Over Barbell Row",
+              "catalogueId": "Bent_Over_Barbell_Row",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 37.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pendlay_Row",
+                "Reverse_Grip_Bent-Over_Rows",
+                "Seal_Row"
+              ]
+            },
+            {
+              "name": "Barbell Hip Thrust",
+              "catalogueId": "Barbell_Hip_Thrust",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 45.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Lying Triceps Press",
+              "catalogueId": "Lying_Triceps_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Skullcrusher",
+                "Barbell_Skull_Crusher"
+              ]
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "catalogueId": "Hanging_Leg_Raise",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            },
+            {
+              "name": "Barbell Curl",
+              "catalogueId": "Barbell_Curl",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Curl"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deload",
+      "description": "One lighter week: fewer sets and lighter weights, so you start the next phase recovered",
+      "weekStart": 9,
+      "weekEnd": 9,
+      "restBetweenExercises": 90,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 2,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Front_Barbell_Squat",
+                "Box_Squat"
+              ]
+            },
+            {
+              "name": "Barbell Bench Press",
+              "catalogueId": "Barbell_Bench_Press_-_Medium_Grip",
+              "sets": 2,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Floor_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Pendlay Row",
+              "catalogueId": "Pendlay_Row",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bent_Over_Barbell_Row",
+                "Seal_Row"
+              ]
+            },
+            {
+              "name": "Barbell Curl",
+              "catalogueId": "Barbell_Curl",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Curl"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Hollow_Hold"
+              ]
+            },
+            {
+              "name": "Lying Triceps Press",
+              "catalogueId": "Lying_Triceps_Press",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Skullcrusher",
+                "Barbell_Skull_Crusher"
+              ]
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "catalogueId": "Hanging_Leg_Raise",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Barbell Deadlift",
+              "catalogueId": "Barbell_Deadlift",
+              "sets": 2,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 42.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Sumo_Deadlift",
+                "Rack_Pull"
+              ]
+            },
+            {
+              "name": "Barbell Overhead Press",
+              "catalogueId": "Standing_Military_Press",
+              "sets": 2,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 17.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Barbell_Press",
+                "Push_Press"
+              ]
+            },
+            {
+              "name": "Pull-Up",
+              "catalogueId": "Pullups",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Use a band if needed",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Chin-Up"
+              ]
+            },
+            {
+              "name": "Barbell Reverse Lunge",
+              "catalogueId": "Barbell_Reverse_Lunge",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 17.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Lunge",
+                "Bodyweight_Reverse_Lunge"
+              ]
+            },
+            {
+              "name": "Barbell Rollout",
+              "catalogueId": "Barbell_Ab_Rollout_-_On_Knees",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Barbell Curl",
+              "catalogueId": "Barbell_Curl",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Curl"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "seconds",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Hollow_Hold"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Barbell Front Squat",
+              "catalogueId": "Front_Barbell_Squat",
+              "sets": 2,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Zercher_Squat",
+                "Barbell_Squat"
+              ]
+            },
+            {
+              "name": "Incline Barbell Bench Press",
+              "catalogueId": "Barbell_Incline_Bench_Press_-_Medium_Grip",
+              "sets": 2,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Push-Ups_With_Feet_Elevated"
+              ]
+            },
+            {
+              "name": "Bent-Over Barbell Row",
+              "catalogueId": "Bent_Over_Barbell_Row",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pendlay_Row",
+                "Reverse_Grip_Bent-Over_Rows",
+                "Seal_Row"
+              ]
+            },
+            {
+              "name": "Barbell Hip Thrust",
+              "catalogueId": "Barbell_Hip_Thrust",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 27.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Lying Triceps Press",
+              "catalogueId": "Lying_Triceps_Press",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Skullcrusher",
+                "Barbell_Skull_Crusher"
+              ]
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "catalogueId": "Hanging_Leg_Raise",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            },
+            {
+              "name": "Barbell Curl",
+              "catalogueId": "Barbell_Curl",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Curl"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strength",
+      "description": "Sets of three to five on the main lifts",
+      "weekStart": 10,
+      "weekEnd": 12,
+      "restBetweenExercises": 180,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 55.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Front_Barbell_Squat",
+                "Box_Squat"
+              ]
+            },
+            {
+              "name": "Barbell Bench Press",
+              "catalogueId": "Barbell_Bench_Press_-_Medium_Grip",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 47.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Floor_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Pendlay Row",
+              "catalogueId": "Pendlay_Row",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 42.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bent_Over_Barbell_Row",
+                "Seal_Row"
+              ]
+            },
+            {
+              "name": "Barbell Curl",
+              "catalogueId": "Barbell_Curl",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Curl"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Hollow_Hold"
+              ]
+            },
+            {
+              "name": "Lying Triceps Press",
+              "catalogueId": "Lying_Triceps_Press",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Skullcrusher",
+                "Barbell_Skull_Crusher"
+              ]
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "catalogueId": "Hanging_Leg_Raise",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Barbell Deadlift",
+              "catalogueId": "Barbell_Deadlift",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 80.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Sumo_Deadlift",
+                "Rack_Pull"
+              ]
+            },
+            {
+              "name": "Barbell Overhead Press",
+              "catalogueId": "Standing_Military_Press",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 35.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Barbell_Press",
+                "Push_Press"
+              ]
+            },
+            {
+              "name": "Pull-Up",
+              "catalogueId": "Pullups",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Use a band if needed",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Chin-Up"
+              ]
+            },
+            {
+              "name": "Barbell Reverse Lunge",
+              "catalogueId": "Barbell_Reverse_Lunge",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Lunge",
+                "Bodyweight_Reverse_Lunge"
+              ]
+            },
+            {
+              "name": "Barbell Rollout",
+              "catalogueId": "Barbell_Ab_Rollout_-_On_Knees",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Barbell Curl",
+              "catalogueId": "Barbell_Curl",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Curl"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "seconds",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Hollow_Hold"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Barbell Front Squat",
+              "catalogueId": "Front_Barbell_Squat",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Zercher_Squat",
+                "Barbell_Squat"
+              ]
+            },
+            {
+              "name": "Incline Barbell Bench Press",
+              "catalogueId": "Barbell_Incline_Bench_Press_-_Medium_Grip",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Push-Ups_With_Feet_Elevated"
+              ]
+            },
+            {
+              "name": "Bent-Over Barbell Row",
+              "catalogueId": "Bent_Over_Barbell_Row",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 42.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pendlay_Row",
+                "Reverse_Grip_Bent-Over_Rows",
+                "Seal_Row"
+              ]
+            },
+            {
+              "name": "Barbell Hip Thrust",
+              "catalogueId": "Barbell_Hip_Thrust",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 47.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Lying Triceps Press",
+              "catalogueId": "Lying_Triceps_Press",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Skullcrusher",
+                "Barbell_Skull_Crusher"
+              ]
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "catalogueId": "Hanging_Leg_Raise",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            },
+            {
+              "name": "Barbell Curl",
+              "catalogueId": "Barbell_Curl",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "EZ-Bar_Curl"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

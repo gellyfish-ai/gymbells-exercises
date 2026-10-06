@@ -3,7 +3,7 @@
 **[Browse the catalogue →](https://gellyfish-ai.github.io/gymbells-exercises/)**
 
 297 gym exercises with illustrations, a start and an end picture each, plus names, other names,
-steps, equipment and muscles. They are made for the [GymBells](https://gellyfish.dev/gymbells/) app and
+steps, equipment and muscles. They are made for the [GymBells](https://gymbells.gellyfish.dev) app and
 shared here for non-commercial use. Release 0.3.0 (2026-10-06).
 
 <table>
@@ -25,17 +25,20 @@ text/en.json                       per exercise id: name, other names, steps; la
 
 Exercise ids never change. An empty equipment list means bodyweight only. The site
 (`index.html`, `site.js`, `site.css`) runs from these files; to run it locally, `python3 -m http.server`
-and open http://localhost:8000.
+and open http://localhost:8000. `more.html` shows samples of what can be licensed beyond this set (other looks,
+larger transparent pictures, more languages), from `samples/`. `programs.html` shows the training programs in
+`programs/` in full: one file per program (phases, days, exercises by id, sets, repetitions, rests, starting weights,
+swaps) and `index.json`, which also lists the programs that use each exercise.
 
 ## Licence
 
 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) for the pictures, data and text; the site code
-(`index.html`, `site.js`, `site.css`) is MIT. See [LICENSE](LICENSE), which also notes the public-domain
+(the `.html`, `.js` and `.css` files) is MIT. See [LICENSE](LICENSE), which also notes the public-domain
 fields from free-exercise-db. Credit GymBells and link to it wherever you use the pictures or the text:
 
-> Exercise illustrations by [GymBells](https://gellyfish.dev/gymbells/), CC BY-NC 4.0
+> Exercise illustrations by [GymBells](https://gymbells.gellyfish.dev), CC BY-NC 4.0
 
 ## Commercial licence
 
 For commercial use, full-size transparent images, translations or your own colours, contact us via
-[gellyfish.dev/gymbells](https://gellyfish.dev/gymbells/).
+[gymbells.gellyfish.dev](https://gymbells.gellyfish.dev).

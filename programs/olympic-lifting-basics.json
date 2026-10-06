@@ -1,0 +1,1021 @@
+{
+  "id": "olympic-lifting-basics",
+  "name": "Olympic Lifting Basics",
+  "description": "An introduction to the snatch and the clean and jerk, three days a week for 10 weeks. The first block teaches the positions from the hang with light weights; the second moves to the full lifts from the floor; the last two weeks are heavier. Squats and pulls build the strength the lifts need. Learn from a coach if you can, and only add weight while every rep is fast and in the right position.",
+  "level": "intermediate",
+  "phases": [
+    {
+      "name": "Positions",
+      "description": "Hang and power variations with light weights to learn the positions",
+      "weekStart": 1,
+      "weekEnd": 4,
+      "restBetweenExercises": 120,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Snatch Day",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Muscle Snatch",
+              "catalogueId": "Muscle_Snatch",
+              "sets": 4,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hang_Power_Snatch",
+                "Power_Snatch"
+              ]
+            },
+            {
+              "name": "Hang Power Snatch",
+              "catalogueId": "Hang_Power_Snatch",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Power_Snatch",
+                "Muscle_Snatch"
+              ]
+            },
+            {
+              "name": "Overhead Squat",
+              "catalogueId": "Overhead_Squat",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Front_Barbell_Squat",
+                "Barbell_Squat"
+              ]
+            },
+            {
+              "name": "Snatch Pull",
+              "catalogueId": "Snatch_Pull",
+              "sets": 3,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Clean_Pull"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Ab_Roller",
+                "Hollow_Hold"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Clean Day",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Hang Power Clean",
+              "catalogueId": "Hang_Power_Clean",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 35.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Power_Clean",
+                "Hang_Clean"
+              ]
+            },
+            {
+              "name": "Push Press",
+              "catalogueId": "Push_Press",
+              "sets": 4,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Push_Press",
+                "Standing_Military_Press"
+              ]
+            },
+            {
+              "name": "Barbell Front Squat",
+              "catalogueId": "Front_Barbell_Squat",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Front_Squats_With_Two_Kettlebells",
+                "Zercher_Squat",
+                "Barbell_Squat",
+                "Hack_Squat",
+                "Dumbbell_Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Clean Pull",
+              "catalogueId": "Clean_Pull",
+              "sets": 3,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 50.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Snatch_Pull"
+              ]
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "catalogueId": "Hanging_Leg_Raise",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Strength Day",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Snatch Balance",
+              "catalogueId": "Snatch_Balance",
+              "sets": 4,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Snatch",
+                "Power_Snatch"
+              ]
+            },
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 50.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Smith_Machine_Squat",
+                "Hack_Squat",
+                "Leg_Press",
+                "Front_Barbell_Squat",
+                "Dumbbell_Squat",
+                "Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Push Jerk",
+              "catalogueId": "Push_Jerk",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Split_Jerk"
+              ]
+            },
+            {
+              "name": "Romanian Deadlift",
+              "catalogueId": "Romanian_Deadlift",
+              "sets": 3,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Romanian_Deadlift",
+                "Stiff-Legged_Barbell_Deadlift",
+                "Kettlebell_Romanian_Deadlift",
+                "Good_Morning"
+              ]
+            },
+            {
+              "name": "Back Extension",
+              "catalogueId": "Hyperextensions_Back_Extensions",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Hyperextension",
+                "Good_Morning",
+                "Dumbbell_Romanian_Deadlift"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Full Lifts",
+      "description": "The lifts from the floor, adding weight while the technique holds",
+      "weekStart": 5,
+      "weekEnd": 8,
+      "restBetweenExercises": 150,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Snatch Day",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Power Snatch",
+              "catalogueId": "Power_Snatch",
+              "sets": 5,
+              "repRangeMin": 2,
+              "repRangeMax": 2,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hang_Power_Snatch",
+                "Snatch",
+                "Muscle_Snatch"
+              ]
+            },
+            {
+              "name": "Snatch",
+              "catalogueId": "Snatch",
+              "sets": 5,
+              "repRangeMin": 2,
+              "repRangeMax": 2,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Power_Snatch",
+                "Hang_Power_Snatch"
+              ]
+            },
+            {
+              "name": "Overhead Squat",
+              "catalogueId": "Overhead_Squat",
+              "sets": 4,
+              "repRangeMin": 4,
+              "repRangeMax": 4,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 27.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Front_Barbell_Squat",
+                "Barbell_Squat"
+              ]
+            },
+            {
+              "name": "Snatch Pull",
+              "catalogueId": "Snatch_Pull",
+              "sets": 3,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 55.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Clean_Pull"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Ab_Roller",
+                "Hollow_Hold"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Clean and Jerk Day",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Power Clean",
+              "catalogueId": "Power_Clean",
+              "sets": 5,
+              "repRangeMin": 2,
+              "repRangeMax": 2,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hang_Power_Clean",
+                "Clean",
+                "Hang_Clean"
+              ]
+            },
+            {
+              "name": "Clean",
+              "catalogueId": "Clean",
+              "sets": 5,
+              "repRangeMin": 2,
+              "repRangeMax": 2,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Power_Clean",
+                "Hang_Clean",
+                "Hang_Power_Clean"
+              ]
+            },
+            {
+              "name": "Split Jerk",
+              "catalogueId": "Split_Jerk",
+              "sets": 4,
+              "repRangeMin": 2,
+              "repRangeMax": 2,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 35.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Push_Jerk"
+              ]
+            },
+            {
+              "name": "Barbell Front Squat",
+              "catalogueId": "Front_Barbell_Squat",
+              "sets": 4,
+              "repRangeMin": 4,
+              "repRangeMax": 4,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 55.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Front_Squats_With_Two_Kettlebells",
+                "Zercher_Squat",
+                "Barbell_Squat",
+                "Hack_Squat",
+                "Dumbbell_Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "catalogueId": "Hanging_Leg_Raise",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Strength Day",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Hang Clean",
+              "catalogueId": "Hang_Clean",
+              "sets": 5,
+              "repRangeMin": 2,
+              "repRangeMax": 2,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hang_Power_Clean",
+                "Power_Clean",
+                "Clean"
+              ]
+            },
+            {
+              "name": "Clean and Press",
+              "catalogueId": "Clean_and_Press",
+              "sets": 4,
+              "repRangeMin": 2,
+              "repRangeMax": 2,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Power_Clean"
+              ]
+            },
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 4,
+              "repRangeMin": 4,
+              "repRangeMax": 4,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 65.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Smith_Machine_Squat",
+                "Hack_Squat",
+                "Leg_Press",
+                "Front_Barbell_Squat",
+                "Dumbbell_Squat",
+                "Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Clean Pull",
+              "catalogueId": "Clean_Pull",
+              "sets": 3,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 65.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Snatch_Pull"
+              ]
+            },
+            {
+              "name": "Back Extension",
+              "catalogueId": "Hyperextensions_Back_Extensions",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Hyperextension",
+                "Good_Morning",
+                "Dumbbell_Romanian_Deadlift"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heavier",
+      "description": "Fewer reps at heavier weights",
+      "weekStart": 9,
+      "weekEnd": 10,
+      "restBetweenExercises": 180,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Snatch Day",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Power Snatch",
+              "catalogueId": "Power_Snatch",
+              "sets": 6,
+              "repRangeMin": 1,
+              "repRangeMax": 2,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 35.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hang_Power_Snatch",
+                "Snatch",
+                "Muscle_Snatch"
+              ]
+            },
+            {
+              "name": "Snatch",
+              "catalogueId": "Snatch",
+              "sets": 6,
+              "repRangeMin": 1,
+              "repRangeMax": 2,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 27.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Power_Snatch",
+                "Hang_Power_Snatch"
+              ]
+            },
+            {
+              "name": "Overhead Squat",
+              "catalogueId": "Overhead_Squat",
+              "sets": 4,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Front_Barbell_Squat",
+                "Barbell_Squat"
+              ]
+            },
+            {
+              "name": "Snatch Pull",
+              "catalogueId": "Snatch_Pull",
+              "sets": 3,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 60.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Clean_Pull"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Ab_Roller",
+                "Hollow_Hold"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Clean and Jerk Day",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Power Clean",
+              "catalogueId": "Power_Clean",
+              "sets": 6,
+              "repRangeMin": 1,
+              "repRangeMax": 2,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 45.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hang_Power_Clean",
+                "Clean",
+                "Hang_Clean"
+              ]
+            },
+            {
+              "name": "Clean",
+              "catalogueId": "Clean",
+              "sets": 6,
+              "repRangeMin": 1,
+              "repRangeMax": 2,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 45.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Power_Clean",
+                "Hang_Clean",
+                "Hang_Power_Clean"
+              ]
+            },
+            {
+              "name": "Split Jerk",
+              "catalogueId": "Split_Jerk",
+              "sets": 5,
+              "repRangeMin": 1,
+              "repRangeMax": 2,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Push_Jerk"
+              ]
+            },
+            {
+              "name": "Barbell Front Squat",
+              "catalogueId": "Front_Barbell_Squat",
+              "sets": 4,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 60.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Front_Squats_With_Two_Kettlebells",
+                "Zercher_Squat",
+                "Barbell_Squat",
+                "Hack_Squat",
+                "Dumbbell_Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "catalogueId": "Hanging_Leg_Raise",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Strength Day",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Hang Clean",
+              "catalogueId": "Hang_Clean",
+              "sets": 6,
+              "repRangeMin": 1,
+              "repRangeMax": 2,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 45.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hang_Power_Clean",
+                "Power_Clean",
+                "Clean"
+              ]
+            },
+            {
+              "name": "Clean and Press",
+              "catalogueId": "Clean_and_Press",
+              "sets": 5,
+              "repRangeMin": 1,
+              "repRangeMax": 2,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 35.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Power_Clean"
+              ]
+            },
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 4,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 72.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Smith_Machine_Squat",
+                "Hack_Squat",
+                "Leg_Press",
+                "Front_Barbell_Squat",
+                "Dumbbell_Squat",
+                "Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Clean Pull",
+              "catalogueId": "Clean_Pull",
+              "sets": 3,
+              "repRangeMin": 3,
+              "repRangeMax": 3,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 72.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Snatch_Pull"
+              ]
+            },
+            {
+              "name": "Back Extension",
+              "catalogueId": "Hyperextensions_Back_Extensions",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Hyperextension",
+                "Good_Morning",
+                "Dumbbell_Romanian_Deadlift"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

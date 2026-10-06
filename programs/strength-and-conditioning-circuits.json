@@ -1,0 +1,1199 @@
+{
+  "id": "strength-and-conditioning-circuits",
+  "name": "Strength and Conditioning Circuits",
+  "description": "Three circuit workouts a week for 8 weeks, for general fitness and conditioning. Do the exercises of a circuit in order with as little rest as you need, rest two minutes at the end of each round, and finish with the cardio piece. Rounds go up from three to five over the eight weeks. Pick weights you can move quickly and with good form for every rep.",
+  "level": "intermediate",
+  "phases": [
+    {
+      "name": "Three Rounds",
+      "description": "Three rounds of each circuit",
+      "weekStart": 1,
+      "weekEnd": 3,
+      "restBetweenExercises": 20,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Circuit A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Kettlebell Swing",
+              "catalogueId": "Kettlebell_Swing",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "One-Arm_Kettlebell_Swings",
+                "Pull_Through",
+                "Kettlebell_Romanian_Deadlift"
+              ]
+            },
+            {
+              "name": "Push-Up",
+              "catalogueId": "Pushups",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Incline_Push-Up",
+                "Dumbbell_Bench_Press",
+                "Machine_Bench_Press"
+              ]
+            },
+            {
+              "name": "Dumbbell Goblet Squat",
+              "catalogueId": "Dumbbell_Goblet_Squat",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 14.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Goblet_Squat",
+                "Dumbbell_Squat",
+                "Leg_Press",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Ring Row",
+              "catalogueId": "Ring_Row",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Inverted_Row",
+                "Seated_Cable_Rows"
+              ]
+            },
+            {
+              "name": "Mountain Climber",
+              "catalogueId": "Mountain_Climbers",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Burpee"
+              ]
+            },
+            {
+              "name": "Rowing Machine",
+              "catalogueId": "Rowing_Machine",
+              "sets": 1,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "minutes",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Air_Bike"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Circuit B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Dumbbell Thruster",
+              "catalogueId": "Dumbbell_Thruster",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Thruster",
+                "Barbell_Thruster"
+              ]
+            },
+            {
+              "name": "Inverted Row",
+              "catalogueId": "Inverted_Row",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Ring_Row",
+                "Seated_Cable_Rows",
+                "Dumbbell_Incline_Row"
+              ]
+            },
+            {
+              "name": "Dumbbell Reverse Lunge",
+              "catalogueId": "Dumbbell_Rear_Lunge",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Goblet_Reverse_Lunge",
+                "Barbell_Reverse_Lunge",
+                "Dumbbell_Lunges",
+                "Bodyweight_Reverse_Lunge"
+              ]
+            },
+            {
+              "name": "Medicine Ball Slam",
+              "catalogueId": "Medicine_Ball_Slam",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Burpee",
+                "Kettlebell_Swing"
+              ]
+            },
+            {
+              "name": "Plank Shoulder Tap",
+              "catalogueId": "Plank_Shoulder_Tap",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pallof_Press",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Air Bike",
+              "catalogueId": "Air_Bike",
+              "sets": 1,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "minutes",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Rowing_Machine",
+                "Burpee"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Circuit C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Trap Bar Deadlift",
+              "catalogueId": "Trap_Bar_Deadlift",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 50.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Deadlift",
+                "Dumbbell_Deadlift",
+                "Sumo_Deadlift"
+              ]
+            },
+            {
+              "name": "Push Press",
+              "catalogueId": "Push_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Push_Press",
+                "Standing_Military_Press"
+              ]
+            },
+            {
+              "name": "Box Jump",
+              "catalogueId": "Box_Jump",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Jump_Squat",
+                "Broad_Jump",
+                "Lateral_Box_Jump"
+              ]
+            },
+            {
+              "name": "Farmer's Walk",
+              "catalogueId": "Farmers_Walk",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "metres",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Farmers_Walk",
+                "Dumbbell_Suitcase_Carry",
+                "Kettlebell_Suitcase_Carry"
+              ]
+            },
+            {
+              "name": "Burpee",
+              "catalogueId": "Burpee",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Mountain_Climbers",
+                "Jumping_Jack",
+                "Air_Bike"
+              ]
+            },
+            {
+              "name": "Sled Push",
+              "catalogueId": "Sled_Push",
+              "sets": 1,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "metres",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Air_Bike",
+                "Bodyweight_Walking_Lunge"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Four Rounds",
+      "description": "Four rounds, the same exercises a little heavier",
+      "weekStart": 4,
+      "weekEnd": 6,
+      "restBetweenExercises": 20,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Circuit A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Kettlebell Swing",
+              "catalogueId": "Kettlebell_Swing",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 18.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "One-Arm_Kettlebell_Swings",
+                "Pull_Through",
+                "Kettlebell_Romanian_Deadlift"
+              ]
+            },
+            {
+              "name": "Push-Up",
+              "catalogueId": "Pushups",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Incline_Push-Up",
+                "Dumbbell_Bench_Press",
+                "Machine_Bench_Press"
+              ]
+            },
+            {
+              "name": "Dumbbell Goblet Squat",
+              "catalogueId": "Dumbbell_Goblet_Squat",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 15.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Goblet_Squat",
+                "Dumbbell_Squat",
+                "Leg_Press",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Ring Row",
+              "catalogueId": "Ring_Row",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Inverted_Row",
+                "Seated_Cable_Rows"
+              ]
+            },
+            {
+              "name": "Mountain Climber",
+              "catalogueId": "Mountain_Climbers",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Burpee"
+              ]
+            },
+            {
+              "name": "Rowing Machine",
+              "catalogueId": "Rowing_Machine",
+              "sets": 1,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "minutes",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Air_Bike"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Circuit B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Dumbbell Thruster",
+              "catalogueId": "Dumbbell_Thruster",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 11.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Thruster",
+                "Barbell_Thruster"
+              ]
+            },
+            {
+              "name": "Inverted Row",
+              "catalogueId": "Inverted_Row",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Ring_Row",
+                "Seated_Cable_Rows",
+                "Dumbbell_Incline_Row"
+              ]
+            },
+            {
+              "name": "Dumbbell Reverse Lunge",
+              "catalogueId": "Dumbbell_Rear_Lunge",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 9.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Goblet_Reverse_Lunge",
+                "Barbell_Reverse_Lunge",
+                "Dumbbell_Lunges",
+                "Bodyweight_Reverse_Lunge"
+              ]
+            },
+            {
+              "name": "Medicine Ball Slam",
+              "catalogueId": "Medicine_Ball_Slam",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 7.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Burpee",
+                "Kettlebell_Swing"
+              ]
+            },
+            {
+              "name": "Plank Shoulder Tap",
+              "catalogueId": "Plank_Shoulder_Tap",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pallof_Press",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Air Bike",
+              "catalogueId": "Air_Bike",
+              "sets": 1,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "minutes",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Rowing_Machine",
+                "Burpee"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Circuit C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Trap Bar Deadlift",
+              "catalogueId": "Trap_Bar_Deadlift",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 55.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Deadlift",
+                "Dumbbell_Deadlift",
+                "Sumo_Deadlift"
+              ]
+            },
+            {
+              "name": "Push Press",
+              "catalogueId": "Push_Press",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 27.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Push_Press",
+                "Standing_Military_Press"
+              ]
+            },
+            {
+              "name": "Box Jump",
+              "catalogueId": "Box_Jump",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Jump_Squat",
+                "Broad_Jump",
+                "Lateral_Box_Jump"
+              ]
+            },
+            {
+              "name": "Farmer's Walk",
+              "catalogueId": "Farmers_Walk",
+              "sets": 4,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "metres",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Farmers_Walk",
+                "Dumbbell_Suitcase_Carry",
+                "Kettlebell_Suitcase_Carry"
+              ]
+            },
+            {
+              "name": "Burpee",
+              "catalogueId": "Burpee",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Mountain_Climbers",
+                "Jumping_Jack",
+                "Air_Bike"
+              ]
+            },
+            {
+              "name": "Sled Push",
+              "catalogueId": "Sled_Push",
+              "sets": 1,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "metres",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 45.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Air_Bike",
+                "Bodyweight_Walking_Lunge"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Five Rounds",
+      "description": "Five rounds to finish the program",
+      "weekStart": 7,
+      "weekEnd": 8,
+      "restBetweenExercises": 20,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Circuit A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Kettlebell Swing",
+              "catalogueId": "Kettlebell_Swing",
+              "sets": 5,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 18.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "One-Arm_Kettlebell_Swings",
+                "Pull_Through",
+                "Kettlebell_Romanian_Deadlift"
+              ]
+            },
+            {
+              "name": "Push-Up",
+              "catalogueId": "Pushups",
+              "sets": 5,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Incline_Push-Up",
+                "Dumbbell_Bench_Press",
+                "Machine_Bench_Press"
+              ]
+            },
+            {
+              "name": "Dumbbell Goblet Squat",
+              "catalogueId": "Dumbbell_Goblet_Squat",
+              "sets": 5,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 15.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Goblet_Squat",
+                "Dumbbell_Squat",
+                "Leg_Press",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Ring Row",
+              "catalogueId": "Ring_Row",
+              "sets": 5,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Inverted_Row",
+                "Seated_Cable_Rows"
+              ]
+            },
+            {
+              "name": "Mountain Climber",
+              "catalogueId": "Mountain_Climbers",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Burpee"
+              ]
+            },
+            {
+              "name": "Rowing Machine",
+              "catalogueId": "Rowing_Machine",
+              "sets": 1,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "minutes",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Air_Bike"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Circuit B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Dumbbell Thruster",
+              "catalogueId": "Dumbbell_Thruster",
+              "sets": 5,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 11.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Thruster",
+                "Barbell_Thruster"
+              ]
+            },
+            {
+              "name": "Inverted Row",
+              "catalogueId": "Inverted_Row",
+              "sets": 5,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Ring_Row",
+                "Seated_Cable_Rows",
+                "Dumbbell_Incline_Row"
+              ]
+            },
+            {
+              "name": "Dumbbell Reverse Lunge",
+              "catalogueId": "Dumbbell_Rear_Lunge",
+              "sets": 5,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 9.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Goblet_Reverse_Lunge",
+                "Barbell_Reverse_Lunge",
+                "Dumbbell_Lunges",
+                "Bodyweight_Reverse_Lunge"
+              ]
+            },
+            {
+              "name": "Medicine Ball Slam",
+              "catalogueId": "Medicine_Ball_Slam",
+              "sets": 5,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 7.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Burpee",
+                "Kettlebell_Swing"
+              ]
+            },
+            {
+              "name": "Plank Shoulder Tap",
+              "catalogueId": "Plank_Shoulder_Tap",
+              "sets": 5,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pallof_Press",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Air Bike",
+              "catalogueId": "Air_Bike",
+              "sets": 1,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "minutes",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Rowing_Machine",
+                "Burpee"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Circuit C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Trap Bar Deadlift",
+              "catalogueId": "Trap_Bar_Deadlift",
+              "sets": 5,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 55.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Deadlift",
+                "Dumbbell_Deadlift",
+                "Sumo_Deadlift"
+              ]
+            },
+            {
+              "name": "Push Press",
+              "catalogueId": "Push_Press",
+              "sets": 5,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 27.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Push_Press",
+                "Standing_Military_Press"
+              ]
+            },
+            {
+              "name": "Box Jump",
+              "catalogueId": "Box_Jump",
+              "sets": 5,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Jump_Squat",
+                "Broad_Jump",
+                "Lateral_Box_Jump"
+              ]
+            },
+            {
+              "name": "Farmer's Walk",
+              "catalogueId": "Farmers_Walk",
+              "sets": 5,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "metres",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Farmers_Walk",
+                "Dumbbell_Suitcase_Carry",
+                "Kettlebell_Suitcase_Carry"
+              ]
+            },
+            {
+              "name": "Burpee",
+              "catalogueId": "Burpee",
+              "sets": 5,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Mountain_Climbers",
+                "Jumping_Jack",
+                "Air_Bike"
+              ]
+            },
+            {
+              "name": "Sled Push",
+              "catalogueId": "Sled_Push",
+              "sets": 1,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "metres",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 45.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Air_Bike",
+                "Bodyweight_Walking_Lunge"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

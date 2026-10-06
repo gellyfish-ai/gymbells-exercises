@@ -1,7 +1,7 @@
 // GymBells exercises: search and filters over exercises.json and text/en.json (built by exercise-art, tools/publish_public.py).
 const $ = (id) => document.getElementById(id);
 const norm = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
-let items = [], labels = {};
+let items = [], labels = {}, programs = [], used = {};
 
 const label = (group, key) => (labels[group] && labels[group][key]) || key;
 const list = (group, keys) => keys.map((k) => label(group, k)).join(", ");
@@ -16,7 +16,7 @@ function card(it) {
   const b = document.createElement("button");
   b.type = "button";
   b.className = "card";
-  b.innerHTML = `<img class="start" loading="lazy" alt=""><img class="end" loading="lazy" alt=""><span><b></b><small></small></span>`;
+  b.innerHTML = `<img class="start" loading="lazy" alt="" width="512" height="512"><img class="end" loading="lazy" alt="" width="512" height="512"><span><b></b><small></small></span>`;
   const [start, end] = b.querySelectorAll("img");
   start.src = `images/${it.pose}/start.png`;
   end.src = `images/${it.pose}/end.png`;
@@ -66,12 +66,39 @@ function show() {
     return [dt, dd];
   }));
   $("d-steps").replaceChildren(...it.steps.map((s) => { const li = document.createElement("li"); li.textContent = s; return li; }));
+  const mini = (o) => {
+    const a = document.createElement("a");
+    a.className = "mini";
+    a.href = `#${encodeURIComponent(o.id)}`;
+    a.innerHTML = `<img alt="" loading="lazy" width="512" height="512"><span></span>`;
+    a.querySelector("img").src = `images/${o.pose}/end.png`;
+    a.querySelector("span").textContent = o.name;
+    return a;
+  };
+  const group = (title, nodes, cls) => {
+    if (!nodes.length) return [];
+    const h = document.createElement("h3"), box = document.createElement("div");
+    h.textContent = title; box.className = cls; box.append(...nodes);
+    return [h, box];
+  };
+  const find = (ids) => ids.map((id) => items.find((x) => x.id === id)).filter(Boolean);
+  $("d-related").replaceChildren(
+    ...group("Swap for", find(it.swaps || []).map(mini), "minis"),
+    ...group("Easier", find([it.easier]).map(mini), "minis"),
+    ...group("Harder", find([it.harder]).map(mini), "minis"),
+    ...group("Used in", (used[it.id] || []).map((pid) => programs.find((p) => p.id === pid)).filter(Boolean).map((p) => {
+      const a = document.createElement("a");
+      a.href = `programs.html#${p.id}`; a.textContent = p.name;
+      return a;
+    }), "usedin"));
   if (!d.open) d.showModal();
+  d.scrollTop = 0;
 }
 
 async function main() {
   const [ex, en] = await Promise.all(["exercises.json", "text/en.json"].map((u) => fetch(u).then((r) => r.json())));
   labels = en.labels;
+  fetch("programs/index.json").then((r) => r.json()).then((p) => { programs = p.programs; used = p.used; show(); }).catch(() => {});
   items = Object.entries(ex.exercises).map(([id, e]) => {
     const t = en.exercises[id];
     const it = { id, ...e, name: t.name, other_names: t.other_names || [], steps: t.steps };

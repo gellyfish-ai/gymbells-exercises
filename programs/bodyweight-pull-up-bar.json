@@ -1,0 +1,936 @@
+{
+  "id": "bodyweight-pull-up-bar",
+  "name": "Bodyweight with a Pull-Up Bar",
+  "description": "Three workouts a week for 8 weeks with your bodyweight and a pull-up bar. Pull-ups, push-ups, single-leg squats and hanging core work, made harder over the weeks by more reps and harder versions instead of more weight. When you can do the top of the range on every set, slow the lowering down to three seconds, then move to the next version. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+  "level": "intermediate",
+  "phases": [
+    {
+      "name": "Foundation",
+      "description": "Three sets, stopping two reps before failure",
+      "weekStart": 1,
+      "weekEnd": 4,
+      "restBetweenExercises": 90,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Pull-Up",
+              "catalogueId": "Pullups",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Use a band if needed; negatives if you cannot do one yet",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Chin-Up"
+              ]
+            },
+            {
+              "name": "Push-Up",
+              "catalogueId": "Pushups",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Incline_Push-Up"
+              ]
+            },
+            {
+              "name": "Bodyweight Bulgarian Split Squat",
+              "catalogueId": "Bodyweight_Bulgarian_Split_Squat",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Reverse_Lunge",
+                "Bodyweight_Walking_Lunge"
+              ]
+            },
+            {
+              "name": "Single-Leg Glute Bridge",
+              "catalogueId": "Single_Leg_Glute_Bridge",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Butt_Lift_Bridge"
+              ]
+            },
+            {
+              "name": "Hanging Knee Raise",
+              "catalogueId": "Hanging_Knee_Raise",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Crunch",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            },
+            {
+              "name": "Hollow Hold",
+              "catalogueId": "Hollow_Hold",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dead_Bug",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Scapular Pull-Up",
+              "catalogueId": "Scapular_Pull-Up",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Side Plank",
+              "catalogueId": "Side_Bridge",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 8,
+              "isFoundational": false,
+              "notes": "Per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Chin-Up",
+              "catalogueId": "Chin-Up",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Use a band if needed; negatives if you cannot do one yet",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pullups"
+              ]
+            },
+            {
+              "name": "Pike Push-Up",
+              "catalogueId": "Pike_Push-Up",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Handstand_Push-Ups"
+              ]
+            },
+            {
+              "name": "Bodyweight Walking Lunge",
+              "catalogueId": "Bodyweight_Walking_Lunge",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Reverse_Lunge"
+              ]
+            },
+            {
+              "name": "Nordic Hamstring Curl",
+              "catalogueId": "Nordic_Hamstring_Curl",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Lower as slowly as you can",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Single-Leg_Deadlift"
+              ]
+            },
+            {
+              "name": "Scapular Pull-Up",
+              "catalogueId": "Scapular_Pull-Up",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Side Plank",
+              "catalogueId": "Side_Bridge",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Hollow Hold",
+              "catalogueId": "Hollow_Hold",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dead_Bug",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Hanging Knee Raise",
+              "catalogueId": "Hanging_Knee_Raise",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 8,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Crunch",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Inverted Row",
+              "catalogueId": "Inverted_Row",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Under a low bar or a sturdy table",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Chin-Up",
+                "Scapular_Pull-Up"
+              ]
+            },
+            {
+              "name": "Decline Push-Up",
+              "catalogueId": "Push-Ups_With_Feet_Elevated",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Pistol Squat",
+              "catalogueId": "Pistol_Squat",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg; hold a door frame or squat to a box",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Bulgarian_Split_Squat"
+              ]
+            },
+            {
+              "name": "Bodyweight Single-Leg Deadlift",
+              "catalogueId": "Bodyweight_Single-Leg_Deadlift",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Single_Leg_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "catalogueId": "Hanging_Leg_Raise",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Hollow_Hold"
+              ]
+            },
+            {
+              "name": "Side Plank",
+              "catalogueId": "Side_Bridge",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 7,
+              "isFoundational": false,
+              "notes": "Per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Progress",
+      "description": "Four sets, harder versions and slower lowering",
+      "weekStart": 5,
+      "weekEnd": 8,
+      "restBetweenExercises": 90,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Pull-Up",
+              "catalogueId": "Pullups",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Use a band if needed; negatives if you cannot do one yet",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Chin-Up"
+              ]
+            },
+            {
+              "name": "Push-Up",
+              "catalogueId": "Pushups",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Incline_Push-Up"
+              ]
+            },
+            {
+              "name": "Bodyweight Bulgarian Split Squat",
+              "catalogueId": "Bodyweight_Bulgarian_Split_Squat",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Reverse_Lunge",
+                "Bodyweight_Walking_Lunge"
+              ]
+            },
+            {
+              "name": "Single-Leg Glute Bridge",
+              "catalogueId": "Single_Leg_Glute_Bridge",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Butt_Lift_Bridge"
+              ]
+            },
+            {
+              "name": "Hanging Knee Raise",
+              "catalogueId": "Hanging_Knee_Raise",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Crunch",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            },
+            {
+              "name": "Hollow Hold",
+              "catalogueId": "Hollow_Hold",
+              "sets": 3,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dead_Bug",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Scapular Pull-Up",
+              "catalogueId": "Scapular_Pull-Up",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Side Plank",
+              "catalogueId": "Side_Bridge",
+              "sets": 3,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 8,
+              "isFoundational": false,
+              "notes": "Per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Chin-Up",
+              "catalogueId": "Chin-Up",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Use a band if needed; negatives if you cannot do one yet",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pullups"
+              ]
+            },
+            {
+              "name": "Pike Push-Up",
+              "catalogueId": "Pike_Push-Up",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Handstand_Push-Ups"
+              ]
+            },
+            {
+              "name": "Bodyweight Walking Lunge",
+              "catalogueId": "Bodyweight_Walking_Lunge",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Reverse_Lunge"
+              ]
+            },
+            {
+              "name": "Nordic Hamstring Curl",
+              "catalogueId": "Nordic_Hamstring_Curl",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Lower as slowly as you can",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Single-Leg_Deadlift"
+              ]
+            },
+            {
+              "name": "Scapular Pull-Up",
+              "catalogueId": "Scapular_Pull-Up",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Side Plank",
+              "catalogueId": "Side_Bridge",
+              "sets": 3,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Hollow Hold",
+              "catalogueId": "Hollow_Hold",
+              "sets": 3,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dead_Bug",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Hanging Knee Raise",
+              "catalogueId": "Hanging_Knee_Raise",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 8,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Crunch",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Inverted Row",
+              "catalogueId": "Inverted_Row",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Under a low bar or a sturdy table",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Chin-Up",
+                "Scapular_Pull-Up"
+              ]
+            },
+            {
+              "name": "Decline Push-Up",
+              "catalogueId": "Push-Ups_With_Feet_Elevated",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Pistol Squat",
+              "catalogueId": "Pistol_Squat",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg; hold a door frame or squat to a box",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Bulgarian_Split_Squat"
+              ]
+            },
+            {
+              "name": "Bodyweight Single-Leg Deadlift",
+              "catalogueId": "Bodyweight_Single-Leg_Deadlift",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Single_Leg_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "catalogueId": "Hanging_Leg_Raise",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Knee_Raise",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Dead_Bug",
+                "Hollow_Hold"
+              ]
+            },
+            {
+              "name": "Side Plank",
+              "catalogueId": "Side_Bridge",
+              "sets": 3,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 7,
+              "isFoundational": false,
+              "notes": "Per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

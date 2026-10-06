@@ -1,0 +1,1883 @@
+{
+  "id": "lower-body-and-glutes",
+  "name": "Lower Body and Glutes",
+  "description": "Four days a week for 10 weeks, three of them for the legs and glutes and one for the upper body. Hip thrusts, squats, deadlift variations and single-leg work make up the heavy part of each leg day; kickbacks, abductions and band walks finish it. Week 5 is a deload between the two blocks. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+  "level": "intermediate",
+  "phases": [
+    {
+      "name": "Build",
+      "description": "Moderate weights and higher reps",
+      "weekStart": 1,
+      "weekEnd": 4,
+      "restBetweenExercises": 90,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Glutes and Quads",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Barbell Hip Thrust",
+              "catalogueId": "Barbell_Hip_Thrust",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 50.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Hip_Thrust",
+                "Barbell_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Smith_Machine_Squat",
+                "Hack_Squat",
+                "Leg_Press",
+                "Front_Barbell_Squat",
+                "Dumbbell_Squat",
+                "Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Bulgarian Split Squat",
+              "catalogueId": "Dumbbell_Bulgarian_Split_Squat",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Bulgarian_Split_Squat",
+                "Smith_Single-Leg_Split_Squat",
+                "Split_Squat_with_Dumbbells",
+                "Bodyweight_Bulgarian_Split_Squat"
+              ]
+            },
+            {
+              "name": "Machine Hip Abduction",
+              "catalogueId": "Thigh_Abductor",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Cable_Hip_Abduction",
+                "Monster_Walk"
+              ]
+            },
+            {
+              "name": "Machine Calf Raise",
+              "catalogueId": "Standing_Calf_Raises",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Smith_Machine_Calf_Raise",
+                "Calf_Press_On_The_Leg_Press_Machine",
+                "Standing_Dumbbell_Calf_Raise",
+                "Standing_Barbell_Calf_Raise"
+              ]
+            },
+            {
+              "name": "Leg Extension",
+              "catalogueId": "Leg_Extensions",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Sissy_Squat"
+              ]
+            },
+            {
+              "name": "Cable Crunch",
+              "catalogueId": "Cable_Crunch",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Ab_Crunch_Machine",
+                "Decline_Crunch",
+                "Crunches"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Glutes and Hamstrings",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Romanian Deadlift",
+              "catalogueId": "Romanian_Deadlift",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Romanian_Deadlift",
+                "Stiff-Legged_Barbell_Deadlift",
+                "Kettlebell_Romanian_Deadlift",
+                "Good_Morning"
+              ]
+            },
+            {
+              "name": "Dumbbell Step-Up",
+              "catalogueId": "Dumbbell_Step_Ups",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Step_Ups",
+                "Dumbbell_Lunges"
+              ]
+            },
+            {
+              "name": "Lying Leg Curl",
+              "catalogueId": "Lying_Leg_Curls",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Leg_Curl",
+                "Standing_Leg_Curl",
+                "Ball_Leg_Curl",
+                "Nordic_Hamstring_Curl"
+              ]
+            },
+            {
+              "name": "Cable Glute Kickback",
+              "catalogueId": "One-Legged_Cable_Kickback",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Single_Leg_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Reverse Hyperextension",
+              "catalogueId": "Reverse_Hyperextension",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hyperextensions_Back_Extensions"
+              ]
+            },
+            {
+              "name": "Seated Calf Raise",
+              "catalogueId": "Seated_Calf_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        },
+        {
+          "name": "Upper Body",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Seated Dumbbell Shoulder Press",
+              "catalogueId": "Seated_Dumbbell_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Shoulder_Press",
+                "Arnold_Dumbbell_Press",
+                "Machine_Shoulder_Military_Press",
+                "Seated_Barbell_Press",
+                "Smith_Machine_Overhead_Shoulder_Press",
+                "Cable_Shoulder_Press"
+              ]
+            },
+            {
+              "name": "Lat Pulldown, Wide Grip",
+              "catalogueId": "Wide-Grip_Lat_Pulldown",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 35.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pullups",
+                "Lat_Pulldown_Neutral_Grip",
+                "Close-Grip_Front_Lat_Pulldown",
+                "One_Arm_Lat_Pulldown"
+              ]
+            },
+            {
+              "name": "Dumbbell Bench Press",
+              "catalogueId": "Dumbbell_Bench_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 14.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Bench_Press_-_Medium_Grip",
+                "Machine_Bench_Press",
+                "Smith_Machine_Bench_Press",
+                "Cable_Chest_Press",
+                "Dumbbell_Floor_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Seated Cable Row",
+              "catalogueId": "Seated_Cable_Rows",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 35.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Cable_Row_V-Bar",
+                "Leverage_Iso_Row",
+                "Dumbbell_Incline_Row",
+                "Bent_Over_Barbell_Row",
+                "Inverted_Row"
+              ]
+            },
+            {
+              "name": "Dumbbell Lateral Raise",
+              "catalogueId": "Side_Lateral_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 5.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Cable_Seated_Lateral_Raise",
+                "Machine_Lateral_Raise",
+                "Lateral_Raise_-_With_Bands",
+                "Seated_Side_Lateral_Raise",
+                "Standing_Low-Pulley_Deltoid_Raise"
+              ]
+            },
+            {
+              "name": "Dead Bug",
+              "catalogueId": "Dead_Bug",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bird_Dog",
+                "Hollow_Hold",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Face Pull",
+              "catalogueId": "Face_Pull",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Dumbbell Curl",
+              "catalogueId": "Dumbbell_Bicep_Curl",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 8,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Alternate_Bicep_Curl",
+                "Barbell_Curl",
+                "EZ-Bar_Curl",
+                "Standing_Biceps_Cable_Curl",
+                "Seated_Dumbbell_Curl",
+                "Machine_Bicep_Curl"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Glutes and Legs",
+          "dayNumber": 4,
+          "exercises": [
+            {
+              "name": "Sumo Deadlift",
+              "catalogueId": "Sumo_Deadlift",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 50.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Trap_Bar_Deadlift",
+                "Barbell_Deadlift"
+              ]
+            },
+            {
+              "name": "Leg Press",
+              "catalogueId": "Leg_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Feet high and wide on the platform",
+              "defaultWeight": 70.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hack_Squat",
+                "Smith_Machine_Squat",
+                "Dumbbell_Goblet_Squat",
+                "Barbell_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Walking Lunge",
+              "catalogueId": "Dumbbell_Walking_Lunge",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Walking_Lunge",
+                "Dumbbell_Lunges",
+                "Bodyweight_Walking_Lunge"
+              ]
+            },
+            {
+              "name": "Cable Pull-Through",
+              "catalogueId": "Pull_Through",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Swing",
+                "Dumbbell_Romanian_Deadlift",
+                "Barbell_Hip_Thrust"
+              ]
+            },
+            {
+              "name": "Monster Walk",
+              "catalogueId": "Monster_Walk",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Steps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Thigh_Abductor",
+                "Cable_Hip_Abduction"
+              ]
+            },
+            {
+              "name": "Single-Leg Glute Bridge",
+              "catalogueId": "Single_Leg_Glute_Bridge",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Butt_Lift_Bridge",
+                "Dumbbell_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Machine Calf Raise",
+              "catalogueId": "Standing_Calf_Raises",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Smith_Machine_Calf_Raise",
+                "Calf_Press_On_The_Leg_Press_Machine",
+                "Standing_Dumbbell_Calf_Raise",
+                "Standing_Barbell_Calf_Raise"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deload",
+      "description": "One lighter week: fewer sets and lighter weights, so you start the next phase recovered",
+      "weekStart": 5,
+      "weekEnd": 5,
+      "restBetweenExercises": 90,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Glutes and Quads",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Barbell Hip Thrust",
+              "catalogueId": "Barbell_Hip_Thrust",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Hip_Thrust",
+                "Barbell_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Smith_Machine_Squat",
+                "Hack_Squat",
+                "Leg_Press",
+                "Front_Barbell_Squat",
+                "Dumbbell_Squat",
+                "Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Bulgarian Split Squat",
+              "catalogueId": "Dumbbell_Bulgarian_Split_Squat",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Bulgarian_Split_Squat",
+                "Smith_Single-Leg_Split_Squat",
+                "Split_Squat_with_Dumbbells",
+                "Bodyweight_Bulgarian_Split_Squat"
+              ]
+            },
+            {
+              "name": "Machine Hip Abduction",
+              "catalogueId": "Thigh_Abductor",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 17.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Cable_Hip_Abduction",
+                "Monster_Walk"
+              ]
+            },
+            {
+              "name": "Machine Calf Raise",
+              "catalogueId": "Standing_Calf_Raises",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 17.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Smith_Machine_Calf_Raise",
+                "Calf_Press_On_The_Leg_Press_Machine",
+                "Standing_Dumbbell_Calf_Raise",
+                "Standing_Barbell_Calf_Raise"
+              ]
+            },
+            {
+              "name": "Leg Extension",
+              "catalogueId": "Leg_Extensions",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 17.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Sissy_Squat"
+              ]
+            },
+            {
+              "name": "Cable Crunch",
+              "catalogueId": "Cable_Crunch",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 17.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Ab_Crunch_Machine",
+                "Decline_Crunch",
+                "Crunches"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Glutes and Hamstrings",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Romanian Deadlift",
+              "catalogueId": "Romanian_Deadlift",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 25.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Romanian_Deadlift",
+                "Stiff-Legged_Barbell_Deadlift",
+                "Kettlebell_Romanian_Deadlift",
+                "Good_Morning"
+              ]
+            },
+            {
+              "name": "Dumbbell Step-Up",
+              "catalogueId": "Dumbbell_Step_Ups",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Step_Ups",
+                "Dumbbell_Lunges"
+              ]
+            },
+            {
+              "name": "Lying Leg Curl",
+              "catalogueId": "Lying_Leg_Curls",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Leg_Curl",
+                "Standing_Leg_Curl",
+                "Ball_Leg_Curl",
+                "Nordic_Hamstring_Curl"
+              ]
+            },
+            {
+              "name": "Cable Glute Kickback",
+              "catalogueId": "One-Legged_Cable_Kickback",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Single_Leg_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Reverse Hyperextension",
+              "catalogueId": "Reverse_Hyperextension",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hyperextensions_Back_Extensions"
+              ]
+            },
+            {
+              "name": "Seated Calf Raise",
+              "catalogueId": "Seated_Calf_Raise",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 17.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        },
+        {
+          "name": "Upper Body",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Seated Dumbbell Shoulder Press",
+              "catalogueId": "Seated_Dumbbell_Press",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Shoulder_Press",
+                "Arnold_Dumbbell_Press",
+                "Machine_Shoulder_Military_Press",
+                "Seated_Barbell_Press",
+                "Smith_Machine_Overhead_Shoulder_Press",
+                "Cable_Shoulder_Press"
+              ]
+            },
+            {
+              "name": "Lat Pulldown, Wide Grip",
+              "catalogueId": "Wide-Grip_Lat_Pulldown",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pullups",
+                "Lat_Pulldown_Neutral_Grip",
+                "Close-Grip_Front_Lat_Pulldown",
+                "One_Arm_Lat_Pulldown"
+              ]
+            },
+            {
+              "name": "Dumbbell Bench Press",
+              "catalogueId": "Dumbbell_Bench_Press",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Bench_Press_-_Medium_Grip",
+                "Machine_Bench_Press",
+                "Smith_Machine_Bench_Press",
+                "Cable_Chest_Press",
+                "Dumbbell_Floor_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Seated Cable Row",
+              "catalogueId": "Seated_Cable_Rows",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Cable_Row_V-Bar",
+                "Leverage_Iso_Row",
+                "Dumbbell_Incline_Row",
+                "Bent_Over_Barbell_Row",
+                "Inverted_Row"
+              ]
+            },
+            {
+              "name": "Dumbbell Lateral Raise",
+              "catalogueId": "Side_Lateral_Raise",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 3.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Cable_Seated_Lateral_Raise",
+                "Machine_Lateral_Raise",
+                "Lateral_Raise_-_With_Bands",
+                "Seated_Side_Lateral_Raise",
+                "Standing_Low-Pulley_Deltoid_Raise"
+              ]
+            },
+            {
+              "name": "Dead Bug",
+              "catalogueId": "Dead_Bug",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bird_Dog",
+                "Hollow_Hold",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Face Pull",
+              "catalogueId": "Face_Pull",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Dumbbell Curl",
+              "catalogueId": "Dumbbell_Bicep_Curl",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 8,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Alternate_Bicep_Curl",
+                "Barbell_Curl",
+                "EZ-Bar_Curl",
+                "Standing_Biceps_Cable_Curl",
+                "Seated_Dumbbell_Curl",
+                "Machine_Bicep_Curl"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Glutes and Legs",
+          "dayNumber": 4,
+          "exercises": [
+            {
+              "name": "Sumo Deadlift",
+              "catalogueId": "Sumo_Deadlift",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Trap_Bar_Deadlift",
+                "Barbell_Deadlift"
+              ]
+            },
+            {
+              "name": "Leg Press",
+              "catalogueId": "Leg_Press",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Feet high and wide on the platform",
+              "defaultWeight": 42.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hack_Squat",
+                "Smith_Machine_Squat",
+                "Dumbbell_Goblet_Squat",
+                "Barbell_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Walking Lunge",
+              "catalogueId": "Dumbbell_Walking_Lunge",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Walking_Lunge",
+                "Dumbbell_Lunges",
+                "Bodyweight_Walking_Lunge"
+              ]
+            },
+            {
+              "name": "Cable Pull-Through",
+              "catalogueId": "Pull_Through",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Swing",
+                "Dumbbell_Romanian_Deadlift",
+                "Barbell_Hip_Thrust"
+              ]
+            },
+            {
+              "name": "Monster Walk",
+              "catalogueId": "Monster_Walk",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Steps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Thigh_Abductor",
+                "Cable_Hip_Abduction"
+              ]
+            },
+            {
+              "name": "Single-Leg Glute Bridge",
+              "catalogueId": "Single_Leg_Glute_Bridge",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Butt_Lift_Bridge",
+                "Dumbbell_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Machine Calf Raise",
+              "catalogueId": "Standing_Calf_Raises",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 17.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Smith_Machine_Calf_Raise",
+                "Calf_Press_On_The_Leg_Press_Machine",
+                "Standing_Dumbbell_Calf_Raise",
+                "Standing_Barbell_Calf_Raise"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strength and Shape",
+      "description": "Heavier hip thrusts, squats and deadlifts, more sets on the accessories",
+      "weekStart": 6,
+      "weekEnd": 10,
+      "restBetweenExercises": 120,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Glutes and Quads",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Barbell Hip Thrust",
+              "catalogueId": "Barbell_Hip_Thrust",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 55.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Hip_Thrust",
+                "Barbell_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 45.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Smith_Machine_Squat",
+                "Hack_Squat",
+                "Leg_Press",
+                "Front_Barbell_Squat",
+                "Dumbbell_Squat",
+                "Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Bulgarian Split Squat",
+              "catalogueId": "Dumbbell_Bulgarian_Split_Squat",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 11.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Bulgarian_Split_Squat",
+                "Smith_Single-Leg_Split_Squat",
+                "Split_Squat_with_Dumbbells",
+                "Bodyweight_Bulgarian_Split_Squat"
+              ]
+            },
+            {
+              "name": "Machine Hip Abduction",
+              "catalogueId": "Thigh_Abductor",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 32.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Cable_Hip_Abduction",
+                "Monster_Walk"
+              ]
+            },
+            {
+              "name": "Machine Calf Raise",
+              "catalogueId": "Standing_Calf_Raises",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 32.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Smith_Machine_Calf_Raise",
+                "Calf_Press_On_The_Leg_Press_Machine",
+                "Standing_Dumbbell_Calf_Raise",
+                "Standing_Barbell_Calf_Raise"
+              ]
+            },
+            {
+              "name": "Leg Extension",
+              "catalogueId": "Leg_Extensions",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Sissy_Squat"
+              ]
+            },
+            {
+              "name": "Cable Crunch",
+              "catalogueId": "Cable_Crunch",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Ab_Crunch_Machine",
+                "Decline_Crunch",
+                "Crunches"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Glutes and Hamstrings",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Romanian Deadlift",
+              "catalogueId": "Romanian_Deadlift",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 45.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Romanian_Deadlift",
+                "Stiff-Legged_Barbell_Deadlift",
+                "Kettlebell_Romanian_Deadlift",
+                "Good_Morning"
+              ]
+            },
+            {
+              "name": "Dumbbell Step-Up",
+              "catalogueId": "Dumbbell_Step_Ups",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 11.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Step_Ups",
+                "Dumbbell_Lunges"
+              ]
+            },
+            {
+              "name": "Lying Leg Curl",
+              "catalogueId": "Lying_Leg_Curls",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Leg_Curl",
+                "Standing_Leg_Curl",
+                "Ball_Leg_Curl",
+                "Nordic_Hamstring_Curl"
+              ]
+            },
+            {
+              "name": "Cable Glute Kickback",
+              "catalogueId": "One-Legged_Cable_Kickback",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Single_Leg_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Reverse Hyperextension",
+              "catalogueId": "Reverse_Hyperextension",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hyperextensions_Back_Extensions"
+              ]
+            },
+            {
+              "name": "Seated Calf Raise",
+              "catalogueId": "Seated_Calf_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        },
+        {
+          "name": "Upper Body",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Seated Dumbbell Shoulder Press",
+              "catalogueId": "Seated_Dumbbell_Press",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 11.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Shoulder_Press",
+                "Arnold_Dumbbell_Press",
+                "Machine_Shoulder_Military_Press",
+                "Seated_Barbell_Press",
+                "Smith_Machine_Overhead_Shoulder_Press",
+                "Cable_Shoulder_Press"
+              ]
+            },
+            {
+              "name": "Lat Pulldown, Wide Grip",
+              "catalogueId": "Wide-Grip_Lat_Pulldown",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 37.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pullups",
+                "Lat_Pulldown_Neutral_Grip",
+                "Close-Grip_Front_Lat_Pulldown",
+                "One_Arm_Lat_Pulldown"
+              ]
+            },
+            {
+              "name": "Dumbbell Bench Press",
+              "catalogueId": "Dumbbell_Bench_Press",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 15.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Bench_Press_-_Medium_Grip",
+                "Machine_Bench_Press",
+                "Smith_Machine_Bench_Press",
+                "Cable_Chest_Press",
+                "Dumbbell_Floor_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Seated Cable Row",
+              "catalogueId": "Seated_Cable_Rows",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 37.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Cable_Row_V-Bar",
+                "Leverage_Iso_Row",
+                "Dumbbell_Incline_Row",
+                "Bent_Over_Barbell_Row",
+                "Inverted_Row"
+              ]
+            },
+            {
+              "name": "Dumbbell Lateral Raise",
+              "catalogueId": "Side_Lateral_Raise",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 5.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Cable_Seated_Lateral_Raise",
+                "Machine_Lateral_Raise",
+                "Lateral_Raise_-_With_Bands",
+                "Seated_Side_Lateral_Raise",
+                "Standing_Low-Pulley_Deltoid_Raise"
+              ]
+            },
+            {
+              "name": "Dead Bug",
+              "catalogueId": "Dead_Bug",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bird_Dog",
+                "Hollow_Hold",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Face Pull",
+              "catalogueId": "Face_Pull",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Dumbbell Curl",
+              "catalogueId": "Dumbbell_Bicep_Curl",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 8,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Alternate_Bicep_Curl",
+                "Barbell_Curl",
+                "EZ-Bar_Curl",
+                "Standing_Biceps_Cable_Curl",
+                "Seated_Dumbbell_Curl",
+                "Machine_Bicep_Curl"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Glutes and Legs",
+          "dayNumber": 4,
+          "exercises": [
+            {
+              "name": "Sumo Deadlift",
+              "catalogueId": "Sumo_Deadlift",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 55.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Trap_Bar_Deadlift",
+                "Barbell_Deadlift"
+              ]
+            },
+            {
+              "name": "Leg Press",
+              "catalogueId": "Leg_Press",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Feet high and wide on the platform",
+              "defaultWeight": 77.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hack_Squat",
+                "Smith_Machine_Squat",
+                "Dumbbell_Goblet_Squat",
+                "Barbell_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Walking Lunge",
+              "catalogueId": "Dumbbell_Walking_Lunge",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 11.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Barbell_Walking_Lunge",
+                "Dumbbell_Lunges",
+                "Bodyweight_Walking_Lunge"
+              ]
+            },
+            {
+              "name": "Cable Pull-Through",
+              "catalogueId": "Pull_Through",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Swing",
+                "Dumbbell_Romanian_Deadlift",
+                "Barbell_Hip_Thrust"
+              ]
+            },
+            {
+              "name": "Monster Walk",
+              "catalogueId": "Monster_Walk",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Steps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Thigh_Abductor",
+                "Cable_Hip_Abduction"
+              ]
+            },
+            {
+              "name": "Single-Leg Glute Bridge",
+              "catalogueId": "Single_Leg_Glute_Bridge",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Butt_Lift_Bridge",
+                "Dumbbell_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Machine Calf Raise",
+              "catalogueId": "Standing_Calf_Raises",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 32.5,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Smith_Machine_Calf_Raise",
+                "Calf_Press_On_The_Leg_Press_Machine",
+                "Standing_Dumbbell_Calf_Raise",
+                "Standing_Barbell_Calf_Raise"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

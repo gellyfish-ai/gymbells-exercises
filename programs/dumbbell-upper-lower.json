@@ -1,0 +1,1730 @@
+{
+  "id": "dumbbell-upper-lower",
+  "name": "Dumbbell Upper / Lower",
+  "description": "Four days a week for 10 weeks with dumbbells and a bench: two upper-body and two lower-body workouts, each muscle trained twice a week. Single-leg exercises and slow lowering make light dumbbells work hard for the legs. Week 5 is a deload. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+  "level": "intermediate",
+  "phases": [
+    {
+      "name": "Foundation",
+      "description": "Three sets of ten to fifteen",
+      "weekStart": 1,
+      "weekEnd": 4,
+      "restBetweenExercises": 75,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Upper A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Dumbbell Bench Press",
+              "catalogueId": "Dumbbell_Bench_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Floor_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "One-Arm Dumbbell Row",
+              "catalogueId": "One-Arm_Dumbbell_Row",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": "Reps per side",
+              "defaultWeight": 18.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bent_Over_Two-Dumbbell_Row"
+              ]
+            },
+            {
+              "name": "Seated Dumbbell Shoulder Press",
+              "catalogueId": "Seated_Dumbbell_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Shoulder_Press",
+                "Arnold_Dumbbell_Press"
+              ]
+            },
+            {
+              "name": "Dumbbell Fly",
+              "catalogueId": "Dumbbell_Flyes",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Incline_Dumbbell_Flyes"
+              ]
+            },
+            {
+              "name": "Dumbbell Reverse Fly, Seated",
+              "catalogueId": "Seated_Bent-Over_Rear_Delt_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 4.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Flyes"
+              ]
+            },
+            {
+              "name": "Dumbbell Curl, Alternating",
+              "catalogueId": "Dumbbell_Alternate_Bicep_Curl",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Bicep_Curl"
+              ]
+            },
+            {
+              "name": "Dumbbell Overhead Triceps Extension",
+              "catalogueId": "Standing_Dumbbell_Triceps_Extension",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Dumbbell_Triceps_Extension"
+              ]
+            },
+            {
+              "name": "Dumbbell Lateral Raise",
+              "catalogueId": "Side_Lateral_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 8,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 5.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Side_Lateral_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lower A",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Dumbbell Squat",
+              "catalogueId": "Dumbbell_Squat",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 14.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Romanian Deadlift",
+              "catalogueId": "Dumbbell_Romanian_Deadlift",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Stiff-Legged_Dumbbell_Deadlift"
+              ]
+            },
+            {
+              "name": "Dumbbell Walking Lunge",
+              "catalogueId": "Dumbbell_Walking_Lunge",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Lunges",
+                "Bodyweight_Walking_Lunge"
+              ]
+            },
+            {
+              "name": "Dumbbell Calf Raise",
+              "catalogueId": "Standing_Dumbbell_Calf_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 14.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Calf_Raise"
+              ]
+            },
+            {
+              "name": "Dumbbell Side Bend",
+              "catalogueId": "Dumbbell_Side_Bend",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 14.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Side_Bridge",
+                "Dumbbell_Suitcase_Carry"
+              ]
+            },
+            {
+              "name": "Dumbbell Russian Twist",
+              "catalogueId": "Dumbbell_Russian_Twist",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Russian_Twist"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Upper B",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Incline Dumbbell Press",
+              "catalogueId": "Incline_Dumbbell_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 14.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hammer_Grip_Incline_DB_Bench_Press",
+                "Push-Ups_With_Feet_Elevated"
+              ]
+            },
+            {
+              "name": "Incline Dumbbell Row",
+              "catalogueId": "Dumbbell_Incline_Row",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 14.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bent_Over_Two-Dumbbell_Row"
+              ]
+            },
+            {
+              "name": "Arnold Press",
+              "catalogueId": "Arnold_Dumbbell_Press",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Dumbbell_Press",
+                "Dumbbell_Shoulder_Press"
+              ]
+            },
+            {
+              "name": "Straight-Arm Dumbbell Pullover",
+              "catalogueId": "Straight-Arm_Dumbbell_Pullover",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bent-Arm_Dumbbell_Pullover",
+                "Dumbbell_Flyes"
+              ]
+            },
+            {
+              "name": "Dumbbell Lateral Raise",
+              "catalogueId": "Side_Lateral_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 5.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Side_Lateral_Raise"
+              ]
+            },
+            {
+              "name": "Dumbbell Overhead Triceps Extension",
+              "catalogueId": "Standing_Dumbbell_Triceps_Extension",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Dumbbell_Triceps_Extension"
+              ]
+            },
+            {
+              "name": "Dumbbell Hammer Curl",
+              "catalogueId": "Hammer_Curls",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Alternate_Hammer_Curl"
+              ]
+            },
+            {
+              "name": "Dumbbell Reverse Fly, Seated",
+              "catalogueId": "Seated_Bent-Over_Rear_Delt_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 8,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 4.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Flyes"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lower B",
+          "dayNumber": 4,
+          "exercises": [
+            {
+              "name": "Dumbbell Bulgarian Split Squat",
+              "catalogueId": "Dumbbell_Bulgarian_Split_Squat",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per leg",
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Split_Squat_with_Dumbbells",
+                "Bodyweight_Bulgarian_Split_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Hip Thrust",
+              "catalogueId": "Dumbbell_Hip_Thrust",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Dumbbell Sumo Squat",
+              "catalogueId": "Dumbbell_Sumo_Squat",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 18.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Stiff-Leg Deadlift",
+              "catalogueId": "Stiff-Legged_Dumbbell_Deadlift",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 14.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Romanian_Deadlift"
+              ]
+            },
+            {
+              "name": "Dumbbell Russian Twist",
+              "catalogueId": "Dumbbell_Russian_Twist",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Russian_Twist"
+              ]
+            },
+            {
+              "name": "Dumbbell Calf Raise",
+              "catalogueId": "Standing_Dumbbell_Calf_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 14.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Calf_Raise"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deload",
+      "description": "One lighter week: fewer sets and lighter weights, so you start the next phase recovered",
+      "weekStart": 5,
+      "weekEnd": 5,
+      "restBetweenExercises": 90,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Upper A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Dumbbell Bench Press",
+              "catalogueId": "Dumbbell_Bench_Press",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Floor_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "One-Arm Dumbbell Row",
+              "catalogueId": "One-Arm_Dumbbell_Row",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": "Reps per side",
+              "defaultWeight": 11.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bent_Over_Two-Dumbbell_Row"
+              ]
+            },
+            {
+              "name": "Seated Dumbbell Shoulder Press",
+              "catalogueId": "Seated_Dumbbell_Press",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 7.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Shoulder_Press",
+                "Arnold_Dumbbell_Press"
+              ]
+            },
+            {
+              "name": "Dumbbell Fly",
+              "catalogueId": "Dumbbell_Flyes",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 5.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Incline_Dumbbell_Flyes"
+              ]
+            },
+            {
+              "name": "Dumbbell Reverse Fly, Seated",
+              "catalogueId": "Seated_Bent-Over_Rear_Delt_Raise",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 2.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Flyes"
+              ]
+            },
+            {
+              "name": "Dumbbell Curl, Alternating",
+              "catalogueId": "Dumbbell_Alternate_Bicep_Curl",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 5.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Bicep_Curl"
+              ]
+            },
+            {
+              "name": "Dumbbell Overhead Triceps Extension",
+              "catalogueId": "Standing_Dumbbell_Triceps_Extension",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 7.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Dumbbell_Triceps_Extension"
+              ]
+            },
+            {
+              "name": "Dumbbell Lateral Raise",
+              "catalogueId": "Side_Lateral_Raise",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 8,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 3.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Side_Lateral_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lower A",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Dumbbell Squat",
+              "catalogueId": "Dumbbell_Squat",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Romanian Deadlift",
+              "catalogueId": "Dumbbell_Romanian_Deadlift",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 10.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Stiff-Legged_Dumbbell_Deadlift"
+              ]
+            },
+            {
+              "name": "Dumbbell Walking Lunge",
+              "catalogueId": "Dumbbell_Walking_Lunge",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Lunges",
+                "Bodyweight_Walking_Lunge"
+              ]
+            },
+            {
+              "name": "Dumbbell Calf Raise",
+              "catalogueId": "Standing_Dumbbell_Calf_Raise",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Calf_Raise"
+              ]
+            },
+            {
+              "name": "Dumbbell Side Bend",
+              "catalogueId": "Dumbbell_Side_Bend",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Side_Bridge",
+                "Dumbbell_Suitcase_Carry"
+              ]
+            },
+            {
+              "name": "Dumbbell Russian Twist",
+              "catalogueId": "Dumbbell_Russian_Twist",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 4.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Russian_Twist"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Upper B",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Incline Dumbbell Press",
+              "catalogueId": "Incline_Dumbbell_Press",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hammer_Grip_Incline_DB_Bench_Press",
+                "Push-Ups_With_Feet_Elevated"
+              ]
+            },
+            {
+              "name": "Incline Dumbbell Row",
+              "catalogueId": "Dumbbell_Incline_Row",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bent_Over_Two-Dumbbell_Row"
+              ]
+            },
+            {
+              "name": "Arnold Press",
+              "catalogueId": "Arnold_Dumbbell_Press",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Dumbbell_Press",
+                "Dumbbell_Shoulder_Press"
+              ]
+            },
+            {
+              "name": "Straight-Arm Dumbbell Pullover",
+              "catalogueId": "Straight-Arm_Dumbbell_Pullover",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 7.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bent-Arm_Dumbbell_Pullover",
+                "Dumbbell_Flyes"
+              ]
+            },
+            {
+              "name": "Dumbbell Lateral Raise",
+              "catalogueId": "Side_Lateral_Raise",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 3.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Side_Lateral_Raise"
+              ]
+            },
+            {
+              "name": "Dumbbell Overhead Triceps Extension",
+              "catalogueId": "Standing_Dumbbell_Triceps_Extension",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 7.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Dumbbell_Triceps_Extension"
+              ]
+            },
+            {
+              "name": "Dumbbell Hammer Curl",
+              "catalogueId": "Hammer_Curls",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 5.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Alternate_Hammer_Curl"
+              ]
+            },
+            {
+              "name": "Dumbbell Reverse Fly, Seated",
+              "catalogueId": "Seated_Bent-Over_Rear_Delt_Raise",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 8,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 2.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Flyes"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lower B",
+          "dayNumber": 4,
+          "exercises": [
+            {
+              "name": "Dumbbell Bulgarian Split Squat",
+              "catalogueId": "Dumbbell_Bulgarian_Split_Squat",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per leg",
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Split_Squat_with_Dumbbells",
+                "Bodyweight_Bulgarian_Split_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Hip Thrust",
+              "catalogueId": "Dumbbell_Hip_Thrust",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 12.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Dumbbell Sumo Squat",
+              "catalogueId": "Dumbbell_Sumo_Squat",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 11.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Stiff-Leg Deadlift",
+              "catalogueId": "Stiff-Legged_Dumbbell_Deadlift",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Romanian_Deadlift"
+              ]
+            },
+            {
+              "name": "Dumbbell Russian Twist",
+              "catalogueId": "Dumbbell_Russian_Twist",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 4.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Russian_Twist"
+              ]
+            },
+            {
+              "name": "Dumbbell Calf Raise",
+              "catalogueId": "Standing_Dumbbell_Calf_Raise",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 8.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Calf_Raise"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Build",
+      "description": "Four sets on the main exercises, heavier",
+      "weekStart": 6,
+      "weekEnd": 10,
+      "restBetweenExercises": 90,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Upper A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Dumbbell Bench Press",
+              "catalogueId": "Dumbbell_Bench_Press",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 18.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Floor_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "One-Arm Dumbbell Row",
+              "catalogueId": "One-Arm_Dumbbell_Row",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": "Reps per side",
+              "defaultWeight": 21.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bent_Over_Two-Dumbbell_Row"
+              ]
+            },
+            {
+              "name": "Seated Dumbbell Shoulder Press",
+              "catalogueId": "Seated_Dumbbell_Press",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 13.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Shoulder_Press",
+                "Arnold_Dumbbell_Press"
+              ]
+            },
+            {
+              "name": "Dumbbell Fly",
+              "catalogueId": "Dumbbell_Flyes",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 9.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Incline_Dumbbell_Flyes"
+              ]
+            },
+            {
+              "name": "Dumbbell Reverse Fly, Seated",
+              "catalogueId": "Seated_Bent-Over_Rear_Delt_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 4.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Flyes"
+              ]
+            },
+            {
+              "name": "Dumbbell Curl, Alternating",
+              "catalogueId": "Dumbbell_Alternate_Bicep_Curl",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 9.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Bicep_Curl"
+              ]
+            },
+            {
+              "name": "Dumbbell Overhead Triceps Extension",
+              "catalogueId": "Standing_Dumbbell_Triceps_Extension",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 13.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Dumbbell_Triceps_Extension"
+              ]
+            },
+            {
+              "name": "Dumbbell Lateral Raise",
+              "catalogueId": "Side_Lateral_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 8,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Side_Lateral_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lower A",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Dumbbell Squat",
+              "catalogueId": "Dumbbell_Squat",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Romanian Deadlift",
+              "catalogueId": "Dumbbell_Romanian_Deadlift",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 18.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Stiff-Legged_Dumbbell_Deadlift"
+              ]
+            },
+            {
+              "name": "Dumbbell Walking Lunge",
+              "catalogueId": "Dumbbell_Walking_Lunge",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 11.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Lunges",
+                "Bodyweight_Walking_Lunge"
+              ]
+            },
+            {
+              "name": "Dumbbell Calf Raise",
+              "catalogueId": "Standing_Dumbbell_Calf_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 15.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Calf_Raise"
+              ]
+            },
+            {
+              "name": "Dumbbell Side Bend",
+              "catalogueId": "Dumbbell_Side_Bend",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 15.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Side_Bridge",
+                "Dumbbell_Suitcase_Carry"
+              ]
+            },
+            {
+              "name": "Dumbbell Russian Twist",
+              "catalogueId": "Dumbbell_Russian_Twist",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 7.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Russian_Twist"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Upper B",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Incline Dumbbell Press",
+              "catalogueId": "Incline_Dumbbell_Press",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hammer_Grip_Incline_DB_Bench_Press",
+                "Push-Ups_With_Feet_Elevated"
+              ]
+            },
+            {
+              "name": "Incline Dumbbell Row",
+              "catalogueId": "Dumbbell_Incline_Row",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 16.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bent_Over_Two-Dumbbell_Row"
+              ]
+            },
+            {
+              "name": "Arnold Press",
+              "catalogueId": "Arnold_Dumbbell_Press",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 11.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Dumbbell_Press",
+                "Dumbbell_Shoulder_Press"
+              ]
+            },
+            {
+              "name": "Straight-Arm Dumbbell Pullover",
+              "catalogueId": "Straight-Arm_Dumbbell_Pullover",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 13.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bent-Arm_Dumbbell_Pullover",
+                "Dumbbell_Flyes"
+              ]
+            },
+            {
+              "name": "Dumbbell Lateral Raise",
+              "catalogueId": "Side_Lateral_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 6.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Side_Lateral_Raise"
+              ]
+            },
+            {
+              "name": "Dumbbell Overhead Triceps Extension",
+              "catalogueId": "Standing_Dumbbell_Triceps_Extension",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 13.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Seated_Dumbbell_Triceps_Extension"
+              ]
+            },
+            {
+              "name": "Dumbbell Hammer Curl",
+              "catalogueId": "Hammer_Curls",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 9.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Alternate_Hammer_Curl"
+              ]
+            },
+            {
+              "name": "Dumbbell Reverse Fly, Seated",
+              "catalogueId": "Seated_Bent-Over_Rear_Delt_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 8,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 4.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Reverse_Flyes"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lower B",
+          "dayNumber": 4,
+          "exercises": [
+            {
+              "name": "Dumbbell Bulgarian Split Squat",
+              "catalogueId": "Dumbbell_Bulgarian_Split_Squat",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per leg",
+              "defaultWeight": 12.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Split_Squat_with_Dumbbells",
+                "Bodyweight_Bulgarian_Split_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Hip Thrust",
+              "catalogueId": "Dumbbell_Hip_Thrust",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 22.5,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Dumbbell Sumo Squat",
+              "catalogueId": "Dumbbell_Sumo_Squat",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Dumbbell Stiff-Leg Deadlift",
+              "catalogueId": "Stiff-Legged_Dumbbell_Deadlift",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 15.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Romanian_Deadlift"
+              ]
+            },
+            {
+              "name": "Dumbbell Russian Twist",
+              "catalogueId": "Dumbbell_Russian_Twist",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 7.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Russian_Twist"
+              ]
+            },
+            {
+              "name": "Dumbbell Calf Raise",
+              "catalogueId": "Standing_Dumbbell_Calf_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 15.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Bodyweight_Calf_Raise"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "five-by-five-strength",
+  "name": "5×5 Strength",
+  "description": "A barbell strength program built on five sets of five reps. Two workouts, A and B, alternate three days a week. Add a small amount of weight to each lift whenever you complete all sets and reps.",
+  "level": "beginner",
+  "phases": [
+    {
+      "name": "Strength",
+      "description": "Five sets of five on the main lifts",
+      "weekStart": 1,
+      "weekEnd": 12,
+      "restBetweenExercises": 180,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 5,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Barbell Bench Press",
+              "catalogueId": "Barbell_Bench_Press_-_Medium_Grip",
+              "sets": 5,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Bent-Over Barbell Row",
+              "catalogueId": "Bent_Over_Barbell_Row",
+              "sets": 5,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 30.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Barbell Back Squat",
+              "catalogueId": "Barbell_Squat",
+              "sets": 5,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 40.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Barbell Overhead Press",
+              "catalogueId": "Standing_Military_Press",
+              "sets": 5,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 20.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            },
+            {
+              "name": "Barbell Deadlift",
+              "catalogueId": "Barbell_Deadlift",
+              "sets": 1,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": true,
+              "notes": "One heavy set after warm-ups",
+              "defaultWeight": 50.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

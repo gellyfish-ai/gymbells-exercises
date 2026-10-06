@@ -1,0 +1,211 @@
+{
+  "version": "0.3.0",
+  "looks": [
+    {
+      "id": "textured",
+      "label": "Anatomy",
+      "text": "The look of this catalogue: every muscle drawn, the worked ones in red."
+    },
+    {
+      "id": "gymbells",
+      "label": "Brand colour",
+      "text": "The same body with the highlight in a brand's colour and a haircut: the GymBells app's set."
+    },
+    {
+      "id": "muscle",
+      "label": "Muscle map",
+      "text": "Pale muscles with dark outlines, the worked ones in red."
+    },
+    {
+      "id": "skinned",
+      "label": "Skin",
+      "text": "Plain skin and briefs, the worked muscles tinted."
+    },
+    {
+      "id": "torso-bare",
+      "label": "Shorts",
+      "text": "Skin with gym shorts."
+    },
+    {
+      "id": "clothed",
+      "label": "Gym wear",
+      "text": "Tank top and shorts; the highlight shows through the clothes."
+    }
+  ],
+  "poses": [
+    {
+      "pose": "barbell-back-squat",
+      "name": "Barbell Back Squat"
+    },
+    {
+      "pose": "barbell-bench-press",
+      "name": "Barbell Bench Press"
+    },
+    {
+      "pose": "pull-up",
+      "name": "Pull-Up"
+    },
+    {
+      "pose": "seated-cable-row",
+      "name": "Seated Cable Row"
+    },
+    {
+      "pose": "kettlebell-swing",
+      "name": "Kettlebell Swing"
+    },
+    {
+      "pose": "plank",
+      "name": "Plank"
+    }
+  ],
+  "full": {
+    "pose": "barbell-back-squat",
+    "name": "Barbell Back Squat"
+  },
+  "languages": [
+    {
+      "code": "en",
+      "language": "English",
+      "name": "Barbell Back Squat",
+      "steps": [
+        "Set the bar in a rack at about shoulder height and place it across your upper back, below your neck.",
+        "Lift the bar out, take a step or two back and stand with your feet about shoulder-width apart.",
+        "Brace your stomach, then push your hips back and bend your knees to squat until your thighs are at least level with the floor.",
+        "Push through your whole foot to stand back up.",
+        "Keep your chest up and your knees in line with your toes; set the safety bars just below your lowest point."
+      ]
+    },
+    {
+      "code": "ca",
+      "language": "Català",
+      "name": "Esquat posterior amb barra",
+      "steps": [
+        "Posa la barra en un rack a l'altura de les espatlles i col·loca-la sobre l'esquena alta, per sota del coll.",
+        "Treu la barra, fes un o dos passos enrere i posa't dret amb els peus separats a l'amplada de les espatlles.",
+        "Contrau l'abdomen, porta els malucs enrere i flexiona els genolls fins que les cuixes quedin com a mínim a nivell del terra.",
+        "Empeny amb tota la planta del peu per tornar a pujar.",
+        "Mantén el pit alt i els genolls alineats amb les puntes dels peus; posa les barres de seguretat just per sota del punt més baix."
+      ]
+    },
+    {
+      "code": "de",
+      "language": "Deutsch",
+      "name": "Langhantel-Kniebeuge",
+      "steps": [
+        "Lege die Stange im Rack auf etwa Schulterhöhe und lege sie auf den oberen Rücken, unterhalb des Nackens.",
+        "Hebe die Stange aus, tritt ein oder zwei Schritte zurück und stelle dich etwa schulterbreit hin.",
+        "Spanne den Bauch an, schiebe die Hüfte zurück und beuge die Knie, bis die Oberschenkel mindestens waagerecht sind.",
+        "Drücke dich mit dem ganzen Fuß wieder hoch.",
+        "Halte die Brust oben und die Knie in Linie mit den Zehen; stelle die Sicherheitsstangen knapp unter deinen tiefsten Punkt."
+      ]
+    },
+    {
+      "code": "es",
+      "language": "Español",
+      "name": "Sentadilla trasera con barra",
+      "steps": [
+        "Pon la barra en un rack a la altura de los hombros y colócala sobre la espalda alta, bajo el cuello.",
+        "Saca la barra, da uno o dos pasos atrás y colócate con los pies a la anchura de los hombros.",
+        "Contrae el abdomen, lleva las caderas atrás y flexiona las rodillas hasta que los muslos queden al menos a la altura del suelo.",
+        "Empuja con todo el pie para volver a ponerte de pie.",
+        "Mantén el pecho alto y las rodillas en línea con las puntas; coloca los topes justo bajo tu punto más bajo."
+      ]
+    },
+    {
+      "code": "fr",
+      "language": "Français",
+      "name": "Squat arrière à la barre",
+      "steps": [
+        "Place la barre dans un rack à hauteur d'épaules et pose-la sur le haut du dos, sous la nuque.",
+        "Décroche la barre, recule d'un ou deux pas et place-toi pieds écartés d'environ la largeur des épaules.",
+        "Gaine ton ventre, puis recule les hanches et fléchis les genoux pour descendre jusqu'à ce que les cuisses soient au moins parallèles au sol.",
+        "Pousse sur toute la plante des pieds pour te redresser.",
+        "Garde la poitrine haute et les genoux dans l'axe des pieds ; règle les sécurités juste sous ton point le plus bas."
+      ]
+    },
+    {
+      "code": "it",
+      "language": "Italiano",
+      "name": "Squat con bilanciere",
+      "steps": [
+        "Posiziona il bilanciere nel rack all'altezza delle spalle e appoggialo sulla parte alta della schiena, sotto il collo.",
+        "Stacca il bilanciere, fai uno o due passi indietro e mettiti con i piedi a distanza di circa una spalla.",
+        "Contrai gli addominali, poi spingi il bacino indietro e piega le ginocchia fino ad avere le cosce almeno parallele al pavimento.",
+        "Spingi con tutto il piede per tornare in piedi.",
+        "Tieni il petto alto e le ginocchia in linea con le punte dei piedi; regola i fermi di sicurezza appena sotto il punto più basso."
+      ]
+    },
+    {
+      "code": "ja",
+      "language": "日本語",
+      "name": "バーベルスクワット",
+      "steps": [
+        "ラックのバーを肩の高さほどにセットし、首の下の上背にのせます。",
+        "バーを外して一、二歩後ろに下がり、足を肩幅ほどに開いて立ちます。",
+        "お腹に力を入れ、お尻を後ろに引いてひざを曲げ、太ももが少なくとも床と平行になるまでしゃがみます。",
+        "足裏全体で床を押して立ち上がります。",
+        "胸を張り、ひざをつま先と同じ方向に向けます。セーフティバーは最も低い位置のすぐ下にセットします。"
+      ]
+    },
+    {
+      "code": "ko",
+      "language": "한국어",
+      "name": "바벨 백 스쿼트",
+      "steps": [
+        "랙에서 바를 어깨 높이쯤에 걸고, 목 아래 윗등에 올리세요.",
+        "바를 랙에서 빼서 한두 걸음 뒤로 물러나, 발을 어깨너비로 벌리고 서세요.",
+        "복부에 힘을 주고 엉덩이를 뒤로 빼며 무릎을 굽혀, 허벅지가 적어도 바닥과 수평이 될 때까지 앉으세요.",
+        "발바닥 전체로 바닥을 밀어 일어서세요.",
+        "가슴은 들고 무릎은 발끝과 같은 방향으로 유지하세요. 세이프티 바는 가장 낮은 지점 바로 아래에 맞추세요."
+      ]
+    },
+    {
+      "code": "nl",
+      "language": "Nederlands",
+      "name": "Squat met halter",
+      "steps": [
+        "Zet de stang in een rek op ongeveer schouderhoogte en leg hem over je bovenrug, onder je nek.",
+        "Til de stang uit het rek, doe een of twee stappen naar achteren en sta met je voeten op ongeveer schouderbreedte.",
+        "Span je buikspieren aan, duw je heupen naar achteren en buig je knieën tot je bovenbenen minstens evenwijdig aan de grond zijn.",
+        "Duw door je hele voet om weer omhoog te komen.",
+        "Houd je borst omhoog en je knieën in lijn met je tenen. Zet de veiligheidsstangen net onder je laagste punt."
+      ]
+    },
+    {
+      "code": "pt-BR",
+      "language": "Português (Brasil)",
+      "name": "Agachamento com barra",
+      "steps": [
+        "Posicione a barra no rack na altura dos ombros e apoie-a nas costas altas, abaixo do pescoço.",
+        "Retire a barra do rack, dê um ou dois passos para trás e fique com os pés na largura dos ombros.",
+        "Contraia o abdômen, leve o quadril para trás e flexione os joelhos até as coxas ficarem pelo menos paralelas ao chão.",
+        "Empurre com o pé inteiro para voltar a ficar em pé.",
+        "Mantenha o peito erguido e os joelhos alinhados com os pés; coloque os apoios de segurança logo abaixo do ponto mais baixo."
+      ]
+    },
+    {
+      "code": "zh-Hans",
+      "language": "简体中文",
+      "name": "杠铃深蹲",
+      "steps": [
+        "把杠放在架上，高度约与肩齐，让杠横放在上背、颈部下方。",
+        "把杠从架上取下，后退一两步，双脚约与肩同宽。",
+        "收紧腹部，髋部后移并屈膝，下蹲到大腿至少与地面平行。",
+        "整个脚掌蹬地站起。",
+        "胸口挺起，膝盖与脚尖方向一致；安全挡杆设在最低点稍下方。"
+      ]
+    },
+    {
+      "code": "zh-Hant",
+      "language": "繁體中文",
+      "name": "槓鈴深蹲",
+      "steps": [
+        "將槓鈴放在深蹲架上約肩膀高度，扛在上背、頸部下方。",
+        "將槓鈴從架上舉起，後退一兩步，雙腳與肩同寬站立。",
+        "收緊腹部，髖部向後推並彎曲膝蓋，蹲到大腿至少與地面平行。",
+        "整個腳掌蹬地站起。",
+        "胸口挺起，膝蓋對準腳尖；安全桿設在最低點稍下方。"
+      ]
+    }
+  ]
+}

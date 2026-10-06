@@ -1,0 +1,49 @@
+/* Hallmark · tokens · custom theme anchored on the GymBells app's orange (#FF6B21), warm neutrals, system type.
+ * design-system: design.md (exercise-art public/) */
+:root {
+  color-scheme: light dark;
+  --color-paper:      oklch(97.5% 0.006 70);
+  --color-paper-2:    oklch(94.5% 0.009 70);
+  --color-rule:       oklch(86% 0.010 70);
+  --color-muted:      oklch(44% 0.012 60);
+  --color-ink:        oklch(20% 0.012 50);
+  --color-accent:     oklch(70.5% 0.19 45);   /* #FF6B21 */
+  --color-accent-ink: oklch(50% 0.16 42);     /* the accent dark enough for text on paper */
+  --color-on-accent:  oklch(20% 0.012 50);
+  --color-focus:      oklch(50% 0.16 42);
+  --color-plate:      oklch(100% 0 0);        /* the pictures are flattened onto white: their well must match */
+  --color-check:      oklch(90% 0.006 70);    /* the transparency checker's second square */
+  --color-scrim:      oklch(20% 0.012 50 / .55);
+
+  --font-display: ui-serif, "New York", "Iowan Old Style", Charter, "Palatino Linotype", Georgia, serif;
+  --font-body:    system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --font-mono:    ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --space-3xs: .25rem; --space-2xs: .5rem; --space-xs: .75rem; --space-sm: 1rem; --space-md: 1.5rem;
+  --space-lg: 2rem; --space-xl: 3rem; --space-2xl: 4.5rem;
+
+  --text-xs: .8125rem; --text-sm: .9375rem; --text-md: 1.0625rem; --text-lg: 1.25rem; --text-xl: 1.625rem;
+  --text-display: clamp(1.9rem, 2.2vw + 1.3rem, 3rem);
+
+  --rule: 1px solid var(--color-rule);
+  --radius: 4px;
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+  --dur-short: 150ms;
+  --measure: 62ch;
+  --page: 78rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper:      oklch(15% 0.008 60);
+    --color-paper-2:    oklch(19.5% 0.010 60);
+    --color-rule:       oklch(31% 0.010 60);
+    --color-muted:      oklch(73% 0.008 60);
+    --color-ink:        oklch(94% 0.006 70);
+    --color-accent:     oklch(74% 0.16 48);
+    --color-accent-ink: oklch(79% 0.14 52);
+    --color-on-accent:  oklch(17% 0.012 50);
+    --color-focus:      oklch(79% 0.14 52);
+    --color-check:      oklch(88% 0.006 70);
+    --color-scrim:      oklch(8% 0.008 60 / .7);
+  }
+}

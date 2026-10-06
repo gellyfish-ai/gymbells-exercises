@@ -1,0 +1,1472 @@
+{
+  "version": "0.3.0",
+  "programs": [
+    {
+      "id": "athletic-power",
+      "name": "Athletic Power",
+      "level": "intermediate",
+      "description": "Three days a week for 10 weeks to jump higher, sprint faster and change direction better. Each workout starts with jumps or throws while you are fresh, then a fast lift, then strength and single-leg work. Every jump and throw is done with full effort and full rest; stop a set when the reps slow down. Week 5 is a deload.",
+      "days": 3,
+      "weeks": 10
+    },
+    {
+      "id": "barbell-garage-gym",
+      "name": "Barbell Garage Gym",
+      "level": "intermediate",
+      "description": "Three full-body workouts a week for 12 weeks with what fits in a garage: a barbell and plates, a power rack with a pull-up bar and a flat bench that inclines. Each workout has a squat or deadlift, a press, a row or pull-up and some accessory work. The weights rise through three blocks with a deload in week 9. Lift inside the rack with the safety bars set just below your lowest position. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+      "days": 3,
+      "weeks": 12
+    },
+    {
+      "id": "beginner-barbell-strength",
+      "name": "Beginner Barbell Strength",
+      "level": "beginner",
+      "description": "A first barbell program: squat, bench press, overhead press, row and deadlift. Workouts A and B alternate three days a week for 12 weeks. Start light and add 2.5 kg to a lift whenever you complete all its sets and reps; if you miss the reps twice in a row, take 10% off and build back up.",
+      "days": 2,
+      "weeks": 12
+    },
+    {
+      "id": "body-part-split",
+      "name": "Body-Part Split",
+      "level": "advanced",
+      "description": "Five days a week, one muscle group a day: chest, back, legs, shoulders, then arms. Each session works its muscles with four or five exercises from several angles, and each muscle gets most of the week to recover. Eight weeks: a block of higher reps, then a heavier block. Add weight when every set reaches the top of the rep range.",
+      "days": 5,
+      "weeks": 8
+    },
+    {
+      "id": "bodyweight-pull-up-bar",
+      "name": "Bodyweight with a Pull-Up Bar",
+      "level": "intermediate",
+      "description": "Three workouts a week for 8 weeks with your bodyweight and a pull-up bar. Pull-ups, push-ups, single-leg squats and hanging core work, made harder over the weeks by more reps and harder versions instead of more weight. When you can do the top of the range on every set, slow the lowering down to three seconds, then move to the next version. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+      "days": 3,
+      "weeks": 8
+    },
+    {
+      "id": "core-and-posture",
+      "name": "Core and Posture",
+      "level": "beginner",
+      "description": "Two short sessions a week for 8 weeks, done on their own or after another workout. They train the core to resist moving, as it does when you lift and carry, and the upper back and shoulders that hold good posture. About 20 minutes each; move slowly and keep the lower back still.",
+      "days": 2,
+      "weeks": 8
+    },
+    {
+      "id": "dumbbell-only",
+      "name": "Dumbbell Only",
+      "level": "intermediate",
+      "description": "Three full-body workouts that need only a pair of dumbbells and a bench, for training at home. Do them in order across the week, and move to heavier dumbbells when every set reaches the top of the rep range.",
+      "days": 3,
+      "weeks": 8
+    },
+    {
+      "id": "dumbbell-upper-lower",
+      "name": "Dumbbell Upper / Lower",
+      "level": "intermediate",
+      "description": "Four days a week for 10 weeks with dumbbells and a bench: two upper-body and two lower-body workouts, each muscle trained twice a week. Single-leg exercises and slow lowering make light dumbbells work hard for the legs. Week 5 is a deload. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+      "days": 4,
+      "weeks": 10
+    },
+    {
+      "id": "dumbbells-and-a-bench",
+      "name": "Dumbbells and a Bench",
+      "level": "intermediate",
+      "description": "Three full-body workouts a week for 12 weeks with only a pair of adjustable dumbbells and an adjustable bench, at home or in a crowded gym. Squats, hinges, presses, rows and single-leg work in every phase; heavier from block to block, with a deload in week 9. When a weight becomes easy at the top of the rep range, move to the next dumbbell. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+      "days": 3,
+      "weeks": 12
+    },
+    {
+      "id": "first-month-in-the-gym",
+      "name": "First Month in the Gym",
+      "level": "beginner",
+      "description": "Four weeks for a complete beginner, three workouts a week alternating A and B. Machines and dumbbells come first because they are the easiest to learn safely; the goblet squat and dumbbell press prepare for barbell work. Use a weight you could lift a few more times at the end of each set. After the month, move on to Beginner Barbell Strength, Full Body Hypertrophy or Two Days a Week.",
+      "days": 2,
+      "weeks": 4
+    },
+    {
+      "id": "five-by-five-strength",
+      "name": "5×5 Strength",
+      "level": "beginner",
+      "description": "A barbell strength program built on five sets of five reps. Two workouts, A and B, alternate three days a week. Add a small amount of weight to each lift whenever you complete all sets and reps.",
+      "days": 2,
+      "weeks": 12
+    },
+    {
+      "id": "five-day-hypertrophy-split",
+      "name": "Five-Day Hypertrophy Split",
+      "level": "advanced",
+      "description": "Five long workouts a week for 12 weeks, 9 to 11 exercises each: chest and back, quads and calves, shoulders and arms, a second upper-body day and hamstrings and glutes, so every muscle is trained twice a week. Built for muscle growth with a full gym: barbells, dumbbells, cables and machines. Sets rise from the first block to the second and the weights rise in the third; week 9 is a deload.",
+      "days": 5,
+      "weeks": 12
+    },
+    {
+      "id": "full-body-beginner",
+      "name": "Full Body Beginner",
+      "level": "beginner",
+      "description": "Two full-body workouts, A and B, done alternately three days a week. Each session covers legs, a push, a pull and the core. A simple start for new lifters: add a little weight whenever you hit the top of the rep range on every set.",
+      "days": 2,
+      "weeks": 12
+    },
+    {
+      "id": "full-body-hypertrophy",
+      "name": "Full Body Hypertrophy",
+      "level": "intermediate",
+      "description": "Muscle-building on three full-body workouts a week for 12 weeks. Every workout trains legs, chest, back and shoulders, so each muscle is worked three times a week. Sets climb from three to four and the reps come down as the weights go up; week 9 is a deload. Take each set to one or two reps short of failure, and add weight when you reach the top of the range. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+      "days": 3,
+      "weeks": 12
+    },
+    {
+      "id": "full-body-phases",
+      "name": "Full Body in Phases",
+      "level": "intermediate",
+      "description": "Three full-body workouts, A, B and C, done in order three days a week for 12 weeks. The same exercises run through three 4-week phases, Build, Strength and Peak: each phase lifts heavier for fewer reps and rests longer between exercises. After the 12 weeks, the Peak phase repeats until you start another program.",
+      "days": 3,
+      "weeks": 12
+    },
+    {
+      "id": "high-volume-push-pull-legs",
+      "name": "High-Volume Push / Pull / Legs",
+      "level": "expert",
+      "description": "Six long workouts a week for 12 weeks, push, pull and legs twice, 10 or 11 exercises and 33 to 43 sets a day, for experienced lifters who recover well. The A days open with a reverse pyramid on a main lift (heaviest set first, then two lighter sets of more reps); the B days open with a top set and three back-off sets. Week 6 is a deload; the second block is heavier with fewer reps. Cut sets before cutting sleep or food: if the weights stall for two weeks, take the deload early.",
+      "days": 6,
+      "weeks": 12
+    },
+    {
+      "id": "intermediate-strength-upper-lower",
+      "name": "Intermediate Strength: Upper / Lower",
+      "level": "intermediate",
+      "description": "Four days a week, two upper-body and two lower-body workouts, for lifters who can no longer add weight every session. Twelve weeks in blocks: a volume block of more sets and reps, a strength block of heavier fives, a deload week, then a peak block of heavy doubles and triples. Within each block, add weight when you reach the top of the rep range on every set. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+      "days": 4,
+      "weeks": 12
+    },
+    {
+      "id": "joint-friendly-strength",
+      "name": "Joint-Friendly Strength",
+      "level": "beginner",
+      "description": "Three full-body workouts a week for 12 weeks, for older lifters, for anyone coming back after a long break, and for joints that do not like heavy barbells. Machines, dumbbells, the trap bar and the landmine keep the load easy to control; carries, single-leg work and band exercises train balance and the shoulders. Stop any exercise that hurts, and add weight slowly, only when every rep feels smooth. Check with a doctor first if you have a medical condition.",
+      "days": 3,
+      "weeks": 12
+    },
+    {
+      "id": "kettlebell-only",
+      "name": "Kettlebell Only",
+      "level": "intermediate",
+      "description": "Three workouts a week for 8 weeks with kettlebells alone: swings, cleans, presses, snatches, squats, get-ups and carries. The program starts with one moderate bell and moves to a heavier one for the last block; with one bell, do the two-handed exercises holding it by the horns. Learn the swing well before the snatch. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+      "days": 3,
+      "weeks": 8
+    },
+    {
+      "id": "lower-body-and-glutes",
+      "name": "Lower Body and Glutes",
+      "level": "intermediate",
+      "description": "Four days a week for 10 weeks, three of them for the legs and glutes and one for the upper body. Hip thrusts, squats, deadlift variations and single-leg work make up the heavy part of each leg day; kickbacks, abductions and band walks finish it. Week 5 is a deload between the two blocks. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+      "days": 4,
+      "weeks": 10
+    },
+    {
+      "id": "machines-and-cables",
+      "name": "Machines and Cables",
+      "level": "beginner",
+      "description": "Three full-body workouts a week for 8 weeks using only machines and cable stations. The machines guide each movement, so it is a good start for beginners and a safe way to train hard without a spotter. Adjust each seat so the joint you move lines up with the machine's pivot. Add one weight plate on the stack when every set reaches the top of the range.",
+      "days": 3,
+      "weeks": 8
+    },
+    {
+      "id": "no-equipment",
+      "name": "No Equipment",
+      "level": "beginner",
+      "description": "Three short full-body workouts a week for 6 weeks, with nothing but floor space. Squats, lunges, push-ups, bridges and core work, with a short burst of cardio to finish. A starting point for beginners and for days away from the gym; move on to Bodyweight with a Pull-Up Bar or a gym program afterwards.",
+      "days": 3,
+      "weeks": 6
+    },
+    {
+      "id": "olympic-lifting-basics",
+      "name": "Olympic Lifting Basics",
+      "level": "intermediate",
+      "description": "An introduction to the snatch and the clean and jerk, three days a week for 10 weeks. The first block teaches the positions from the hang with light weights; the second moves to the full lifts from the floor; the last two weeks are heavier. Squats and pulls build the strength the lifts need. Learn from a coach if you can, and only add weight while every rep is fast and in the right position.",
+      "days": 3,
+      "weeks": 10
+    },
+    {
+      "id": "powerbuilding",
+      "name": "Powerbuilding",
+      "level": "advanced",
+      "description": "Strength and size together, four days a week for 12 weeks. Each day starts heavy on one of the squat, bench press, deadlift or overhead press and finishes with higher-rep work for muscle. The main lifts get heavier from block to block while the accessories stay in the eight to fifteen range; week 9 is a deload.",
+      "days": 4,
+      "weeks": 12
+    },
+    {
+      "id": "push-pull-legs",
+      "name": "Push Pull Legs",
+      "level": "intermediate",
+      "description": "Three workouts, push, pull and legs, done in order, three days a week. Each day starts with a heavy main lift; add weight when every set reaches the top of its rep range.",
+      "days": 3,
+      "weeks": 8
+    },
+    {
+      "id": "push-pull-legs-six-day",
+      "name": "Push Pull Legs, Six Days",
+      "level": "advanced",
+      "description": "Push, pull and legs twice a week each, six days on and one day off, for 12 weeks. The first round of the week is built around the bench press, the deadlift and the back squat, the second around the overhead press, the barbell row and the front squat. For lifters with time to train most days; week 9 is a deload.",
+      "days": 6,
+      "weeks": 12
+    },
+    {
+      "id": "pyramid-upper-lower",
+      "name": "Pyramid Upper / Lower",
+      "level": "intermediate",
+      "description": "Four workouts a week for 9 weeks, two upper-body and two lower-body, with the main lifts done as a pyramid: each set heavier and with fewer reps than the last, so the light early sets warm you up and the last set is the heaviest. The other exercises are straight sets. Week 5 is a deload; the second block starts heavier with a shorter pyramid. When the last set reaches its reps, add weight to the whole pyramid next time. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+      "days": 4,
+      "weeks": 9
+    },
+    {
+      "id": "reverse-pyramid-strength",
+      "name": "Reverse Pyramid Strength",
+      "level": "intermediate",
+      "description": "Three full-body workouts a week for 10 weeks. The main lifts are a reverse pyramid: after warm-up sets, the heaviest set comes first while you are fresh, then two lighter sets of more reps, about 10% lighter each. Few hard sets, so the workouts are short. Week 5 is a deload; the second block starts heavier. When the first set reaches the top of its range, add weight to all three sets next time. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+      "days": 3,
+      "weeks": 10
+    },
+    {
+      "id": "squat-bench-deadlift-peak",
+      "name": "Squat, Bench and Deadlift Peak",
+      "level": "advanced",
+      "description": "Twelve weeks that bring the squat, bench press and deadlift to a one-rep max, for a competition or a test day. Four days a week: one heavy day for each lift and one day of paused and close-grip variations. The weights climb through a hypertrophy, a strength and a peaking block; week 12 is a light deload and then one day to test all three lifts.",
+      "days": 4,
+      "weeks": 12
+    },
+    {
+      "id": "strength-and-conditioning-circuits",
+      "name": "Strength and Conditioning Circuits",
+      "level": "intermediate",
+      "description": "Three circuit workouts a week for 8 weeks, for general fitness and conditioning. Do the exercises of a circuit in order with as little rest as you need, rest two minutes at the end of each round, and finish with the cardio piece. Rounds go up from three to five over the eight weeks. Pick weights you can move quickly and with good form for every rep.",
+      "days": 3,
+      "weeks": 8
+    },
+    {
+      "id": "top-set-upper-lower",
+      "name": "Top Set Upper / Lower",
+      "level": "advanced",
+      "description": "Four long workouts a week for 12 weeks, two upper-body and two lower-body, 8 to 10 exercises each. Every day opens with one heavy top set of a main lift, then lighter back-off sets of more reps with the same lift; the rest of the day is compound and isolation work for every muscle, arms, shoulders, calves and abs included. Each block is heavier with fewer reps; week 9 is a deload. Add weight to the top set when it reaches the top of its range.",
+      "days": 4,
+      "weeks": 12
+    },
+    {
+      "id": "two-days-a-week",
+      "name": "Two Days a Week",
+      "level": "beginner",
+      "description": "Two full-body workouts a week for 12 weeks, for when there is little time to train. Each workout covers a squat or deadlift, a press, a pull, single-leg work, arms and core, so two sessions train the whole body. Leave at least a day between them. Week 7 is a deload; add weight when every set reaches the top of the rep range.",
+      "days": 2,
+      "weeks": 12
+    },
+    {
+      "id": "upper-body-and-arms",
+      "name": "Upper Body and Arms",
+      "level": "intermediate",
+      "description": "Four days a week for 8 weeks with extra work for the arms and shoulders: three upper-body days, each with biceps and triceps work, and one leg day to keep the lower body trained. Some arm exercises are done as supersets, one straight after the other. Add weight when every set reaches the top of the rep range. Exercises marked optional add arms, shoulders, calves or abs for a longer day; leave them out when short of time.",
+      "days": 4,
+      "weeks": 8
+    },
+    {
+      "id": "upper-lower",
+      "name": "Upper / Lower",
+      "level": "intermediate",
+      "description": "A four-day split that alternates upper-body and lower-body workouts, training each muscle group twice a week. Day A of each pair is heavier with lower reps; day B uses lighter weights and higher reps.",
+      "days": 4,
+      "weeks": 8
+    },
+    {
+      "id": "upper-lower-hypertrophy",
+      "name": "Upper / Lower Hypertrophy",
+      "level": "advanced",
+      "description": "Four workouts a week, two for the upper body and two for the lower, built for muscle growth. Each muscle is trained twice a week with a mix of barbell, dumbbell, cable and machine work. Twelve weeks: volume rises through two blocks, week 9 is a deload and the last block is the hardest. Add weight when every set reaches the top of the rep range.",
+      "days": 4,
+      "weeks": 12
+    }
+  ],
+  "used": {
+    "Ab_Crunch_Machine": [
+      "five-day-hypertrophy-split",
+      "machines-and-cables"
+    ],
+    "Ab_Roller": [
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "squat-bench-deadlift-peak",
+      "top-set-upper-lower"
+    ],
+    "Air_Bike": [
+      "strength-and-conditioning-circuits"
+    ],
+    "Arnold_Dumbbell_Press": [
+      "body-part-split",
+      "dumbbell-upper-lower",
+      "five-day-hypertrophy-split"
+    ],
+    "Band_Pull_Apart": [
+      "core-and-posture",
+      "joint-friendly-strength"
+    ],
+    "Barbell_Ab_Rollout_-_On_Knees": [
+      "barbell-garage-gym"
+    ],
+    "Barbell_Bench_Press_-_Medium_Grip": [
+      "barbell-garage-gym",
+      "beginner-barbell-strength",
+      "body-part-split",
+      "five-by-five-strength",
+      "five-day-hypertrophy-split",
+      "full-body-beginner",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "powerbuilding",
+      "push-pull-legs",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "reverse-pyramid-strength",
+      "squat-bench-deadlift-peak",
+      "top-set-upper-lower",
+      "two-days-a-week",
+      "upper-body-and-arms",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Barbell_Bulgarian_Split_Squat": [
+      "squat-bench-deadlift-peak"
+    ],
+    "Barbell_Curl": [
+      "barbell-garage-gym",
+      "body-part-split",
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "powerbuilding",
+      "push-pull-legs-six-day",
+      "upper-body-and-arms"
+    ],
+    "Barbell_Deadlift": [
+      "barbell-garage-gym",
+      "beginner-barbell-strength",
+      "body-part-split",
+      "five-by-five-strength",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "powerbuilding",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "reverse-pyramid-strength",
+      "squat-bench-deadlift-peak",
+      "top-set-upper-lower",
+      "upper-lower"
+    ],
+    "Barbell_Deadlift_Paused": [
+      "squat-bench-deadlift-peak"
+    ],
+    "Barbell_Hip_Thrust": [
+      "barbell-garage-gym",
+      "five-day-hypertrophy-split",
+      "full-body-hypertrophy",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "lower-body-and-glutes",
+      "powerbuilding",
+      "push-pull-legs-six-day",
+      "top-set-upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Barbell_Incline_Bench_Press_-_Medium_Grip": [
+      "barbell-garage-gym",
+      "five-day-hypertrophy-split",
+      "full-body-hypertrophy",
+      "high-volume-push-pull-legs",
+      "reverse-pyramid-strength",
+      "top-set-upper-lower"
+    ],
+    "Barbell_Reverse_Lunge": [
+      "barbell-garage-gym"
+    ],
+    "Barbell_Shrug": [
+      "body-part-split",
+      "five-day-hypertrophy-split",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "push-pull-legs",
+      "pyramid-upper-lower",
+      "top-set-upper-lower",
+      "upper-body-and-arms",
+      "upper-lower"
+    ],
+    "Barbell_Squat": [
+      "barbell-garage-gym",
+      "beginner-barbell-strength",
+      "body-part-split",
+      "five-by-five-strength",
+      "five-day-hypertrophy-split",
+      "full-body-beginner",
+      "full-body-hypertrophy",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "lower-body-and-glutes",
+      "olympic-lifting-basics",
+      "powerbuilding",
+      "push-pull-legs",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "reverse-pyramid-strength",
+      "squat-bench-deadlift-peak",
+      "top-set-upper-lower",
+      "two-days-a-week",
+      "upper-body-and-arms",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Barbell_Walking_Lunge": [
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs"
+    ],
+    "Bent_Over_Barbell_Row": [
+      "barbell-garage-gym",
+      "beginner-barbell-strength",
+      "five-by-five-strength",
+      "five-day-hypertrophy-split",
+      "full-body-beginner",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "push-pull-legs",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "reverse-pyramid-strength",
+      "squat-bench-deadlift-peak",
+      "top-set-upper-lower",
+      "upper-body-and-arms",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Bent_Over_Two-Dumbbell_Row": [
+      "dumbbells-and-a-bench"
+    ],
+    "Bird_Dog": [
+      "core-and-posture",
+      "joint-friendly-strength",
+      "no-equipment"
+    ],
+    "Bodyweight_Bulgarian_Split_Squat": [
+      "bodyweight-pull-up-bar"
+    ],
+    "Bodyweight_Lateral_Lunge": [
+      "no-equipment"
+    ],
+    "Bodyweight_Reverse_Lunge": [
+      "no-equipment"
+    ],
+    "Bodyweight_Single-Leg_Deadlift": [
+      "bodyweight-pull-up-bar"
+    ],
+    "Bodyweight_Squat": [
+      "no-equipment"
+    ],
+    "Bodyweight_Walking_Lunge": [
+      "bodyweight-pull-up-bar"
+    ],
+    "Box_Jump": [
+      "athletic-power",
+      "strength-and-conditioning-circuits"
+    ],
+    "Box_Squat": [
+      "squat-bench-deadlift-peak"
+    ],
+    "Broad_Jump": [
+      "athletic-power"
+    ],
+    "Burpee": [
+      "no-equipment",
+      "strength-and-conditioning-circuits"
+    ],
+    "Butt_Lift_Bridge": [
+      "no-equipment"
+    ],
+    "Butterfly": [
+      "body-part-split",
+      "five-day-hypertrophy-split",
+      "machines-and-cables"
+    ],
+    "Cable_Crossover": [
+      "body-part-split",
+      "full-body-hypertrophy",
+      "push-pull-legs",
+      "upper-body-and-arms"
+    ],
+    "Cable_Crunch": [
+      "body-part-split",
+      "five-day-hypertrophy-split",
+      "full-body-hypertrophy",
+      "high-volume-push-pull-legs",
+      "lower-body-and-glutes",
+      "machines-and-cables",
+      "pyramid-upper-lower",
+      "top-set-upper-lower",
+      "upper-body-and-arms"
+    ],
+    "Cable_Fly_High_to_Low": [
+      "five-day-hypertrophy-split"
+    ],
+    "Cable_Fly_Mid_Height": [
+      "high-volume-push-pull-legs",
+      "top-set-upper-lower"
+    ],
+    "Cable_Hip_Abduction": [
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs"
+    ],
+    "Cable_Hip_Adduction": [
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs",
+      "top-set-upper-lower"
+    ],
+    "Cable_Overhead_Triceps_Extension_Bar": [
+      "five-day-hypertrophy-split"
+    ],
+    "Cable_Rear_Delt_Fly": [
+      "five-day-hypertrophy-split",
+      "full-body-hypertrophy",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "push-pull-legs",
+      "top-set-upper-lower",
+      "upper-body-and-arms",
+      "upper-lower"
+    ],
+    "Cable_Seated_Lateral_Raise": [
+      "machines-and-cables",
+      "push-pull-legs-six-day",
+      "top-set-upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Cable_Triceps_Kickback": [
+      "high-volume-push-pull-legs"
+    ],
+    "Cable_Y_Raise": [
+      "high-volume-push-pull-legs"
+    ],
+    "Calf_Press_On_The_Leg_Press_Machine": [
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs"
+    ],
+    "Cat-Cow": [
+      "core-and-posture"
+    ],
+    "Chin-Up": [
+      "beginner-barbell-strength",
+      "bodyweight-pull-up-bar",
+      "high-volume-push-pull-legs",
+      "reverse-pyramid-strength",
+      "upper-body-and-arms"
+    ],
+    "Clean": [
+      "olympic-lifting-basics"
+    ],
+    "Clean_Pull": [
+      "olympic-lifting-basics"
+    ],
+    "Clean_and_Press": [
+      "olympic-lifting-basics"
+    ],
+    "Close-Grip_Barbell_Bench_Press": [
+      "body-part-split",
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs",
+      "squat-bench-deadlift-peak",
+      "upper-body-and-arms"
+    ],
+    "Close-Grip_Front_Lat_Pulldown": [
+      "joint-friendly-strength",
+      "upper-lower-hypertrophy"
+    ],
+    "Dead_Bug": [
+      "core-and-posture",
+      "dumbbell-only",
+      "dumbbells-and-a-bench",
+      "first-month-in-the-gym",
+      "full-body-beginner",
+      "full-body-phases",
+      "joint-friendly-strength",
+      "lower-body-and-glutes",
+      "no-equipment",
+      "two-days-a-week"
+    ],
+    "Decline_Dumbbell_Bench_Press": [
+      "body-part-split"
+    ],
+    "Dips_-_Chest_Version": [
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs",
+      "push-pull-legs-six-day",
+      "top-set-upper-lower"
+    ],
+    "Dips_-_Triceps_Version": [
+      "squat-bench-deadlift-peak",
+      "upper-body-and-arms"
+    ],
+    "Dumbbell_Alternate_Bicep_Curl": [
+      "dumbbell-upper-lower"
+    ],
+    "Dumbbell_Bench_Press": [
+      "athletic-power",
+      "dumbbell-only",
+      "dumbbell-upper-lower",
+      "dumbbells-and-a-bench",
+      "first-month-in-the-gym",
+      "full-body-hypertrophy",
+      "lower-body-and-glutes",
+      "powerbuilding"
+    ],
+    "Dumbbell_Bicep_Curl": [
+      "dumbbell-only",
+      "dumbbells-and-a-bench",
+      "first-month-in-the-gym",
+      "full-body-beginner",
+      "full-body-phases",
+      "lower-body-and-glutes",
+      "push-pull-legs",
+      "pyramid-upper-lower",
+      "two-days-a-week",
+      "upper-lower"
+    ],
+    "Dumbbell_Bulgarian_Split_Squat": [
+      "athletic-power",
+      "dumbbell-upper-lower",
+      "dumbbells-and-a-bench",
+      "five-day-hypertrophy-split",
+      "full-body-hypertrophy",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "lower-body-and-glutes",
+      "top-set-upper-lower",
+      "two-days-a-week",
+      "upper-lower-hypertrophy"
+    ],
+    "Dumbbell_Flyes": [
+      "dumbbell-upper-lower"
+    ],
+    "Dumbbell_Glute_Bridge": [
+      "first-month-in-the-gym",
+      "joint-friendly-strength"
+    ],
+    "Dumbbell_Goblet_Squat": [
+      "dumbbell-only",
+      "dumbbells-and-a-bench",
+      "strength-and-conditioning-circuits"
+    ],
+    "Dumbbell_Hip_Thrust": [
+      "dumbbell-only",
+      "dumbbell-upper-lower",
+      "dumbbells-and-a-bench"
+    ],
+    "Dumbbell_Incline_Row": [
+      "dumbbell-only",
+      "dumbbell-upper-lower",
+      "dumbbells-and-a-bench",
+      "joint-friendly-strength"
+    ],
+    "Dumbbell_Lateral_Lunge": [
+      "athletic-power",
+      "dumbbells-and-a-bench"
+    ],
+    "Dumbbell_Lunges": [
+      "upper-lower"
+    ],
+    "Dumbbell_Rear_Lunge": [
+      "dumbbell-only",
+      "strength-and-conditioning-circuits"
+    ],
+    "Dumbbell_Romanian_Deadlift": [
+      "dumbbell-upper-lower",
+      "dumbbells-and-a-bench"
+    ],
+    "Dumbbell_Russian_Twist": [
+      "dumbbell-upper-lower",
+      "dumbbells-and-a-bench"
+    ],
+    "Dumbbell_Side_Bend": [
+      "dumbbell-upper-lower",
+      "dumbbells-and-a-bench"
+    ],
+    "Dumbbell_Squat": [
+      "dumbbell-upper-lower"
+    ],
+    "Dumbbell_Step_Ups": [
+      "dumbbells-and-a-bench",
+      "joint-friendly-strength",
+      "lower-body-and-glutes"
+    ],
+    "Dumbbell_Suitcase_Carry": [
+      "core-and-posture",
+      "joint-friendly-strength"
+    ],
+    "Dumbbell_Sumo_Squat": [
+      "dumbbell-upper-lower"
+    ],
+    "Dumbbell_Thruster": [
+      "strength-and-conditioning-circuits"
+    ],
+    "Dumbbell_Walking_Lunge": [
+      "dumbbell-upper-lower",
+      "intermediate-strength-upper-lower",
+      "lower-body-and-glutes",
+      "powerbuilding",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "reverse-pyramid-strength",
+      "top-set-upper-lower"
+    ],
+    "EZ-Bar_Curl": [
+      "full-body-hypertrophy",
+      "reverse-pyramid-strength",
+      "top-set-upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "EZ-Bar_Skullcrusher": [
+      "body-part-split",
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs",
+      "powerbuilding"
+    ],
+    "Face_Pull": [
+      "core-and-posture",
+      "five-day-hypertrophy-split",
+      "full-body-hypertrophy",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "joint-friendly-strength",
+      "lower-body-and-glutes",
+      "push-pull-legs",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "reverse-pyramid-strength",
+      "squat-bench-deadlift-peak",
+      "top-set-upper-lower",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Farmers_Walk": [
+      "athletic-power",
+      "strength-and-conditioning-circuits"
+    ],
+    "Front_Barbell_Squat": [
+      "athletic-power",
+      "barbell-garage-gym",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "olympic-lifting-basics",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "reverse-pyramid-strength",
+      "top-set-upper-lower",
+      "upper-lower"
+    ],
+    "Front_Squats_With_Two_Kettlebells": [
+      "kettlebell-only"
+    ],
+    "Goblet_Squat": [
+      "first-month-in-the-gym",
+      "full-body-beginner",
+      "joint-friendly-strength",
+      "kettlebell-only"
+    ],
+    "Hack_Squat": [
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs",
+      "machines-and-cables",
+      "upper-lower-hypertrophy"
+    ],
+    "Hammer_Curls": [
+      "body-part-split",
+      "dumbbell-only",
+      "dumbbell-upper-lower",
+      "dumbbells-and-a-bench",
+      "five-day-hypertrophy-split",
+      "full-body-hypertrophy",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "push-pull-legs",
+      "pyramid-upper-lower",
+      "reverse-pyramid-strength",
+      "upper-body-and-arms",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Hang_Clean": [
+      "olympic-lifting-basics"
+    ],
+    "Hang_Power_Clean": [
+      "athletic-power",
+      "olympic-lifting-basics"
+    ],
+    "Hang_Power_Snatch": [
+      "olympic-lifting-basics"
+    ],
+    "Hanging_Knee_Raise": [
+      "bodyweight-pull-up-bar",
+      "pyramid-upper-lower"
+    ],
+    "Hanging_Leg_Raise": [
+      "barbell-garage-gym",
+      "body-part-split",
+      "bodyweight-pull-up-bar",
+      "five-day-hypertrophy-split",
+      "full-body-hypertrophy",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "olympic-lifting-basics",
+      "powerbuilding",
+      "push-pull-legs",
+      "reverse-pyramid-strength",
+      "squat-bench-deadlift-peak",
+      "top-set-upper-lower",
+      "upper-body-and-arms",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Hollow_Hold": [
+      "bodyweight-pull-up-bar"
+    ],
+    "Hyperextensions_Back_Extensions": [
+      "core-and-posture",
+      "five-day-hypertrophy-split",
+      "intermediate-strength-upper-lower",
+      "olympic-lifting-basics",
+      "squat-bench-deadlift-peak"
+    ],
+    "Incline_Cable_Flye": [
+      "high-volume-push-pull-legs",
+      "push-pull-legs-six-day"
+    ],
+    "Incline_Dumbbell_Curl": [
+      "five-day-hypertrophy-split",
+      "full-body-hypertrophy",
+      "high-volume-push-pull-legs",
+      "push-pull-legs-six-day",
+      "top-set-upper-lower",
+      "upper-body-and-arms"
+    ],
+    "Incline_Dumbbell_Press": [
+      "body-part-split",
+      "dumbbell-only",
+      "dumbbell-upper-lower",
+      "dumbbells-and-a-bench",
+      "five-day-hypertrophy-split",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "joint-friendly-strength",
+      "powerbuilding",
+      "push-pull-legs",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "top-set-upper-lower",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Inverted_Row": [
+      "bodyweight-pull-up-bar",
+      "strength-and-conditioning-circuits"
+    ],
+    "Jump_Squat": [
+      "no-equipment"
+    ],
+    "Jumping_Jack": [
+      "no-equipment"
+    ],
+    "Kettlebell_Bent-Over_Row": [
+      "kettlebell-only"
+    ],
+    "Kettlebell_Clean_and_Press": [
+      "kettlebell-only"
+    ],
+    "Kettlebell_Farmers_Walk": [
+      "kettlebell-only"
+    ],
+    "Kettlebell_Floor_Press": [
+      "kettlebell-only"
+    ],
+    "Kettlebell_Goblet_Reverse_Lunge": [
+      "kettlebell-only"
+    ],
+    "Kettlebell_Halo": [
+      "kettlebell-only"
+    ],
+    "Kettlebell_One-Legged_Deadlift": [
+      "kettlebell-only"
+    ],
+    "Kettlebell_Romanian_Deadlift": [
+      "kettlebell-only"
+    ],
+    "Kettlebell_Russian_Twist": [
+      "kettlebell-only"
+    ],
+    "Kettlebell_Snatch": [
+      "kettlebell-only"
+    ],
+    "Kettlebell_Suitcase_Carry": [
+      "kettlebell-only"
+    ],
+    "Kettlebell_Swing": [
+      "kettlebell-only",
+      "strength-and-conditioning-circuits"
+    ],
+    "Kettlebell_Turkish_Get-Up_Squat_style": [
+      "kettlebell-only"
+    ],
+    "Kettlebell_Windmill": [
+      "kettlebell-only"
+    ],
+    "Landmine_Press": [
+      "joint-friendly-strength"
+    ],
+    "Lat_Pulldown_Neutral_Grip": [
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs",
+      "squat-bench-deadlift-peak"
+    ],
+    "Lateral_Box_Jump": [
+      "athletic-power"
+    ],
+    "Lateral_Raise_-_With_Bands": [
+      "joint-friendly-strength"
+    ],
+    "Leg_Extensions": [
+      "body-part-split",
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "lower-body-and-glutes",
+      "machines-and-cables",
+      "powerbuilding",
+      "push-pull-legs",
+      "pyramid-upper-lower",
+      "top-set-upper-lower",
+      "upper-body-and-arms",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Leg_Press": [
+      "body-part-split",
+      "first-month-in-the-gym",
+      "five-day-hypertrophy-split",
+      "full-body-hypertrophy",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "joint-friendly-strength",
+      "lower-body-and-glutes",
+      "machines-and-cables",
+      "powerbuilding",
+      "push-pull-legs",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "top-set-upper-lower",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Leverage_Chest_Press": [
+      "machines-and-cables"
+    ],
+    "Leverage_Iso_Row": [
+      "machines-and-cables"
+    ],
+    "Lying_Dumbbell_Tricep_Extension": [
+      "dumbbell-only",
+      "dumbbells-and-a-bench"
+    ],
+    "Lying_Leg_Curls": [
+      "body-part-split",
+      "first-month-in-the-gym",
+      "five-day-hypertrophy-split",
+      "full-body-hypertrophy",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "lower-body-and-glutes",
+      "machines-and-cables",
+      "powerbuilding",
+      "push-pull-legs",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "reverse-pyramid-strength",
+      "squat-bench-deadlift-peak",
+      "top-set-upper-lower",
+      "upper-body-and-arms",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Lying_Triceps_Press": [
+      "barbell-garage-gym",
+      "upper-body-and-arms",
+      "upper-lower-hypertrophy"
+    ],
+    "Machine_Bench_Press": [
+      "first-month-in-the-gym",
+      "high-volume-push-pull-legs",
+      "joint-friendly-strength",
+      "machines-and-cables",
+      "upper-lower-hypertrophy"
+    ],
+    "Machine_Bicep_Curl": [
+      "machines-and-cables"
+    ],
+    "Machine_Lateral_Raise": [
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs"
+    ],
+    "Machine_Shoulder_Military_Press": [
+      "first-month-in-the-gym",
+      "five-day-hypertrophy-split",
+      "machines-and-cables"
+    ],
+    "Machine_Shrug": [
+      "high-volume-push-pull-legs"
+    ],
+    "Medicine_Ball_Chest_Pass": [
+      "athletic-power"
+    ],
+    "Medicine_Ball_Rotational_Throw": [
+      "athletic-power"
+    ],
+    "Medicine_Ball_Slam": [
+      "strength-and-conditioning-circuits"
+    ],
+    "Monster_Walk": [
+      "lower-body-and-glutes"
+    ],
+    "Mountain_Climbers": [
+      "no-equipment",
+      "strength-and-conditioning-circuits"
+    ],
+    "Muscle_Snatch": [
+      "olympic-lifting-basics"
+    ],
+    "Nordic_Hamstring_Curl": [
+      "athletic-power",
+      "bodyweight-pull-up-bar"
+    ],
+    "One-Arm_Dumbbell_Row": [
+      "athletic-power",
+      "dumbbell-only",
+      "dumbbell-upper-lower",
+      "dumbbells-and-a-bench",
+      "full-body-hypertrophy",
+      "high-volume-push-pull-legs",
+      "push-pull-legs-six-day",
+      "squat-bench-deadlift-peak"
+    ],
+    "One-Arm_Kettlebell_Row": [
+      "kettlebell-only"
+    ],
+    "One-Legged_Cable_Kickback": [
+      "lower-body-and-glutes"
+    ],
+    "Overhead_Squat": [
+      "olympic-lifting-basics"
+    ],
+    "Pallof_Press": [
+      "athletic-power",
+      "core-and-posture",
+      "machines-and-cables"
+    ],
+    "Pendlay_Row": [
+      "barbell-garage-gym",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower"
+    ],
+    "Pike_Push-Up": [
+      "bodyweight-pull-up-bar",
+      "no-equipment"
+    ],
+    "Pistol_Squat": [
+      "bodyweight-pull-up-bar"
+    ],
+    "Plank": [
+      "barbell-garage-gym",
+      "beginner-barbell-strength",
+      "bodyweight-pull-up-bar",
+      "core-and-posture",
+      "first-month-in-the-gym",
+      "no-equipment",
+      "olympic-lifting-basics",
+      "reverse-pyramid-strength",
+      "squat-bench-deadlift-peak",
+      "two-days-a-week"
+    ],
+    "Plank_Shoulder_Tap": [
+      "strength-and-conditioning-circuits"
+    ],
+    "Power_Clean": [
+      "olympic-lifting-basics"
+    ],
+    "Power_Snatch": [
+      "olympic-lifting-basics"
+    ],
+    "Preacher_Curl": [
+      "body-part-split",
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs",
+      "upper-body-and-arms"
+    ],
+    "Prone_Y_Raise": [
+      "no-equipment"
+    ],
+    "Pull_Through": [
+      "lower-body-and-glutes"
+    ],
+    "Pullups": [
+      "athletic-power",
+      "barbell-garage-gym",
+      "bodyweight-pull-up-bar",
+      "powerbuilding",
+      "push-pull-legs",
+      "push-pull-legs-six-day",
+      "reverse-pyramid-strength",
+      "squat-bench-deadlift-peak",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Push-Ups_-_Close_Triceps_Position": [
+      "no-equipment"
+    ],
+    "Push-Ups_With_Feet_Elevated": [
+      "bodyweight-pull-up-bar"
+    ],
+    "Push_Jerk": [
+      "olympic-lifting-basics"
+    ],
+    "Push_Press": [
+      "athletic-power",
+      "olympic-lifting-basics",
+      "strength-and-conditioning-circuits"
+    ],
+    "Pushups": [
+      "bodyweight-pull-up-bar",
+      "no-equipment",
+      "strength-and-conditioning-circuits"
+    ],
+    "Reverse_Barbell_Curl": [
+      "high-volume-push-pull-legs",
+      "upper-body-and-arms"
+    ],
+    "Reverse_Crunch": [
+      "core-and-posture",
+      "high-volume-push-pull-legs"
+    ],
+    "Reverse_Flyes": [
+      "body-part-split",
+      "dumbbells-and-a-bench",
+      "powerbuilding"
+    ],
+    "Reverse_Hyperextension": [
+      "lower-body-and-glutes"
+    ],
+    "Reverse_Machine_Flyes": [
+      "high-volume-push-pull-legs",
+      "machines-and-cables",
+      "push-pull-legs-six-day"
+    ],
+    "Ring_Row": [
+      "strength-and-conditioning-circuits"
+    ],
+    "Romanian_Deadlift": [
+      "body-part-split",
+      "five-day-hypertrophy-split",
+      "full-body-beginner",
+      "full-body-hypertrophy",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "lower-body-and-glutes",
+      "olympic-lifting-basics",
+      "push-pull-legs",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "reverse-pyramid-strength",
+      "top-set-upper-lower",
+      "two-days-a-week",
+      "upper-body-and-arms",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Rowing_Machine": [
+      "strength-and-conditioning-circuits"
+    ],
+    "Scapular_Pull-Up": [
+      "bodyweight-pull-up-bar"
+    ],
+    "Seated_Barbell_Press": [
+      "body-part-split",
+      "five-day-hypertrophy-split"
+    ],
+    "Seated_Bent-Over_Rear_Delt_Raise": [
+      "dumbbell-upper-lower"
+    ],
+    "Seated_Cable_Row_V-Bar": [
+      "five-day-hypertrophy-split"
+    ],
+    "Seated_Cable_Row_Wide_Grip": [
+      "high-volume-push-pull-legs"
+    ],
+    "Seated_Cable_Rows": [
+      "body-part-split",
+      "first-month-in-the-gym",
+      "full-body-hypertrophy",
+      "full-body-phases",
+      "intermediate-strength-upper-lower",
+      "joint-friendly-strength",
+      "lower-body-and-glutes",
+      "machines-and-cables",
+      "powerbuilding",
+      "push-pull-legs",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "top-set-upper-lower",
+      "two-days-a-week",
+      "upper-body-and-arms",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Seated_Calf_Raise": [
+      "five-day-hypertrophy-split",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "lower-body-and-glutes",
+      "push-pull-legs",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "top-set-upper-lower",
+      "upper-body-and-arms",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Seated_Dumbbell_Press": [
+      "dumbbell-only",
+      "dumbbell-upper-lower",
+      "dumbbells-and-a-bench",
+      "full-body-hypertrophy",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "lower-body-and-glutes",
+      "push-pull-legs",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "two-days-a-week",
+      "upper-body-and-arms",
+      "upper-lower-hypertrophy"
+    ],
+    "Seated_Leg_Curl": [
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "joint-friendly-strength",
+      "machines-and-cables",
+      "push-pull-legs-six-day",
+      "top-set-upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Side_Bridge": [
+      "bodyweight-pull-up-bar",
+      "core-and-posture",
+      "no-equipment"
+    ],
+    "Side_Lateral_Raise": [
+      "body-part-split",
+      "dumbbell-only",
+      "dumbbell-upper-lower",
+      "dumbbells-and-a-bench",
+      "five-day-hypertrophy-split",
+      "full-body-beginner",
+      "full-body-hypertrophy",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "lower-body-and-glutes",
+      "powerbuilding",
+      "push-pull-legs",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "reverse-pyramid-strength",
+      "top-set-upper-lower",
+      "two-days-a-week",
+      "upper-body-and-arms",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Single_Leg_Glute_Bridge": [
+      "athletic-power",
+      "bodyweight-pull-up-bar",
+      "lower-body-and-glutes",
+      "no-equipment"
+    ],
+    "Sled_Push": [
+      "strength-and-conditioning-circuits"
+    ],
+    "Smith_Machine_Squat": [
+      "machines-and-cables"
+    ],
+    "Snatch": [
+      "olympic-lifting-basics"
+    ],
+    "Snatch_Balance": [
+      "olympic-lifting-basics"
+    ],
+    "Snatch_Pull": [
+      "olympic-lifting-basics"
+    ],
+    "Split_Jerk": [
+      "olympic-lifting-basics"
+    ],
+    "Split_Squat_with_Dumbbells": [
+      "dumbbell-only",
+      "full-body-phases"
+    ],
+    "Standing_Calf_Raises": [
+      "body-part-split",
+      "five-day-hypertrophy-split",
+      "full-body-hypertrophy",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "lower-body-and-glutes",
+      "powerbuilding",
+      "push-pull-legs",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "reverse-pyramid-strength",
+      "top-set-upper-lower",
+      "upper-body-and-arms",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Standing_Dumbbell_Calf_Raise": [
+      "dumbbell-upper-lower"
+    ],
+    "Standing_Dumbbell_Triceps_Extension": [
+      "dumbbell-upper-lower",
+      "push-pull-legs",
+      "upper-lower"
+    ],
+    "Standing_Military_Press": [
+      "barbell-garage-gym",
+      "beginner-barbell-strength",
+      "five-by-five-strength",
+      "full-body-beginner",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "powerbuilding",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "reverse-pyramid-strength",
+      "squat-bench-deadlift-peak",
+      "top-set-upper-lower",
+      "upper-lower"
+    ],
+    "Stiff-Legged_Barbell_Deadlift": [
+      "high-volume-push-pull-legs"
+    ],
+    "Stiff-Legged_Dumbbell_Deadlift": [
+      "dumbbell-only",
+      "dumbbell-upper-lower"
+    ],
+    "Straight-Arm_Dumbbell_Pullover": [
+      "dumbbell-only",
+      "dumbbell-upper-lower"
+    ],
+    "Straight-Arm_Pulldown": [
+      "body-part-split",
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs"
+    ],
+    "Sumo_Deadlift": [
+      "lower-body-and-glutes"
+    ],
+    "Superman": [
+      "no-equipment"
+    ],
+    "T-Bar_Row_with_Handle": [
+      "body-part-split",
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs"
+    ],
+    "Thigh_Abductor": [
+      "lower-body-and-glutes"
+    ],
+    "Trap_Bar_Deadlift": [
+      "athletic-power",
+      "joint-friendly-strength",
+      "strength-and-conditioning-circuits",
+      "two-days-a-week"
+    ],
+    "Triceps_Overhead_Extension_with_Rope": [
+      "full-body-hypertrophy",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "top-set-upper-lower",
+      "upper-body-and-arms"
+    ],
+    "Triceps_Pushdown": [
+      "first-month-in-the-gym",
+      "full-body-hypertrophy",
+      "full-body-phases",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "machines-and-cables",
+      "push-pull-legs",
+      "pyramid-upper-lower",
+      "reverse-pyramid-strength",
+      "top-set-upper-lower",
+      "two-days-a-week",
+      "upper-body-and-arms",
+      "upper-lower",
+      "upper-lower-hypertrophy"
+    ],
+    "Triceps_Pushdown_-_Rope_Attachment": [
+      "body-part-split",
+      "five-day-hypertrophy-split",
+      "powerbuilding",
+      "push-pull-legs-six-day"
+    ],
+    "Two-Arm_Kettlebell_Military_Press": [
+      "kettlebell-only"
+    ],
+    "Wall_Angel": [
+      "core-and-posture"
+    ],
+    "Weighted_Pull_Ups": [
+      "five-day-hypertrophy-split",
+      "high-volume-push-pull-legs",
+      "intermediate-strength-upper-lower",
+      "pyramid-upper-lower",
+      "top-set-upper-lower"
+    ],
+    "Wide-Grip_Lat_Pulldown": [
+      "body-part-split",
+      "first-month-in-the-gym",
+      "full-body-beginner",
+      "full-body-hypertrophy",
+      "full-body-phases",
+      "intermediate-strength-upper-lower",
+      "lower-body-and-glutes",
+      "machines-and-cables",
+      "powerbuilding",
+      "push-pull-legs-six-day",
+      "pyramid-upper-lower",
+      "top-set-upper-lower",
+      "two-days-a-week",
+      "upper-lower"
+    ]
+  }
+}

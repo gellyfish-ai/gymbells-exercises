@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GymBells exercises: training programs</title>
+<meta name="description" content="35 training programs written out in full: days, exercises, sets, repetitions, rests and swaps, with a picture of every exercise.">
+<link rel="stylesheet" href="tokens.css?v=0e09b793">
+<link rel="stylesheet" href="site.css?v=0e09b793">
+</head>
+<body class="programs">
+<nav class="top" aria-label="Site"><div class="wrap">
+  <a class="brand" href="index.html">GymBells exercises</a>
+  <span class="links"><a href="index.html">Catalogue</a><a href="programs.html" aria-current="page">Programs</a><a href="more.html">Licensing</a></span>
+  <a class="app" href="https://gymbells.gellyfish.dev">Get the app</a>
+</div></nav>
+<div id="list-view">
+<header>
+  <h1>35 training programs, written out in full.</h1>
+  <p>Every day, exercise, set and rest, with a picture of each exercise and the swaps you can make.
+    To follow one and log your sets and weights, use the <a href="https://gymbells.gellyfish.dev">GymBells app</a>.</p>
+</header>
+<form id="filters" role="search" onsubmit="return false">
+  <input id="q" type="search" placeholder="Search programs, e.g. dumbbell, 5×5" aria-label="Search" autocomplete="off">
+  <select id="level" aria-label="Level"><option value="">All levels</option></select>
+  <select id="days" aria-label="Workouts"><option value="">Any number of workouts</option></select>
+</form>
+<p id="count" class="num" aria-live="polite"></p>
+<main id="plist"></main>
+</div>
+<main id="program" hidden>
+  <header>
+    <p class="back"><a href="programs.html">All programs</a></p>
+    <h1 id="p-name"></h1>
+    <p id="p-text"></p>
+    <p id="p-meta" class="meta num"></p>
+  </header>
+  <div id="p-phases"></div>
+  <section class="contact">
+    <h2>Follow this program in the GymBells app.</h2>
+    <p>It keeps your sets and weights, times your rests and tells you when to add weight.
+      <a class="app" href="https://gymbells.gellyfish.dev">Get the app</a></p>
+  </section>
+</main>
+<footer>
+  <p><span class="num">Release 0.3.0 · 2026-10-06</span><a href="index.html">Catalogue</a><a href="more.html">Licensing</a>
+    <a href="LICENSE">CC BY-NC 4.0</a><a href="https://gymbells.gellyfish.dev">GymBells app</a></p>
+</footer>
+<script src="programs.js?v=0e09b793"></script>
+</body>
+</html>

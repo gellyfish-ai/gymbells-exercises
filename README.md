@@ -2,9 +2,9 @@
 
 **[Browse the catalogue →](https://gellyfish-ai.github.io/gymbells-exercises/)**
 
-200 gym exercises with illustrations, a start and an end picture each, plus names, other names,
+297 gym exercises with illustrations, a start and an end picture each, plus names, other names,
 steps, equipment and muscles. They are made for the [GymBells](https://gellyfish.dev/gymbells/) app and
-shared here for non-commercial use. Release 0.2.0 (2026-10-01).
+shared here for non-commercial use. Release 0.3.0 (2026-10-06).
 
 <table>
 <tr><td align="center"><a href="https://gellyfish-ai.github.io/gymbells-exercises/#Barbell_Squat"><img src="images/barbell-back-squat/start.png" width="180" alt=""><img src="images/barbell-back-squat/end.png" width="180" alt=""></a><br><b>Barbell Back Squat</b></td><td align="center"><a href="https://gellyfish-ai.github.io/gymbells-exercises/#Barbell_Deadlift"><img src="images/barbell-deadlift/start.png" width="180" alt=""><img src="images/barbell-deadlift/end.png" width="180" alt=""></a><br><b>Barbell Deadlift</b></td></tr>
@@ -13,13 +13,13 @@ shared here for non-commercial use. Release 0.2.0 (2026-10-01).
 <tr><td align="center"><a href="https://gellyfish-ai.github.io/gymbells-exercises/#Barbell_Hip_Thrust"><img src="images/barbell-hip-thrust/start.png" width="180" alt=""><img src="images/barbell-hip-thrust/end.png" width="180" alt=""></a><br><b>Barbell Hip Thrust</b></td><td align="center"><a href="https://gellyfish-ai.github.io/gymbells-exercises/#Seated_Cable_Rows"><img src="images/seated-cable-row/start.png" width="180" alt=""><img src="images/seated-cable-row/end.png" width="180" alt=""></a><br><b>Seated Cable Row</b></td></tr>
 </table>
 
-By equipment: Dumbbell 43, Barbell 42, Cable machine 25, Bodyweight 17, Kettlebell 10, Band 6, Smith machine 6, Lat pulldown machine 5, EZ bar 4, Flat bench 4, Dip bars 3, Leg press machine 3, Pull-up bar 3, other 29.
+By equipment: Barbell 71, Dumbbell 59, Bodyweight 33, Cable machine 32, Kettlebell 21, Band 6, Lat pulldown machine 6, Smith machine 6, Flat bench 5, Pull-up bar 5, EZ bar 4, Seated cable row 4, Dip bars 3, Leg press machine 3, Medicine ball 3, other 36.
 
 ## Files
 
 ```
 images/<pose>/start.png, end.png   512 px pictures on white; several exercises can share one pose
-exercises.json                     per exercise id: pose, equipment, primary and secondary muscles, level, mechanic, category
+exercises.json                     per exercise id: pose, equipment, primary and secondary muscles, level, mechanic, pattern, category
 text/en.json                       per exercise id: name, other names, steps; labels for muscles, equipment, levels
 ```
 

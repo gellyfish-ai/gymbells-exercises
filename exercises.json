@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "exercises": {
     "Ab_Crunch_Machine": {
       "pose": "ab-crunch-machine",
@@ -13,8 +13,16 @@
       "secondary_muscles": [],
       "level": "intermediate",
       "mechanic": "isolation",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Cable_Crunch",
+        "Decline_Crunch",
+        "Crunches"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Ab_Roller": {
       "pose": "ab-roller",
@@ -29,8 +37,41 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Ab_Rollout_-_On_Knees",
+        "Plank"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Air_Bike": {
+      "pose": "air-bike",
+      "equipment": [
+        "air_bike"
+      ],
+      "primary_muscles": [
+        "quadriceps",
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "glutes",
+        "chest"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "cardio",
+      "aliases": [],
+      "swaps": [
+        "Rowing_Machine",
+        "Burpee"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Alternate_Hammer_Curl": {
       "pose": "alternate-hammer-curl",
@@ -45,8 +86,15 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Hammer_Curls",
+        "Cable_Hammer_Curls_-_Rope_Attachment"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Alternating_Renegade_Row": {
       "pose": "alternating-renegade-row",
@@ -65,8 +113,14 @@
       ],
       "level": "expert",
       "mechanic": "compound",
+      "pattern": "pull_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "One-Arm_Dumbbell_Row"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Arnold_Dumbbell_Press": {
       "pose": "arnold-dumbbell-press",
@@ -82,8 +136,16 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seated_Dumbbell_Press",
+        "Dumbbell_Shoulder_Press",
+        "Machine_Shoulder_Military_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Ball_Leg_Curl": {
       "pose": "ball-leg-curl",
@@ -99,8 +161,14 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Lying_Leg_Curls"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Band_Assisted_Pull-Up": {
       "pose": "band-assisted-pull-up",
@@ -118,8 +186,14 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Wide-Grip_Lat_Pulldown"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Band_Pull_Apart": {
       "pose": "band-pull-apart",
@@ -135,8 +209,16 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Face_Pull",
+        "Reverse_Flyes",
+        "Cable_Rear_Delt_Fly"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Band_Skull_Crusher": {
       "pose": "band-skull-crusher",
@@ -150,8 +232,15 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Lying_Dumbbell_Tricep_Extension",
+        "EZ-Bar_Skullcrusher"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Barbell_Ab_Rollout_-_On_Knees": {
       "pose": "barbell-ab-rollout-on-knees",
@@ -167,8 +256,14 @@
       ],
       "level": "expert",
       "mechanic": "compound",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Ab_Roller"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Barbell_Bench_Press_-_Medium_Grip": {
       "pose": "barbell-bench-press",
@@ -186,8 +281,49 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Bench_Press",
+        "Smith_Machine_Bench_Press",
+        "Machine_Bench_Press",
+        "Leverage_Chest_Press",
+        "Cable_Chest_Press",
+        "Barbell_Floor_Press",
+        "Pushups",
+        "Dumbbell_Floor_Press"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Barbell_Bulgarian_Split_Squat": {
+      "pose": "barbell-bulgarian-split-squat",
+      "equipment": [
+        "barbell",
+        "flat_bench",
+        "rack"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "lunge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Bulgarian_Split_Squat",
+        "Smith_Single-Leg_Split_Squat",
+        "Barbell_Split_Squat",
+        "Bodyweight_Bulgarian_Split_Squat"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Barbell_Curl": {
       "pose": "barbell-curl",
@@ -202,8 +338,18 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "EZ-Bar_Curl",
+        "Dumbbell_Bicep_Curl",
+        "Standing_Biceps_Cable_Curl",
+        "Machine_Bicep_Curl",
+        "Preacher_Curl"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Barbell_Deadlift": {
       "pose": "barbell-deadlift",
@@ -225,8 +371,70 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "hinge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Trap_Bar_Deadlift",
+        "Sumo_Deadlift",
+        "Dumbbell_Deadlift",
+        "Rack_Pull"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Barbell_Deadlift_Paused": {
+      "pose": "barbell-deadlift-paused",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "hamstrings",
+        "glutes",
+        "lower_back"
+      ],
+      "secondary_muscles": [
+        "quadriceps",
+        "traps",
+        "forearms"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "powerlifting",
+      "aliases": [],
+      "swaps": [
+        "Barbell_Deadlift",
+        "Deficit_Deadlift",
+        "Trap_Bar_Deadlift"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Barbell_Floor_Press": {
+      "pose": "floor-press",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "triceps"
+      ],
+      "secondary_muscles": [
+        "chest",
+        "shoulders"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "push_horizontal",
+      "category": "powerlifting",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Floor_Press",
+        "Kettlebell_Floor_Press",
+        "Close-Grip_Barbell_Bench_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Barbell_Full_Squat": {
       "pose": "barbell-full-squat",
@@ -245,8 +453,19 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "squat",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Squat",
+        "Front_Barbell_Squat",
+        "Smith_Machine_Squat",
+        "Hack_Squat",
+        "Dumbbell_Goblet_Squat",
+        "Leg_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Barbell_Glute_Bridge": {
       "pose": "barbell-glute-bridge",
@@ -262,8 +481,16 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "hinge",
       "category": "powerlifting",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Hip_Thrust",
+        "Dumbbell_Glute_Bridge",
+        "Butt_Lift_Bridge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Barbell_Hip_Thrust": {
       "pose": "barbell-hip-thrust",
@@ -280,8 +507,15 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "hinge",
       "category": "powerlifting",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Hip_Thrust",
+        "Barbell_Glute_Bridge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Barbell_Incline_Bench_Press_-_Medium_Grip": {
       "pose": "barbell-incline-bench-press",
@@ -299,8 +533,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Incline_Dumbbell_Press",
+        "Hammer_Grip_Incline_DB_Bench_Press",
+        "Push-Ups_With_Feet_Elevated"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Barbell_Lunge": {
       "pose": "barbell-lunge",
@@ -318,8 +560,43 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "lunge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Lunges",
+        "Barbell_Reverse_Lunge",
+        "Barbell_Walking_Lunge"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Barbell_Reverse_Lunge": {
+      "pose": "barbell-reverse-lunge",
+      "equipment": [
+        "barbell",
+        "rack"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "lunge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Rear_Lunge",
+        "Kettlebell_Goblet_Reverse_Lunge",
+        "Barbell_Lunge",
+        "Bodyweight_Reverse_Lunge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Barbell_Shoulder_Press": {
       "pose": "barbell-shoulder-press",
@@ -337,8 +614,18 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seated_Barbell_Press",
+        "Seated_Dumbbell_Press",
+        "Smith_Machine_Overhead_Shoulder_Press",
+        "Machine_Shoulder_Military_Press",
+        "Standing_Military_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Barbell_Shrug": {
       "pose": "barbell-shrug",
@@ -351,8 +638,66 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Shrug",
+        "Machine_Shrug"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Barbell_Skull_Crusher": {
+      "pose": "barbell-skullcrusher",
+      "equipment": [
+        "barbell",
+        "flat_bench"
+      ],
+      "primary_muscles": [
+        "triceps"
+      ],
+      "secondary_muscles": [],
+      "level": "intermediate",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "EZ-Bar_Skullcrusher",
+        "Lying_Triceps_Press",
+        "Lying_Dumbbell_Tricep_Extension",
+        "JM_Press"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Barbell_Split_Squat": {
+      "pose": "barbell-split-squat",
+      "equipment": [
+        "barbell",
+        "rack"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "lunge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Split_Squat_with_Dumbbells",
+        "Smith_Single-Leg_Split_Squat",
+        "Barbell_Bulgarian_Split_Squat",
+        "Barbell_Reverse_Lunge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Barbell_Squat": {
       "pose": "barbell-back-squat",
@@ -371,8 +716,19 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "squat",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Smith_Machine_Squat",
+        "Hack_Squat",
+        "Leg_Press",
+        "Front_Barbell_Squat",
+        "Dumbbell_Squat",
+        "Goblet_Squat"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Barbell_Step_Ups": {
       "pose": "barbell-step-up",
@@ -392,11 +748,43 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "lunge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Step_Ups",
+        "Barbell_Lunge"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Barbell_Thruster": {
+      "pose": "barbell-thruster",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "shoulders",
+        "triceps"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "squat",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Thruster",
+        "Kettlebell_Thruster"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Barbell_Walking_Lunge": {
-      "pose": "barbell-lunge",
+      "pose": "barbell-walking-lunge",
       "equipment": [
         "barbell",
         "rack"
@@ -411,8 +799,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "lunge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Walking_Lunge",
+        "Bodyweight_Walking_Lunge",
+        "Barbell_Lunge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Bench_Dips": {
       "pose": "bench-dips",
@@ -428,8 +824,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dips_-_Triceps_Version",
+        "Dip_Machine",
+        "Push-Ups_-_Close_Triceps_Position"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Bench_Press_-_With_Bands": {
       "pose": "bench-press-with-bands",
@@ -448,8 +852,14 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Bench_Press_-_Medium_Grip"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Bent-Arm_Dumbbell_Pullover": {
       "pose": "bent-arm-dumbbell-pullover",
@@ -467,8 +877,14 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Straight-Arm_Dumbbell_Pullover"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Bent_Over_Barbell_Row": {
       "pose": "bent-over-barbell-row",
@@ -485,8 +901,19 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Bent_Over_Two-Dumbbell_Row",
+        "Pendlay_Row",
+        "T-Bar_Row_with_Handle",
+        "Seated_Cable_Rows",
+        "Leverage_Iso_Row",
+        "Dumbbell_Incline_Row"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Bent_Over_Two-Dumbbell_Row": {
       "pose": "bent-over-two-dumbbell-row",
@@ -503,8 +930,65 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Bent_Over_Barbell_Row",
+        "Dumbbell_Incline_Row",
+        "Kettlebell_Bent-Over_Row",
+        "One-Arm_Dumbbell_Row",
+        "Seated_Cable_Rows"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Bird_Dog": {
+      "pose": "bird-dog",
+      "equipment": [],
+      "primary_muscles": [
+        "lower_back",
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "shoulders"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dead_Bug",
+        "Superman"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Bodyweight_Bulgarian_Split_Squat": {
+      "pose": "bodyweight-bulgarian-split-squat",
+      "equipment": [
+        "flat_bench"
+      ],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "lunge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Bulgarian_Split_Squat",
+        "Bodyweight_Reverse_Lunge"
+      ],
+      "easier": "Bodyweight_Walking_Lunge",
+      "harder": null
     },
     "Bodyweight_Calf_Raise": {
       "pose": "bodyweight-calf-raise",
@@ -515,8 +999,82 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Standing_Dumbbell_Calf_Raise",
+        "Standing_Calf_Raises"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Bodyweight_Lateral_Lunge": {
+      "pose": "bodyweight-lateral-lunge",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "adductors"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "lunge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Lateral_Lunge"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Bodyweight_Reverse_Lunge": {
+      "pose": "bodyweight-reverse-lunge",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "calves"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "lunge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Bodyweight_Walking_Lunge",
+        "Dumbbell_Rear_Lunge"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Bodyweight_Single-Leg_Deadlift": {
+      "pose": "bodyweight-single-leg-deadlift",
+      "equipment": [],
+      "primary_muscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "lower_back"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Kettlebell_One-Legged_Deadlift",
+        "Single_Leg_Glute_Bridge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Bodyweight_Squat": {
       "pose": "bodyweight-squat",
@@ -530,8 +1088,15 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "squat",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Goblet_Squat",
+        "Goblet_Squat"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Bodyweight_Walking_Lunge": {
       "pose": "bodyweight-walking-lunge",
@@ -546,8 +1111,41 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "lunge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Bodyweight_Reverse_Lunge",
+        "Dumbbell_Walking_Lunge"
+      ],
+      "easier": null,
+      "harder": "Bodyweight_Bulgarian_Split_Squat"
+    },
+    "Box_Jump": {
+      "pose": "box-jump",
+      "equipment": [
+        "box"
+      ],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "calves",
+        "hamstrings"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "plyometrics",
+      "aliases": [],
+      "swaps": [
+        "Jump_Squat",
+        "Broad_Jump",
+        "Lateral_Box_Jump"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Box_Squat": {
       "pose": "box-squat",
@@ -568,8 +1166,64 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "squat",
       "category": "powerlifting",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Squat",
+        "Smith_Machine_Squat"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Broad_Jump": {
+      "pose": "broad-jump",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "calves"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "plyometrics",
+      "aliases": [],
+      "swaps": [
+        "Box_Jump",
+        "Jump_Squat"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Burpee": {
+      "pose": "burpee",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "chest"
+      ],
+      "secondary_muscles": [
+        "shoulders",
+        "triceps",
+        "abdominals",
+        "glutes"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "plyometrics",
+      "aliases": [],
+      "swaps": [
+        "Mountain_Climbers",
+        "Jumping_Jack",
+        "Air_Bike"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Butt_Lift_Bridge": {
       "pose": "glute-bridge",
@@ -582,8 +1236,14 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "hinge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Glute_Bridge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Butterfly": {
       "pose": "butterfly",
@@ -596,8 +1256,16 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Cable_Crossover",
+        "Dumbbell_Flyes",
+        "Cable_Fly_Mid_Height"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Cable_Chest_Press": {
       "pose": "cable-chest-press",
@@ -614,8 +1282,15 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Machine_Bench_Press",
+        "Dumbbell_Bench_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Cable_Crossover": {
       "pose": "cable-crossover",
@@ -631,8 +1306,18 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Cable_Fly_Mid_Height",
+        "Butterfly",
+        "Dumbbell_Flyes",
+        "Cable_Fly_High_to_Low",
+        "Low_Cable_Crossover"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Cable_Crunch": {
       "pose": "cable-crunch",
@@ -646,8 +1331,65 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Ab_Crunch_Machine",
+        "Decline_Crunch",
+        "Crunches"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Cable_Fly_High_to_Low": {
+      "pose": "cable-fly-high-to-low",
+      "equipment": [
+        "cable_machine",
+        "single_handle"
+      ],
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [
+        "shoulders"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Cable_Crossover",
+        "Butterfly"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Cable_Fly_Mid_Height": {
+      "pose": "cable-fly-mid-height",
+      "equipment": [
+        "cable_machine",
+        "single_handle"
+      ],
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [
+        "shoulders"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Cable_Crossover",
+        "Butterfly",
+        "Dumbbell_Flyes"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Cable_Hammer_Curls_-_Rope_Attachment": {
       "pose": "cable-hammer-curl-rope",
@@ -661,8 +1403,56 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Hammer_Curls",
+        "Alternate_Hammer_Curl"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Cable_Hip_Abduction": {
+      "pose": "cable-hip-abduction",
+      "equipment": [
+        "cable_machine"
+      ],
+      "primary_muscles": [
+        "abductors",
+        "glutes"
+      ],
+      "secondary_muscles": [],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Thigh_Abductor"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Cable_Hip_Adduction": {
+      "pose": "cable-hip-adduction",
+      "equipment": [
+        "cable_machine"
+      ],
+      "primary_muscles": [
+        "adductors"
+      ],
+      "secondary_muscles": [],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Thigh_Adductor"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Cable_One_Arm_Tricep_Extension": {
       "pose": "cable-one-arm-triceps-extension",
@@ -676,8 +1466,36 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Triceps_Pushdown"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Cable_Overhead_Triceps_Extension_Bar": {
+      "pose": "cable-overhead-triceps-extension-bar",
+      "equipment": [
+        "cable_machine",
+        "straight_bar_attachment"
+      ],
+      "primary_muscles": [
+        "triceps"
+      ],
+      "secondary_muscles": [],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Triceps_Overhead_Extension_with_Rope",
+        "Standing_Dumbbell_Triceps_Extension"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Cable_Preacher_Curl": {
       "pose": "cable-preacher-curl",
@@ -694,8 +1512,14 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Preacher_Curl"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Cable_Rear_Delt_Fly": {
       "pose": "cable-rear-delt-fly",
@@ -709,8 +1533,18 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Reverse_Machine_Flyes",
+        "Reverse_Flyes",
+        "Seated_Bent-Over_Rear_Delt_Raise",
+        "Band_Pull_Apart",
+        "Face_Pull"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Cable_Seated_Lateral_Raise": {
       "pose": "cable-seated-lateral-raise",
@@ -728,8 +1562,18 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Standing_Low-Pulley_Deltoid_Raise",
+        "Side_Lateral_Raise",
+        "Seated_Side_Lateral_Raise",
+        "Machine_Lateral_Raise",
+        "Lateral_Raise_-_With_Bands"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Cable_Shoulder_Press": {
       "pose": "cable-shoulder-press",
@@ -746,8 +1590,61 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Machine_Shoulder_Military_Press",
+        "Seated_Dumbbell_Press",
+        "Shoulder_Press_-_With_Bands"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Cable_Triceps_Kickback": {
+      "pose": "cable-triceps-kickback",
+      "equipment": [
+        "cable_machine",
+        "single_handle"
+      ],
+      "primary_muscles": [
+        "triceps"
+      ],
+      "secondary_muscles": [],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Tricep_Dumbbell_Kickback"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Cable_Y_Raise": {
+      "pose": "cable-y-raise",
+      "equipment": [
+        "cable_machine",
+        "single_handle"
+      ],
+      "primary_muscles": [
+        "shoulders",
+        "traps"
+      ],
+      "secondary_muscles": [
+        "middle_back"
+      ],
+      "level": "intermediate",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Prone_Y_Raise"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Calf_Press_On_The_Leg_Press_Machine": {
       "pose": "calf-press-on-leg-press",
@@ -760,8 +1657,33 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Standing_Calf_Raises",
+        "Smith_Machine_Calf_Raise"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Cat-Cow": {
+      "pose": "cat-cow",
+      "equipment": [],
+      "primary_muscles": [
+        "lower_back"
+      ],
+      "secondary_muscles": [
+        "abdominals"
+      ],
+      "level": "beginner",
+      "mechanic": null,
+      "pattern": "mobility",
+      "category": "stretching",
+      "aliases": [],
+      "swaps": [],
+      "easier": null,
+      "harder": null
     },
     "Chin-Up": {
       "pose": "chin-up",
@@ -778,8 +1700,70 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Underhand_Cable_Pulldowns",
+        "Pullups",
+        "Band_Assisted_Pull-Up"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Clean": {
+      "pose": "clean",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "traps",
+        "shoulders"
+      ],
+      "level": "expert",
+      "mechanic": "compound",
+      "pattern": "olympic",
+      "category": "olympic_weightlifting",
+      "aliases": [],
+      "swaps": [
+        "Power_Clean",
+        "Hang_Clean",
+        "Hang_Power_Clean"
+      ],
+      "easier": "Power_Clean",
+      "harder": null
+    },
+    "Clean_Pull": {
+      "pose": "clean-pull",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "hamstrings",
+        "glutes",
+        "traps"
+      ],
+      "secondary_muscles": [
+        "quadriceps",
+        "lower_back"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "olympic",
+      "category": "olympic_weightlifting",
+      "aliases": [],
+      "swaps": [
+        "Snatch_Pull",
+        "Barbell_Deadlift",
+        "Trap_Bar_Deadlift"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Clean_and_Press": {
       "pose": "clean-and-press",
@@ -803,8 +1787,16 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "olympic",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Kettlebell_Clean_and_Press",
+        "Power_Clean",
+        "Push_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Close-Grip_Barbell_Bench_Press": {
       "pose": "close-grip-bench-press",
@@ -822,8 +1814,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Push-Ups_-_Close_Triceps_Position",
+        "Barbell_Floor_Press",
+        "Dips_-_Triceps_Version"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Close-Grip_Front_Lat_Pulldown": {
       "pose": "close-grip-lat-pulldown",
@@ -841,8 +1841,17 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Lat_Pulldown_Neutral_Grip",
+        "V-Bar_Pulldown",
+        "Underhand_Cable_Pulldowns",
+        "Wide-Grip_Lat_Pulldown"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Concentration_Curls": {
       "pose": "concentration-curl",
@@ -858,8 +1867,14 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seated_Dumbbell_Curl"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Crunches": {
       "pose": "crunches",
@@ -870,8 +1885,16 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Cable_Crunch",
+        "Sit-Up",
+        "Ab_Crunch_Machine"
+      ],
+      "easier": null,
+      "harder": "Sit-Up"
     },
     "Dead_Bug": {
       "pose": "dead-bug",
@@ -882,8 +1905,16 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Bird_Dog",
+        "Hollow_Hold",
+        "Plank"
+      ],
+      "easier": null,
+      "harder": "Hollow_Hold"
     },
     "Decline_Barbell_Bench_Press": {
       "pose": "decline-barbell-bench-press",
@@ -901,8 +1932,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Decline_Dumbbell_Bench_Press",
+        "Dips_-_Chest_Version",
+        "Barbell_Bench_Press_-_Medium_Grip"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Decline_Crunch": {
       "pose": "decline-crunch",
@@ -915,8 +1954,16 @@
       "secondary_muscles": [],
       "level": "intermediate",
       "mechanic": "isolation",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Cable_Crunch",
+        "Sit-Up",
+        "Ab_Crunch_Machine"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Decline_Dumbbell_Bench_Press": {
       "pose": "decline-dumbbell-bench-press",
@@ -933,8 +1980,44 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Decline_Barbell_Bench_Press",
+        "Dips_-_Chest_Version",
+        "Dumbbell_Bench_Press"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Deficit_Deadlift": {
+      "pose": "deficit-deadlift",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "hamstrings",
+        "glutes",
+        "lower_back"
+      ],
+      "secondary_muscles": [
+        "quadriceps",
+        "traps",
+        "forearms"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "powerlifting",
+      "aliases": [],
+      "swaps": [
+        "Barbell_Deadlift",
+        "Snatch_Grip_Deadlift",
+        "Barbell_Deadlift_Paused"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dip_Machine": {
       "pose": "dip-machine",
@@ -950,8 +2033,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dips_-_Triceps_Version",
+        "Bench_Dips",
+        "Close-Grip_Barbell_Bench_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dips_-_Chest_Version": {
       "pose": "chest-dip",
@@ -967,8 +2058,15 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dips_-_Triceps_Version",
+        "Decline_Barbell_Bench_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dips_-_Triceps_Version": {
       "pose": "triceps-dip",
@@ -984,8 +2082,39 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dip_Machine",
+        "Bench_Dips",
+        "Dips_-_Chest_Version",
+        "Close-Grip_Barbell_Bench_Press"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Drag_Curl": {
+      "pose": "drag-curl",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "biceps"
+      ],
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "level": "intermediate",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Barbell_Curl"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dumbbell_Alternate_Bicep_Curl": {
       "pose": "dumbbell-alternate-bicep-curl",
@@ -1000,8 +2129,15 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Bicep_Curl",
+        "Barbell_Curl"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dumbbell_Bench_Press": {
       "pose": "dumbbell-bench-press",
@@ -1018,8 +2154,19 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Bench_Press_-_Medium_Grip",
+        "Machine_Bench_Press",
+        "Smith_Machine_Bench_Press",
+        "Cable_Chest_Press",
+        "Dumbbell_Floor_Press",
+        "Pushups"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dumbbell_Bicep_Curl": {
       "pose": "dumbbell-bicep-curl",
@@ -1034,8 +2181,72 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Alternate_Bicep_Curl",
+        "Barbell_Curl",
+        "EZ-Bar_Curl",
+        "Standing_Biceps_Cable_Curl",
+        "Seated_Dumbbell_Curl",
+        "Machine_Bicep_Curl"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Dumbbell_Bulgarian_Split_Squat": {
+      "pose": "dumbbell-bulgarian-split-squat",
+      "equipment": [
+        "dumbbell",
+        "flat_bench"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "lunge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Barbell_Bulgarian_Split_Squat",
+        "Smith_Single-Leg_Split_Squat",
+        "Split_Squat_with_Dumbbells",
+        "Bodyweight_Bulgarian_Split_Squat"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Dumbbell_Deadlift": {
+      "pose": "dumbbell-deadlift",
+      "equipment": [
+        "dumbbell"
+      ],
+      "primary_muscles": [
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "lower_back",
+        "quadriceps"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Trap_Bar_Deadlift",
+        "Barbell_Deadlift",
+        "Dumbbell_Romanian_Deadlift"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dumbbell_Floor_Press": {
       "pose": "dumbbell-floor-press",
@@ -1051,8 +2262,17 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "powerlifting",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Floor_Press",
+        "Kettlebell_Floor_Press",
+        "Dumbbell_Bench_Press",
+        "Pushups"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dumbbell_Flyes": {
       "pose": "dumbbell-flyes",
@@ -1066,8 +2286,90 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Butterfly",
+        "Cable_Crossover",
+        "Cable_Fly_Mid_Height",
+        "Incline_Dumbbell_Flyes"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Dumbbell_Glute_Bridge": {
+      "pose": "dumbbell-glute-bridge",
+      "equipment": [
+        "dumbbell"
+      ],
+      "primary_muscles": [
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Barbell_Glute_Bridge",
+        "Butt_Lift_Bridge",
+        "Dumbbell_Hip_Thrust"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Dumbbell_Goblet_Squat": {
+      "pose": "dumbbell-goblet-squat",
+      "equipment": [
+        "dumbbell"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "glutes"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "squat",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Goblet_Squat",
+        "Dumbbell_Squat",
+        "Leg_Press",
+        "Bodyweight_Squat"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Dumbbell_Hip_Thrust": {
+      "pose": "dumbbell-hip-thrust",
+      "equipment": [
+        "dumbbell",
+        "flat_bench"
+      ],
+      "primary_muscles": [
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Barbell_Hip_Thrust",
+        "Dumbbell_Glute_Bridge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dumbbell_Incline_Row": {
       "pose": "dumbbell-incline-row",
@@ -1086,8 +2388,42 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Incline_Bench_Pull",
+        "Seal_Row",
+        "Bent_Over_Two-Dumbbell_Row",
+        "Leverage_Iso_Row",
+        "Seated_Cable_Rows",
+        "Inverted_Row"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Dumbbell_Lateral_Lunge": {
+      "pose": "dumbbell-lateral-lunge",
+      "equipment": [
+        "dumbbell"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "adductors",
+        "glutes"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "lunge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Bodyweight_Lateral_Lunge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dumbbell_Lunges": {
       "pose": "dumbbell-lunge",
@@ -1104,8 +2440,40 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "lunge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Rear_Lunge",
+        "Dumbbell_Walking_Lunge",
+        "Barbell_Lunge"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Dumbbell_Push_Press": {
+      "pose": "dumbbell-push-press",
+      "equipment": [
+        "dumbbell"
+      ],
+      "primary_muscles": [
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "quadriceps",
+        "triceps"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "push_vertical",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Push_Press",
+        "Dumbbell_Shoulder_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dumbbell_Rear_Lunge": {
       "pose": "dumbbell-rear-lunge",
@@ -1122,8 +2490,63 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "lunge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Kettlebell_Goblet_Reverse_Lunge",
+        "Barbell_Reverse_Lunge",
+        "Dumbbell_Lunges",
+        "Bodyweight_Reverse_Lunge"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Dumbbell_Romanian_Deadlift": {
+      "pose": "dumbbell-romanian-deadlift",
+      "equipment": [
+        "dumbbell"
+      ],
+      "primary_muscles": [
+        "hamstrings"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "lower_back"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Romanian_Deadlift",
+        "Kettlebell_Romanian_Deadlift",
+        "Stiff-Legged_Dumbbell_Deadlift"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Dumbbell_Russian_Twist": {
+      "pose": "dumbbell-russian-twist",
+      "equipment": [
+        "dumbbell"
+      ],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Kettlebell_Russian_Twist",
+        "Russian_Twist"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dumbbell_Shoulder_Press": {
       "pose": "dumbbell-shoulder-press",
@@ -1138,8 +2561,19 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seated_Dumbbell_Press",
+        "Standing_Military_Press",
+        "Two-Arm_Kettlebell_Military_Press",
+        "Machine_Shoulder_Military_Press",
+        "Arnold_Dumbbell_Press",
+        "Landmine_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dumbbell_Shrug": {
       "pose": "dumbbell-shrug",
@@ -1152,8 +2586,16 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Shrug",
+        "Seated_Dumbbell_Shrug",
+        "Machine_Shrug"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dumbbell_Side_Bend": {
       "pose": "dumbbell-side-bend",
@@ -1166,8 +2608,15 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Side_Bridge",
+        "Dumbbell_Suitcase_Carry"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dumbbell_Squat": {
       "pose": "dumbbell-squat",
@@ -1185,8 +2634,18 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "squat",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Goblet_Squat",
+        "Goblet_Squat",
+        "Barbell_Squat",
+        "Smith_Machine_Squat",
+        "Leg_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dumbbell_Step_Ups": {
       "pose": "dumbbell-step-up",
@@ -1204,8 +2663,113 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "lunge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Step_Ups",
+        "Dumbbell_Lunges"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Dumbbell_Suitcase_Carry": {
+      "pose": "dumbbell-suitcase-carry",
+      "equipment": [
+        "dumbbell"
+      ],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "forearms",
+        "traps"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "carry",
+      "category": "strongman",
+      "aliases": [],
+      "swaps": [
+        "Kettlebell_Suitcase_Carry",
+        "Farmers_Walk",
+        "Kettlebell_Farmers_Walk"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Dumbbell_Sumo_Squat": {
+      "pose": "dumbbell-sumo-squat",
+      "equipment": [
+        "dumbbell"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "adductors",
+        "glutes"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "squat",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Goblet_Squat"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Dumbbell_Thruster": {
+      "pose": "dumbbell-thruster",
+      "equipment": [
+        "dumbbell"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "shoulders",
+        "triceps"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "squat",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Kettlebell_Thruster",
+        "Barbell_Thruster"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Dumbbell_Walking_Lunge": {
+      "pose": "dumbbell-walking-lunge",
+      "equipment": [
+        "dumbbell"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "lunge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Barbell_Walking_Lunge",
+        "Dumbbell_Lunges",
+        "Bodyweight_Walking_Lunge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "EZ-Bar_Curl": {
       "pose": "ez-bar-curl",
@@ -1218,8 +2782,17 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Curl",
+        "Dumbbell_Bicep_Curl",
+        "Standing_Biceps_Cable_Curl",
+        "Machine_Bicep_Curl"
+      ],
+      "easier": null,
+      "harder": null
     },
     "EZ-Bar_Skullcrusher": {
       "pose": "ez-bar-skullcrusher",
@@ -1235,8 +2808,17 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Lying_Triceps_Press",
+        "Barbell_Skull_Crusher",
+        "Lying_Dumbbell_Tricep_Extension",
+        "Machine_Triceps_Extension"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Elevated_Cable_Rows": {
       "pose": "elevated-cable-row",
@@ -1253,8 +2835,16 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "pull_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seated_Cable_Rows",
+        "Seated_Cable_Row_V-Bar",
+        "Leverage_Iso_Row"
+      ],
+      "easier": null,
+      "harder": null
     },
     "External_Rotation_with_Cable": {
       "pose": "cable-external-rotation",
@@ -1268,8 +2858,12 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [],
+      "easier": null,
+      "harder": null
     },
     "Face_Pull": {
       "pose": "face-pull",
@@ -1285,8 +2879,12 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "pull_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [],
+      "easier": null,
+      "harder": null
     },
     "Farmers_Walk": {
       "pose": "farmers-walk",
@@ -1306,8 +2904,16 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "carry",
       "category": "strongman",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Kettlebell_Farmers_Walk",
+        "Dumbbell_Suitcase_Carry",
+        "Kettlebell_Suitcase_Carry"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Flat_Bench_Lying_Leg_Raise": {
       "pose": "flat-bench-lying-leg-raise",
@@ -1320,8 +2926,15 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Reverse_Crunch",
+        "Hanging_Knee_Raise"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Front_Barbell_Squat": {
       "pose": "front-barbell-squat",
@@ -1339,8 +2952,18 @@
       ],
       "level": "expert",
       "mechanic": "compound",
+      "pattern": "squat",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Front_Squats_With_Two_Kettlebells",
+        "Zercher_Squat",
+        "Barbell_Squat",
+        "Hack_Squat",
+        "Dumbbell_Goblet_Squat"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Front_Dumbbell_Raise": {
       "pose": "front-dumbbell-raise",
@@ -1353,8 +2976,12 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [],
+      "easier": null,
+      "harder": null
     },
     "Front_Squats_With_Two_Kettlebells": {
       "pose": "front-squat-two-kettlebells",
@@ -1370,8 +2997,15 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "squat",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Goblet_Squat",
+        "Front_Barbell_Squat"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Glute_Ham_Raise": {
       "pose": "glute-ham-raise",
@@ -1387,8 +3021,16 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "isolation",
       "category": "powerlifting",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Nordic_Hamstring_Curl",
+        "Lying_Leg_Curls",
+        "Seated_Leg_Curl"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Goblet_Squat": {
       "pose": "goblet-squat",
@@ -1406,8 +3048,17 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "squat",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Goblet_Squat",
+        "Front_Squats_With_Two_Kettlebells",
+        "Dumbbell_Squat",
+        "Bodyweight_Squat"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Good_Morning": {
       "pose": "good-morning",
@@ -1425,8 +3076,15 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "hinge",
       "category": "powerlifting",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Romanian_Deadlift",
+        "Hyperextensions_Back_Extensions"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Hack_Squat": {
       "pose": "hack-squat",
@@ -1443,8 +3101,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "squat",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Leg_Press",
+        "Smith_Machine_Squat",
+        "Barbell_Squat"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Hammer_Curls": {
       "pose": "hammer-curl",
@@ -1457,8 +3123,16 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Alternate_Hammer_Curl",
+        "Cable_Hammer_Curls_-_Rope_Attachment",
+        "Reverse_Barbell_Curl"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Hammer_Grip_Incline_DB_Bench_Press": {
       "pose": "hammer-grip-incline-dumbbell-press",
@@ -1475,8 +3149,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Incline_Dumbbell_Press",
+        "Barbell_Incline_Bench_Press_-_Medium_Grip",
+        "Landmine_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Handstand_Push-Ups": {
       "pose": "handstand-push-up",
@@ -1489,8 +3171,16 @@
       ],
       "level": "expert",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Pike_Push-Up",
+        "Standing_Military_Press",
+        "Dumbbell_Shoulder_Press"
+      ],
+      "easier": "Pike_Push-Up",
+      "harder": null
     },
     "Hang_Clean": {
       "pose": "hang-clean",
@@ -1511,8 +3201,93 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "olympic",
       "category": "olympic_weightlifting",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Hang_Power_Clean",
+        "Power_Clean",
+        "Clean"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Hang_Power_Clean": {
+      "pose": "hang-power-clean",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "traps",
+        "shoulders"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "olympic",
+      "category": "olympic_weightlifting",
+      "aliases": [],
+      "swaps": [
+        "Power_Clean",
+        "Hang_Clean"
+      ],
+      "easier": null,
+      "harder": "Power_Clean"
+    },
+    "Hang_Power_Snatch": {
+      "pose": "hang-power-snatch",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "shoulders",
+        "traps",
+        "hamstrings"
+      ],
+      "level": "expert",
+      "mechanic": "compound",
+      "pattern": "olympic",
+      "category": "olympic_weightlifting",
+      "aliases": [],
+      "swaps": [
+        "Power_Snatch",
+        "Muscle_Snatch",
+        "Kettlebell_Snatch"
+      ],
+      "easier": "Muscle_Snatch",
+      "harder": "Power_Snatch"
+    },
+    "Hanging_Knee_Raise": {
+      "pose": "hanging-knee-raise",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Knee_Hip_Raise_On_Parallel_Bars",
+        "Reverse_Crunch",
+        "Flat_Bench_Lying_Leg_Raise"
+      ],
+      "easier": null,
+      "harder": "Hanging_Leg_Raise"
     },
     "Hanging_Leg_Raise": {
       "pose": "hanging-leg-raise",
@@ -1525,8 +3300,34 @@
       "secondary_muscles": [],
       "level": "expert",
       "mechanic": "isolation",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Hanging_Knee_Raise",
+        "Flat_Bench_Lying_Leg_Raise"
+      ],
+      "easier": "Hanging_Knee_Raise",
+      "harder": null
+    },
+    "Hollow_Hold": {
+      "pose": "hollow-hold",
+      "equipment": [],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [],
+      "level": "intermediate",
+      "mechanic": "isolation",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dead_Bug",
+        "Plank"
+      ],
+      "easier": "Dead_Bug",
+      "harder": null
     },
     "Hyperextensions_Back_Extensions": {
       "pose": "hyperextension",
@@ -1542,8 +3343,16 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "hinge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Reverse_Hyperextension",
+        "Good_Morning",
+        "Dumbbell_Romanian_Deadlift"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Incline_Bench_Pull": {
       "pose": "incline-bench-pull",
@@ -1560,8 +3369,15 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "pull_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seal_Row",
+        "Dumbbell_Incline_Row"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Incline_Cable_Flye": {
       "pose": "incline-cable-flye",
@@ -1578,8 +3394,16 @@
       ],
       "level": "intermediate",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Incline_Dumbbell_Flyes",
+        "Low_Cable_Crossover",
+        "Butterfly"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Incline_Dumbbell_Curl": {
       "pose": "incline-dumbbell-curl",
@@ -1593,8 +3417,15 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seated_Dumbbell_Curl",
+        "Dumbbell_Bicep_Curl"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Incline_Dumbbell_Flyes": {
       "pose": "incline-dumbbell-flyes",
@@ -1610,8 +3441,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Incline_Cable_Flye",
+        "Low_Cable_Crossover",
+        "Dumbbell_Flyes"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Incline_Dumbbell_Press": {
       "pose": "incline-dumbbell-press",
@@ -1628,8 +3467,17 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Incline_Bench_Press_-_Medium_Grip",
+        "Hammer_Grip_Incline_DB_Bench_Press",
+        "Landmine_Press",
+        "Push-Ups_With_Feet_Elevated"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Incline_Push-Up": {
       "pose": "incline-push-up",
@@ -1645,8 +3493,14 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Pushups"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Inverted_Row": {
       "pose": "inverted-row",
@@ -1661,8 +3515,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Ring_Row",
+        "Seated_Cable_Rows",
+        "Dumbbell_Incline_Row"
+      ],
+      "easier": null,
+      "harder": null
     },
     "JM_Press": {
       "pose": "jm-press",
@@ -1679,8 +3541,205 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Close-Grip_Barbell_Bench_Press",
+        "Barbell_Skull_Crusher"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Jump_Squat": {
+      "pose": "jump-squat",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "calves",
+        "hamstrings"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "plyometrics",
+      "aliases": [],
+      "swaps": [
+        "Box_Jump",
+        "Broad_Jump",
+        "Bodyweight_Squat"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Jumping_Jack": {
+      "pose": "jumping-jack",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "calves"
+      ],
+      "secondary_muscles": [
+        "shoulders",
+        "glutes"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "cardio",
+      "aliases": [],
+      "swaps": [],
+      "easier": null,
+      "harder": null
+    },
+    "Kettlebell_Bent-Over_Row": {
+      "pose": "kettlebell-bent-over-row",
+      "equipment": [
+        "kettlebell"
+      ],
+      "primary_muscles": [
+        "middle_back",
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "pull_horizontal",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Bent_Over_Two-Dumbbell_Row",
+        "One-Arm_Kettlebell_Row",
+        "Bent_Over_Barbell_Row"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Kettlebell_Clean_and_Press": {
+      "pose": "kettlebell-clean-and-press",
+      "equipment": [
+        "kettlebell"
+      ],
+      "primary_muscles": [
+        "shoulders",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "triceps"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "olympic",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Clean_and_Press"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Kettlebell_Farmers_Walk": {
+      "pose": "kettlebell-farmers-walk",
+      "equipment": [
+        "kettlebell"
+      ],
+      "primary_muscles": [
+        "forearms",
+        "traps"
+      ],
+      "secondary_muscles": [
+        "abdominals",
+        "quadriceps"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "carry",
+      "category": "strongman",
+      "aliases": [],
+      "swaps": [
+        "Farmers_Walk",
+        "Kettlebell_Suitcase_Carry"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Kettlebell_Floor_Press": {
+      "pose": "kettlebell-floor-press",
+      "equipment": [
+        "kettlebell"
+      ],
+      "primary_muscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondary_muscles": [
+        "shoulders"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "push_horizontal",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Floor_Press",
+        "Barbell_Floor_Press",
+        "Pushups",
+        "Dumbbell_Bench_Press"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Kettlebell_Goblet_Reverse_Lunge": {
+      "pose": "kettlebell-goblet-reverse-lunge",
+      "equipment": [
+        "kettlebell"
+      ],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "lunge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Rear_Lunge",
+        "Bodyweight_Reverse_Lunge",
+        "Barbell_Reverse_Lunge"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Kettlebell_Halo": {
+      "pose": "kettlebell-halo",
+      "equipment": [
+        "kettlebell"
+      ],
+      "primary_muscles": [
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "triceps",
+        "abdominals"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "mobility",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [],
+      "easier": null,
+      "harder": null
     },
     "Kettlebell_One-Legged_Deadlift": {
       "pose": "kettlebell-one-legged-deadlift",
@@ -1696,8 +3755,138 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "hinge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Bodyweight_Single-Leg_Deadlift",
+        "Kettlebell_Romanian_Deadlift"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Kettlebell_Romanian_Deadlift": {
+      "pose": "kettlebell-romanian-deadlift",
+      "equipment": [
+        "kettlebell"
+      ],
+      "primary_muscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "lower_back"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Romanian_Deadlift",
+        "Romanian_Deadlift",
+        "Kettlebell_One-Legged_Deadlift"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Kettlebell_Russian_Twist": {
+      "pose": "kettlebell-russian-twist",
+      "equipment": [
+        "kettlebell"
+      ],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Russian_Twist",
+        "Russian_Twist"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Kettlebell_Snatch": {
+      "pose": "kettlebell-snatch",
+      "equipment": [
+        "kettlebell"
+      ],
+      "primary_muscles": [
+        "glutes",
+        "hamstrings",
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "lower_back",
+        "forearms"
+      ],
+      "level": "expert",
+      "mechanic": "compound",
+      "pattern": "olympic",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Hang_Power_Snatch",
+        "Kettlebell_Swing"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Kettlebell_Suitcase_Carry": {
+      "pose": "kettlebell-suitcase-carry",
+      "equipment": [
+        "kettlebell"
+      ],
+      "primary_muscles": [
+        "abdominals",
+        "forearms"
+      ],
+      "secondary_muscles": [
+        "traps"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "carry",
+      "category": "strongman",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Suitcase_Carry",
+        "Kettlebell_Farmers_Walk",
+        "Farmers_Walk"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Kettlebell_Swing": {
+      "pose": "kettlebell-swing",
+      "equipment": [
+        "kettlebell"
+      ],
+      "primary_muscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "secondary_muscles": [
+        "lower_back",
+        "shoulders"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "One-Arm_Kettlebell_Swings",
+        "Pull_Through",
+        "Kettlebell_Romanian_Deadlift"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Kettlebell_Thruster": {
       "pose": "kettlebell-thruster",
@@ -1713,8 +3902,15 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "squat",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Thruster",
+        "Barbell_Thruster"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Kettlebell_Turkish_Get-Up_Squat_style": {
       "pose": "kettlebell-turkish-get-up",
@@ -1733,8 +3929,14 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Kettlebell_Windmill"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Kettlebell_Windmill": {
       "pose": "kettlebell-windmill",
@@ -1752,8 +3954,14 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Kettlebell_Turkish_Get-Up_Squat_style"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Knee_Hip_Raise_On_Parallel_Bars": {
       "pose": "knee-hip-raise-on-parallel-bars",
@@ -1766,8 +3974,91 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Hanging_Knee_Raise",
+        "Reverse_Crunch"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Landmine_Press": {
+      "pose": "landmine-press",
+      "equipment": [
+        "barbell",
+        "landmine"
+      ],
+      "primary_muscles": [
+        "shoulders",
+        "chest"
+      ],
+      "secondary_muscles": [
+        "triceps"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "push_vertical",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Incline_Dumbbell_Press",
+        "Single_Arm_Dumbbell_Press",
+        "Dumbbell_Shoulder_Press",
+        "Machine_Shoulder_Military_Press"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Lat_Pulldown_Neutral_Grip": {
+      "pose": "lat-pulldown-neutral-grip",
+      "equipment": [
+        "lat_pulldown_machine"
+      ],
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "middle_back"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "pull_vertical",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "V-Bar_Pulldown",
+        "Close-Grip_Front_Lat_Pulldown",
+        "Wide-Grip_Lat_Pulldown"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Lateral_Box_Jump": {
+      "pose": "lateral-box-jump",
+      "equipment": [
+        "box"
+      ],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "calves",
+        "abductors"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "plyometrics",
+      "aliases": [],
+      "swaps": [
+        "Box_Jump"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Lateral_Raise_-_With_Bands": {
       "pose": "band-lateral-raise",
@@ -1780,8 +4071,16 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Side_Lateral_Raise",
+        "Cable_Seated_Lateral_Raise",
+        "Machine_Lateral_Raise"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Leg_Extensions": {
       "pose": "leg-extension",
@@ -1794,8 +4093,14 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Sissy_Squat"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Leg_Press": {
       "pose": "leg-press",
@@ -1812,8 +4117,17 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "squat",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Hack_Squat",
+        "Smith_Machine_Squat",
+        "Dumbbell_Goblet_Squat",
+        "Barbell_Squat"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Leverage_Chest_Press": {
       "pose": "leverage-chest-press",
@@ -1829,8 +4143,18 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Machine_Bench_Press",
+        "Cable_Chest_Press",
+        "Dumbbell_Bench_Press",
+        "Smith_Machine_Bench_Press",
+        "Barbell_Bench_Press_-_Medium_Grip"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Leverage_High_Row": {
       "pose": "leverage-high-row",
@@ -1845,8 +4169,14 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Wide-Grip_Lat_Pulldown"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Leverage_Iso_Row": {
       "pose": "leverage-iso-row",
@@ -1862,8 +4192,17 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seated_Cable_Rows",
+        "Dumbbell_Incline_Row",
+        "T-Bar_Row_with_Handle",
+        "Bent_Over_Barbell_Row"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Low_Cable_Crossover": {
       "pose": "low-cable-crossover",
@@ -1879,8 +4218,16 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Incline_Cable_Flye",
+        "Incline_Dumbbell_Flyes",
+        "Cable_Crossover"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Lying_Dumbbell_Tricep_Extension": {
       "pose": "lying-dumbbell-triceps-extension",
@@ -1897,8 +4244,16 @@
       ],
       "level": "intermediate",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "EZ-Bar_Skullcrusher",
+        "Lying_Triceps_Press",
+        "Band_Skull_Crusher"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Lying_Leg_Curls": {
       "pose": "lying-leg-curl",
@@ -1911,8 +4266,17 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seated_Leg_Curl",
+        "Standing_Leg_Curl",
+        "Ball_Leg_Curl",
+        "Nordic_Hamstring_Curl"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Lying_Triceps_Press": {
       "pose": "lying-triceps-press",
@@ -1926,8 +4290,17 @@
       "secondary_muscles": [],
       "level": "intermediate",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "EZ-Bar_Skullcrusher",
+        "Barbell_Skull_Crusher",
+        "Lying_Dumbbell_Tricep_Extension",
+        "Machine_Triceps_Extension"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Machine_Bench_Press": {
       "pose": "machine-bench-press",
@@ -1943,8 +4316,19 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Leverage_Chest_Press",
+        "Cable_Chest_Press",
+        "Dumbbell_Bench_Press",
+        "Smith_Machine_Bench_Press",
+        "Barbell_Bench_Press_-_Medium_Grip",
+        "Pushups"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Machine_Bicep_Curl": {
       "pose": "machine-bicep-curl",
@@ -1957,8 +4341,40 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Preacher_Curl",
+        "Standing_Biceps_Cable_Curl",
+        "Dumbbell_Bicep_Curl",
+        "EZ-Bar_Curl"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Machine_Lateral_Raise": {
+      "pose": "machine-lateral-raise",
+      "equipment": [
+        "lateral_raise_machine"
+      ],
+      "primary_muscles": [
+        "shoulders"
+      ],
+      "secondary_muscles": [],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Side_Lateral_Raise",
+        "Cable_Seated_Lateral_Raise",
+        "Seated_Side_Lateral_Raise",
+        "Lateral_Raise_-_With_Bands"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Machine_Shoulder_Military_Press": {
       "pose": "machine-shoulder-press",
@@ -1973,8 +4389,41 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seated_Dumbbell_Press",
+        "Smith_Machine_Overhead_Shoulder_Press",
+        "Cable_Shoulder_Press",
+        "Seated_Barbell_Press",
+        "Dumbbell_Shoulder_Press"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Machine_Shrug": {
+      "pose": "machine-shrug",
+      "equipment": [
+        "shrug_machine"
+      ],
+      "primary_muscles": [
+        "traps"
+      ],
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Barbell_Shrug",
+        "Dumbbell_Shrug"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Machine_Triceps_Extension": {
       "pose": "machine-triceps-extension",
@@ -1987,8 +4436,89 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Triceps_Pushdown",
+        "EZ-Bar_Skullcrusher",
+        "Lying_Triceps_Press"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Medicine_Ball_Chest_Pass": {
+      "pose": "medicine-ball-chest-pass",
+      "equipment": [
+        "medicine_ball",
+        "wall"
+      ],
+      "primary_muscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondary_muscles": [
+        "shoulders"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "push_horizontal",
+      "category": "plyometrics",
+      "aliases": [],
+      "swaps": [
+        "Pushups"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Medicine_Ball_Rotational_Throw": {
+      "pose": "medicine-ball-rotational-throw",
+      "equipment": [
+        "medicine_ball",
+        "wall"
+      ],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "shoulders",
+        "glutes"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "plyometrics",
+      "aliases": [],
+      "swaps": [
+        "Medicine_Ball_Slam"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Medicine_Ball_Slam": {
+      "pose": "medicine-ball-slam",
+      "equipment": [
+        "medicine_ball"
+      ],
+      "primary_muscles": [
+        "abdominals",
+        "lats"
+      ],
+      "secondary_muscles": [
+        "shoulders",
+        "glutes"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "plyometrics",
+      "aliases": [],
+      "swaps": [
+        "Burpee",
+        "Kettlebell_Swing"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Monster_Walk": {
       "pose": "monster-walk",
@@ -2001,8 +4531,15 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Thigh_Abductor",
+        "Cable_Hip_Abduction"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Mountain_Climbers": {
       "pose": "mountain-climbers",
@@ -2017,8 +4554,39 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "conditioning",
       "category": "plyometrics",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Burpee"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Muscle_Snatch": {
+      "pose": "muscle-snatch",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "shoulders",
+        "traps"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "olympic",
+      "category": "olympic_weightlifting",
+      "aliases": [],
+      "swaps": [
+        "Hang_Power_Snatch",
+        "Power_Snatch"
+      ],
+      "easier": null,
+      "harder": "Hang_Power_Snatch"
     },
     "Narrow_Stance_Leg_Press": {
       "pose": "narrow-stance-leg-press",
@@ -2035,8 +4603,38 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "squat",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Leg_Press",
+        "Hack_Squat"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Nordic_Hamstring_Curl": {
+      "pose": "nordic-hamstring-curl",
+      "equipment": [],
+      "primary_muscles": [
+        "hamstrings"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "calves"
+      ],
+      "level": "expert",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Glute_Ham_Raise",
+        "Lying_Leg_Curls",
+        "Ball_Leg_Curl"
+      ],
+      "easier": null,
+      "harder": null
     },
     "One-Arm_Dumbbell_Row": {
       "pose": "one-arm-dumbbell-row",
@@ -2054,8 +4652,15 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "One-Arm_Kettlebell_Row",
+        "Bent_Over_Two-Dumbbell_Row"
+      ],
+      "easier": null,
+      "harder": null
     },
     "One-Arm_Kettlebell_Row": {
       "pose": "one-arm-kettlebell-row",
@@ -2072,8 +4677,15 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "pull_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "One-Arm_Dumbbell_Row",
+        "Kettlebell_Bent-Over_Row"
+      ],
+      "easier": null,
+      "harder": null
     },
     "One-Arm_Kettlebell_Swings": {
       "pose": "one-arm-kettlebell-swing",
@@ -2091,8 +4703,14 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "hinge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Kettlebell_Swing"
+      ],
+      "easier": null,
+      "harder": null
     },
     "One-Legged_Cable_Kickback": {
       "pose": "one-legged-cable-kickback",
@@ -2107,8 +4725,14 @@
       ],
       "level": "intermediate",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Single_Leg_Glute_Bridge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "One_Arm_Lat_Pulldown": {
       "pose": "one-arm-lat-pulldown",
@@ -2125,8 +4749,14 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Lat_Pulldown_Neutral_Grip"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Overhead_Cable_Curl": {
       "pose": "overhead-cable-curl",
@@ -2140,8 +4770,38 @@
       "secondary_muscles": [],
       "level": "intermediate",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [],
+      "easier": null,
+      "harder": null
+    },
+    "Overhead_Squat": {
+      "pose": "overhead-squat",
+      "equipment": [
+        "barbell",
+        "rack"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "shoulders",
+        "abdominals"
+      ],
+      "level": "expert",
+      "mechanic": "compound",
+      "pattern": "squat",
+      "category": "olympic_weightlifting",
+      "aliases": [],
+      "swaps": [
+        "Front_Barbell_Squat",
+        "Barbell_Squat"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Pallof_Press": {
       "pose": "pallof-press",
@@ -2159,8 +4819,14 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Plank_Shoulder_Tap"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Palms-Down_Wrist_Curl_Over_A_Bench": {
       "pose": "palms-down-wrist-curl-over-a-bench",
@@ -2174,8 +4840,12 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [],
+      "easier": null,
+      "harder": null
     },
     "Palms-Up_Barbell_Wrist_Curl_Over_A_Bench": {
       "pose": "palms-up-barbell-wrist-curl-over-a-bench",
@@ -2189,8 +4859,84 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [],
+      "easier": null,
+      "harder": null
+    },
+    "Pendlay_Row": {
+      "pose": "pendlay-row",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "middle_back"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "lats",
+        "traps"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "pull_horizontal",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Bent_Over_Barbell_Row",
+        "T-Bar_Row_with_Handle",
+        "Seal_Row"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Pike_Push-Up": {
+      "pose": "pike-push-up",
+      "equipment": [],
+      "primary_muscles": [
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "triceps",
+        "chest"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "push_vertical",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Handstand_Push-Ups",
+        "Dumbbell_Shoulder_Press",
+        "Shoulder_Press_-_With_Bands"
+      ],
+      "easier": null,
+      "harder": "Handstand_Push-Ups"
+    },
+    "Pistol_Squat": {
+      "pose": "pistol-squat",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "calves",
+        "abdominals"
+      ],
+      "level": "expert",
+      "mechanic": "compound",
+      "pattern": "squat",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Bodyweight_Bulgarian_Split_Squat"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Plank": {
       "pose": "plank",
@@ -2201,8 +4947,39 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Plank_Shoulder_Tap",
+        "Dead_Bug",
+        "Ab_Roller",
+        "Hollow_Hold"
+      ],
+      "easier": null,
+      "harder": "Plank_Shoulder_Tap"
+    },
+    "Plank_Shoulder_Tap": {
+      "pose": "plank-shoulder-tap",
+      "equipment": [],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "shoulders",
+        "chest"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Pallof_Press",
+        "Plank"
+      ],
+      "easier": "Plank",
+      "harder": null
     },
     "Power_Clean": {
       "pose": "power-clean",
@@ -2225,8 +5002,44 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "olympic",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Hang_Power_Clean",
+        "Clean",
+        "Hang_Clean"
+      ],
+      "easier": "Hang_Power_Clean",
+      "harder": "Clean"
+    },
+    "Power_Snatch": {
+      "pose": "power-snatch",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "hamstrings",
+        "shoulders",
+        "traps"
+      ],
+      "level": "expert",
+      "mechanic": "compound",
+      "pattern": "olympic",
+      "category": "olympic_weightlifting",
+      "aliases": [],
+      "swaps": [
+        "Hang_Power_Snatch",
+        "Snatch",
+        "Muscle_Snatch",
+        "Kettlebell_Snatch"
+      ],
+      "easier": "Hang_Power_Snatch",
+      "harder": "Snatch"
     },
     "Preacher_Curl": {
       "pose": "preacher-curl",
@@ -2240,8 +5053,38 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Cable_Preacher_Curl",
+        "Spider_Curl",
+        "Machine_Bicep_Curl"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Prone_Y_Raise": {
+      "pose": "prone-y-raise",
+      "equipment": [],
+      "primary_muscles": [
+        "shoulders",
+        "traps"
+      ],
+      "secondary_muscles": [
+        "middle_back"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Cable_Y_Raise",
+        "Wall_Angel"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Pull_Through": {
       "pose": "cable-pull-through",
@@ -2258,8 +5101,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "hinge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Kettlebell_Swing",
+        "Dumbbell_Romanian_Deadlift",
+        "Barbell_Hip_Thrust"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Pullups": {
       "pose": "pull-up",
@@ -2275,8 +5126,18 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Wide-Grip_Lat_Pulldown",
+        "Chin-Up",
+        "Band_Assisted_Pull-Up",
+        "Lat_Pulldown_Neutral_Grip",
+        "Inverted_Row"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Push-Ups_-_Close_Triceps_Position": {
       "pose": "close-triceps-push-up",
@@ -2290,8 +5151,17 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Close-Grip_Barbell_Bench_Press",
+        "Bench_Dips",
+        "Dips_-_Triceps_Version",
+        "Pushups"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Push-Ups_With_Feet_Elevated": {
       "pose": "push-ups-feet-elevated",
@@ -2307,8 +5177,41 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Incline_Dumbbell_Press",
+        "Pushups"
+      ],
+      "easier": "Pushups",
+      "harder": null
+    },
+    "Push_Jerk": {
+      "pose": "push-jerk",
+      "equipment": [
+        "barbell",
+        "rack"
+      ],
+      "primary_muscles": [
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "quadriceps",
+        "triceps"
+      ],
+      "level": "expert",
+      "mechanic": "compound",
+      "pattern": "olympic",
+      "category": "olympic_weightlifting",
+      "aliases": [],
+      "swaps": [
+        "Split_Jerk",
+        "Push_Press",
+        "Dumbbell_Push_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Push_Press": {
       "pose": "push-press",
@@ -2324,8 +5227,15 @@
       ],
       "level": "expert",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "olympic_weightlifting",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Push_Press",
+        "Standing_Military_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Pushups": {
       "pose": "pushups",
@@ -2339,8 +5249,43 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Incline_Push-Up",
+        "Dumbbell_Bench_Press",
+        "Machine_Bench_Press"
+      ],
+      "easier": null,
+      "harder": "Push-Ups_With_Feet_Elevated"
+    },
+    "Rack_Pull": {
+      "pose": "rack-pull",
+      "equipment": [
+        "barbell",
+        "rack"
+      ],
+      "primary_muscles": [
+        "lower_back",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "traps",
+        "forearms"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "powerlifting",
+      "aliases": [],
+      "swaps": [
+        "Barbell_Deadlift",
+        "Trap_Bar_Deadlift"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Reverse_Barbell_Curl": {
       "pose": "reverse-barbell-curl",
@@ -2355,8 +5300,15 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Hammer_Curls",
+        "Zottman_Curl"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Reverse_Crunch": {
       "pose": "reverse-crunch",
@@ -2367,8 +5319,15 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Flat_Bench_Lying_Leg_Raise",
+        "Hanging_Knee_Raise"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Reverse_Flyes": {
       "pose": "reverse-flyes",
@@ -2381,8 +5340,18 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seated_Bent-Over_Rear_Delt_Raise",
+        "Reverse_Machine_Flyes",
+        "Cable_Rear_Delt_Fly",
+        "Band_Pull_Apart",
+        "Face_Pull"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Reverse_Grip_Bent-Over_Rows": {
       "pose": "reverse-grip-bent-over-row",
@@ -2399,8 +5368,15 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "pull_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Bent_Over_Barbell_Row",
+        "Seated_Cable_Row_V-Bar"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Reverse_Grip_Triceps_Pushdown": {
       "pose": "reverse-grip-triceps-pushdown",
@@ -2414,8 +5390,14 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Triceps_Pushdown"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Reverse_Hyperextension": {
       "pose": "reverse-hyperextension",
@@ -2431,8 +5413,14 @@
       ],
       "level": "intermediate",
       "mechanic": null,
+      "pattern": "hinge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Hyperextensions_Back_Extensions"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Reverse_Machine_Flyes": {
       "pose": "reverse-machine-flyes",
@@ -2445,8 +5433,41 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Cable_Rear_Delt_Fly",
+        "Reverse_Flyes",
+        "Face_Pull",
+        "Seated_Bent-Over_Rear_Delt_Raise"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Ring_Row": {
+      "pose": "ring-row",
+      "equipment": [
+        "gymnastic_rings"
+      ],
+      "primary_muscles": [
+        "middle_back",
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "pull_horizontal",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Inverted_Row",
+        "Seated_Cable_Rows"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Romanian_Deadlift": {
       "pose": "romanian-deadlift",
@@ -2463,8 +5484,42 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "hinge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Romanian_Deadlift",
+        "Stiff-Legged_Barbell_Deadlift",
+        "Kettlebell_Romanian_Deadlift",
+        "Good_Morning"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Rowing_Machine": {
+      "pose": "rowing-machine",
+      "equipment": [
+        "rowing_machine"
+      ],
+      "primary_muscles": [
+        "middle_back",
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "biceps",
+        "lats"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "cardio",
+      "aliases": [],
+      "swaps": [
+        "Air_Bike"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Russian_Twist": {
       "pose": "russian-twist",
@@ -2477,8 +5532,90 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Russian_Twist"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Scapular_Pull-Up": {
+      "pose": "scapular-pull-up",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "traps",
+        "middle_back"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [],
+      "easier": null,
+      "harder": null
+    },
+    "Seal_Row": {
+      "pose": "seal-row",
+      "equipment": [
+        "barbell",
+        "flat_bench"
+      ],
+      "primary_muscles": [
+        "middle_back"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "lats",
+        "traps"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "pull_horizontal",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Incline_Bench_Pull",
+        "Pendlay_Row",
+        "Dumbbell_Incline_Row"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Seated_Barbell_Press": {
+      "pose": "seated-barbell-press",
+      "equipment": [
+        "barbell",
+        "incline_bench",
+        "rack"
+      ],
+      "primary_muscles": [
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "triceps"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "push_vertical",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Barbell_Shoulder_Press",
+        "Smith_Machine_Overhead_Shoulder_Press",
+        "Seated_Dumbbell_Press",
+        "Machine_Shoulder_Military_Press",
+        "Standing_Military_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Seated_Bent-Over_Rear_Delt_Raise": {
       "pose": "seated-bent-over-rear-delt-raise",
@@ -2492,8 +5629,68 @@
       "secondary_muscles": [],
       "level": "intermediate",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Reverse_Flyes",
+        "Reverse_Machine_Flyes",
+        "Cable_Rear_Delt_Fly",
+        "Band_Pull_Apart"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Seated_Cable_Row_V-Bar": {
+      "pose": "seated-cable-row-v-bar",
+      "equipment": [
+        "seated_row_machine",
+        "v_bar"
+      ],
+      "primary_muscles": [
+        "lats",
+        "middle_back"
+      ],
+      "secondary_muscles": [
+        "biceps"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "pull_horizontal",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Seated_Cable_Rows",
+        "Leverage_Iso_Row",
+        "Elevated_Cable_Rows"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Seated_Cable_Row_Wide_Grip": {
+      "pose": "seated-cable-row-wide-grip",
+      "equipment": [
+        "seated_row_machine",
+        "lat_bar"
+      ],
+      "primary_muscles": [
+        "middle_back"
+      ],
+      "secondary_muscles": [
+        "lats",
+        "biceps",
+        "shoulders"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "pull_horizontal",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Seated_Cable_Rows"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Seated_Cable_Rows": {
       "pose": "seated-cable-row",
@@ -2511,8 +5708,18 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seated_Cable_Row_V-Bar",
+        "Leverage_Iso_Row",
+        "Dumbbell_Incline_Row",
+        "Bent_Over_Barbell_Row",
+        "Inverted_Row"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Seated_Calf_Raise": {
       "pose": "seated-calf-raise",
@@ -2525,8 +5732,37 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [],
+      "easier": null,
+      "harder": null
+    },
+    "Seated_Dumbbell_Curl": {
+      "pose": "seated-dumbbell-curl",
+      "equipment": [
+        "dumbbell",
+        "flat_bench"
+      ],
+      "primary_muscles": [
+        "biceps"
+      ],
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Bicep_Curl",
+        "Incline_Dumbbell_Curl",
+        "Concentration_Curls"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Seated_Dumbbell_Press": {
       "pose": "seated-dumbbell-press",
@@ -2542,8 +5778,19 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Shoulder_Press",
+        "Arnold_Dumbbell_Press",
+        "Machine_Shoulder_Military_Press",
+        "Seated_Barbell_Press",
+        "Smith_Machine_Overhead_Shoulder_Press",
+        "Cable_Shoulder_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Seated_Dumbbell_Shrug": {
       "pose": "seated-dumbbell-shrug",
@@ -2557,8 +5804,36 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Shrug"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Seated_Dumbbell_Triceps_Extension": {
+      "pose": "seated-dumbbell-overhead-extension",
+      "equipment": [
+        "dumbbell",
+        "flat_bench"
+      ],
+      "primary_muscles": [
+        "triceps"
+      ],
+      "secondary_muscles": [],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Standing_Dumbbell_Triceps_Extension",
+        "Triceps_Overhead_Extension_with_Rope"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Seated_Leg_Curl": {
       "pose": "seated-leg-curl",
@@ -2571,8 +5846,17 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Lying_Leg_Curls",
+        "Standing_Leg_Curl",
+        "Ball_Leg_Curl",
+        "Glute_Ham_Raise"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Seated_Side_Lateral_Raise": {
       "pose": "seated-side-lateral-raise",
@@ -2586,8 +5870,16 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Side_Lateral_Raise",
+        "Cable_Seated_Lateral_Raise",
+        "Machine_Lateral_Raise"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Shoulder_Press_-_With_Bands": {
       "pose": "band-shoulder-press",
@@ -2602,8 +5894,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Shoulder_Press",
+        "Pike_Push-Up",
+        "Cable_Shoulder_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Side_Bridge": {
       "pose": "side-bridge",
@@ -2616,8 +5916,15 @@
       ],
       "level": "beginner",
       "mechanic": null,
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Side_Bend",
+        "Dumbbell_Suitcase_Carry"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Side_Lateral_Raise": {
       "pose": "dumbbell-lateral-raise",
@@ -2630,8 +5937,41 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Cable_Seated_Lateral_Raise",
+        "Machine_Lateral_Raise",
+        "Lateral_Raise_-_With_Bands",
+        "Seated_Side_Lateral_Raise",
+        "Standing_Low-Pulley_Deltoid_Raise"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Single_Arm_Dumbbell_Press": {
+      "pose": "single-arm-dumbbell-press",
+      "equipment": [
+        "dumbbell"
+      ],
+      "primary_muscles": [
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "abdominals",
+        "triceps"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "push_vertical",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Shoulder_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Single_Leg_Glute_Bridge": {
       "pose": "single-leg-glute-bridge",
@@ -2644,8 +5984,15 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "hinge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Butt_Lift_Bridge",
+        "Dumbbell_Glute_Bridge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Sissy_Squat": {
       "pose": "sissy-squat",
@@ -2656,8 +6003,14 @@
       "secondary_muscles": [],
       "level": "intermediate",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Leg_Extensions"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Sit-Up": {
       "pose": "sit-up",
@@ -2668,8 +6021,40 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Crunches",
+        "Decline_Crunch"
+      ],
+      "easier": "Crunches",
+      "harder": null
+    },
+    "Sled_Push": {
+      "pose": "sled-push",
+      "equipment": [
+        "sled"
+      ],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "calves",
+        "hamstrings"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "strongman",
+      "aliases": [],
+      "swaps": [
+        "Air_Bike",
+        "Bodyweight_Walking_Lunge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Smith_Machine_Bench_Press": {
       "pose": "smith-machine-bench-press",
@@ -2686,8 +6071,17 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Bench_Press_-_Medium_Grip",
+        "Machine_Bench_Press",
+        "Dumbbell_Bench_Press",
+        "Leverage_Chest_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Smith_Machine_Calf_Raise": {
       "pose": "smith-machine-calf-raise",
@@ -2700,8 +6094,17 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Standing_Calf_Raises",
+        "Standing_Barbell_Calf_Raise",
+        "Calf_Press_On_The_Leg_Press_Machine",
+        "Standing_Dumbbell_Calf_Raise"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Smith_Machine_Overhead_Shoulder_Press": {
       "pose": "smith-machine-overhead-shoulder-press",
@@ -2717,8 +6120,17 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seated_Barbell_Press",
+        "Machine_Shoulder_Military_Press",
+        "Seated_Dumbbell_Press",
+        "Barbell_Shoulder_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Smith_Machine_Squat": {
       "pose": "smith-machine-squat",
@@ -2736,8 +6148,17 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "squat",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Squat",
+        "Hack_Squat",
+        "Leg_Press",
+        "Dumbbell_Goblet_Squat"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Smith_Single-Leg_Split_Squat": {
       "pose": "smith-single-leg-split-squat",
@@ -2754,8 +6175,120 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "lunge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Split_Squat_with_Dumbbells",
+        "Barbell_Split_Squat",
+        "Dumbbell_Bulgarian_Split_Squat"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Snatch": {
+      "pose": "snatch",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "hamstrings",
+        "shoulders",
+        "traps"
+      ],
+      "level": "expert",
+      "mechanic": "compound",
+      "pattern": "olympic",
+      "category": "olympic_weightlifting",
+      "aliases": [],
+      "swaps": [
+        "Power_Snatch",
+        "Hang_Power_Snatch"
+      ],
+      "easier": "Power_Snatch",
+      "harder": null
+    },
+    "Snatch_Balance": {
+      "pose": "snatch-balance",
+      "equipment": [
+        "barbell",
+        "rack"
+      ],
+      "primary_muscles": [
+        "quadriceps",
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "abdominals"
+      ],
+      "level": "expert",
+      "mechanic": "compound",
+      "pattern": "olympic",
+      "category": "olympic_weightlifting",
+      "aliases": [],
+      "swaps": [
+        "Overhead_Squat",
+        "Snatch",
+        "Power_Snatch"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Snatch_Grip_Deadlift": {
+      "pose": "snatch-grip-deadlift",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "hamstrings"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "lower_back",
+        "traps"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "olympic_weightlifting",
+      "aliases": [],
+      "swaps": [
+        "Deficit_Deadlift",
+        "Barbell_Deadlift"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Snatch_Pull": {
+      "pose": "snatch-pull",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "hamstrings",
+        "glutes",
+        "traps"
+      ],
+      "secondary_muscles": [
+        "quadriceps",
+        "lower_back"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "olympic",
+      "category": "olympic_weightlifting",
+      "aliases": [],
+      "swaps": [
+        "Clean_Pull",
+        "Snatch_Grip_Deadlift"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Spider_Curl": {
       "pose": "spider-curl",
@@ -2769,8 +6302,39 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Preacher_Curl"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Split_Jerk": {
+      "pose": "split-jerk",
+      "equipment": [
+        "barbell",
+        "rack"
+      ],
+      "primary_muscles": [
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "quadriceps",
+        "triceps"
+      ],
+      "level": "expert",
+      "mechanic": "compound",
+      "pattern": "olympic",
+      "category": "olympic_weightlifting",
+      "aliases": [],
+      "swaps": [
+        "Push_Jerk",
+        "Push_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Split_Squat_with_Dumbbells": {
       "pose": "split-squat-dumbbell",
@@ -2786,8 +6350,18 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "lunge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Split_Squat",
+        "Smith_Single-Leg_Split_Squat",
+        "Dumbbell_Bulgarian_Split_Squat",
+        "Dumbbell_Rear_Lunge",
+        "Bodyweight_Reverse_Lunge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Standing_Barbell_Calf_Raise": {
       "pose": "standing-barbell-calf-raise",
@@ -2801,8 +6375,16 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Smith_Machine_Calf_Raise",
+        "Standing_Calf_Raises",
+        "Standing_Dumbbell_Calf_Raise"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Standing_Barbell_Press_Behind_Neck": {
       "pose": "barbell-press-behind-neck",
@@ -2818,8 +6400,14 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Standing_Military_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Standing_Biceps_Cable_Curl": {
       "pose": "standing-cable-curl",
@@ -2833,8 +6421,17 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Curl",
+        "EZ-Bar_Curl",
+        "Dumbbell_Bicep_Curl",
+        "Machine_Bicep_Curl"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Standing_Cable_Wood_Chop": {
       "pose": "cable-wood-chop",
@@ -2850,8 +6447,12 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "core",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [],
+      "easier": null,
+      "harder": null
     },
     "Standing_Calf_Raises": {
       "pose": "standing-calf-raise",
@@ -2864,8 +6465,17 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Smith_Machine_Calf_Raise",
+        "Calf_Press_On_The_Leg_Press_Machine",
+        "Standing_Dumbbell_Calf_Raise",
+        "Standing_Barbell_Calf_Raise"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Standing_Dumbbell_Calf_Raise": {
       "pose": "standing-dumbbell-calf-raise",
@@ -2878,8 +6488,16 @@
       "secondary_muscles": [],
       "level": "intermediate",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Standing_Calf_Raises",
+        "Smith_Machine_Calf_Raise",
+        "Bodyweight_Calf_Raise"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Standing_Dumbbell_Triceps_Extension": {
       "pose": "standing-dumbbell-triceps-extension",
@@ -2892,8 +6510,15 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seated_Dumbbell_Triceps_Extension",
+        "Triceps_Overhead_Extension_with_Rope"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Standing_Dumbbell_Upright_Row": {
       "pose": "standing-dumbbell-upright-row",
@@ -2909,8 +6534,14 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Upright_Barbell_Row"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Standing_Leg_Curl": {
       "pose": "standing-leg-curl",
@@ -2923,8 +6554,14 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Seated_Leg_Curl"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Standing_Low-Pulley_Deltoid_Raise": {
       "pose": "low-pulley-deltoid-raise",
@@ -2940,8 +6577,15 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Cable_Seated_Lateral_Raise",
+        "Side_Lateral_Raise"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Standing_Military_Press": {
       "pose": "standing-military-press",
@@ -2957,8 +6601,20 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Shoulder_Press",
+        "Seated_Barbell_Press",
+        "Smith_Machine_Overhead_Shoulder_Press",
+        "Machine_Shoulder_Military_Press",
+        "Two-Arm_Kettlebell_Military_Press",
+        "Push_Press",
+        "Landmine_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Standing_Overhead_Barbell_Triceps_Extension": {
       "pose": "standing-overhead-barbell-triceps-extension",
@@ -2973,8 +6629,14 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Cable_Overhead_Triceps_Extension_Bar"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Stiff-Legged_Barbell_Deadlift": {
       "pose": "stiff-legged-barbell-deadlift",
@@ -2990,8 +6652,16 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "hinge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Romanian_Deadlift",
+        "Stiff-Legged_Dumbbell_Deadlift",
+        "Good_Morning"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Stiff-Legged_Dumbbell_Deadlift": {
       "pose": "stiff-legged-dumbbell-deadlift",
@@ -3007,8 +6677,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "hinge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Romanian_Deadlift",
+        "Stiff-Legged_Barbell_Deadlift",
+        "Kettlebell_Romanian_Deadlift"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Straight-Arm_Dumbbell_Pullover": {
       "pose": "straight-arm-dumbbell-pullover",
@@ -3026,8 +6704,15 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Bent-Arm_Dumbbell_Pullover",
+        "Straight-Arm_Pulldown"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Straight-Arm_Pulldown": {
       "pose": "straight-arm-pulldown",
@@ -3041,8 +6726,14 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Straight-Arm_Dumbbell_Pullover"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Sumo_Deadlift": {
       "pose": "sumo-deadlift",
@@ -3063,8 +6754,38 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "hinge",
       "category": "powerlifting",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Trap_Bar_Deadlift",
+        "Barbell_Deadlift"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Superman": {
+      "pose": "superman",
+      "equipment": [],
+      "primary_muscles": [
+        "lower_back"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Bird_Dog",
+        "Hyperextensions_Back_Extensions",
+        "Prone_Y_Raise"
+      ],
+      "easier": null,
+      "harder": null
     },
     "T-Bar_Row_with_Handle": {
       "pose": "t-bar-row-with-handle",
@@ -3082,8 +6803,17 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Bent_Over_Barbell_Row",
+        "Leverage_Iso_Row",
+        "Seated_Cable_Row_V-Bar",
+        "Pendlay_Row"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Thigh_Abductor": {
       "pose": "thigh-abductor",
@@ -3098,8 +6828,15 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Cable_Hip_Abduction",
+        "Monster_Walk"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Thigh_Adductor": {
       "pose": "thigh-adductor",
@@ -3115,8 +6852,14 @@
       ],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Cable_Hip_Adduction"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Trap_Bar_Deadlift": {
       "pose": "trap-bar-deadlift",
@@ -3132,8 +6875,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "hinge",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Deadlift",
+        "Dumbbell_Deadlift",
+        "Sumo_Deadlift"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Tricep_Dumbbell_Kickback": {
       "pose": "tricep-dumbbell-kickback",
@@ -3147,8 +6898,15 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Cable_Triceps_Kickback",
+        "Triceps_Pushdown"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Triceps_Overhead_Extension_with_Rope": {
       "pose": "rope-overhead-triceps-extension",
@@ -3162,8 +6920,15 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Cable_Overhead_Triceps_Extension_Bar",
+        "Standing_Dumbbell_Triceps_Extension"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Triceps_Pushdown": {
       "pose": "triceps-pushdown",
@@ -3177,8 +6942,18 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Triceps_Pushdown_-_Rope_Attachment",
+        "Reverse_Grip_Triceps_Pushdown",
+        "Machine_Triceps_Extension",
+        "Bench_Dips",
+        "Tricep_Dumbbell_Kickback"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Triceps_Pushdown_-_Rope_Attachment": {
       "pose": "triceps-pushdown-rope",
@@ -3192,8 +6967,16 @@
       "secondary_muscles": [],
       "level": "beginner",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Triceps_Pushdown",
+        "Cable_One_Arm_Tricep_Extension",
+        "Tricep_Dumbbell_Kickback"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Two-Arm_Kettlebell_Military_Press": {
       "pose": "two-arm-kettlebell-military-press",
@@ -3208,8 +6991,16 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "push_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Shoulder_Press",
+        "Standing_Military_Press",
+        "Seated_Dumbbell_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Underhand_Cable_Pulldowns": {
       "pose": "underhand-lat-pulldown",
@@ -3227,8 +7018,16 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Chin-Up",
+        "Close-Grip_Front_Lat_Pulldown",
+        "V-Bar_Pulldown"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Upright_Barbell_Row": {
       "pose": "upright-barbell-row",
@@ -3243,8 +7042,14 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Standing_Dumbbell_Upright_Row"
+      ],
+      "easier": null,
+      "harder": null
     },
     "V-Bar_Pulldown": {
       "pose": "v-bar-pulldown",
@@ -3262,8 +7067,39 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "pull_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Lat_Pulldown_Neutral_Grip",
+        "Close-Grip_Front_Lat_Pulldown",
+        "Seated_Cable_Row_V-Bar"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Wall_Angel": {
+      "pose": "wall-angel",
+      "equipment": [
+        "wall"
+      ],
+      "primary_muscles": [
+        "shoulders",
+        "middle_back"
+      ],
+      "secondary_muscles": [
+        "traps"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "mobility",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Prone_Y_Raise"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Weighted_Pull_Ups": {
       "pose": "weighted-pull-up",
@@ -3280,8 +7116,16 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "pull_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Pullups",
+        "Chin-Up",
+        "Wide-Grip_Lat_Pulldown"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Wide-Grip_Barbell_Bench_Press": {
       "pose": "wide-grip-bench-press",
@@ -3299,8 +7143,16 @@
       ],
       "level": "intermediate",
       "mechanic": "compound",
+      "pattern": "push_horizontal",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Barbell_Bench_Press_-_Medium_Grip",
+        "Dumbbell_Bench_Press",
+        "Machine_Bench_Press"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Wide-Grip_Lat_Pulldown": {
       "pose": "wide-grip-lat-pulldown",
@@ -3318,8 +7170,67 @@
       ],
       "level": "beginner",
       "mechanic": "compound",
+      "pattern": "pull_vertical",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Pullups",
+        "Lat_Pulldown_Neutral_Grip",
+        "Close-Grip_Front_Lat_Pulldown",
+        "One_Arm_Lat_Pulldown"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Z_Press": {
+      "pose": "z-press",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "abdominals",
+        "triceps"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "push_vertical",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Seated_Barbell_Press",
+        "Standing_Military_Press"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Zercher_Squat": {
+      "pose": "zercher-squat",
+      "equipment": [
+        "barbell",
+        "rack"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "abdominals",
+        "glutes"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "squat",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Front_Barbell_Squat",
+        "Barbell_Squat",
+        "Goblet_Squat"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Zottman_Curl": {
       "pose": "zottman-curl",
@@ -3334,8 +7245,16 @@
       ],
       "level": "intermediate",
       "mechanic": "isolation",
+      "pattern": "isolation",
       "category": "strength",
-      "aliases": []
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Alternate_Bicep_Curl",
+        "Hammer_Curls",
+        "Reverse_Barbell_Curl"
+      ],
+      "easier": null,
+      "harder": null
     }
   }
 }

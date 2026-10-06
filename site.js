@@ -56,6 +56,7 @@ function show() {
     ["Secondary muscles", list("muscle", it.secondary_muscles)],
     ["Level", label("level", it.level)],
     ["Mechanic", it.mechanic ? label("mechanic", it.mechanic) : ""],
+    ["Pattern", it.pattern ? label("pattern", it.pattern) : ""],
     ["Category", label("category", it.category)],
     ["Id", it.id],
   ].filter(([, v]) => v);

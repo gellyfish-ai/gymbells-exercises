@@ -33,6 +33,7 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Squat",
+                "Dumbbell_Front_Squat",
                 "Bodyweight_Squat"
               ]
             },
@@ -52,6 +53,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Bench_Press_Neutral_Grip",
                 "Dumbbell_Floor_Press",
                 "Pushups"
               ]
@@ -72,6 +74,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Incline_Dumbbell_Row_One-Arm",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
             },
@@ -91,7 +94,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Seated_Side_Lateral_Raise"
+                "Seated_Side_Lateral_Raise",
+                "Leaning_Dumbbell_Lateral_Raise"
               ]
             },
             {
@@ -130,6 +134,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Tate_Press",
                 "Seated_Dumbbell_Triceps_Extension",
                 "Standing_Dumbbell_Triceps_Extension",
                 "Tricep_Dumbbell_Kickback"
@@ -152,6 +157,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Dumbbell_Dead_Bug",
                 "Hollow_Hold",
                 "Plank"
               ]
@@ -178,7 +184,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Romanian_Deadlift"
+                "Dumbbell_Romanian_Deadlift",
+                "Dumbbell_Single-Leg_Romanian_Deadlift",
+                "Dumbbell_Suitcase_Deadlift"
               ]
             },
             {
@@ -198,6 +206,7 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Shoulder_Press",
+                "Seated_Dumbbell_Press_Neutral_Grip",
                 "Arnold_Dumbbell_Press"
               ]
             },
@@ -238,6 +247,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Seal_Row",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
             },
@@ -257,6 +267,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Tate_Press",
                 "Seated_Dumbbell_Triceps_Extension",
                 "Standing_Dumbbell_Triceps_Extension",
                 "Tricep_Dumbbell_Kickback"
@@ -278,7 +289,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Alternate_Hammer_Curl"
+                "Alternate_Hammer_Curl",
+                "Cross-Body_Hammer_Curl",
+                "Incline_Hammer_Curl"
               ]
             },
             {
@@ -297,7 +310,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Seated_Side_Lateral_Raise"
+                "Seated_Side_Lateral_Raise",
+                "Leaning_Dumbbell_Lateral_Raise"
               ]
             }
           ]
@@ -401,7 +415,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Alternate_Hammer_Curl"
+                "Alternate_Hammer_Curl",
+                "Cross-Body_Hammer_Curl",
+                "Incline_Hammer_Curl"
               ]
             },
             {
@@ -421,6 +437,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Dumbbell_Dead_Bug",
                 "Hollow_Hold",
                 "Plank"
               ]
@@ -441,6 +458,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Tate_Press",
                 "Seated_Dumbbell_Triceps_Extension",
                 "Standing_Dumbbell_Triceps_Extension",
                 "Tricep_Dumbbell_Kickback"

@@ -32,6 +32,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Bench_Press_Neutral_Grip",
                 "Dumbbell_Floor_Press",
                 "Pushups"
               ]
@@ -52,6 +53,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Incline_Dumbbell_Row_One-Arm",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
             },
@@ -72,6 +74,7 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Shoulder_Press",
+                "Seated_Dumbbell_Press_Neutral_Grip",
                 "Arnold_Dumbbell_Press"
               ]
             },
@@ -91,6 +94,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Floor_Fly",
                 "Incline_Dumbbell_Flyes"
               ]
             },
@@ -110,7 +114,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Reverse_Flyes"
+                "Reverse_Flyes",
+                "Incline_Dumbbell_Reverse_Fly"
               ]
             },
             {
@@ -129,7 +134,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Bicep_Curl"
+                "Dumbbell_Bicep_Curl",
+                "Seated_Dumbbell_Curl_Alternating"
               ]
             },
             {
@@ -148,7 +154,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Seated_Dumbbell_Triceps_Extension"
+                "Seated_Dumbbell_Triceps_Extension",
+                "Dumbbell_Overhead_Extension_One-Arm"
               ]
             },
             {
@@ -167,7 +174,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Seated_Side_Lateral_Raise"
+                "Seated_Side_Lateral_Raise",
+                "Leaning_Dumbbell_Lateral_Raise"
               ]
             }
           ]
@@ -192,7 +200,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Goblet_Squat"
+                "Dumbbell_Goblet_Squat",
+                "Dumbbell_Front_Squat"
               ]
             },
             {
@@ -211,7 +220,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Stiff-Legged_Dumbbell_Deadlift"
+                "Stiff-Legged_Dumbbell_Deadlift",
+                "Dumbbell_Single-Leg_Romanian_Deadlift",
+                "Dumbbell_Suitcase_Deadlift"
               ]
             },
             {
@@ -250,6 +261,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Calf_Raise_Single_Leg",
                 "Bodyweight_Calf_Raise"
               ]
             },
@@ -289,7 +301,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Russian_Twist"
+                "Russian_Twist",
+                "Dumbbell_Woodchop",
+                "Dumbbell_Windmill"
               ]
             }
           ]
@@ -334,6 +348,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Seal_Row",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
             },
@@ -354,7 +369,8 @@
               "restSeconds": null,
               "swaps": [
                 "Seated_Dumbbell_Press",
-                "Dumbbell_Shoulder_Press"
+                "Dumbbell_Shoulder_Press",
+                "Seated_Dumbbell_Press_Neutral_Grip"
               ]
             },
             {
@@ -393,7 +409,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Seated_Side_Lateral_Raise"
+                "Seated_Side_Lateral_Raise",
+                "Leaning_Dumbbell_Lateral_Raise"
               ]
             },
             {
@@ -412,7 +429,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Seated_Dumbbell_Triceps_Extension"
+                "Seated_Dumbbell_Triceps_Extension",
+                "Dumbbell_Overhead_Extension_One-Arm"
               ]
             },
             {
@@ -431,7 +449,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Alternate_Hammer_Curl"
+                "Alternate_Hammer_Curl",
+                "Cross-Body_Hammer_Curl",
+                "Incline_Hammer_Curl"
               ]
             },
             {
@@ -450,7 +470,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Reverse_Flyes"
+                "Reverse_Flyes",
+                "Incline_Dumbbell_Reverse_Fly"
               ]
             }
           ]
@@ -533,7 +554,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Romanian_Deadlift"
+                "Dumbbell_Romanian_Deadlift",
+                "Dumbbell_Single-Leg_Romanian_Deadlift",
+                "Dumbbell_Suitcase_Deadlift"
               ]
             },
             {
@@ -552,7 +575,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Russian_Twist"
+                "Russian_Twist",
+                "Dumbbell_Woodchop",
+                "Dumbbell_Windmill"
               ]
             },
             {
@@ -571,6 +596,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Calf_Raise_Single_Leg",
                 "Bodyweight_Calf_Raise"
               ]
             }
@@ -606,6 +632,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Bench_Press_Neutral_Grip",
                 "Dumbbell_Floor_Press",
                 "Pushups"
               ]
@@ -626,6 +653,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Incline_Dumbbell_Row_One-Arm",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
             },
@@ -646,6 +674,7 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Shoulder_Press",
+                "Seated_Dumbbell_Press_Neutral_Grip",
                 "Arnold_Dumbbell_Press"
               ]
             },
@@ -665,6 +694,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Floor_Fly",
                 "Incline_Dumbbell_Flyes"
               ]
             },
@@ -684,7 +714,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Reverse_Flyes"
+                "Reverse_Flyes",
+                "Incline_Dumbbell_Reverse_Fly"
               ]
             },
             {
@@ -703,7 +734,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Bicep_Curl"
+                "Dumbbell_Bicep_Curl",
+                "Seated_Dumbbell_Curl_Alternating"
               ]
             },
             {
@@ -722,7 +754,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Seated_Dumbbell_Triceps_Extension"
+                "Seated_Dumbbell_Triceps_Extension",
+                "Dumbbell_Overhead_Extension_One-Arm"
               ]
             },
             {
@@ -741,7 +774,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Seated_Side_Lateral_Raise"
+                "Seated_Side_Lateral_Raise",
+                "Leaning_Dumbbell_Lateral_Raise"
               ]
             }
           ]
@@ -766,7 +800,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Goblet_Squat"
+                "Dumbbell_Goblet_Squat",
+                "Dumbbell_Front_Squat"
               ]
             },
             {
@@ -785,7 +820,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Stiff-Legged_Dumbbell_Deadlift"
+                "Stiff-Legged_Dumbbell_Deadlift",
+                "Dumbbell_Single-Leg_Romanian_Deadlift",
+                "Dumbbell_Suitcase_Deadlift"
               ]
             },
             {
@@ -824,6 +861,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Calf_Raise_Single_Leg",
                 "Bodyweight_Calf_Raise"
               ]
             },
@@ -863,7 +901,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Russian_Twist"
+                "Russian_Twist",
+                "Dumbbell_Woodchop",
+                "Dumbbell_Windmill"
               ]
             }
           ]
@@ -908,6 +948,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Seal_Row",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
             },
@@ -928,7 +969,8 @@
               "restSeconds": null,
               "swaps": [
                 "Seated_Dumbbell_Press",
-                "Dumbbell_Shoulder_Press"
+                "Dumbbell_Shoulder_Press",
+                "Seated_Dumbbell_Press_Neutral_Grip"
               ]
             },
             {
@@ -967,7 +1009,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Seated_Side_Lateral_Raise"
+                "Seated_Side_Lateral_Raise",
+                "Leaning_Dumbbell_Lateral_Raise"
               ]
             },
             {
@@ -986,7 +1029,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Seated_Dumbbell_Triceps_Extension"
+                "Seated_Dumbbell_Triceps_Extension",
+                "Dumbbell_Overhead_Extension_One-Arm"
               ]
             },
             {
@@ -1005,7 +1049,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Alternate_Hammer_Curl"
+                "Alternate_Hammer_Curl",
+                "Cross-Body_Hammer_Curl",
+                "Incline_Hammer_Curl"
               ]
             },
             {
@@ -1024,7 +1070,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Reverse_Flyes"
+                "Reverse_Flyes",
+                "Incline_Dumbbell_Reverse_Fly"
               ]
             }
           ]
@@ -1107,7 +1154,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Romanian_Deadlift"
+                "Dumbbell_Romanian_Deadlift",
+                "Dumbbell_Single-Leg_Romanian_Deadlift",
+                "Dumbbell_Suitcase_Deadlift"
               ]
             },
             {
@@ -1126,7 +1175,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Russian_Twist"
+                "Russian_Twist",
+                "Dumbbell_Woodchop",
+                "Dumbbell_Windmill"
               ]
             },
             {
@@ -1145,6 +1196,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Calf_Raise_Single_Leg",
                 "Bodyweight_Calf_Raise"
               ]
             }
@@ -1180,6 +1232,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Bench_Press_Neutral_Grip",
                 "Dumbbell_Floor_Press",
                 "Pushups"
               ]
@@ -1200,6 +1253,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Incline_Dumbbell_Row_One-Arm",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
             },
@@ -1220,6 +1274,7 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Shoulder_Press",
+                "Seated_Dumbbell_Press_Neutral_Grip",
                 "Arnold_Dumbbell_Press"
               ]
             },
@@ -1239,6 +1294,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Floor_Fly",
                 "Incline_Dumbbell_Flyes"
               ]
             },
@@ -1258,7 +1314,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Reverse_Flyes"
+                "Reverse_Flyes",
+                "Incline_Dumbbell_Reverse_Fly"
               ]
             },
             {
@@ -1277,7 +1334,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Bicep_Curl"
+                "Dumbbell_Bicep_Curl",
+                "Seated_Dumbbell_Curl_Alternating"
               ]
             },
             {
@@ -1296,7 +1354,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Seated_Dumbbell_Triceps_Extension"
+                "Seated_Dumbbell_Triceps_Extension",
+                "Dumbbell_Overhead_Extension_One-Arm"
               ]
             },
             {
@@ -1315,7 +1374,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Seated_Side_Lateral_Raise"
+                "Seated_Side_Lateral_Raise",
+                "Leaning_Dumbbell_Lateral_Raise"
               ]
             }
           ]
@@ -1340,7 +1400,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Goblet_Squat"
+                "Dumbbell_Goblet_Squat",
+                "Dumbbell_Front_Squat"
               ]
             },
             {
@@ -1359,7 +1420,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Stiff-Legged_Dumbbell_Deadlift"
+                "Stiff-Legged_Dumbbell_Deadlift",
+                "Dumbbell_Single-Leg_Romanian_Deadlift",
+                "Dumbbell_Suitcase_Deadlift"
               ]
             },
             {
@@ -1398,6 +1461,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Calf_Raise_Single_Leg",
                 "Bodyweight_Calf_Raise"
               ]
             },
@@ -1437,7 +1501,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Russian_Twist"
+                "Russian_Twist",
+                "Dumbbell_Woodchop",
+                "Dumbbell_Windmill"
               ]
             }
           ]
@@ -1482,6 +1548,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Seal_Row",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
             },
@@ -1502,7 +1569,8 @@
               "restSeconds": null,
               "swaps": [
                 "Seated_Dumbbell_Press",
-                "Dumbbell_Shoulder_Press"
+                "Dumbbell_Shoulder_Press",
+                "Seated_Dumbbell_Press_Neutral_Grip"
               ]
             },
             {
@@ -1541,7 +1609,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Seated_Side_Lateral_Raise"
+                "Seated_Side_Lateral_Raise",
+                "Leaning_Dumbbell_Lateral_Raise"
               ]
             },
             {
@@ -1560,7 +1629,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Seated_Dumbbell_Triceps_Extension"
+                "Seated_Dumbbell_Triceps_Extension",
+                "Dumbbell_Overhead_Extension_One-Arm"
               ]
             },
             {
@@ -1579,7 +1649,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Alternate_Hammer_Curl"
+                "Alternate_Hammer_Curl",
+                "Cross-Body_Hammer_Curl",
+                "Incline_Hammer_Curl"
               ]
             },
             {
@@ -1598,7 +1670,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Reverse_Flyes"
+                "Reverse_Flyes",
+                "Incline_Dumbbell_Reverse_Fly"
               ]
             }
           ]
@@ -1681,7 +1754,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Romanian_Deadlift"
+                "Dumbbell_Romanian_Deadlift",
+                "Dumbbell_Single-Leg_Romanian_Deadlift",
+                "Dumbbell_Suitcase_Deadlift"
               ]
             },
             {
@@ -1700,7 +1775,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Russian_Twist"
+                "Russian_Twist",
+                "Dumbbell_Woodchop",
+                "Dumbbell_Windmill"
               ]
             },
             {
@@ -1719,6 +1796,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Calf_Raise_Single_Leg",
                 "Bodyweight_Calf_Raise"
               ]
             }

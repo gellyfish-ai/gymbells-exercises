@@ -33,7 +33,9 @@
               "restSeconds": null,
               "swaps": [
                 "Front_Barbell_Squat",
-                "Box_Squat"
+                "Barbell_Back_Squat_Paused",
+                "Box_Squat",
+                "Barbell_Back_Squat_Low_Bar"
               ]
             },
             {
@@ -92,7 +94,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "EZ-Bar_Curl"
+                "EZ-Bar_Curl",
+                "Barbell_Curl_Close_Grip"
               ]
             },
             {
@@ -277,7 +280,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "EZ-Bar_Curl"
+                "EZ-Bar_Curl",
+                "Barbell_Curl_Close_Grip"
               ]
             },
             {
@@ -343,6 +347,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Incline_Barbell_Bench_Press_Close_Grip",
                 "Push-Ups_With_Feet_Elevated"
               ]
             },
@@ -442,7 +447,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "EZ-Bar_Curl"
+                "EZ-Bar_Curl",
+                "Barbell_Curl_Close_Grip"
               ]
             }
           ]
@@ -478,7 +484,9 @@
               "restSeconds": null,
               "swaps": [
                 "Front_Barbell_Squat",
-                "Box_Squat"
+                "Barbell_Back_Squat_Paused",
+                "Box_Squat",
+                "Barbell_Back_Squat_Low_Bar"
               ]
             },
             {
@@ -537,7 +545,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "EZ-Bar_Curl"
+                "EZ-Bar_Curl",
+                "Barbell_Curl_Close_Grip"
               ]
             },
             {
@@ -722,7 +731,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "EZ-Bar_Curl"
+                "EZ-Bar_Curl",
+                "Barbell_Curl_Close_Grip"
               ]
             },
             {
@@ -788,6 +798,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Incline_Barbell_Bench_Press_Close_Grip",
                 "Push-Ups_With_Feet_Elevated"
               ]
             },
@@ -887,7 +898,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "EZ-Bar_Curl"
+                "EZ-Bar_Curl",
+                "Barbell_Curl_Close_Grip"
               ]
             }
           ]
@@ -923,7 +935,9 @@
               "restSeconds": null,
               "swaps": [
                 "Front_Barbell_Squat",
-                "Box_Squat"
+                "Barbell_Back_Squat_Paused",
+                "Box_Squat",
+                "Barbell_Back_Squat_Low_Bar"
               ]
             },
             {
@@ -982,7 +996,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "EZ-Bar_Curl"
+                "EZ-Bar_Curl",
+                "Barbell_Curl_Close_Grip"
               ]
             },
             {
@@ -1167,7 +1182,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "EZ-Bar_Curl"
+                "EZ-Bar_Curl",
+                "Barbell_Curl_Close_Grip"
               ]
             },
             {
@@ -1233,6 +1249,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Incline_Barbell_Bench_Press_Close_Grip",
                 "Push-Ups_With_Feet_Elevated"
               ]
             },
@@ -1332,7 +1349,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "EZ-Bar_Curl"
+                "EZ-Bar_Curl",
+                "Barbell_Curl_Close_Grip"
               ]
             }
           ]
@@ -1368,7 +1386,9 @@
               "restSeconds": null,
               "swaps": [
                 "Front_Barbell_Squat",
-                "Box_Squat"
+                "Barbell_Back_Squat_Paused",
+                "Box_Squat",
+                "Barbell_Back_Squat_Low_Bar"
               ]
             },
             {
@@ -1427,7 +1447,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "EZ-Bar_Curl"
+                "EZ-Bar_Curl",
+                "Barbell_Curl_Close_Grip"
               ]
             },
             {
@@ -1612,7 +1633,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "EZ-Bar_Curl"
+                "EZ-Bar_Curl",
+                "Barbell_Curl_Close_Grip"
               ]
             },
             {
@@ -1678,6 +1700,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Incline_Barbell_Bench_Press_Close_Grip",
                 "Push-Ups_With_Feet_Elevated"
               ]
             },
@@ -1777,7 +1800,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "EZ-Bar_Curl"
+                "EZ-Bar_Curl",
+                "Barbell_Curl_Close_Grip"
               ]
             }
           ]

@@ -32,6 +32,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "American_Kettlebell_Swing",
+                "Double_Kettlebell_Swing",
                 "One-Arm_Kettlebell_Swings",
                 "Kettlebell_Romanian_Deadlift"
               ]
@@ -71,7 +73,11 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Kettlebell_Press",
+                "Kettlebell_Push_Press",
+                "Kettlebell_Bottoms-Up_Press"
+              ]
             },
             {
               "name": "One-Arm Kettlebell Row",
@@ -89,6 +95,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Row_Staggered_Stance",
                 "Kettlebell_Bent-Over_Row"
               ]
             },
@@ -125,7 +132,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Kettlebell_Farmers_Walk"
+                "Kettlebell_Farmers_Walk",
+                "Kettlebell_Rack_Carry",
+                "Kettlebell_Overhead_Carry"
               ]
             },
             {
@@ -144,7 +153,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Russian_Twist"
+                "Russian_Twist",
+                "Kettlebell_Around_the_World"
               ]
             }
           ]
@@ -168,7 +178,10 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Kettlebell_Clean",
+                "Kettlebell_Press"
+              ]
             },
             {
               "name": "Kettlebell Goblet Reverse Lunge",
@@ -186,6 +199,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Goblet_Lunge",
                 "Bodyweight_Reverse_Lunge"
               ]
             },
@@ -205,6 +219,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Deadlift",
                 "Kettlebell_One-Legged_Deadlift"
               ]
             },
@@ -264,7 +279,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Russian_Twist"
+                "Russian_Twist",
+                "Kettlebell_Around_the_World"
               ]
             },
             {
@@ -306,7 +322,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Kettlebell_Swing"
+                "Kettlebell_Swing",
+                "Kettlebell_High_Pull"
               ]
             },
             {
@@ -325,6 +342,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Front_Squat_One-Arm",
                 "Goblet_Squat"
               ]
             },
@@ -344,7 +362,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Kettlebell_Windmill"
+                "Kettlebell_Windmill",
+                "Kettlebell_Overhead_Carry"
               ]
             },
             {
@@ -363,7 +382,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "One-Arm_Kettlebell_Row"
+                "One-Arm_Kettlebell_Row",
+                "Kettlebell_Row_Staggered_Stance",
+                "Gorilla_Row"
               ]
             },
             {
@@ -402,7 +423,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Kettlebell_Suitcase_Carry"
+                "Kettlebell_Suitcase_Carry",
+                "Kettlebell_Rack_Carry"
               ]
             },
             {
@@ -454,6 +476,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "American_Kettlebell_Swing",
+                "Double_Kettlebell_Swing",
                 "One-Arm_Kettlebell_Swings",
                 "Kettlebell_Romanian_Deadlift"
               ]
@@ -493,7 +517,11 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Kettlebell_Press",
+                "Kettlebell_Push_Press",
+                "Kettlebell_Bottoms-Up_Press"
+              ]
             },
             {
               "name": "One-Arm Kettlebell Row",
@@ -511,6 +539,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Row_Staggered_Stance",
                 "Kettlebell_Bent-Over_Row"
               ]
             },
@@ -547,7 +576,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Kettlebell_Farmers_Walk"
+                "Kettlebell_Farmers_Walk",
+                "Kettlebell_Rack_Carry",
+                "Kettlebell_Overhead_Carry"
               ]
             },
             {
@@ -566,7 +597,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Russian_Twist"
+                "Russian_Twist",
+                "Kettlebell_Around_the_World"
               ]
             }
           ]
@@ -590,7 +622,10 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Kettlebell_Clean",
+                "Kettlebell_Press"
+              ]
             },
             {
               "name": "Kettlebell Goblet Reverse Lunge",
@@ -608,6 +643,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Goblet_Lunge",
                 "Bodyweight_Reverse_Lunge"
               ]
             },
@@ -627,6 +663,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Deadlift",
                 "Kettlebell_One-Legged_Deadlift"
               ]
             },
@@ -686,7 +723,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Russian_Twist"
+                "Russian_Twist",
+                "Kettlebell_Around_the_World"
               ]
             },
             {
@@ -728,7 +766,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Kettlebell_Swing"
+                "Kettlebell_Swing",
+                "Kettlebell_High_Pull"
               ]
             },
             {
@@ -747,6 +786,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Front_Squat_One-Arm",
                 "Goblet_Squat"
               ]
             },
@@ -766,7 +806,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Kettlebell_Windmill"
+                "Kettlebell_Windmill",
+                "Kettlebell_Overhead_Carry"
               ]
             },
             {
@@ -785,7 +826,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "One-Arm_Kettlebell_Row"
+                "One-Arm_Kettlebell_Row",
+                "Kettlebell_Row_Staggered_Stance",
+                "Gorilla_Row"
               ]
             },
             {
@@ -824,7 +867,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Kettlebell_Suitcase_Carry"
+                "Kettlebell_Suitcase_Carry",
+                "Kettlebell_Rack_Carry"
               ]
             },
             {
@@ -876,6 +920,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "American_Kettlebell_Swing",
+                "Double_Kettlebell_Swing",
                 "One-Arm_Kettlebell_Swings",
                 "Kettlebell_Romanian_Deadlift"
               ]
@@ -915,7 +961,11 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Kettlebell_Press",
+                "Kettlebell_Push_Press",
+                "Kettlebell_Bottoms-Up_Press"
+              ]
             },
             {
               "name": "One-Arm Kettlebell Row",
@@ -933,6 +983,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Row_Staggered_Stance",
                 "Kettlebell_Bent-Over_Row"
               ]
             },
@@ -969,7 +1020,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Kettlebell_Farmers_Walk"
+                "Kettlebell_Farmers_Walk",
+                "Kettlebell_Rack_Carry",
+                "Kettlebell_Overhead_Carry"
               ]
             },
             {
@@ -988,7 +1041,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Russian_Twist"
+                "Russian_Twist",
+                "Kettlebell_Around_the_World"
               ]
             }
           ]
@@ -1012,7 +1066,10 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Kettlebell_Clean",
+                "Kettlebell_Press"
+              ]
             },
             {
               "name": "Kettlebell Goblet Reverse Lunge",
@@ -1030,6 +1087,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Goblet_Lunge",
                 "Bodyweight_Reverse_Lunge"
               ]
             },
@@ -1049,6 +1107,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Deadlift",
                 "Kettlebell_One-Legged_Deadlift"
               ]
             },
@@ -1108,7 +1167,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Russian_Twist"
+                "Russian_Twist",
+                "Kettlebell_Around_the_World"
               ]
             },
             {
@@ -1150,7 +1210,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Kettlebell_Swing"
+                "Kettlebell_Swing",
+                "Kettlebell_High_Pull"
               ]
             },
             {
@@ -1169,6 +1230,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Front_Squat_One-Arm",
                 "Goblet_Squat"
               ]
             },
@@ -1188,7 +1250,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Kettlebell_Windmill"
+                "Kettlebell_Windmill",
+                "Kettlebell_Overhead_Carry"
               ]
             },
             {
@@ -1207,7 +1270,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "One-Arm_Kettlebell_Row"
+                "One-Arm_Kettlebell_Row",
+                "Kettlebell_Row_Staggered_Stance",
+                "Gorilla_Row"
               ]
             },
             {
@@ -1246,7 +1311,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Kettlebell_Suitcase_Carry"
+                "Kettlebell_Suitcase_Carry",
+                "Kettlebell_Rack_Carry"
               ]
             },
             {

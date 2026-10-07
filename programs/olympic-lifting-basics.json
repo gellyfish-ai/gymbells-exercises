@@ -33,6 +33,7 @@
               "restSeconds": null,
               "swaps": [
                 "Hang_Power_Snatch",
+                "Snatch-Grip_High_Pull",
                 "Power_Snatch"
               ]
             },
@@ -53,7 +54,9 @@
               "restSeconds": null,
               "swaps": [
                 "Power_Snatch",
-                "Muscle_Snatch"
+                "Hang_Snatch",
+                "Muscle_Snatch",
+                "Snatch-Grip_High_Pull"
               ]
             },
             {
@@ -72,6 +75,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Overhead_Squat",
                 "Front_Barbell_Squat",
                 "Barbell_Squat"
               ]
@@ -92,6 +96,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Snatch-Grip_High_Pull",
                 "Clean_Pull"
               ]
             },
@@ -140,7 +145,8 @@
               "restSeconds": null,
               "swaps": [
                 "Power_Clean",
-                "Hang_Clean"
+                "Hang_Clean",
+                "Clean_High_Pull"
               ]
             },
             {
@@ -160,6 +166,7 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Push_Press",
+                "Kettlebell_Push_Press",
                 "Standing_Military_Press"
               ]
             },
@@ -179,6 +186,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Smith_Machine_Front_Squat",
+                "Dumbbell_Front_Squat",
                 "Front_Squats_With_Two_Kettlebells",
                 "Zercher_Squat",
                 "Barbell_Squat",
@@ -202,6 +211,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Clean_High_Pull",
                 "Snatch_Pull"
               ]
             },
@@ -272,7 +282,8 @@
                 "Leg_Press",
                 "Front_Barbell_Squat",
                 "Dumbbell_Squat",
-                "Goblet_Squat"
+                "Goblet_Squat",
+                "Landmine_Squat"
               ]
             },
             {
@@ -312,6 +323,10 @@
               "swaps": [
                 "Dumbbell_Romanian_Deadlift",
                 "Stiff-Legged_Barbell_Deadlift",
+                "Smith_Machine_Romanian_Deadlift",
+                "Landmine_Romanian_Deadlift",
+                "Trap_Bar_Romanian_Deadlift",
+                "Cable_Romanian_Deadlift",
                 "Kettlebell_Romanian_Deadlift",
                 "Good_Morning"
               ]
@@ -391,6 +406,7 @@
               "restSeconds": null,
               "swaps": [
                 "Power_Snatch",
+                "Hang_Snatch",
                 "Hang_Power_Snatch"
               ]
             },
@@ -410,6 +426,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Overhead_Squat",
                 "Front_Barbell_Squat",
                 "Barbell_Squat"
               ]
@@ -430,6 +447,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Snatch-Grip_High_Pull",
                 "Clean_Pull"
               ]
             },
@@ -479,7 +497,8 @@
               "swaps": [
                 "Hang_Power_Clean",
                 "Clean",
-                "Hang_Clean"
+                "Hang_Clean",
+                "Clean_High_Pull"
               ]
             },
             {
@@ -538,6 +557,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Smith_Machine_Front_Squat",
+                "Dumbbell_Front_Squat",
                 "Front_Squats_With_Two_Kettlebells",
                 "Zercher_Squat",
                 "Barbell_Squat",
@@ -632,7 +653,8 @@
                 "Leg_Press",
                 "Front_Barbell_Squat",
                 "Dumbbell_Squat",
-                "Goblet_Squat"
+                "Goblet_Squat",
+                "Landmine_Squat"
               ]
             },
             {
@@ -651,6 +673,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Clean_High_Pull",
                 "Snatch_Pull"
               ]
             },
@@ -729,6 +752,7 @@
               "restSeconds": null,
               "swaps": [
                 "Power_Snatch",
+                "Hang_Snatch",
                 "Hang_Power_Snatch"
               ]
             },
@@ -748,6 +772,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Overhead_Squat",
                 "Front_Barbell_Squat",
                 "Barbell_Squat"
               ]
@@ -768,6 +793,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Snatch-Grip_High_Pull",
                 "Clean_Pull"
               ]
             },
@@ -817,7 +843,8 @@
               "swaps": [
                 "Hang_Power_Clean",
                 "Clean",
-                "Hang_Clean"
+                "Hang_Clean",
+                "Clean_High_Pull"
               ]
             },
             {
@@ -876,6 +903,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Smith_Machine_Front_Squat",
+                "Dumbbell_Front_Squat",
                 "Front_Squats_With_Two_Kettlebells",
                 "Zercher_Squat",
                 "Barbell_Squat",
@@ -970,7 +999,8 @@
                 "Leg_Press",
                 "Front_Barbell_Squat",
                 "Dumbbell_Squat",
-                "Goblet_Squat"
+                "Goblet_Squat",
+                "Landmine_Squat"
               ]
             },
             {
@@ -989,6 +1019,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Clean_High_Pull",
                 "Snatch_Pull"
               ]
             },

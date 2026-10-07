@@ -80,6 +80,8 @@
               "swaps": [
                 "Seated_Cable_Row_V-Bar",
                 "Leverage_Iso_Row",
+                "Standing_Cable_Row",
+                "Seated_Band_Row",
                 "Dumbbell_Incline_Row",
                 "Bent_Over_Barbell_Row",
                 "Inverted_Row"
@@ -103,8 +105,10 @@
               "swaps": [
                 "Seated_Leg_Curl",
                 "Standing_Leg_Curl",
+                "Standing_Cable_Leg_Curl",
                 "Ball_Leg_Curl",
-                "Nordic_Hamstring_Curl"
+                "Nordic_Hamstring_Curl",
+                "Band_Leg_Curl"
               ]
             },
             {
@@ -146,6 +150,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Standing_Cable_Crunch",
                 "Ab_Crunch_Machine",
                 "Decline_Crunch",
                 "Crunches"
@@ -220,6 +225,7 @@
                 "Pullups",
                 "Lat_Pulldown_Neutral_Grip",
                 "Close-Grip_Front_Lat_Pulldown",
+                "Band_Lat_Pulldown",
                 "One_Arm_Lat_Pulldown"
               ]
             },
@@ -239,7 +245,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Sissy_Squat"
+                "Sissy_Squat",
+                "Smith_Machine_Sissy_Squat",
+                "Barbell_Sissy_Squat"
               ]
             },
             {
@@ -280,7 +288,9 @@
               "restSeconds": null,
               "swaps": [
                 "Triceps_Pushdown_-_Rope_Attachment",
+                "Triceps_Pushdown_V-Bar",
                 "Reverse_Grip_Triceps_Pushdown",
+                "Band_Triceps_Pushdown",
                 "Machine_Triceps_Extension",
                 "Bench_Dips",
                 "Tricep_Dumbbell_Kickback"
@@ -304,6 +314,7 @@
               "swaps": [
                 "Cable_Crunch",
                 "Decline_Crunch",
+                "Standing_Cable_Crunch",
                 "Crunches"
               ]
             }
@@ -398,6 +409,7 @@
               "swaps": [
                 "Lying_Leg_Curls",
                 "Standing_Leg_Curl",
+                "Standing_Cable_Leg_Curl",
                 "Ball_Leg_Curl",
                 "Glute_Ham_Raise"
               ]
@@ -462,6 +474,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Landmine_Anti-Rotation_Press",
+                "Cable_Anti-Rotation_Hold",
+                "Pallof_Walkout",
                 "Plank_Shoulder_Tap"
               ]
             }
@@ -545,6 +560,8 @@
               "swaps": [
                 "Seated_Cable_Row_V-Bar",
                 "Leverage_Iso_Row",
+                "Standing_Cable_Row",
+                "Seated_Band_Row",
                 "Dumbbell_Incline_Row",
                 "Bent_Over_Barbell_Row",
                 "Inverted_Row"
@@ -568,8 +585,10 @@
               "swaps": [
                 "Seated_Leg_Curl",
                 "Standing_Leg_Curl",
+                "Standing_Cable_Leg_Curl",
                 "Ball_Leg_Curl",
-                "Nordic_Hamstring_Curl"
+                "Nordic_Hamstring_Curl",
+                "Band_Leg_Curl"
               ]
             },
             {
@@ -611,6 +630,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Standing_Cable_Crunch",
                 "Ab_Crunch_Machine",
                 "Decline_Crunch",
                 "Crunches"
@@ -685,6 +705,7 @@
                 "Pullups",
                 "Lat_Pulldown_Neutral_Grip",
                 "Close-Grip_Front_Lat_Pulldown",
+                "Band_Lat_Pulldown",
                 "One_Arm_Lat_Pulldown"
               ]
             },
@@ -704,7 +725,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Sissy_Squat"
+                "Sissy_Squat",
+                "Smith_Machine_Sissy_Squat",
+                "Barbell_Sissy_Squat"
               ]
             },
             {
@@ -745,7 +768,9 @@
               "restSeconds": null,
               "swaps": [
                 "Triceps_Pushdown_-_Rope_Attachment",
+                "Triceps_Pushdown_V-Bar",
                 "Reverse_Grip_Triceps_Pushdown",
+                "Band_Triceps_Pushdown",
                 "Machine_Triceps_Extension",
                 "Bench_Dips",
                 "Tricep_Dumbbell_Kickback"
@@ -769,6 +794,7 @@
               "swaps": [
                 "Cable_Crunch",
                 "Decline_Crunch",
+                "Standing_Cable_Crunch",
                 "Crunches"
               ]
             }
@@ -863,6 +889,7 @@
               "swaps": [
                 "Lying_Leg_Curls",
                 "Standing_Leg_Curl",
+                "Standing_Cable_Leg_Curl",
                 "Ball_Leg_Curl",
                 "Glute_Ham_Raise"
               ]
@@ -927,6 +954,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Landmine_Anti-Rotation_Press",
+                "Cable_Anti-Rotation_Hold",
+                "Pallof_Walkout",
                 "Plank_Shoulder_Tap"
               ]
             }

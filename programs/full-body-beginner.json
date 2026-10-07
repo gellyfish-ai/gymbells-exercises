@@ -37,7 +37,8 @@
                 "Leg_Press",
                 "Front_Barbell_Squat",
                 "Dumbbell_Squat",
-                "Goblet_Squat"
+                "Goblet_Squat",
+                "Landmine_Squat"
               ]
             },
             {
@@ -86,8 +87,10 @@
                 "Pendlay_Row",
                 "T-Bar_Row_with_Handle",
                 "Seated_Cable_Rows",
+                "Smith_Machine_Row",
                 "Leverage_Iso_Row",
-                "Dumbbell_Incline_Row"
+                "Dumbbell_Incline_Row",
+                "Trap_Bar_Row"
               ]
             },
             {
@@ -110,6 +113,8 @@
                 "Machine_Lateral_Raise",
                 "Lateral_Raise_-_With_Bands",
                 "Seated_Side_Lateral_Raise",
+                "Leaning_Dumbbell_Lateral_Raise",
+                "Kettlebell_Lateral_Raise",
                 "Standing_Low-Pulley_Deltoid_Raise"
               ]
             },
@@ -130,6 +135,8 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Dumbbell_Dead_Bug",
+                "Band_Dead_Bug",
                 "Hollow_Hold",
                 "Plank"
               ]
@@ -158,6 +165,10 @@
               "swaps": [
                 "Dumbbell_Romanian_Deadlift",
                 "Stiff-Legged_Barbell_Deadlift",
+                "Smith_Machine_Romanian_Deadlift",
+                "Landmine_Romanian_Deadlift",
+                "Trap_Bar_Romanian_Deadlift",
+                "Cable_Romanian_Deadlift",
                 "Kettlebell_Romanian_Deadlift",
                 "Good_Morning"
               ]
@@ -206,6 +217,7 @@
                 "Pullups",
                 "Lat_Pulldown_Neutral_Grip",
                 "Close-Grip_Front_Lat_Pulldown",
+                "Band_Lat_Pulldown",
                 "One_Arm_Lat_Pulldown"
               ]
             },
@@ -227,7 +239,9 @@
               "swaps": [
                 "Dumbbell_Goblet_Squat",
                 "Front_Squats_With_Two_Kettlebells",
+                "Cable_Goblet_Squat",
                 "Dumbbell_Squat",
+                "Landmine_Squat",
                 "Bodyweight_Squat"
               ]
             },
@@ -252,7 +266,9 @@
                 "EZ-Bar_Curl",
                 "Standing_Biceps_Cable_Curl",
                 "Seated_Dumbbell_Curl",
-                "Machine_Bicep_Curl"
+                "Kettlebell_Curl",
+                "Machine_Bicep_Curl",
+                "Band_Curl"
               ]
             }
           ]

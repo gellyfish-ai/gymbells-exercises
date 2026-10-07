@@ -62,6 +62,28 @@
         "Keep your hips level and facing the floor; widen your feet if they twist."
       ]
     },
+    "American_Kettlebell_Swing": {
+      "name": "American Kettlebell Swing",
+      "other_names": [],
+      "steps": [
+        "Stand with your feet wider than your hips, holding a kettlebell by the handle with both hands.",
+        "Hike it back between your legs.",
+        "Snap your hips forward and swing the bell all the way overhead, bottom pointing up.",
+        "Let it fall back between your legs and go into the next rep."
+      ]
+    },
+    "Anderson_Squat": {
+      "name": "Anderson Squat",
+      "other_names": [
+        "Bottom-Up Squat"
+      ],
+      "steps": [
+        "Set the bar on the safety pins at the height of your bottom squat position.",
+        "Get under the bar so it sits on your upper back, feet set as for a squat.",
+        "Drive up from a dead stop to standing.",
+        "Lower the bar back onto the pins with control and reset."
+      ]
+    },
     "Arnold_Dumbbell_Press": {
       "name": "Arnold Press",
       "other_names": [
@@ -98,6 +120,188 @@
         "Use a lighter band as you get stronger, since the band takes less of your body weight."
       ]
     },
+    "Band_Bent-Over_Row": {
+      "name": "Band Bent-Over Row",
+      "other_names": [],
+      "steps": [
+        "Stand on a band and hinge forward holding the ends, back flat.",
+        "Row your hands towards your hips.",
+        "Squeeze your shoulder blades.",
+        "Lower with control."
+      ]
+    },
+    "Band_Clamshell": {
+      "name": "Band Clamshell",
+      "other_names": [],
+      "steps": [
+        "Lie on your side with a loop band above your knees, hips and knees bent.",
+        "Keeping your feet together, lift your top knee against the band.",
+        "Don't let your hips roll back.",
+        "Lower; finish the set and switch sides."
+      ]
+    },
+    "Band_Curl": {
+      "name": "Band Curl",
+      "other_names": [],
+      "steps": [
+        "Stand on a band holding the ends underhand.",
+        "Curl your hands up to your shoulders, elbows at your sides.",
+        "Squeeze at the top.",
+        "Lower with control."
+      ]
+    },
+    "Band_Dead_Bug": {
+      "name": "Band Dead Bug",
+      "other_names": [],
+      "steps": [
+        "Lie on your back holding a band anchored behind your head, arms pointing up, knees above your hips.",
+        "Extend one leg towards the floor.",
+        "Bring it back and extend the other.",
+        "Keep your arms still and your lower back down."
+      ]
+    },
+    "Band_Deadlift": {
+      "name": "Band Deadlift",
+      "other_names": [],
+      "steps": [
+        "Stand on the middle of a band and hinge down to grip it, back flat.",
+        "Stand up tall, driving your hips forward.",
+        "Lower with control.",
+        "Keep the band close to your legs."
+      ]
+    },
+    "Band_Face_Pull": {
+      "name": "Band Face Pull",
+      "other_names": [],
+      "steps": [
+        "Anchor a band at face height and hold an end in each hand.",
+        "Pull towards your face, elbows high and hands apart.",
+        "Squeeze your shoulder blades.",
+        "Return with control."
+      ]
+    },
+    "Band_Fire_Hydrant": {
+      "name": "Band Fire Hydrant",
+      "other_names": [],
+      "steps": [
+        "Get on your hands and knees with a loop band above your knees.",
+        "Lift one knee out to the side against the band.",
+        "Lower with control.",
+        "Finish the set and switch legs."
+      ]
+    },
+    "Band_Front_Raise": {
+      "name": "Band Front Raise",
+      "other_names": [],
+      "steps": [
+        "Stand on a band holding the ends at your thighs.",
+        "Raise your arms forward to shoulder height.",
+        "Pause at the top.",
+        "Lower with control."
+      ]
+    },
+    "Band_Glute_Bridge": {
+      "name": "Band Glute Bridge",
+      "other_names": [],
+      "steps": [
+        "Lie on your back with a loop band just above your knees, feet flat.",
+        "Push your knees out against the band.",
+        "Lift your hips until your body is straight from knees to shoulders.",
+        "Lower with control."
+      ]
+    },
+    "Band_Glute_Kickback": {
+      "name": "Band Glute Kickback",
+      "other_names": [],
+      "steps": [
+        "Get on your hands and knees with a band looped around one foot and held under your hands.",
+        "Push that foot back until your leg is straight.",
+        "Squeeze your glute.",
+        "Return; finish the set and switch legs."
+      ]
+    },
+    "Band_Good_Morning": {
+      "name": "Band Good Morning",
+      "other_names": [],
+      "steps": [
+        "Stand on a band and loop the other end behind your neck.",
+        "Push your hips back and lower your torso towards level.",
+        "Keep your back flat.",
+        "Squeeze your glutes to stand."
+      ]
+    },
+    "Band_Hammer_Curl": {
+      "name": "Band Hammer Curl",
+      "other_names": [],
+      "steps": [
+        "Stand on a band holding the ends with your palms facing in.",
+        "Curl your hands up to your shoulders.",
+        "Squeeze at the top.",
+        "Lower with control."
+      ]
+    },
+    "Band_Hip_Thrust": {
+      "name": "Band Hip Thrust",
+      "other_names": [],
+      "steps": [
+        "Sit with your upper back against a bench and a band across your hips, its ends held down under your hands or the bench.",
+        "Drive your hips up until your body is level from knee to shoulder.",
+        "Squeeze your glutes at the top.",
+        "Lower with control."
+      ]
+    },
+    "Band_Jump_Squat": {
+      "name": "Band Jump Squat",
+      "other_names": [],
+      "steps": [
+        "Stand with a loop band above your knees.",
+        "Squat down, pushing your knees out.",
+        "Jump as high as you can.",
+        "Land softly and go into the next squat."
+      ]
+    },
+    "Band_Lat_Pulldown": {
+      "name": "Band Lat Pulldown",
+      "other_names": [],
+      "steps": [
+        "Anchor a band high and kneel facing it, holding an end in each hand.",
+        "Pull your hands down to your shoulders, elbows driving down.",
+        "Squeeze your lats.",
+        "Return with control."
+      ]
+    },
+    "Band_Lateral_Walk": {
+      "name": "Band Lateral Walk",
+      "other_names": [
+        "Band Side Step"
+      ],
+      "steps": [
+        "Put a loop band around your legs above your knees or at your ankles.",
+        "Get into a quarter squat.",
+        "Step sideways, keeping tension on the band.",
+        "Walk the set distance, then come back the other way."
+      ]
+    },
+    "Band_Leg_Curl": {
+      "name": "Band Leg Curl",
+      "other_names": [],
+      "steps": [
+        "Lie face down with a band anchored low behind you and looped around one ankle.",
+        "Curl your heel towards your buttock.",
+        "Lower with control.",
+        "Finish the set and switch legs."
+      ]
+    },
+    "Band_Overhead_Triceps_Extension": {
+      "name": "Band Overhead Triceps Extension",
+      "other_names": [],
+      "steps": [
+        "Stand on a band and hold the other end behind your head with both hands.",
+        "Straighten your arms overhead.",
+        "Keep your upper arms still.",
+        "Lower with control."
+      ]
+    },
     "Band_Pull_Apart": {
       "name": "Band Pull-Apart",
       "other_names": [],
@@ -109,6 +313,28 @@
         "Keep your shoulders down away from your ears and your arms nearly straight."
       ]
     },
+    "Band_Romanian_Deadlift": {
+      "name": "Band Romanian Deadlift",
+      "other_names": [
+        "Band RDL"
+      ],
+      "steps": [
+        "Stand on a band holding the ends at your thighs.",
+        "Push your hips back and lower your hands along your legs, knees slightly bent.",
+        "Stop when you feel a stretch in your hamstrings.",
+        "Squeeze your glutes to stand."
+      ]
+    },
+    "Band_Row_One-Arm": {
+      "name": "Band Row, One-Arm",
+      "other_names": [],
+      "steps": [
+        "Anchor a band at chest height and hold it in one hand.",
+        "Row it to your side.",
+        "Squeeze your shoulder blade back.",
+        "Return; finish the set and switch sides."
+      ]
+    },
     "Band_Skull_Crusher": {
       "name": "Band Skull Crusher",
       "other_names": [],
@@ -118,6 +344,88 @@
         "Straighten your elbows to push your hands up until your arms are straight above your chest.",
         "Bend your elbows slowly to return to the start.",
         "Keep your upper arms still; only your forearms should move."
+      ]
+    },
+    "Band_Squat": {
+      "name": "Band Squat",
+      "other_names": [],
+      "steps": [
+        "Stand on a band with your feet shoulder-width apart and loop the other end over your shoulders, or hold it at your shoulders.",
+        "Squat down until your thighs are parallel.",
+        "Drive back up against the band.",
+        "Keep your chest up."
+      ]
+    },
+    "Band_Straight-Arm_Pulldown": {
+      "name": "Band Straight-Arm Pulldown",
+      "other_names": [],
+      "steps": [
+        "Anchor a band high and stand facing it, arms straight in front.",
+        "Pull your hands down to your thighs, arms straight.",
+        "Squeeze your lats.",
+        "Return with control."
+      ]
+    },
+    "Band_Thruster": {
+      "name": "Band Thruster",
+      "other_names": [],
+      "steps": [
+        "Stand on a band holding the ends at your shoulders.",
+        "Squat down until your thighs are parallel.",
+        "Drive up and press your hands overhead.",
+        "Lower your hands as you go into the next squat."
+      ]
+    },
+    "Band_Triceps_Kickback": {
+      "name": "Band Triceps Kickback",
+      "other_names": [],
+      "steps": [
+        "Stand on a band and hinge forward, holding the end with your upper arm at your side.",
+        "Straighten your arm back.",
+        "Squeeze at the top.",
+        "Return; finish the set and switch sides."
+      ]
+    },
+    "Band_Triceps_Pushdown": {
+      "name": "Band Triceps Pushdown",
+      "other_names": [],
+      "steps": [
+        "Anchor a band high and hold the ends, elbows at your sides.",
+        "Push your hands down until your arms are straight.",
+        "Squeeze your triceps.",
+        "Return with control."
+      ]
+    },
+    "Band_Upright_Row": {
+      "name": "Band Upright Row",
+      "other_names": [],
+      "steps": [
+        "Stand on a band holding the ends at your thighs.",
+        "Pull your hands up to your chest, elbows high.",
+        "Pause at the top.",
+        "Lower with control."
+      ]
+    },
+    "Band_Woodchop": {
+      "name": "Band Woodchop",
+      "other_names": [],
+      "steps": [
+        "Anchor a band high and stand side-on, holding it with both hands.",
+        "Pull it diagonally down across your body to the opposite hip.",
+        "Return with control.",
+        "Finish the set and switch sides."
+      ]
+    },
+    "Barbell_21s": {
+      "name": "Barbell 21s",
+      "other_names": [
+        "21s"
+      ],
+      "steps": [
+        "Stand holding a barbell underhand, hands shoulder-width apart.",
+        "Do seven half curls from the bottom to halfway up.",
+        "Do seven half curls from halfway up to the top.",
+        "Finish with seven full curls without resting."
       ]
     },
     "Barbell_Ab_Rollout_-_On_Knees": {
@@ -133,6 +441,30 @@
         "Keep your hips slightly tucked and stop short if your back starts to arch."
       ]
     },
+    "Barbell_Back_Squat_Low_Bar": {
+      "name": "Barbell Back Squat, Low Bar",
+      "other_names": [
+        "Low-Bar Squat"
+      ],
+      "steps": [
+        "Set the bar across the back of your shoulders, just below the top of your shoulder blades, and grip it firmly.",
+        "Unrack it and stand with your feet shoulder-width apart, toes slightly out.",
+        "Sit back and down with more forward lean than a high-bar squat until your thighs are parallel.",
+        "Drive up through your mid-foot, keeping the bar over the middle of your feet."
+      ]
+    },
+    "Barbell_Back_Squat_Paused": {
+      "name": "Barbell Back Squat, Paused",
+      "other_names": [
+        "Pause Squat"
+      ],
+      "steps": [
+        "Set up as for a back squat with the bar on your upper back.",
+        "Squat to the bottom position with control.",
+        "Hold the bottom for two to three seconds without relaxing.",
+        "Drive back up to standing."
+      ]
+    },
     "Barbell_Bench_Press_-_Medium_Grip": {
       "name": "Barbell Bench Press",
       "other_names": [],
@@ -142,6 +474,30 @@
         "Lower the bar slowly to the middle of your chest, keeping your elbows at a slight angle to your body.",
         "Press the bar back up until your arms are straight above your shoulders.",
         "Keep your hips and shoulder blades on the bench, and use a spotter or safety arms when you train heavy."
+      ]
+    },
+    "Barbell_Bench_Press_Paused": {
+      "name": "Barbell Bench Press, Paused",
+      "other_names": [
+        "Pause Bench"
+      ],
+      "steps": [
+        "Lie on the bench and unrack the bar with your bench press grip.",
+        "Lower the bar to your chest.",
+        "Hold it still on your chest for one to two seconds.",
+        "Press it back up to straight arms."
+      ]
+    },
+    "Barbell_Bench_Press_Reverse_Grip": {
+      "name": "Barbell Bench Press, Reverse Grip",
+      "other_names": [
+        "Reverse-Grip Bench"
+      ],
+      "steps": [
+        "Lie on the bench and grip the bar underhand, a little wider than your shoulders.",
+        "Unrack it and lower it to your lower chest, elbows close to your body.",
+        "Press it back up to straight arms.",
+        "Use a spotter; the grip is less secure."
       ]
     },
     "Barbell_Bulgarian_Split_Squat": {
@@ -156,6 +512,18 @@
         "Push through your front foot to stand back up, then switch legs after the set."
       ]
     },
+    "Barbell_Cuban_Press": {
+      "name": "Barbell Cuban Press",
+      "other_names": [
+        "Cuban Press"
+      ],
+      "steps": [
+        "Stand holding a light barbell with a wide overhand grip at your thighs.",
+        "Pull it up until your upper arms are level with the floor, elbows out.",
+        "Rotate your forearms up so the bar is above your elbows, then press it overhead.",
+        "Reverse the movement back down."
+      ]
+    },
     "Barbell_Curl": {
       "name": "Barbell Curl",
       "other_names": [],
@@ -164,6 +532,30 @@
         "Keep your elbows close to your sides and curl the bar up towards your shoulders.",
         "Squeeze your biceps at the top, then lower the bar slowly until your arms are straight.",
         "Keep your upper arms still and don't lean back or swing to lift the bar."
+      ]
+    },
+    "Barbell_Curl_Close_Grip": {
+      "name": "Barbell Curl, Close Grip",
+      "other_names": [
+        "Close-Grip Curl"
+      ],
+      "steps": [
+        "Stand holding a barbell underhand with your hands a little closer than shoulder-width.",
+        "Curl the bar up to your shoulders, elbows at your sides.",
+        "Squeeze at the top.",
+        "Lower it with control."
+      ]
+    },
+    "Barbell_Curl_Wide_Grip": {
+      "name": "Barbell Curl, Wide Grip",
+      "other_names": [
+        "Wide-Grip Curl"
+      ],
+      "steps": [
+        "Stand holding a barbell underhand with your hands wider than your shoulders.",
+        "Curl the bar up to your shoulders, elbows at your sides.",
+        "Squeeze at the top.",
+        "Lower it with control."
       ]
     },
     "Barbell_Deadlift": {
@@ -175,6 +567,18 @@
         "Flatten your back, brace your stomach and lift your chest so your shoulders are just in front of the bar.",
         "Push the floor away with your legs and stand up tall, keeping the bar close to your body.",
         "Lower the bar by pushing your hips back first, then bending your knees once it passes them. Keep your back flat throughout."
+      ]
+    },
+    "Barbell_Deadlift_Banded": {
+      "name": "Barbell Deadlift, Banded",
+      "other_names": [
+        "Deadlift Against Bands"
+      ],
+      "steps": [
+        "Anchor bands under the platform or a heavy dumbbell and loop them over the barbell ends.",
+        "Set up for a deadlift with your back flat.",
+        "Drive through your feet and stand up, pushing harder as the bands stretch.",
+        "Lower the bar to the floor with control."
       ]
     },
     "Barbell_Deadlift_Paused": {
@@ -199,6 +603,36 @@
         "Hold a barbell over your chest with a grip a little wider than your shoulders, arms straight.",
         "Lower the bar until your upper arms rest on the floor, forearms vertical.",
         "Press the bar back up to straight arms."
+      ]
+    },
+    "Barbell_Frog_Pump": {
+      "name": "Barbell Frog Pump",
+      "other_names": [],
+      "steps": [
+        "Lie on your back with a padded barbell across your hips, soles of your feet together and knees out.",
+        "Hold the bar in place with both hands.",
+        "Squeeze your glutes to lift your hips off the floor.",
+        "Lower with control."
+      ]
+    },
+    "Barbell_Front_Rack_Lunge": {
+      "name": "Barbell Front Rack Lunge",
+      "other_names": [],
+      "steps": [
+        "Hold a barbell in the front rack, resting on your shoulders, elbows high.",
+        "Step forward with one leg and lower until your back knee nearly touches the floor.",
+        "Keep your elbows up and your torso upright.",
+        "Push back to the start and switch legs."
+      ]
+    },
+    "Barbell_Front_Raise": {
+      "name": "Barbell Front Raise",
+      "other_names": [],
+      "steps": [
+        "Stand holding a barbell at your thighs with an overhand grip, shoulder-width apart.",
+        "Lift the bar forward and up, arms straight, until it reaches eye level.",
+        "Lower with control.",
+        "Don't swing your body."
       ]
     },
     "Barbell_Full_Squat": {
@@ -226,6 +660,16 @@
         "Keep your ribs down and don't arch your lower back at the top."
       ]
     },
+    "Barbell_High_Pull": {
+      "name": "Barbell High Pull",
+      "other_names": [],
+      "steps": [
+        "Stand holding a barbell at your thighs with an overhand grip.",
+        "Push your hips back slightly, then extend explosively.",
+        "Pull the bar up to chest height, elbows high and out.",
+        "Lower the bar with control."
+      ]
+    },
     "Barbell_Hip_Thrust": {
       "name": "Barbell Hip Thrust",
       "other_names": [],
@@ -235,6 +679,16 @@
         "Push through your heels and squeeze your glutes to lift your hips until your body is flat from shoulders to knees.",
         "Pause, then lower your hips slowly towards the floor.",
         "Keep your chin tucked and ribs down so the movement comes from your hips, not your lower back."
+      ]
+    },
+    "Barbell_Hip_Thrust_Single_Leg": {
+      "name": "Barbell Hip Thrust, Single Leg",
+      "other_names": [],
+      "steps": [
+        "Sit on the floor with your upper back against a bench and a padded barbell across your hips.",
+        "Plant one foot and lift the other off the floor.",
+        "Drive through the planted heel to lift your hips until your body is level from knee to shoulder.",
+        "Lower with control, finish the set and switch legs."
       ]
     },
     "Barbell_Incline_Bench_Press_-_Medium_Grip": {
@@ -248,6 +702,18 @@
         "Keep your shoulder blades pulled together and your back on the bench throughout."
       ]
     },
+    "Barbell_Lateral_Lunge": {
+      "name": "Barbell Lateral Lunge",
+      "other_names": [
+        "Barbell Side Lunge"
+      ],
+      "steps": [
+        "Set a barbell across your upper back and stand with your feet together.",
+        "Take a wide step to one side and sit your hips back over that foot, the other leg straight.",
+        "Keep your chest up and both feet pointing forward.",
+        "Push back to the start and switch sides."
+      ]
+    },
     "Barbell_Lunge": {
       "name": "Barbell Lunge",
       "other_names": [],
@@ -257,6 +723,48 @@
         "Bend both knees to lower your back knee towards the floor, keeping your chest up.",
         "Push through your front foot to return to standing, then repeat with the other leg.",
         "Keep your front knee in line with your toes and your upper body upright."
+      ]
+    },
+    "Barbell_Overhead_Carry": {
+      "name": "Barbell Overhead Carry",
+      "other_names": [],
+      "steps": [
+        "Press a barbell overhead and lock your arms out.",
+        "Brace your core and keep the bar over the middle of your head.",
+        "Walk forward with short, steady steps.",
+        "Lower the bar to your shoulders and set it down."
+      ]
+    },
+    "Barbell_Overhead_Lunge": {
+      "name": "Barbell Overhead Lunge",
+      "other_names": [
+        "Overhead Lunge"
+      ],
+      "steps": [
+        "Press or jerk a barbell overhead with a wide grip and lock your arms.",
+        "Step forward with one leg and lower until your back knee nearly touches the floor.",
+        "Keep the bar over your head and your torso upright.",
+        "Push back to the start and switch legs."
+      ]
+    },
+    "Barbell_Pullover": {
+      "name": "Barbell Pullover",
+      "other_names": [],
+      "steps": [
+        "Lie on a bench holding a barbell over your chest, hands shoulder-width apart, elbows slightly bent.",
+        "Lower the bar back over your head until your arms are in line with your body.",
+        "Pull it back over your chest.",
+        "Keep your elbow bend fixed throughout."
+      ]
+    },
+    "Barbell_Rear_Delt_Row": {
+      "name": "Barbell Rear Delt Row",
+      "other_names": [],
+      "steps": [
+        "Bend forward with a barbell in a wide overhand grip, torso nearly level with the floor.",
+        "Row the bar to your upper chest with your elbows flared out.",
+        "Squeeze your rear shoulders at the top.",
+        "Lower the bar with control."
       ]
     },
     "Barbell_Reverse_Lunge": {
@@ -269,6 +777,30 @@
         "Take a long step back and lower your back knee until it is just above the floor.",
         "Keep your front shin upright and your torso tall.",
         "Push through your front foot to step back to the start, then switch legs."
+      ]
+    },
+    "Barbell_Russian_Twist": {
+      "name": "Barbell Russian Twist",
+      "other_names": [
+        "Landmine Russian Twist",
+        "Landmine 180",
+        "Landmine Rotation"
+      ],
+      "steps": [
+        "Stand holding the end of a landmine barbell at chest height with both hands.",
+        "Rotate your torso and swing the bar down to one hip in an arc.",
+        "Swing it back up and down to the other hip.",
+        "Pivot your feet slightly with each turn."
+      ]
+    },
+    "Barbell_Seated_Calf_Raise": {
+      "name": "Barbell Seated Calf Raise",
+      "other_names": [],
+      "steps": [
+        "Sit on a bench with the balls of your feet on a plate or block and a padded barbell across your thighs near your knees.",
+        "Let your heels drop as low as they go.",
+        "Push through the balls of your feet to raise your heels as high as you can.",
+        "Pause at the top, then lower slowly."
       ]
     },
     "Barbell_Shoulder_Press": {
@@ -292,6 +824,28 @@
         "Lift your shoulders straight up towards your ears as high as you can.",
         "Hold briefly at the top, then lower your shoulders slowly.",
         "Keep your arms straight and don't roll your shoulders; move straight up and down."
+      ]
+    },
+    "Barbell_Shrug_Behind_the_Back": {
+      "name": "Barbell Shrug, Behind the Back",
+      "other_names": [
+        "Behind-the-Back Shrug"
+      ],
+      "steps": [
+        "Stand holding a barbell behind your thighs with an overhand grip.",
+        "Shrug your shoulders up as high as you can.",
+        "Hold for a moment at the top.",
+        "Lower with control."
+      ]
+    },
+    "Barbell_Sissy_Squat": {
+      "name": "Barbell Sissy Squat",
+      "other_names": [],
+      "steps": [
+        "Hold a light barbell across your upper back or a plate on your chest, holding a support with one hand.",
+        "Rise onto your toes and lean back as you bend your knees forward.",
+        "Lower until your knees are well past your toes and your thighs and torso form a straight line.",
+        "Push back up through your quads."
       ]
     },
     "Barbell_Skull_Crusher": {
@@ -361,6 +915,28 @@
         "Keep your chest up and your front knee in line with your toes."
       ]
     },
+    "Bayesian_Curl": {
+      "name": "Bayesian Curl",
+      "other_names": [
+        "Behind-the-Body Cable Curl"
+      ],
+      "steps": [
+        "Stand facing away from a low pulley, holding the handle in one hand with your arm behind you.",
+        "Step forward so the cable pulls your arm back.",
+        "Curl the handle up, keeping your elbow behind your body.",
+        "Lower with control; finish the set and switch sides."
+      ]
+    },
+    "Behind-the-Back_Wrist_Curl": {
+      "name": "Behind-the-Back Wrist Curl",
+      "other_names": [],
+      "steps": [
+        "Stand holding a barbell behind your thighs, palms facing back.",
+        "Let the bar roll down to your fingertips.",
+        "Curl it back up into your palms and flex your wrists.",
+        "Lower with control."
+      ]
+    },
     "Bench_Dips": {
       "name": "Bench Dip",
       "other_names": [
@@ -394,6 +970,16 @@
         "Lower the dumbbell slowly behind your head in an arc until you feel a stretch in your chest and under your arms.",
         "Pull it back over your chest along the same arc.",
         "Keep your hips on the bench and don't lower further than your shoulders are comfortable with."
+      ]
+    },
+    "Bent-Over_Barbell_Row_Wide_Underhand": {
+      "name": "Bent-Over Barbell Row, Wide Underhand",
+      "other_names": [],
+      "steps": [
+        "Bend forward holding a barbell underhand, hands wider than your shoulders.",
+        "Keep your back flat and your torso at about 45 degrees.",
+        "Row the bar to your lower ribs.",
+        "Lower it with control."
       ]
     },
     "Bent_Over_Barbell_Row": {
@@ -528,6 +1114,16 @@
         "Sit lightly on the box rather than dropping onto it, and keep your back flat."
       ]
     },
+    "Bradford_Press": {
+      "name": "Bradford Press",
+      "other_names": [],
+      "steps": [
+        "Stand holding a barbell at your shoulders in front of your head.",
+        "Press it up just high enough to clear your head and lower it behind your neck.",
+        "Press it back over your head to the front.",
+        "Keep alternating front and back."
+      ]
+    },
     "Broad_Jump": {
       "name": "Broad Jump",
       "other_names": [
@@ -578,6 +1174,26 @@
         "Keep your back against the pad and the bend in your elbows the same throughout."
       ]
     },
+    "Cable_Anti-Rotation_Hold": {
+      "name": "Cable Anti-Rotation Hold",
+      "other_names": [],
+      "steps": [
+        "Stand side-on to a pulley at chest height, holding the handle with both arms straight out.",
+        "Hold the position, resisting the pull.",
+        "Breathe steadily.",
+        "Switch sides."
+      ]
+    },
+    "Cable_Calf_Raise": {
+      "name": "Cable Calf Raise",
+      "other_names": [],
+      "steps": [
+        "Stand facing a low pulley on a plate or step, holding a bar at your thighs.",
+        "Rise up onto the balls of your feet.",
+        "Pause at the top.",
+        "Lower slowly."
+      ]
+    },
     "Cable_Chest_Press": {
       "name": "Cable Chest Press",
       "other_names": [],
@@ -587,6 +1203,46 @@
         "Press the handles forward until your arms are straight in front of your chest.",
         "Let your hands come back slowly to the sides of your chest.",
         "Keep your stomach braced so your body doesn't sway as you press."
+      ]
+    },
+    "Cable_Chest_Press_One-Arm": {
+      "name": "Cable Chest Press, One-Arm",
+      "other_names": [],
+      "steps": [
+        "Stand facing away from a pulley at chest height, holding the handle in one hand.",
+        "Press it forward until your arm is straight, without twisting.",
+        "Return with control.",
+        "Finish the set and switch sides."
+      ]
+    },
+    "Cable_Chest_Press_Split_Stance": {
+      "name": "Cable Chest Press, Split Stance",
+      "other_names": [],
+      "steps": [
+        "Stand between two pulleys at chest height in a split stance, a handle in each hand.",
+        "Press both handles forward until your arms are straight.",
+        "Return with control.",
+        "Switch your front foot halfway through."
+      ]
+    },
+    "Cable_Concentration_Curl": {
+      "name": "Cable Concentration Curl",
+      "other_names": [],
+      "steps": [
+        "Sit on a bench by a low pulley, holding the handle with your elbow against your inner thigh.",
+        "Curl it up towards your shoulder.",
+        "Squeeze at the top.",
+        "Lower with control; finish the set and switch sides."
+      ]
+    },
+    "Cable_Cross-Body_Lateral_Raise": {
+      "name": "Cable Cross-Body Lateral Raise",
+      "other_names": [],
+      "steps": [
+        "Stand side-on to a low pulley and take the handle in the far hand, so the cable crosses in front of you.",
+        "Raise your arm up and out to the side to shoulder height.",
+        "Lower slowly across your body.",
+        "Finish the set, then switch sides."
       ]
     },
     "Cable_Crossover": {
@@ -613,6 +1269,26 @@
         "Keep your hips still; the movement comes from your stomach, not from sitting back."
       ]
     },
+    "Cable_Curl_One-Arm": {
+      "name": "Cable Curl, One-Arm",
+      "other_names": [],
+      "steps": [
+        "Stand facing a low pulley holding a handle in one hand.",
+        "Curl it up towards your shoulder, elbow at your side.",
+        "Squeeze at the top.",
+        "Lower with control; finish the set and switch sides."
+      ]
+    },
+    "Cable_Drag_Curl": {
+      "name": "Cable Drag Curl",
+      "other_names": [],
+      "steps": [
+        "Stand facing a low pulley holding a bar underhand.",
+        "Pull your elbows back as you curl, dragging the bar up along your body.",
+        "Stop at your lower chest.",
+        "Lower along the same path."
+      ]
+    },
     "Cable_Fly_High_to_Low": {
       "name": "Cable Fly, High to Low",
       "other_names": [],
@@ -633,6 +1309,66 @@
         "Return with control."
       ]
     },
+    "Cable_Fly_One-Arm": {
+      "name": "Cable Fly, One-Arm",
+      "other_names": [],
+      "steps": [
+        "Stand side-on to a pulley at chest height holding the handle in the near hand.",
+        "Bring it across in front of your chest in an arc.",
+        "Squeeze your chest.",
+        "Return; finish the set and switch sides."
+      ]
+    },
+    "Cable_Front_Raise": {
+      "name": "Cable Front Raise",
+      "other_names": [],
+      "steps": [
+        "Stand facing away from a low pulley with the bar between your legs, or facing it, holding the bar overhand.",
+        "Raise the bar forward to shoulder height, arms nearly straight.",
+        "Pause at the top.",
+        "Lower with control."
+      ]
+    },
+    "Cable_Front_Raise_Rope": {
+      "name": "Cable Front Raise, Rope",
+      "other_names": [],
+      "steps": [
+        "Stand facing away from a low pulley holding the rope ends, the rope between your legs.",
+        "Raise the rope forward to shoulder height, arms nearly straight.",
+        "Pause at the top.",
+        "Lower with control."
+      ]
+    },
+    "Cable_Front_Squat": {
+      "name": "Cable Front Squat",
+      "other_names": [],
+      "steps": [
+        "Stand facing a low pulley holding a bar across your front shoulders.",
+        "Squat down until your thighs are parallel.",
+        "Keep your elbows up.",
+        "Drive back up."
+      ]
+    },
+    "Cable_Glute_Kickback_Bent_Knee": {
+      "name": "Cable Glute Kickback, Bent Knee",
+      "other_names": [],
+      "steps": [
+        "Attach an ankle strap to a low pulley and face it, holding the frame.",
+        "Keeping the knee bent, push your foot back and up.",
+        "Squeeze your glute at the top.",
+        "Return; finish the set and switch sides."
+      ]
+    },
+    "Cable_Goblet_Squat": {
+      "name": "Cable Goblet Squat",
+      "other_names": [],
+      "steps": [
+        "Stand facing a low pulley holding the rope at your chest.",
+        "Squat down until your thighs are parallel.",
+        "Keep your chest up.",
+        "Drive back up."
+      ]
+    },
     "Cable_Hammer_Curls_-_Rope_Attachment": {
       "name": "Cable Hammer Curl",
       "other_names": [],
@@ -642,6 +1378,16 @@
         "Curl the rope up towards your shoulders, keeping your palms facing each other.",
         "Squeeze at the top, then lower slowly until your arms are straight.",
         "Keep your upper arms still and don't lean back to lift the weight."
+      ]
+    },
+    "Cable_High_Row": {
+      "name": "Cable High Row",
+      "other_names": [],
+      "steps": [
+        "Kneel or sit facing a high pulley holding a rope or two handles.",
+        "Row down and back towards your upper chest.",
+        "Squeeze your shoulder blades together.",
+        "Return with control."
       ]
     },
     "Cable_Hip_Abduction": {
@@ -664,6 +1410,26 @@
         "Return; finish the set and switch sides."
       ]
     },
+    "Cable_Hip_Flexion": {
+      "name": "Cable Hip Flexion",
+      "other_names": [],
+      "steps": [
+        "Attach an ankle strap to a low pulley and stand facing away from it.",
+        "Lift the strapped knee forward and up.",
+        "Lower with control.",
+        "Finish the set and switch sides."
+      ]
+    },
+    "Cable_Internal_Rotation": {
+      "name": "Cable Internal Rotation",
+      "other_names": [],
+      "steps": [
+        "Stand side-on to a pulley at elbow height, holding the handle in the near hand, elbow bent at 90 degrees at your side.",
+        "Rotate your forearm in across your stomach.",
+        "Keep your elbow against your side.",
+        "Return slowly; finish the set and switch sides."
+      ]
+    },
     "Cable_One_Arm_Tricep_Extension": {
       "name": "One-Arm Cable Triceps Extension",
       "other_names": [],
@@ -673,6 +1439,16 @@
         "Straighten your arm to push the handle down until your arm is fully straight.",
         "Let your forearm rise slowly back to the start, then switch arms after the set.",
         "Keep your upper arm still at your side; only your forearm should move."
+      ]
+    },
+    "Cable_Overhead_Extension_One-Arm": {
+      "name": "Cable Overhead Extension, One-Arm",
+      "other_names": [],
+      "steps": [
+        "Stand facing away from a low pulley, holding a handle behind your head with one hand.",
+        "Straighten your arm overhead.",
+        "Keep your upper arm still.",
+        "Lower with control; finish the set and switch sides."
       ]
     },
     "Cable_Overhead_Triceps_Extension_Bar": {
@@ -707,6 +1483,80 @@
         "Keep your shoulders down and your elbows slightly bent; don't lean back to move the weight."
       ]
     },
+    "Cable_Rear_Delt_Row": {
+      "name": "Cable Rear Delt Row",
+      "other_names": [],
+      "steps": [
+        "Face a pulley at chest height holding a rope or two handles.",
+        "Row towards your upper chest with your elbows high and flared.",
+        "Squeeze your rear shoulders.",
+        "Return with control."
+      ]
+    },
+    "Cable_Reverse_Crunch": {
+      "name": "Cable Reverse Crunch",
+      "other_names": [],
+      "steps": [
+        "Lie on your back with your feet towards a low pulley, ankle straps attached.",
+        "Pull your knees towards your chest, lifting your hips.",
+        "Lower with control.",
+        "Keep your back on the floor."
+      ]
+    },
+    "Cable_Reverse_Curl": {
+      "name": "Cable Reverse Curl",
+      "other_names": [],
+      "steps": [
+        "Stand facing a low pulley holding a bar overhand.",
+        "Curl it up to your shoulders, wrists straight.",
+        "Pause at the top.",
+        "Lower with control."
+      ]
+    },
+    "Cable_Reverse_Lunge": {
+      "name": "Cable Reverse Lunge",
+      "other_names": [],
+      "steps": [
+        "Stand facing a low pulley holding a handle in each hand.",
+        "Step back and lower until your back knee nearly touches the floor.",
+        "Push back to the start.",
+        "Alternate legs."
+      ]
+    },
+    "Cable_Romanian_Deadlift": {
+      "name": "Cable Romanian Deadlift",
+      "other_names": [
+        "Cable RDL"
+      ],
+      "steps": [
+        "Stand facing a low pulley holding a bar at your thighs.",
+        "Push your hips back and lower the bar along your legs.",
+        "Stop when you feel a stretch in your hamstrings.",
+        "Squeeze your glutes to stand."
+      ]
+    },
+    "Cable_Rope_Curl": {
+      "name": "Cable Rope Curl",
+      "other_names": [],
+      "steps": [
+        "Stand facing a low pulley holding the rope ends, palms facing in.",
+        "Curl the rope up towards your shoulders.",
+        "Squeeze at the top.",
+        "Lower with control."
+      ]
+    },
+    "Cable_Rotation": {
+      "name": "Cable Rotation",
+      "other_names": [
+        "Cable Oblique Twist"
+      ],
+      "steps": [
+        "Stand side-on to a pulley at chest height, holding the handle with both hands.",
+        "Rotate your torso away from the pulley, arms straight.",
+        "Return with control.",
+        "Finish the set and switch sides."
+      ]
+    },
     "Cable_Seated_Lateral_Raise": {
       "name": "Seated Cable Lateral Raise",
       "other_names": [],
@@ -729,6 +1579,46 @@
         "Keep your back against the pad and your stomach braced; don't arch your lower back."
       ]
     },
+    "Cable_Shrug": {
+      "name": "Cable Shrug",
+      "other_names": [],
+      "steps": [
+        "Stand facing a low pulley holding a straight bar at your thighs.",
+        "Shrug your shoulders up towards your ears.",
+        "Hold for a moment.",
+        "Lower with control."
+      ]
+    },
+    "Cable_Side_Bend": {
+      "name": "Cable Side Bend",
+      "other_names": [],
+      "steps": [
+        "Stand side-on to a low pulley holding the handle in the near hand.",
+        "Bend away from the pulley.",
+        "Return to upright with control.",
+        "Finish the set and switch sides."
+      ]
+    },
+    "Cable_Split_Squat": {
+      "name": "Cable Split Squat",
+      "other_names": [],
+      "steps": [
+        "Stand in a split stance facing a low pulley, holding a handle in each hand.",
+        "Lower until your back knee nearly touches the floor.",
+        "Drive back up.",
+        "Finish the set and switch legs."
+      ]
+    },
+    "Cable_Squat": {
+      "name": "Cable Squat",
+      "other_names": [],
+      "steps": [
+        "Stand facing a low pulley holding a bar at your chest.",
+        "Squat down until your thighs are parallel.",
+        "Lean back slightly against the cable.",
+        "Drive back up."
+      ]
+    },
     "Cable_Triceps_Kickback": {
       "name": "Cable Triceps Kickback",
       "other_names": [],
@@ -737,6 +1627,56 @@
         "Straighten your arm back.",
         "Squeeze at the top.",
         "Return with control; finish the set and switch sides."
+      ]
+    },
+    "Cable_Twisting_Row": {
+      "name": "Cable Twisting Row",
+      "other_names": [],
+      "steps": [
+        "Stand facing a pulley at chest height, holding the handle in one hand with your torso turned towards it.",
+        "Row the handle back while rotating your torso away.",
+        "Return with control.",
+        "Finish the set and switch sides."
+      ]
+    },
+    "Cable_Upright_Row": {
+      "name": "Cable Upright Row",
+      "other_names": [],
+      "steps": [
+        "Stand facing a low pulley holding a straight bar overhand at your thighs.",
+        "Pull the bar up along your body to just below your chin, elbows high.",
+        "Pause at the top.",
+        "Lower with control."
+      ]
+    },
+    "Cable_Upright_Row_Rope": {
+      "name": "Cable Upright Row, Rope",
+      "other_names": [],
+      "steps": [
+        "Stand facing a low pulley holding the rope ends at your thighs.",
+        "Pull the rope up to your chest, spreading the ends apart, elbows high.",
+        "Pause at the top.",
+        "Lower with control."
+      ]
+    },
+    "Cable_Woodchop_Low_to_High": {
+      "name": "Cable Woodchop, Low to High",
+      "other_names": [],
+      "steps": [
+        "Stand side-on to a low pulley holding the handle with both hands.",
+        "Pull it diagonally up and across your body above the opposite shoulder.",
+        "Return with control.",
+        "Finish the set and switch sides."
+      ]
+    },
+    "Cable_Wrist_Curl": {
+      "name": "Cable Wrist Curl",
+      "other_names": [],
+      "steps": [
+        "Kneel or sit facing a low pulley with your forearms on a bench, holding a bar underhand.",
+        "Let your wrists bend back.",
+        "Curl your wrists up.",
+        "Lower with control."
       ]
     },
     "Cable_Y_Raise": {
@@ -798,6 +1738,16 @@
         "Stand up with the bar in the front rack."
       ]
     },
+    "Clean_High_Pull": {
+      "name": "Clean High Pull",
+      "other_names": [],
+      "steps": [
+        "Set up over the bar with your clean grip.",
+        "Lift the bar and extend your hips and knees explosively.",
+        "Pull the bar up to chest height, elbows high and out.",
+        "Lower the bar with control."
+      ]
+    },
     "Clean_Pull": {
       "name": "Clean Pull",
       "other_names": [],
@@ -856,6 +1806,26 @@
         "Keep your upper body still and let only your forearm move."
       ]
     },
+    "Cross-Body_Dumbbell_Triceps_Extension": {
+      "name": "Cross-Body Dumbbell Triceps Extension",
+      "other_names": [],
+      "steps": [
+        "Lie on a bench holding a dumbbell in one hand over your chest.",
+        "Bend your elbow to lower the dumbbell across your body towards the opposite shoulder.",
+        "Straighten your arm back up.",
+        "Finish the set and switch sides."
+      ]
+    },
+    "Cross-Body_Hammer_Curl": {
+      "name": "Cross-Body Hammer Curl",
+      "other_names": [],
+      "steps": [
+        "Stand holding a dumbbell in each hand at your sides, palms facing in.",
+        "Curl one dumbbell up and across your body towards the opposite shoulder.",
+        "Lower it and curl the other.",
+        "Keep your upper arms still."
+      ]
+    },
     "Crunches": {
       "name": "Crunch",
       "other_names": [],
@@ -889,6 +1859,16 @@
         "Keep your shoulder blades pulled together and the bar moving under control."
       ]
     },
+    "Decline_Barbell_Bench_Press_Close_Grip": {
+      "name": "Decline Barbell Bench Press, Close Grip",
+      "other_names": [],
+      "steps": [
+        "Lie on a decline bench with your legs secured and grip the bar about shoulder-width apart.",
+        "Unrack it and lower it to your lower chest, elbows close to your body.",
+        "Press it back up to straight arms.",
+        "Keep the movement controlled."
+      ]
+    },
     "Decline_Crunch": {
       "name": "Decline Crunch",
       "other_names": [],
@@ -911,6 +1891,16 @@
         "Keep your wrists straight and the dumbbells above your elbows."
       ]
     },
+    "Decline_Dumbbell_Fly": {
+      "name": "Decline Dumbbell Fly",
+      "other_names": [],
+      "steps": [
+        "Lie on a decline bench with your legs secured, dumbbells over your chest, palms facing in.",
+        "Open your arms out to the sides with a slight bend in the elbows.",
+        "Stop when you feel a stretch in your chest.",
+        "Bring the dumbbells back together over your chest."
+      ]
+    },
     "Deficit_Deadlift": {
       "name": "Deficit Deadlift",
       "other_names": [],
@@ -919,6 +1909,16 @@
         "Bend down and grip the bar, back flat, hips lower than in a normal deadlift.",
         "Drive through your feet to stand up with the bar.",
         "Lower the bar to the floor with control."
+      ]
+    },
+    "Devil_Press": {
+      "name": "Devil Press",
+      "other_names": [],
+      "steps": [
+        "Start with a dumbbell in each hand on the floor and do a burpee, chest touching the floor.",
+        "Jump your feet in towards your hands.",
+        "Swing the dumbbells between your legs and up overhead in one motion.",
+        "Lower them back to the floor and repeat."
       ]
     },
     "Dip_Machine": {
@@ -956,6 +1956,26 @@
         "Keep your shoulders down away from your ears and move slowly at the bottom."
       ]
     },
+    "Double_Kettlebell_Clean": {
+      "name": "Double Kettlebell Clean",
+      "other_names": [],
+      "steps": [
+        "Stand with two kettlebells on the floor between your feet, one in each hand.",
+        "Hike them back between your legs.",
+        "Drive your hips forward and pull both bells into the rack position.",
+        "Lower them back between your legs and repeat."
+      ]
+    },
+    "Double_Kettlebell_Swing": {
+      "name": "Double Kettlebell Swing",
+      "other_names": [],
+      "steps": [
+        "Stand with your feet wide, a kettlebell in each hand.",
+        "Hinge and swing both bells back between your legs.",
+        "Snap your hips forward to swing them to chest height.",
+        "Let them fall back and go into the next rep."
+      ]
+    },
     "Drag_Curl": {
       "name": "Drag Curl",
       "other_names": [
@@ -979,6 +1999,16 @@
         "Keep your elbows by your sides and don't swing your body."
       ]
     },
+    "Dumbbell_Around_the_World": {
+      "name": "Dumbbell Around the World",
+      "other_names": [],
+      "steps": [
+        "Lie on a bench holding light dumbbells at your thighs, palms up, arms straight.",
+        "Sweep your arms out to the sides and over your head in a wide arc.",
+        "Sweep them back down to your thighs.",
+        "Keep your elbows slightly bent throughout."
+      ]
+    },
     "Dumbbell_Bench_Press": {
       "name": "Dumbbell Bench Press",
       "other_names": [],
@@ -988,6 +2018,58 @@
         "Lower them slowly to the sides of your chest, elbows at a slight angle to your body.",
         "Press them back up, bringing them close together at the top.",
         "Keep your feet flat and your shoulder blades pulled together on the bench."
+      ]
+    },
+    "Dumbbell_Bench_Press_Alternating": {
+      "name": "Dumbbell Bench Press, Alternating",
+      "other_names": [],
+      "steps": [
+        "Lie on a bench holding two dumbbells over your chest, arms straight.",
+        "Lower one dumbbell to your chest while holding the other up.",
+        "Press it back up, then lower the other.",
+        "Keep alternating."
+      ]
+    },
+    "Dumbbell_Bench_Press_Close_Grip": {
+      "name": "Dumbbell Bench Press, Close Grip",
+      "other_names": [],
+      "steps": [
+        "Lie on a bench holding the dumbbells close together over your chest, palms facing in.",
+        "Lower them to your chest, elbows close to your body.",
+        "Press back up to straight arms.",
+        "Keep the dumbbells close throughout."
+      ]
+    },
+    "Dumbbell_Bench_Press_Neutral_Grip": {
+      "name": "Dumbbell Bench Press, Neutral Grip",
+      "other_names": [
+        "Neutral-Grip Dumbbell Press"
+      ],
+      "steps": [
+        "Lie on a bench holding a dumbbell in each hand over your chest, palms facing each other.",
+        "Lower the dumbbells beside your chest, elbows at about 45 degrees.",
+        "Press them back up.",
+        "Keep your shoulder blades pulled together."
+      ]
+    },
+    "Dumbbell_Bench_Press_One-Arm": {
+      "name": "Dumbbell Bench Press, One-Arm",
+      "other_names": [],
+      "steps": [
+        "Lie on a bench holding one dumbbell over your chest.",
+        "Lower it to the side of your chest.",
+        "Press it back up without letting your body twist.",
+        "Finish the set and switch sides."
+      ]
+    },
+    "Dumbbell_Bench_Press_Reverse_Grip": {
+      "name": "Dumbbell Bench Press, Reverse Grip",
+      "other_names": [],
+      "steps": [
+        "Lie on a bench holding dumbbells over your chest, palms facing your head.",
+        "Lower them to your lower chest, elbows close to your body.",
+        "Press them back up.",
+        "Keep your wrists straight."
       ]
     },
     "Dumbbell_Bicep_Curl": {
@@ -1012,6 +2094,66 @@
         "Push through your front foot to stand back up, then switch legs after the set."
       ]
     },
+    "Dumbbell_Burpee": {
+      "name": "Dumbbell Burpee",
+      "other_names": [],
+      "steps": [
+        "Stand holding a dumbbell in each hand.",
+        "Squat and place the dumbbells on the floor, then jump your feet back into a plank.",
+        "Jump your feet back in and stand up holding the dumbbells.",
+        "Go straight into the next rep."
+      ]
+    },
+    "Dumbbell_Calf_Raise_Single_Leg": {
+      "name": "Dumbbell Calf Raise, Single Leg",
+      "other_names": [],
+      "steps": [
+        "Stand on one foot on a step holding a dumbbell in the same-side hand, other hand on a support.",
+        "Let your heel drop below the step.",
+        "Rise as high as you can onto the ball of your foot.",
+        "Lower slowly, finish the set and switch legs."
+      ]
+    },
+    "Dumbbell_Clean": {
+      "name": "Dumbbell Clean",
+      "other_names": [],
+      "steps": [
+        "Stand holding a dumbbell in each hand in front of your thighs.",
+        "Push your hips back to lower the dumbbells to your knees.",
+        "Extend explosively and pull the dumbbells up, catching them on your shoulders.",
+        "Lower them back to your thighs."
+      ]
+    },
+    "Dumbbell_Cuban_Press": {
+      "name": "Dumbbell Cuban Press",
+      "other_names": [],
+      "steps": [
+        "Stand holding light dumbbells at your thighs.",
+        "Pull them up until your upper arms are level with the floor, elbows out.",
+        "Rotate your forearms up, then press the dumbbells overhead.",
+        "Reverse the movement down."
+      ]
+    },
+    "Dumbbell_Curtsy_Lunge": {
+      "name": "Dumbbell Curtsy Lunge",
+      "other_names": [],
+      "steps": [
+        "Stand holding a dumbbell in each hand at your sides.",
+        "Step one leg diagonally behind the other, crossing it as if curtsying.",
+        "Lower until your front thigh is about parallel to the floor.",
+        "Push back to the start and switch legs."
+      ]
+    },
+    "Dumbbell_Dead_Bug": {
+      "name": "Dumbbell Dead Bug",
+      "other_names": [],
+      "steps": [
+        "Lie on your back holding a light dumbbell in each hand over your chest, knees bent at 90 degrees above your hips.",
+        "Lower one arm overhead and extend the opposite leg.",
+        "Return and switch sides.",
+        "Keep your lower back pressed into the floor."
+      ]
+    },
     "Dumbbell_Deadlift": {
       "name": "Dumbbell Deadlift",
       "other_names": [],
@@ -1020,6 +2162,26 @@
         "Push your hips back and bend your knees to lower the dumbbells to mid-shin, back flat.",
         "Drive through your feet and stand up tall, hips and knees straight.",
         "Keep the dumbbells close to your legs the whole way."
+      ]
+    },
+    "Dumbbell_Drag_Curl": {
+      "name": "Dumbbell Drag Curl",
+      "other_names": [],
+      "steps": [
+        "Stand holding a dumbbell in each hand at your sides, palms forward.",
+        "Pull your elbows back as you curl, dragging the dumbbells up along your body.",
+        "Stop at your lower chest.",
+        "Lower along the same path."
+      ]
+    },
+    "Dumbbell_Floor_Fly": {
+      "name": "Dumbbell Floor Fly",
+      "other_names": [],
+      "steps": [
+        "Lie on the floor holding dumbbells over your chest, palms facing in.",
+        "Open your arms out to the sides with a slight bend in the elbows.",
+        "Lower until your upper arms touch the floor.",
+        "Bring the dumbbells back together over your chest."
       ]
     },
     "Dumbbell_Floor_Press": {
@@ -1044,6 +2206,46 @@
         "Don't lower the dumbbells below the level of your shoulders."
       ]
     },
+    "Dumbbell_Frog_Pump": {
+      "name": "Dumbbell Frog Pump",
+      "other_names": [],
+      "steps": [
+        "Lie on your back holding a dumbbell on your hips, soles of your feet together and knees out.",
+        "Pull your heels close to your buttocks.",
+        "Squeeze your glutes to lift your hips.",
+        "Lower with control."
+      ]
+    },
+    "Dumbbell_Front_Rack_Carry": {
+      "name": "Dumbbell Front Rack Carry",
+      "other_names": [],
+      "steps": [
+        "Hold a dumbbell in each hand at your shoulders, elbows in front.",
+        "Stand tall with your core braced.",
+        "Walk forward with short, steady steps.",
+        "Lower the dumbbells when you finish."
+      ]
+    },
+    "Dumbbell_Front_Raise_Alternating": {
+      "name": "Dumbbell Front Raise, Alternating",
+      "other_names": [],
+      "steps": [
+        "Stand holding a dumbbell in each hand at your thighs.",
+        "Raise one arm forward, nearly straight, to shoulder height.",
+        "Lower it and raise the other.",
+        "Don't swing your body."
+      ]
+    },
+    "Dumbbell_Front_Squat": {
+      "name": "Dumbbell Front Squat",
+      "other_names": [],
+      "steps": [
+        "Hold a dumbbell in each hand at your shoulders, one end resting on each shoulder.",
+        "Stand with your feet shoulder-width apart, elbows pointing forward.",
+        "Squat down until your thighs are parallel, chest up.",
+        "Drive back up to standing."
+      ]
+    },
     "Dumbbell_Glute_Bridge": {
       "name": "Dumbbell Glute Bridge",
       "other_names": [],
@@ -1062,6 +2264,26 @@
         "Stand with your feet a little wider than your hips, toes turned out slightly.",
         "Squat down until your thighs are at least level, elbows inside your knees, chest up.",
         "Push through your whole foot to stand back up."
+      ]
+    },
+    "Dumbbell_Hang_Clean": {
+      "name": "Dumbbell Hang Clean",
+      "other_names": [],
+      "steps": [
+        "Stand holding a dumbbell in each hand at your sides.",
+        "Hinge to bring the dumbbells to just above your knees.",
+        "Jump and shrug, catching the dumbbells on your shoulders in a quarter squat.",
+        "Stand up, then lower them to your sides."
+      ]
+    },
+    "Dumbbell_High_Pull": {
+      "name": "Dumbbell High Pull",
+      "other_names": [],
+      "steps": [
+        "Stand holding a dumbbell in each hand at your thighs.",
+        "Hinge slightly, then extend your hips explosively.",
+        "Pull the dumbbells up to chest height, elbows high and out.",
+        "Lower them with control."
       ]
     },
     "Dumbbell_Hip_Thrust": {
@@ -1087,6 +2309,38 @@
         "Keep your chest on the bench throughout; don't lift it to help the weight up."
       ]
     },
+    "Dumbbell_Internal_Rotation": {
+      "name": "Dumbbell Internal Rotation",
+      "other_names": [],
+      "steps": [
+        "Lie on your side on your working arm's side, elbow bent at 90 degrees, a light dumbbell in that hand.",
+        "Rotate the dumbbell up towards your stomach, keeping your elbow in place.",
+        "Lower slowly.",
+        "Finish the set, then switch sides."
+      ]
+    },
+    "Dumbbell_JM_Press": {
+      "name": "Dumbbell JM Press",
+      "other_names": [],
+      "steps": [
+        "Lie on a bench holding dumbbells over your chest, palms facing each other.",
+        "Bend your elbows forward, lowering the dumbbells towards your shoulders.",
+        "Keep your elbows pointing towards your feet.",
+        "Press back up to straight arms."
+      ]
+    },
+    "Dumbbell_L_Raise": {
+      "name": "Dumbbell L Raise",
+      "other_names": [
+        "L Lateral Raise"
+      ],
+      "steps": [
+        "Stand holding light dumbbells, one arm at your side and the other in front.",
+        "Raise one arm out to the side and the other forward, both to shoulder height.",
+        "Lower both together.",
+        "Switch arms each rep."
+      ]
+    },
     "Dumbbell_Lateral_Lunge": {
       "name": "Dumbbell Lateral Lunge",
       "other_names": [
@@ -1097,6 +2351,16 @@
         "Take a wide step to one side and bend that knee, pushing your hips back.",
         "Keep the other leg straight and both feet pointing forward.",
         "Push off the bent leg to return to the start, then repeat on the other side."
+      ]
+    },
+    "Dumbbell_Lateral_Step-Up": {
+      "name": "Dumbbell Lateral Step-Up",
+      "other_names": [],
+      "steps": [
+        "Stand side-on to a box holding a dumbbell in each hand.",
+        "Place the near foot on the box.",
+        "Drive through that foot to stand on the box.",
+        "Lower with control, finish the set and switch sides."
       ]
     },
     "Dumbbell_Lunges": {
@@ -1110,6 +2374,66 @@
         "Keep your upper body upright and your front knee in line with your toes."
       ]
     },
+    "Dumbbell_Overhead_Carry": {
+      "name": "Dumbbell Overhead Carry",
+      "other_names": [],
+      "steps": [
+        "Press a dumbbell overhead in one or both hands and lock your arms out.",
+        "Brace your core and keep your ribs down.",
+        "Walk forward with short, steady steps.",
+        "Lower the dumbbells and switch hands if carrying one."
+      ]
+    },
+    "Dumbbell_Overhead_Extension_One-Arm": {
+      "name": "Dumbbell Overhead Extension, One-Arm",
+      "other_names": [],
+      "steps": [
+        "Stand or sit holding a dumbbell overhead in one hand.",
+        "Lower it behind your head by bending your elbow.",
+        "Keep your upper arm pointing up.",
+        "Straighten your arm, finish the set and switch sides."
+      ]
+    },
+    "Dumbbell_Pendlay_Row": {
+      "name": "Dumbbell Pendlay Row",
+      "other_names": [],
+      "steps": [
+        "Stand over two dumbbells on the floor, torso level with the floor, back flat.",
+        "Grip the dumbbells.",
+        "Row them explosively to your lower chest.",
+        "Lower them back to the floor and let them settle."
+      ]
+    },
+    "Dumbbell_Pistol_Squat": {
+      "name": "Dumbbell Pistol Squat",
+      "other_names": [],
+      "steps": [
+        "Stand on one leg holding a light dumbbell out in front of you with both hands.",
+        "Extend the other leg forward.",
+        "Squat down on the standing leg as low as you can, using the weight to balance.",
+        "Drive back up, finish the set and switch legs."
+      ]
+    },
+    "Dumbbell_Preacher_Curl": {
+      "name": "Dumbbell Preacher Curl",
+      "other_names": [],
+      "steps": [
+        "Sit at a preacher bench with one or both upper arms on the pad, holding dumbbells underhand.",
+        "Curl the dumbbells up towards your shoulders.",
+        "Squeeze at the top.",
+        "Lower until your arms are almost straight."
+      ]
+    },
+    "Dumbbell_Pullover_Crunch": {
+      "name": "Dumbbell Pullover Crunch",
+      "other_names": [],
+      "steps": [
+        "Lie on your back holding a dumbbell overhead, knees bent.",
+        "Pull the dumbbell over your chest while crunching up and bringing your knees in.",
+        "Lower back to the start.",
+        "Move with control."
+      ]
+    },
     "Dumbbell_Push_Press": {
       "name": "Dumbbell Push Press",
       "other_names": [],
@@ -1118,6 +2442,16 @@
         "Dip by bending your knees slightly, torso upright.",
         "Drive up with your legs and use that push to press the dumbbells overhead.",
         "Lock your arms out over your head, then lower the dumbbells to your shoulders."
+      ]
+    },
+    "Dumbbell_Rear_Delt_Row": {
+      "name": "Dumbbell Rear Delt Row",
+      "other_names": [],
+      "steps": [
+        "Bend forward holding a dumbbell in each hand, torso nearly level with the floor.",
+        "Row the dumbbells up with your elbows flared out to the sides.",
+        "Squeeze your rear shoulders at the top.",
+        "Lower with control."
       ]
     },
     "Dumbbell_Rear_Lunge": {
@@ -1132,6 +2466,26 @@
         "Push through your front foot to bring your back foot forward to the start.",
         "Repeat with the other leg.",
         "Keep most of your weight on your front foot and your upper body upright."
+      ]
+    },
+    "Dumbbell_Reverse_Curl": {
+      "name": "Dumbbell Reverse Curl",
+      "other_names": [],
+      "steps": [
+        "Stand holding dumbbells at your thighs with an overhand grip.",
+        "Curl them up to your shoulders with straight wrists.",
+        "Pause at the top.",
+        "Lower with control."
+      ]
+    },
+    "Dumbbell_Reverse_Wrist_Curl": {
+      "name": "Dumbbell Reverse Wrist Curl",
+      "other_names": [],
+      "steps": [
+        "Sit on a bench with your forearms on your thighs, holding dumbbells overhand past your knees.",
+        "Let your wrists bend down.",
+        "Lift the backs of your hands as far as you can.",
+        "Lower with control."
       ]
     },
     "Dumbbell_Romanian_Deadlift": {
@@ -1154,6 +2508,28 @@
         "Hold one dumbbell upright in both hands in front of your chest.",
         "Rotate your torso to bring the dumbbell beside one hip.",
         "Twist to the other side, keeping your chest up and your back straight."
+      ]
+    },
+    "Dumbbell_Scaption": {
+      "name": "Dumbbell Scaption",
+      "other_names": [
+        "Scaption"
+      ],
+      "steps": [
+        "Stand holding light dumbbells at your sides, thumbs up.",
+        "Raise your arms forward at about 30 degrees out from your body.",
+        "Stop at shoulder height.",
+        "Lower with control."
+      ]
+    },
+    "Dumbbell_Seal_Row": {
+      "name": "Dumbbell Seal Row",
+      "other_names": [],
+      "steps": [
+        "Lie face down on a raised flat bench holding a dumbbell in each hand, arms hanging.",
+        "Row the dumbbells up towards your hips.",
+        "Squeeze your shoulder blades at the top.",
+        "Lower with control."
       ]
     },
     "Dumbbell_Shoulder_Press": {
@@ -1190,6 +2566,50 @@
         "Bend only to the side; don't lean forward or back."
       ]
     },
+    "Dumbbell_Single-Leg_Romanian_Deadlift": {
+      "name": "Dumbbell Single-Leg Romanian Deadlift",
+      "other_names": [
+        "Dumbbell Single-Leg RDL"
+      ],
+      "steps": [
+        "Stand on one leg holding a dumbbell in the opposite hand.",
+        "Hinge forward at the hips, letting the free leg extend straight behind you.",
+        "Lower the dumbbell towards the floor until your torso is about level, hips square.",
+        "Return upright, finish the set and switch legs."
+      ]
+    },
+    "Dumbbell_Sit-Up": {
+      "name": "Dumbbell Sit-Up",
+      "other_names": [
+        "Weighted Sit-Up"
+      ],
+      "steps": [
+        "Lie on your back with your knees bent, holding a dumbbell on your chest.",
+        "Sit all the way up.",
+        "Lower back down with control.",
+        "Hook your feet under something if you need to."
+      ]
+    },
+    "Dumbbell_Snatch": {
+      "name": "Dumbbell Snatch",
+      "other_names": [],
+      "steps": [
+        "Stand with a dumbbell on the floor between your feet.",
+        "Squat down and grip it with one hand, back flat.",
+        "Extend explosively and pull the dumbbell straight up, punching it overhead.",
+        "Lower it back down, finish the set and switch hands."
+      ]
+    },
+    "Dumbbell_Spider_Curl": {
+      "name": "Dumbbell Spider Curl",
+      "other_names": [],
+      "steps": [
+        "Lie face down on an incline bench, arms hanging straight down, holding dumbbells underhand.",
+        "Curl the dumbbells up towards your shoulders without moving your upper arms.",
+        "Squeeze at the top.",
+        "Lower with control."
+      ]
+    },
     "Dumbbell_Squat": {
       "name": "Dumbbell Squat",
       "other_names": [],
@@ -1198,6 +2618,18 @@
         "Push your hips back and bend your knees to squat until your thighs are about level with the floor.",
         "Push through your whole foot to stand back up.",
         "Keep your chest up, your heels down and your knees in line with your toes."
+      ]
+    },
+    "Dumbbell_Squeeze_Press": {
+      "name": "Dumbbell Squeeze Press",
+      "other_names": [
+        "Crush Press"
+      ],
+      "steps": [
+        "Lie on a bench holding two dumbbells together over your chest, palms facing each other.",
+        "Squeeze the dumbbells against each other hard.",
+        "Lower them to your chest while keeping them pressed together.",
+        "Press back up."
       ]
     },
     "Dumbbell_Step_Ups": {
@@ -1224,6 +2656,16 @@
         "Set the dumbbell down, switch hands and walk back."
       ]
     },
+    "Dumbbell_Suitcase_Deadlift": {
+      "name": "Dumbbell Suitcase Deadlift",
+      "other_names": [],
+      "steps": [
+        "Stand with a dumbbell on the floor beside one foot.",
+        "Squat down with a flat back and grip it, shoulders level.",
+        "Stand up without leaning towards the weight.",
+        "Lower it back down, finish the set and switch sides."
+      ]
+    },
     "Dumbbell_Sumo_Squat": {
       "name": "Dumbbell Sumo Squat",
       "other_names": [
@@ -1236,6 +2678,16 @@
         "Push through your feet to stand back up."
       ]
     },
+    "Dumbbell_Swing": {
+      "name": "Dumbbell Swing",
+      "other_names": [],
+      "steps": [
+        "Stand with your feet wider than your hips, holding one dumbbell by an end with both hands.",
+        "Hinge and swing the dumbbell back between your legs.",
+        "Snap your hips forward and swing the dumbbell up to chest height.",
+        "Let it fall back between your legs and go into the next rep."
+      ]
+    },
     "Dumbbell_Thruster": {
       "name": "Dumbbell Thruster",
       "other_names": [],
@@ -1244,6 +2696,46 @@
         "Squat down until your thighs are level, torso upright.",
         "Drive up out of the squat and, in one movement, press the dumbbells overhead.",
         "Lower the dumbbells to your shoulders as you go down into the next squat."
+      ]
+    },
+    "Dumbbell_Toe_Touch": {
+      "name": "Dumbbell Toe Touch",
+      "other_names": [],
+      "steps": [
+        "Lie on your back with your legs pointing up, holding a dumbbell straight over your chest.",
+        "Reach the dumbbell up towards your toes, lifting your shoulders off the floor.",
+        "Lower with control.",
+        "Keep your legs still."
+      ]
+    },
+    "Dumbbell_Triceps_Kickback_Two-Arm": {
+      "name": "Dumbbell Triceps Kickback, Two-Arm",
+      "other_names": [],
+      "steps": [
+        "Hinge forward holding a dumbbell in each hand, upper arms at your sides and elbows bent.",
+        "Straighten both arms back.",
+        "Squeeze your triceps at the top.",
+        "Lower with control."
+      ]
+    },
+    "Dumbbell_V-Up": {
+      "name": "Dumbbell V-Up",
+      "other_names": [],
+      "steps": [
+        "Lie on your back with your legs straight and a light dumbbell held overhead.",
+        "Lift your legs and torso and reach the dumbbell to your feet.",
+        "Lower both ends back down.",
+        "Keep your arms straight."
+      ]
+    },
+    "Dumbbell_W_Raise": {
+      "name": "Dumbbell W Raise",
+      "other_names": [],
+      "steps": [
+        "Lie face down on an incline bench holding light dumbbells, elbows bent.",
+        "Pull your elbows back and squeeze your shoulder blades, arms in a W shape.",
+        "Pause at the top.",
+        "Lower with control."
       ]
     },
     "Dumbbell_Walking_Lunge": {
@@ -1256,6 +2748,56 @@
         "Keep your torso upright as you walk."
       ]
     },
+    "Dumbbell_Windmill": {
+      "name": "Dumbbell Windmill",
+      "other_names": [],
+      "steps": [
+        "Press a dumbbell overhead in one hand, feet wider than shoulders, toes turned away from that arm.",
+        "Push your hips out to the side and lower your free hand down your leg towards the floor.",
+        "Keep your eyes on the dumbbell and your arm straight.",
+        "Return upright; finish the set and switch sides."
+      ]
+    },
+    "Dumbbell_Woodchop": {
+      "name": "Dumbbell Woodchop",
+      "other_names": [],
+      "steps": [
+        "Stand holding one dumbbell with both hands by one hip.",
+        "Swing it diagonally up and across your body to above the opposite shoulder, pivoting your feet.",
+        "Bring it back down with control.",
+        "Finish the set and switch sides."
+      ]
+    },
+    "Dumbbell_Wrist_Curl": {
+      "name": "Dumbbell Wrist Curl",
+      "other_names": [],
+      "steps": [
+        "Sit on a bench with your forearms on your thighs, holding dumbbells underhand past your knees.",
+        "Let your wrists bend back.",
+        "Curl your wrists up as far as you can.",
+        "Lower with control."
+      ]
+    },
+    "Dumbbell_Y_Raise": {
+      "name": "Dumbbell Y Raise",
+      "other_names": [],
+      "steps": [
+        "Lie face down on an incline bench holding light dumbbells, arms hanging.",
+        "Raise your arms up and forward in a Y shape, thumbs up.",
+        "Pause at the top.",
+        "Lower with control."
+      ]
+    },
+    "Dumbbell_Z_Press": {
+      "name": "Dumbbell Z Press",
+      "other_names": [],
+      "steps": [
+        "Sit on the floor with your legs straight in front of you, holding a dumbbell at each shoulder.",
+        "Sit tall without leaning back.",
+        "Press the dumbbells overhead until your arms are straight.",
+        "Lower them to your shoulders."
+      ]
+    },
     "EZ-Bar_Curl": {
       "name": "EZ-Bar Curl",
       "other_names": [],
@@ -1264,6 +2806,76 @@
         "Keep your elbows close to your sides and curl the bar up towards your shoulders.",
         "Squeeze your biceps at the top, then lower the bar slowly until your arms are straight.",
         "Keep your upper arms still and don't lean back or swing."
+      ]
+    },
+    "EZ-Bar_Drag_Curl": {
+      "name": "EZ-Bar Drag Curl",
+      "other_names": [],
+      "steps": [
+        "Stand holding an EZ bar underhand at your thighs.",
+        "Pull your elbows back as you curl, dragging the bar up along your body.",
+        "Stop when the bar reaches your lower chest.",
+        "Lower it along the same path."
+      ]
+    },
+    "EZ-Bar_Front_Raise": {
+      "name": "EZ-Bar Front Raise",
+      "other_names": [],
+      "steps": [
+        "Stand holding an EZ bar overhand at your thighs.",
+        "Lift it forward and up, arms nearly straight, to eye level.",
+        "Lower with control.",
+        "Don't swing your body."
+      ]
+    },
+    "EZ-Bar_Overhead_Triceps_Extension": {
+      "name": "EZ-Bar Overhead Triceps Extension",
+      "other_names": [],
+      "steps": [
+        "Stand or sit holding an EZ bar overhead on the inner angled grips.",
+        "Lower the bar behind your head by bending your elbows.",
+        "Keep your upper arms pointing up.",
+        "Straighten your arms back to the top."
+      ]
+    },
+    "EZ-Bar_Preacher_Curl": {
+      "name": "EZ-Bar Preacher Curl",
+      "other_names": [],
+      "steps": [
+        "Sit at a preacher bench with your upper arms on the pad, holding an EZ bar underhand.",
+        "Curl the bar up towards your shoulders.",
+        "Squeeze at the top.",
+        "Lower until your arms are almost straight."
+      ]
+    },
+    "EZ-Bar_Pullover": {
+      "name": "EZ-Bar Pullover",
+      "other_names": [],
+      "steps": [
+        "Lie on a bench holding an EZ bar over your chest on the inner grips.",
+        "With a slight bend in your elbows, lower the bar back over your head.",
+        "Stop when your arms are in line with your body.",
+        "Pull it back over your chest."
+      ]
+    },
+    "EZ-Bar_Reverse_Curl": {
+      "name": "EZ-Bar Reverse Curl",
+      "other_names": [],
+      "steps": [
+        "Stand holding an EZ bar with an overhand grip on the angled parts.",
+        "Curl the bar up to your shoulders, elbows at your sides.",
+        "Keep your wrists straight.",
+        "Lower with control."
+      ]
+    },
+    "EZ-Bar_Reverse_Preacher_Curl": {
+      "name": "EZ-Bar Reverse Preacher Curl",
+      "other_names": [],
+      "steps": [
+        "Sit at a preacher bench with your upper arms on the pad, holding an EZ bar overhand.",
+        "Curl the bar up towards your shoulders, wrists straight.",
+        "Pause at the top.",
+        "Lower until your arms are almost straight."
       ]
     },
     "EZ-Bar_Skullcrusher": {
@@ -1279,6 +2891,26 @@
         "Stop just above your forehead, then straighten your arms to press the bar back up.",
         "Keep your elbows pointing up and in, not out to the sides.",
         "Move slowly near your head, and use a weight you can control."
+      ]
+    },
+    "EZ-Bar_Upright_Row": {
+      "name": "EZ-Bar Upright Row",
+      "other_names": [],
+      "steps": [
+        "Stand holding an EZ bar overhand at your thighs, hands on the angled parts.",
+        "Pull it up along your body until it is just below your chin, elbows high.",
+        "Pause at the top.",
+        "Lower with control."
+      ]
+    },
+    "EZ-Bar_Wrist_Curl": {
+      "name": "EZ-Bar Wrist Curl",
+      "other_names": [],
+      "steps": [
+        "Sit on a bench with your forearms on your thighs, holding an EZ bar underhand.",
+        "Let your wrists bend back so the bar hangs past your knees.",
+        "Curl your wrists up as far as you can.",
+        "Lower with control."
       ]
     },
     "Elevated_Cable_Rows": {
@@ -1409,6 +3041,28 @@
         "Keep your back flat throughout and start with a light weight."
       ]
     },
+    "Gorilla_Row": {
+      "name": "Gorilla Row",
+      "other_names": [],
+      "steps": [
+        "Stand wide with two kettlebells on the floor between your feet and hinge forward.",
+        "Grip both bells, back flat.",
+        "Row one bell up while pushing the other into the floor.",
+        "Lower it and row the other."
+      ]
+    },
+    "Guillotine_Press": {
+      "name": "Guillotine Press",
+      "other_names": [
+        "Neck Press"
+      ],
+      "steps": [
+        "Lie on the bench and grip the bar wider than for a normal bench press.",
+        "Lower the bar towards your upper chest or neck, elbows flared.",
+        "Press it back up to straight arms.",
+        "Use light weight and a spotter."
+      ]
+    },
     "Hack_Squat": {
       "name": "Hack Squat",
       "other_names": [],
@@ -1418,6 +3072,16 @@
         "Bend your knees to lower yourself until your thighs are about level with the platform.",
         "Push through your whole foot to straighten your legs, stopping just short of locking your knees.",
         "Keep your back against the pad and your knees in line with your toes."
+      ]
+    },
+    "Half-Kneeling_Landmine_Rotation": {
+      "name": "Half-Kneeling Landmine Rotation",
+      "other_names": [],
+      "steps": [
+        "Kneel on one knee holding the end of a landmine barbell in front of your chest with both arms extended.",
+        "Rotate the bar down towards the outside of one hip.",
+        "Bring it back up and across to the other side.",
+        "Keep your hips still and your arms straight."
       ]
     },
     "Hammer_Curls": {
@@ -1487,6 +3151,16 @@
         "Stand up with the bar locked out overhead."
       ]
     },
+    "Hang_Snatch": {
+      "name": "Hang Snatch",
+      "other_names": [],
+      "steps": [
+        "Stand with a barbell in a wide snatch grip at your hips.",
+        "Push your hips back to lower the bar to just above the knees.",
+        "Jump explosively, shrug, and pull yourself under the bar into an overhead squat.",
+        "Stand up with the bar locked out overhead."
+      ]
+    },
     "Hanging_Knee_Raise": {
       "name": "Hanging Knee Raise",
       "other_names": [],
@@ -1534,6 +3208,16 @@
         "Stop when your body is straight; don't arch your back beyond that."
       ]
     },
+    "Incline_Barbell_Bench_Press_Close_Grip": {
+      "name": "Incline Barbell Bench Press, Close Grip",
+      "other_names": [],
+      "steps": [
+        "Lie on an incline bench and grip the bar about shoulder-width apart.",
+        "Unrack it and lower it to your upper chest, elbows close to your body.",
+        "Press it back up to straight arms.",
+        "Keep your shoulder blades pulled together."
+      ]
+    },
     "Incline_Bench_Pull": {
       "name": "Incline Barbell Row",
       "other_names": [
@@ -1547,6 +3231,16 @@
         "Keep your chest on the bench throughout."
       ]
     },
+    "Incline_Cable_Curl": {
+      "name": "Incline Cable Curl",
+      "other_names": [],
+      "steps": [
+        "Sit back on an incline bench between two low pulleys, holding a handle in each hand.",
+        "Curl the handles up, keeping your upper arms still.",
+        "Squeeze at the top.",
+        "Lower with control."
+      ]
+    },
     "Incline_Cable_Flye": {
       "name": "Incline Cable Fly",
       "other_names": [],
@@ -1556,6 +3250,16 @@
         "Open your arms out to the sides in a wide arc until you feel a stretch in your chest.",
         "Bring your hands back together above your chest along the same arc.",
         "Keep the bend in your elbows the same throughout."
+      ]
+    },
+    "Incline_Cable_Press": {
+      "name": "Incline Cable Press",
+      "other_names": [],
+      "steps": [
+        "Lie on an incline bench between two low pulleys, a handle in each hand at your chest.",
+        "Press the handles up and together.",
+        "Lower with control.",
+        "Keep your shoulder blades pulled together."
       ]
     },
     "Incline_Dumbbell_Curl": {
@@ -1569,6 +3273,16 @@
         "Keep your back and head against the bench throughout."
       ]
     },
+    "Incline_Dumbbell_Fly_Hammer_Grip": {
+      "name": "Incline Dumbbell Fly, Hammer Grip",
+      "other_names": [],
+      "steps": [
+        "Lie on an incline bench holding dumbbells over your chest, palms facing each other.",
+        "Open your arms out to the sides, keeping your palms facing in and elbows slightly bent.",
+        "Stop when you feel a stretch in your upper chest.",
+        "Bring the dumbbells back together."
+      ]
+    },
     "Incline_Dumbbell_Flyes": {
       "name": "Incline Dumbbell Fly",
       "other_names": [],
@@ -1580,6 +3294,16 @@
         "Don't lower the dumbbells below the level of your shoulders."
       ]
     },
+    "Incline_Dumbbell_Lateral_Raise": {
+      "name": "Incline Dumbbell Lateral Raise",
+      "other_names": [],
+      "steps": [
+        "Lie on your side on an incline bench, holding a dumbbell in your top hand.",
+        "Raise the dumbbell up and out until your arm points to the ceiling.",
+        "Lower slowly.",
+        "Finish the set, then switch sides."
+      ]
+    },
     "Incline_Dumbbell_Press": {
       "name": "Incline Dumbbell Press",
       "other_names": [],
@@ -1589,6 +3313,36 @@
         "Lower them slowly to the sides of your upper chest, elbows at a slight angle to your body.",
         "Press them back up until your arms are straight.",
         "Keep your feet flat and your back and shoulder blades against the bench."
+      ]
+    },
+    "Incline_Dumbbell_Reverse_Fly": {
+      "name": "Incline Dumbbell Reverse Fly",
+      "other_names": [],
+      "steps": [
+        "Lie face down on an incline bench holding light dumbbells, arms hanging.",
+        "Raise your arms out to the sides, elbows slightly bent.",
+        "Squeeze your rear shoulders at the top.",
+        "Lower with control."
+      ]
+    },
+    "Incline_Dumbbell_Row_One-Arm": {
+      "name": "Incline Dumbbell Row, One-Arm",
+      "other_names": [],
+      "steps": [
+        "Lie face down on a low incline bench with a dumbbell in one hand, arm hanging.",
+        "Row the dumbbell up towards your hip.",
+        "Pause at the top.",
+        "Lower, finish the set and switch sides."
+      ]
+    },
+    "Incline_Hammer_Curl": {
+      "name": "Incline Hammer Curl",
+      "other_names": [],
+      "steps": [
+        "Sit back on an incline bench holding dumbbells at your sides, palms facing in.",
+        "Curl the dumbbells up without moving your upper arms.",
+        "Squeeze at the top.",
+        "Lower until your arms are straight."
       ]
     },
     "Incline_Push-Up": {
@@ -1651,6 +3405,16 @@
         "Keep a steady rhythm and land softly on the balls of your feet."
       ]
     },
+    "Kettlebell_Around_the_World": {
+      "name": "Kettlebell Around the World",
+      "other_names": [],
+      "steps": [
+        "Stand holding a kettlebell in one hand at your side.",
+        "Pass it around your body from hand to hand.",
+        "Keep your hips still and your core braced.",
+        "Switch direction halfway through."
+      ]
+    },
     "Kettlebell_Bent-Over_Row": {
       "name": "Kettlebell Bent-Over Row",
       "other_names": [],
@@ -1661,6 +3425,46 @@
         "Lower with control."
       ]
     },
+    "Kettlebell_Bottoms-Up_Carry": {
+      "name": "Kettlebell Bottoms-Up Carry",
+      "other_names": [],
+      "steps": [
+        "Hold a kettlebell upside down at your shoulder, bottom up.",
+        "Squeeze the handle hard to keep it balanced.",
+        "Walk forward with short, steady steps.",
+        "Switch hands and walk back."
+      ]
+    },
+    "Kettlebell_Bottoms-Up_Press": {
+      "name": "Kettlebell Bottoms-Up Press",
+      "other_names": [],
+      "steps": [
+        "Hold a kettlebell upside down at your shoulder, bottom pointing to the ceiling.",
+        "Squeeze the handle hard to keep the bell balanced.",
+        "Press it overhead without letting it tip.",
+        "Lower it back to your shoulder; finish the set and switch sides."
+      ]
+    },
+    "Kettlebell_Calf_Raise": {
+      "name": "Kettlebell Calf Raise",
+      "other_names": [],
+      "steps": [
+        "Stand holding a kettlebell in each hand at your sides.",
+        "Rise up onto the balls of your feet as high as you can.",
+        "Pause at the top.",
+        "Lower slowly."
+      ]
+    },
+    "Kettlebell_Clean": {
+      "name": "Kettlebell Clean",
+      "other_names": [],
+      "steps": [
+        "Stand with a kettlebell on the floor between your feet and grip it with one hand.",
+        "Hike it back between your legs.",
+        "Drive your hips forward and pull the bell up close to your body, rotating it onto your forearm in the rack.",
+        "Lower it back between your legs; finish the set and switch sides."
+      ]
+    },
     "Kettlebell_Clean_and_Press": {
       "name": "Kettlebell Clean and Press",
       "other_names": [],
@@ -1669,6 +3473,46 @@
         "Press it overhead until your arm is straight.",
         "Lower it back to the rack, then let it swing back between your legs.",
         "Go into the next rep; finish the set and switch sides."
+      ]
+    },
+    "Kettlebell_Curl": {
+      "name": "Kettlebell Curl",
+      "other_names": [],
+      "steps": [
+        "Stand holding a kettlebell by the handle in each hand, or one by the horns.",
+        "Curl it up towards your shoulders, elbows at your sides.",
+        "Squeeze at the top.",
+        "Lower with control."
+      ]
+    },
+    "Kettlebell_Dead_Bug": {
+      "name": "Kettlebell Dead Bug",
+      "other_names": [],
+      "steps": [
+        "Lie on your back holding a kettlebell over your chest with both hands, knees bent above your hips.",
+        "Extend one leg towards the floor.",
+        "Bring it back and extend the other.",
+        "Keep your lower back pressed into the floor."
+      ]
+    },
+    "Kettlebell_Dead_Clean": {
+      "name": "Kettlebell Dead Clean",
+      "other_names": [],
+      "steps": [
+        "Stand with a kettlebell on the floor between your feet and grip it with one hand.",
+        "Stand up explosively from the floor without swinging the bell back.",
+        "Pull it up close to your body into the rack position.",
+        "Lower it to the floor; finish the set and switch sides."
+      ]
+    },
+    "Kettlebell_Deadlift": {
+      "name": "Kettlebell Deadlift",
+      "other_names": [],
+      "steps": [
+        "Stand with a kettlebell on the floor between your feet.",
+        "Hinge and grip the handle with both hands, back flat.",
+        "Drive through your feet and stand up tall.",
+        "Lower it back to the floor with control."
       ]
     },
     "Kettlebell_Farmers_Walk": {
@@ -1693,6 +3537,46 @@
         "Keep your wrists straight."
       ]
     },
+    "Kettlebell_Front_Raise": {
+      "name": "Kettlebell Front Raise",
+      "other_names": [],
+      "steps": [
+        "Stand holding a kettlebell by the handle with both hands at your thighs.",
+        "Raise it forward to shoulder height, arms nearly straight.",
+        "Pause at the top.",
+        "Lower with control."
+      ]
+    },
+    "Kettlebell_Front_Squat_One-Arm": {
+      "name": "Kettlebell Front Squat, One-Arm",
+      "other_names": [],
+      "steps": [
+        "Hold a kettlebell in the rack position at one shoulder.",
+        "Squat down until your thighs are parallel without leaning to the side.",
+        "Drive back up.",
+        "Finish the set and switch sides."
+      ]
+    },
+    "Kettlebell_Goblet_Curtsy_Lunge": {
+      "name": "Kettlebell Goblet Curtsy Lunge",
+      "other_names": [],
+      "steps": [
+        "Hold a kettlebell by the horns at your chest.",
+        "Step one leg diagonally behind the other.",
+        "Lower until your front thigh is about parallel.",
+        "Push back to the start and switch legs."
+      ]
+    },
+    "Kettlebell_Goblet_Lunge": {
+      "name": "Kettlebell Goblet Lunge",
+      "other_names": [],
+      "steps": [
+        "Hold a kettlebell by the horns at your chest.",
+        "Step forward and lower until your back knee nearly touches the floor.",
+        "Push back to the start.",
+        "Alternate legs, or finish the set and switch."
+      ]
+    },
     "Kettlebell_Goblet_Reverse_Lunge": {
       "name": "Kettlebell Goblet Reverse Lunge",
       "other_names": [],
@@ -1703,6 +3587,16 @@
         "Alternate legs, or finish the set and switch."
       ]
     },
+    "Kettlebell_Good_Morning": {
+      "name": "Kettlebell Good Morning",
+      "other_names": [],
+      "steps": [
+        "Hold a kettlebell against your upper chest with both hands.",
+        "Push your hips back and lower your torso towards level, knees slightly bent.",
+        "Keep your back flat.",
+        "Squeeze your glutes to stand back up."
+      ]
+    },
     "Kettlebell_Halo": {
       "name": "Kettlebell Halo",
       "other_names": [],
@@ -1711,6 +3605,56 @@
         "Circle it around your head, close to your neck.",
         "Bring it back to the front and go the other way.",
         "Keep your ribs down and your hips still."
+      ]
+    },
+    "Kettlebell_Hammer_Curl": {
+      "name": "Kettlebell Hammer Curl",
+      "other_names": [],
+      "steps": [
+        "Stand holding a kettlebell by the handle in each hand, palms facing in.",
+        "Curl the bells up towards your shoulders.",
+        "Keep your elbows at your sides.",
+        "Lower with control."
+      ]
+    },
+    "Kettlebell_High_Pull": {
+      "name": "Kettlebell High Pull",
+      "other_names": [],
+      "steps": [
+        "Stand with a kettlebell between your feet and grip it with one hand.",
+        "Hike it back, then drive your hips forward.",
+        "Pull the bell up to chest height with your elbow high.",
+        "Let it drop back down; finish the set and switch sides."
+      ]
+    },
+    "Kettlebell_Hip_Thrust": {
+      "name": "Kettlebell Hip Thrust",
+      "other_names": [],
+      "steps": [
+        "Sit on the floor with your upper back against a bench and a kettlebell on your hips.",
+        "Plant your feet and hold the bell in place.",
+        "Drive your hips up until your body is level from knee to shoulder.",
+        "Lower with control."
+      ]
+    },
+    "Kettlebell_Jerk": {
+      "name": "Kettlebell Jerk",
+      "other_names": [],
+      "steps": [
+        "Hold a kettlebell in the rack position at one shoulder.",
+        "Dip and drive up with your legs to launch the bell.",
+        "Dip again under it, locking your arm out overhead.",
+        "Stand up, then lower the bell back to the rack."
+      ]
+    },
+    "Kettlebell_Lateral_Raise": {
+      "name": "Kettlebell Lateral Raise",
+      "other_names": [],
+      "steps": [
+        "Stand holding a light kettlebell in each hand at your sides.",
+        "Raise your arms out to the sides to shoulder height.",
+        "Pause at the top.",
+        "Lower slowly."
       ]
     },
     "Kettlebell_One-Legged_Deadlift": {
@@ -1726,6 +3670,96 @@
         "Keep your hips level and your back flat throughout."
       ]
     },
+    "Kettlebell_Overhead_Carry": {
+      "name": "Kettlebell Overhead Carry",
+      "other_names": [],
+      "steps": [
+        "Press one or two kettlebells overhead and lock your arms.",
+        "Keep your ribs down and your core braced.",
+        "Walk forward with short, steady steps.",
+        "Lower the bells, switching hands if carrying one."
+      ]
+    },
+    "Kettlebell_Overhead_Lunge": {
+      "name": "Kettlebell Overhead Lunge",
+      "other_names": [],
+      "steps": [
+        "Press a kettlebell overhead in one hand and lock your arm.",
+        "Step forward or back into a lunge, keeping the bell overhead.",
+        "Push back to the start.",
+        "Finish the set and switch sides."
+      ]
+    },
+    "Kettlebell_Overhead_Squat": {
+      "name": "Kettlebell Overhead Squat",
+      "other_names": [],
+      "steps": [
+        "Press a kettlebell overhead in one hand and lock your arm.",
+        "Squat down as low as you can, keeping the bell over your head.",
+        "Drive back up.",
+        "Finish the set and switch sides."
+      ]
+    },
+    "Kettlebell_Overhead_Triceps_Extension": {
+      "name": "Kettlebell Overhead Triceps Extension",
+      "other_names": [],
+      "steps": [
+        "Hold a kettlebell by the horns overhead with both hands.",
+        "Lower it behind your head by bending your elbows.",
+        "Keep your upper arms pointing up.",
+        "Straighten your arms back to the top."
+      ]
+    },
+    "Kettlebell_Pistol_Squat": {
+      "name": "Kettlebell Pistol Squat",
+      "other_names": [],
+      "steps": [
+        "Stand on one leg holding a kettlebell at your chest with both hands.",
+        "Extend the other leg forward.",
+        "Squat down on the standing leg as low as you can.",
+        "Drive back up; finish the set and switch legs."
+      ]
+    },
+    "Kettlebell_Press": {
+      "name": "Kettlebell Press",
+      "other_names": [],
+      "steps": [
+        "Hold a kettlebell in the rack position at one shoulder.",
+        "Brace your core and squeeze your glutes.",
+        "Press the bell overhead until your arm is straight.",
+        "Lower it back to the rack; finish the set and switch sides."
+      ]
+    },
+    "Kettlebell_Pullover": {
+      "name": "Kettlebell Pullover",
+      "other_names": [],
+      "steps": [
+        "Lie on a bench holding a kettlebell by the horns over your chest.",
+        "Lower it back over your head with your elbows slightly bent.",
+        "Stop when your arms are in line with your body.",
+        "Pull it back over your chest."
+      ]
+    },
+    "Kettlebell_Push_Press": {
+      "name": "Kettlebell Push Press",
+      "other_names": [],
+      "steps": [
+        "Hold a kettlebell in the rack position at one shoulder.",
+        "Dip at your knees, then drive up with your legs.",
+        "Use that drive to press the bell overhead.",
+        "Lower it back to the rack; finish the set and switch sides."
+      ]
+    },
+    "Kettlebell_Rack_Carry": {
+      "name": "Kettlebell Rack Carry",
+      "other_names": [],
+      "steps": [
+        "Clean one or two kettlebells into the rack position.",
+        "Stand tall with your core braced.",
+        "Walk forward with short, steady steps.",
+        "Lower the bells when you finish."
+      ]
+    },
     "Kettlebell_Romanian_Deadlift": {
       "name": "Kettlebell Romanian Deadlift",
       "other_names": [
@@ -1738,6 +3772,16 @@
         "Squeeze your glutes to stand back up."
       ]
     },
+    "Kettlebell_Row_Staggered_Stance": {
+      "name": "Kettlebell Row, Staggered Stance",
+      "other_names": [],
+      "steps": [
+        "Stand in a staggered stance and hinge forward, resting one forearm on your front thigh.",
+        "Hold a kettlebell in the other hand.",
+        "Row it up towards your hip.",
+        "Lower; finish the set and switch sides."
+      ]
+    },
     "Kettlebell_Russian_Twist": {
       "name": "Kettlebell Russian Twist",
       "other_names": [],
@@ -1746,6 +3790,36 @@
         "Lean back slightly and lift your feet if you can.",
         "Rotate to tap the bell beside one hip, then the other.",
         "Keep your back straight."
+      ]
+    },
+    "Kettlebell_Shrug": {
+      "name": "Kettlebell Shrug",
+      "other_names": [],
+      "steps": [
+        "Stand holding a kettlebell in each hand at your sides.",
+        "Shrug your shoulders up towards your ears.",
+        "Hold for a moment.",
+        "Lower with control."
+      ]
+    },
+    "Kettlebell_Sit-Up": {
+      "name": "Kettlebell Sit-Up",
+      "other_names": [],
+      "steps": [
+        "Lie on your back with your knees bent, holding a kettlebell at your chest.",
+        "Sit all the way up.",
+        "Lower back down with control.",
+        "Hook your feet under something if you need to."
+      ]
+    },
+    "Kettlebell_Skull_Crusher": {
+      "name": "Kettlebell Skull Crusher",
+      "other_names": [],
+      "steps": [
+        "Lie on a bench holding a kettlebell by the horns over your chest.",
+        "Bend your elbows to lower it towards your forehead.",
+        "Keep your upper arms still.",
+        "Straighten your arms back up."
       ]
     },
     "Kettlebell_Snatch": {
@@ -1758,6 +3832,16 @@
         "Bring it back down between your legs; finish the set and switch sides."
       ]
     },
+    "Kettlebell_Step-Up": {
+      "name": "Kettlebell Step-Up",
+      "other_names": [],
+      "steps": [
+        "Stand facing a box holding a kettlebell in each hand or one at your chest.",
+        "Step up with one foot and drive through it to stand on the box.",
+        "Step down with control.",
+        "Alternate legs, or finish the set and switch."
+      ]
+    },
     "Kettlebell_Suitcase_Carry": {
       "name": "Kettlebell Suitcase Carry",
       "other_names": [],
@@ -1766,6 +3850,36 @@
         "Stand tall with your shoulders level.",
         "Walk forward without leaning towards the bell.",
         "Switch hands and walk back."
+      ]
+    },
+    "Kettlebell_Suitcase_Deadlift": {
+      "name": "Kettlebell Suitcase Deadlift",
+      "other_names": [],
+      "steps": [
+        "Stand with a kettlebell on the floor beside one foot.",
+        "Hinge and squat down to grip it, shoulders level.",
+        "Stand up without leaning towards the bell.",
+        "Lower it; finish the set and switch sides."
+      ]
+    },
+    "Kettlebell_Sumo_Deadlift": {
+      "name": "Kettlebell Sumo Deadlift",
+      "other_names": [],
+      "steps": [
+        "Stand with your feet wide, toes out, and a kettlebell between them.",
+        "Squat down and grip the handle with both hands, chest up.",
+        "Stand up tall.",
+        "Lower it back to the floor with control."
+      ]
+    },
+    "Kettlebell_Sumo_High_Pull": {
+      "name": "Kettlebell Sumo High Pull",
+      "other_names": [],
+      "steps": [
+        "Stand with your feet wide and a kettlebell on the floor between them.",
+        "Squat down and grip the handle with both hands.",
+        "Stand up explosively and pull the bell to your chin, elbows high.",
+        "Lower it back to the floor."
       ]
     },
     "Kettlebell_Swing": {
@@ -1805,6 +3919,16 @@
         "Keep your arm straight and your eyes on the kettlebell until you're standing."
       ]
     },
+    "Kettlebell_Upright_Row": {
+      "name": "Kettlebell Upright Row",
+      "other_names": [],
+      "steps": [
+        "Stand holding a kettlebell by the handle with both hands at your thighs.",
+        "Pull it up to your chest, elbows high.",
+        "Pause at the top.",
+        "Lower with control."
+      ]
+    },
     "Kettlebell_Windmill": {
       "name": "Kettlebell Windmill",
       "other_names": [],
@@ -1830,6 +3954,56 @@
         "Avoid swinging your legs to get them up."
       ]
     },
+    "Kneeling_Cable_Pullover": {
+      "name": "Kneeling Cable Pullover",
+      "other_names": [],
+      "steps": [
+        "Kneel facing a high pulley holding a straight bar with straight arms.",
+        "Pull the bar down in an arc to your thighs, arms straight.",
+        "Squeeze your lats.",
+        "Return with control."
+      ]
+    },
+    "Kroc_Row": {
+      "name": "Kroc Row",
+      "other_names": [],
+      "steps": [
+        "Brace one hand on a bench and hold a heavy dumbbell in the other.",
+        "Keep your back flat at about 30 degrees from horizontal.",
+        "Row the dumbbell up to your hip, letting your body move a little.",
+        "Lower fully; finish the set and switch sides."
+      ]
+    },
+    "Landmine_Anti-Rotation_Press": {
+      "name": "Landmine Anti-Rotation Press",
+      "other_names": [],
+      "steps": [
+        "Hold the end of a landmine barbell at your chest with both hands, standing side-on to the anchor.",
+        "Press the bar straight out in front of you.",
+        "Resist the pull to rotate towards the anchor.",
+        "Bring it back to your chest; finish the set and switch sides."
+      ]
+    },
+    "Landmine_Deadlift": {
+      "name": "Landmine Deadlift",
+      "other_names": [],
+      "steps": [
+        "Stand facing the end of a landmine barbell, or straddling it.",
+        "Squat down and grip the end with both hands, back flat.",
+        "Stand up, driving through your feet.",
+        "Lower the bar back to the floor with control."
+      ]
+    },
+    "Landmine_Lateral_Raise": {
+      "name": "Landmine Lateral Raise",
+      "other_names": [],
+      "steps": [
+        "Stand side-on to a landmine barbell and hold the end in your far hand, low in front of your hips.",
+        "Raise it up and out to the side until your arm is at shoulder height.",
+        "Lower with control.",
+        "Finish the set, then switch sides."
+      ]
+    },
     "Landmine_Press": {
       "name": "Landmine Press",
       "other_names": [],
@@ -1840,6 +4014,102 @@
         "Keep your ribs down and your core braced."
       ]
     },
+    "Landmine_Press_One-Arm": {
+      "name": "Landmine Press, One-Arm",
+      "other_names": [
+        "Single-Arm Landmine Press"
+      ],
+      "steps": [
+        "Hold the end of a landmine barbell at your shoulder in one hand.",
+        "Stand in a split stance with the opposite foot forward.",
+        "Press the bar up and forward until your arm is straight.",
+        "Lower with control, finish the set and switch sides."
+      ]
+    },
+    "Landmine_Reverse_Lunge": {
+      "name": "Landmine Reverse Lunge",
+      "other_names": [],
+      "steps": [
+        "Hold the end of a landmine barbell at your chest with both hands.",
+        "Step back with one leg and lower until your back knee nearly touches the floor.",
+        "Push through the front foot to return.",
+        "Alternate legs, or finish the set and switch."
+      ]
+    },
+    "Landmine_Romanian_Deadlift": {
+      "name": "Landmine Romanian Deadlift",
+      "other_names": [
+        "Landmine RDL"
+      ],
+      "steps": [
+        "Stand facing the end of a landmine barbell and hold it at your hips with both hands.",
+        "Push your hips back and lower the bar along your legs, knees slightly bent.",
+        "Stop when you feel a stretch in your hamstrings.",
+        "Squeeze your glutes to stand back up."
+      ]
+    },
+    "Landmine_Row_One-Arm": {
+      "name": "Landmine Row, One-Arm",
+      "other_names": [],
+      "steps": [
+        "Stand beside the end of a landmine barbell and hinge forward, one hand on your knee.",
+        "Grip the bar end with the other hand.",
+        "Row it towards your hip, keeping your back flat.",
+        "Lower with control, finish the set and switch sides."
+      ]
+    },
+    "Landmine_Squat": {
+      "name": "Landmine Squat",
+      "other_names": [],
+      "steps": [
+        "Hold the end of a landmine barbell at your chest with both hands.",
+        "Stand with your feet shoulder-width apart.",
+        "Squat down until your thighs are parallel, keeping your chest up.",
+        "Drive back up to standing."
+      ]
+    },
+    "Landmine_Sumo_Squat": {
+      "name": "Landmine Sumo Squat",
+      "other_names": [],
+      "steps": [
+        "Straddle the end of a landmine barbell with your feet wide, toes out.",
+        "Squat down and grip the bar end with both hands.",
+        "Stand up, holding the bar between your legs with straight arms.",
+        "Lower with control."
+      ]
+    },
+    "Landmine_Thruster": {
+      "name": "Landmine Thruster",
+      "other_names": [],
+      "steps": [
+        "Hold the end of a landmine barbell at your chest with both hands.",
+        "Squat down until your thighs are parallel.",
+        "Drive up and use the momentum to press the bar up and forward.",
+        "Lower the bar to your chest as you go into the next squat."
+      ]
+    },
+    "Larsen_Press": {
+      "name": "Larsen Press",
+      "other_names": [],
+      "steps": [
+        "Lie on the bench with your legs straight out in front, feet off the floor.",
+        "Unrack the bar and lower it to your chest.",
+        "Press it back up without arching your back.",
+        "Keep your legs still throughout."
+      ]
+    },
+    "Lat_Pulldown_Behind_the_Neck": {
+      "name": "Lat Pulldown, Behind the Neck",
+      "other_names": [
+        "Behind-the-Neck Pulldown"
+      ],
+      "steps": [
+        "Sit at a lat pulldown station holding the bar with a wide overhand grip.",
+        "Lean your head slightly forward.",
+        "Pull the bar down behind your head to the base of your neck.",
+        "Return with control; use a light weight."
+      ]
+    },
     "Lat_Pulldown_Neutral_Grip": {
       "name": "Lat Pulldown, Neutral Grip",
       "other_names": [],
@@ -1847,6 +4117,26 @@
         "Sit at a lat pulldown station holding a neutral-grip bar, palms facing each other.",
         "Pull the bar to your upper chest.",
         "Drive your elbows down and back.",
+        "Return with control."
+      ]
+    },
+    "Lat_Pulldown_Rope": {
+      "name": "Lat Pulldown, Rope",
+      "other_names": [],
+      "steps": [
+        "Sit at a lat pulldown station holding the rope ends.",
+        "Pull the rope down towards your upper chest, spreading the ends.",
+        "Drive your elbows down.",
+        "Return with control."
+      ]
+    },
+    "Lat_Pulldown_Wide_Underhand": {
+      "name": "Lat Pulldown, Wide Underhand",
+      "other_names": [],
+      "steps": [
+        "Sit at a lat pulldown station holding the bar underhand, wider than your shoulders.",
+        "Pull the bar down to your upper chest.",
+        "Drive your elbows down.",
         "Return with control."
       ]
     },
@@ -1868,6 +4158,16 @@
         "With your elbows slightly bent, raise your arms out to the sides until your hands are at shoulder height.",
         "Pause briefly, then lower them slowly.",
         "Lead with your elbows and keep your shoulders down away from your ears."
+      ]
+    },
+    "Leaning_Dumbbell_Lateral_Raise": {
+      "name": "Leaning Dumbbell Lateral Raise",
+      "other_names": [],
+      "steps": [
+        "Hold a support with one hand and lean away from it, holding a dumbbell in the other hand.",
+        "Raise the dumbbell out to the side until your arm is level with the floor.",
+        "Lower slowly.",
+        "Finish the set, then switch sides."
       ]
     },
     "Leg_Extensions": {
@@ -1942,6 +4242,38 @@
         "Raise your hands up and together in front of your upper chest in a wide arc.",
         "Squeeze your chest, then let your arms return slowly along the same arc.",
         "Keep the bend in your elbows the same and your upper body still."
+      ]
+    },
+    "Lying_Cable_Pullover": {
+      "name": "Lying Cable Pullover",
+      "other_names": [],
+      "steps": [
+        "Lie on a bench with your head towards a low pulley, holding a bar over your head.",
+        "Pull the bar over your chest in an arc, arms nearly straight.",
+        "Lower it back over your head with control.",
+        "Keep your elbow bend fixed."
+      ]
+    },
+    "Lying_Cable_Triceps_Extension": {
+      "name": "Lying Cable Triceps Extension",
+      "other_names": [
+        "Cable Skull Crusher"
+      ],
+      "steps": [
+        "Lie on a bench with your head towards a low pulley, holding a bar above your face.",
+        "Bend your elbows to lower the bar towards your forehead.",
+        "Keep your upper arms still.",
+        "Straighten your arms back up."
+      ]
+    },
+    "Lying_Dumbbell_Reverse_Fly": {
+      "name": "Lying Dumbbell Reverse Fly",
+      "other_names": [],
+      "steps": [
+        "Lie face down on a flat bench holding light dumbbells, arms hanging.",
+        "Raise your arms out to the sides until they are level with your body.",
+        "Pause at the top.",
+        "Lower with control."
       ]
     },
     "Lying_Dumbbell_Tricep_Extension": {
@@ -2045,6 +4377,26 @@
         "Straighten your arms to push the handles down or forward until your elbows are straight.",
         "Return slowly until your elbows are bent again.",
         "Keep your upper arms on the pad; only your forearms should move."
+      ]
+    },
+    "Man_Maker": {
+      "name": "Man Maker",
+      "other_names": [],
+      "steps": [
+        "Start in a push-up position holding a dumbbell in each hand.",
+        "Do a push-up, then row each dumbbell once.",
+        "Jump your feet in and clean the dumbbells to your shoulders.",
+        "Squat and press them overhead, then lower them to the floor."
+      ]
+    },
+    "Meadows_Row": {
+      "name": "Meadows Row",
+      "other_names": [],
+      "steps": [
+        "Stand side-on to the end of a landmine barbell in a staggered stance and grip the sleeve overhand.",
+        "Rest your other forearm on your front knee.",
+        "Row the bar up, driving your elbow high and back.",
+        "Lower with control, finish the set and switch sides."
       ]
     },
     "Medicine_Ball_Chest_Pass": {
@@ -2230,6 +4582,16 @@
         "Keep your hips and shoulders facing forward throughout."
       ]
     },
+    "Pallof_Walkout": {
+      "name": "Pallof Walkout",
+      "other_names": [],
+      "steps": [
+        "Stand side-on to a pulley at chest height, holding the handle at your chest with both hands.",
+        "Press it out, then step sideways away from the pulley.",
+        "Step back in.",
+        "Finish the set and switch sides."
+      ]
+    },
     "Palms-Down_Wrist_Curl_Over_A_Bench": {
       "name": "Barbell Reverse Wrist Curl",
       "other_names": [
@@ -2274,6 +4636,16 @@
         "Bend your elbows and lower the top of your head towards the floor between your hands.",
         "Keep your hips high and your legs as straight as you can.",
         "Push back up until your arms are straight."
+      ]
+    },
+    "Pin_Squat": {
+      "name": "Pin Squat",
+      "other_names": [],
+      "steps": [
+        "Set the safety pins in a rack at the height of your lowest squat position.",
+        "Unrack the bar onto your back and squat down until the bar rests on the pins.",
+        "Pause there for a moment without relaxing.",
+        "Drive the bar up off the pins to standing."
       ]
     },
     "Pistol_Squat": {
@@ -2322,6 +4694,16 @@
         "Keep your back flat throughout, and learn the lift with a light bar first."
       ]
     },
+    "Power_Shrug": {
+      "name": "Power Shrug",
+      "other_names": [],
+      "steps": [
+        "Stand holding a barbell at your thighs with an overhand grip.",
+        "Dip slightly at the knees and hips.",
+        "Drive up and shrug your shoulders up as high as you can.",
+        "Lower the bar with control."
+      ]
+    },
     "Power_Snatch": {
       "name": "Power Snatch",
       "other_names": [],
@@ -2343,6 +4725,16 @@
         "Curl the bar up towards your shoulders, squeezing your biceps.",
         "Lower it slowly until your arms are nearly straight.",
         "Keep your upper arms on the pad and control the bar at the bottom."
+      ]
+    },
+    "Prone_Incline_Dumbbell_Curl": {
+      "name": "Prone Incline Dumbbell Curl",
+      "other_names": [],
+      "steps": [
+        "Lie face down on a steep incline bench holding dumbbells underhand, arms hanging.",
+        "Curl the dumbbells up towards your shoulders.",
+        "Keep your upper arms still and your chest on the pad.",
+        "Lower with control."
       ]
     },
     "Prone_Y_Raise": {
@@ -2556,6 +4948,18 @@
         "Keep your back flat and the bar close to your legs throughout."
       ]
     },
+    "Romanian_Deadlift_Deficit": {
+      "name": "Romanian Deadlift, Deficit",
+      "other_names": [
+        "Deficit RDL"
+      ],
+      "steps": [
+        "Stand on a low platform holding a barbell at your hips.",
+        "Push your hips back and lower the bar below the level of your feet, knees slightly bent.",
+        "Keep your back flat throughout.",
+        "Squeeze your glutes to stand back up."
+      ]
+    },
     "Rowing_Machine": {
       "name": "Rowing Machine",
       "other_names": [
@@ -2604,6 +5008,26 @@
         "Keep your chest on the pad and lower the bar until your arms are straight."
       ]
     },
+    "Seated_Band_Hip_Abduction": {
+      "name": "Seated Band Hip Abduction",
+      "other_names": [],
+      "steps": [
+        "Sit on a bench with a loop band just above your knees.",
+        "Push your knees out against the band.",
+        "Hold for a moment.",
+        "Bring them back with control."
+      ]
+    },
+    "Seated_Band_Row": {
+      "name": "Seated Band Row",
+      "other_names": [],
+      "steps": [
+        "Sit with your legs straight and a band looped around your feet.",
+        "Row the ends to your stomach.",
+        "Squeeze your shoulder blades together.",
+        "Return with control."
+      ]
+    },
     "Seated_Barbell_Press": {
       "name": "Seated Barbell Press, Back Supported",
       "other_names": [
@@ -2614,6 +5038,16 @@
         "Hold the bar at your upper chest with a grip just outside your shoulders, forearms vertical.",
         "Press the bar overhead until your arms are straight.",
         "Lower it back to your upper chest, keeping your back on the pad."
+      ]
+    },
+    "Seated_Barbell_Triceps_Extension": {
+      "name": "Seated Barbell Triceps Extension",
+      "other_names": [],
+      "steps": [
+        "Sit on a bench holding a barbell overhead with a narrow overhand grip.",
+        "Lower the bar behind your head by bending your elbows.",
+        "Keep your upper arms pointing up.",
+        "Straighten your arms back to the top."
       ]
     },
     "Seated_Bent-Over_Rear_Delt_Raise": {
@@ -2627,6 +5061,26 @@
         "Raise the dumbbells out to the sides until your arms are in line with your shoulders.",
         "Lower them slowly back down.",
         "Keep your chest down and don't swing the weights up."
+      ]
+    },
+    "Seated_Cable_Row_One-Arm": {
+      "name": "Seated Cable Row, One-Arm",
+      "other_names": [],
+      "steps": [
+        "Sit at a low-pulley row station holding a single handle in one hand.",
+        "Row the handle to your side, rotating slightly towards the arm.",
+        "Squeeze your shoulder blade back.",
+        "Return with control; finish the set and switch sides."
+      ]
+    },
+    "Seated_Cable_Row_Rope": {
+      "name": "Seated Cable Row, Rope",
+      "other_names": [],
+      "steps": [
+        "Sit at a low-pulley row station holding the rope ends.",
+        "Row the rope to your stomach, pulling the ends apart.",
+        "Squeeze your shoulder blades together.",
+        "Return with control."
       ]
     },
     "Seated_Cable_Row_V-Bar": {
@@ -2676,6 +5130,16 @@
         "Move slowly through the whole range; don't bounce at the bottom."
       ]
     },
+    "Seated_Dumbbell_Calf_Raise": {
+      "name": "Seated Dumbbell Calf Raise",
+      "other_names": [],
+      "steps": [
+        "Sit on a bench with the balls of your feet on a plate or step.",
+        "Rest a dumbbell on each thigh just above the knee.",
+        "Raise your heels as high as you can.",
+        "Lower slowly until your heels are below your toes."
+      ]
+    },
     "Seated_Dumbbell_Curl": {
       "name": "Seated Dumbbell Curl",
       "other_names": [],
@@ -2684,6 +5148,16 @@
         "Bend your elbows to curl the dumbbells up to your shoulders.",
         "Keep your upper arms still and your torso upright.",
         "Lower the dumbbells until your arms are straight."
+      ]
+    },
+    "Seated_Dumbbell_Curl_Alternating": {
+      "name": "Seated Dumbbell Curl, Alternating",
+      "other_names": [],
+      "steps": [
+        "Sit on the end of a bench holding a dumbbell in each hand, arms at your sides.",
+        "Curl one dumbbell up, turning your palm up as you lift.",
+        "Lower it and curl the other.",
+        "Keep your back straight."
       ]
     },
     "Seated_Dumbbell_Press": {
@@ -2695,6 +5169,16 @@
         "Press the dumbbells up until your arms are straight above your head.",
         "Lower them slowly back to shoulder height.",
         "Don't arch your lower back to push the weight up."
+      ]
+    },
+    "Seated_Dumbbell_Press_Neutral_Grip": {
+      "name": "Seated Dumbbell Press, Neutral Grip",
+      "other_names": [],
+      "steps": [
+        "Sit on an upright bench holding dumbbells at your shoulders, palms facing each other.",
+        "Press the dumbbells overhead until your arms are straight.",
+        "Keep your back against the pad.",
+        "Lower them to your shoulders with control."
       ]
     },
     "Seated_Dumbbell_Shrug": {
@@ -2718,6 +5202,16 @@
         "Keep your upper arms beside your head and bend your elbows to lower the dumbbell behind your head.",
         "Straighten your arms to raise it back overhead.",
         "Keep your elbows pointing up and close to your head."
+      ]
+    },
+    "Seated_Good_Morning": {
+      "name": "Seated Good Morning",
+      "other_names": [],
+      "steps": [
+        "Sit on a bench with a barbell across your upper back and your feet wide.",
+        "Lean forward from your hips with your back flat.",
+        "Go as low as you can without rounding.",
+        "Raise your torso back up."
       ]
     },
     "Seated_Leg_Curl": {
@@ -2753,6 +5247,16 @@
         "Don't lean back or arch your lower back as you press."
       ]
     },
+    "Side-Lying_Dumbbell_External_Rotation": {
+      "name": "Side-Lying Dumbbell External Rotation",
+      "other_names": [],
+      "steps": [
+        "Lie on your side holding a light dumbbell in your top hand, elbow bent at 90 degrees against your side.",
+        "Rotate your forearm up towards the ceiling, keeping your elbow in place.",
+        "Lower slowly.",
+        "Finish the set, then switch sides."
+      ]
+    },
     "Side_Bridge": {
       "name": "Side Plank",
       "other_names": [
@@ -2777,6 +5281,16 @@
         "Raise your arms out to the sides until your hands are at shoulder height.",
         "Lower them slowly back to your sides.",
         "Lead with your elbows, don't swing, and keep your shoulders down away from your ears."
+      ]
+    },
+    "Side_Plank_with_Dumbbell_Raise": {
+      "name": "Side Plank with Dumbbell Raise",
+      "other_names": [],
+      "steps": [
+        "Get into a side plank on one forearm, holding a dumbbell in the top hand.",
+        "Raise the dumbbell straight up towards the ceiling.",
+        "Lower it with control.",
+        "Keep your hips up; finish the set and switch sides."
       ]
     },
     "Single_Arm_Dumbbell_Press": {
@@ -2833,6 +5347,16 @@
         "Push for the set distance."
       ]
     },
+    "Smith_Machine_Behind-the-Neck_Press": {
+      "name": "Smith Machine Behind-the-Neck Press",
+      "other_names": [],
+      "steps": [
+        "Sit on a bench under the Smith machine bar, the bar behind your head.",
+        "Unhook it and press it up until your arms are straight.",
+        "Lower it to the base of your neck.",
+        "Use a light weight."
+      ]
+    },
     "Smith_Machine_Bench_Press": {
       "name": "Smith Machine Bench Press",
       "other_names": [],
@@ -2842,6 +5366,16 @@
         "Lower the bar slowly to the middle of your chest.",
         "Press it back up until your arms are straight, and turn it to hook it back when you finish.",
         "Set the safety stops just above your chest before you start."
+      ]
+    },
+    "Smith_Machine_Bench_Press_Close_Grip": {
+      "name": "Smith Machine Bench Press, Close Grip",
+      "other_names": [],
+      "steps": [
+        "Lie on a flat bench under the Smith machine bar, hands shoulder-width apart.",
+        "Lower the bar to your lower chest, elbows close to your body.",
+        "Press it back up.",
+        "Hook the bar when you finish."
       ]
     },
     "Smith_Machine_Calf_Raise": {
@@ -2855,6 +5389,86 @@
         "Keep your knees straight but not locked, and don't bounce at the bottom."
       ]
     },
+    "Smith_Machine_Deadlift": {
+      "name": "Smith Machine Deadlift",
+      "other_names": [],
+      "steps": [
+        "Set the Smith machine bar low and stand with it over your mid-foot.",
+        "Squat down and grip it, back flat.",
+        "Stand up tall.",
+        "Lower it back down with control."
+      ]
+    },
+    "Smith_Machine_Decline_Press": {
+      "name": "Smith Machine Decline Press",
+      "other_names": [],
+      "steps": [
+        "Lie on a decline bench under the Smith machine bar.",
+        "Unhook the bar and lower it to your lower chest.",
+        "Press it back up.",
+        "Hook the bar when you finish."
+      ]
+    },
+    "Smith_Machine_Drag_Curl": {
+      "name": "Smith Machine Drag Curl",
+      "other_names": [],
+      "steps": [
+        "Stand holding the Smith machine bar underhand at your thighs.",
+        "Pull your elbows back as you curl, dragging the bar up along your body.",
+        "Stop at your lower chest.",
+        "Lower along the same path."
+      ]
+    },
+    "Smith_Machine_Front_Squat": {
+      "name": "Smith Machine Front Squat",
+      "other_names": [],
+      "steps": [
+        "Hold the Smith machine bar across your front shoulders, elbows high.",
+        "Unhook it and squat until your thighs are parallel.",
+        "Drive back up.",
+        "Hook the bar when you finish."
+      ]
+    },
+    "Smith_Machine_Hip_Thrust": {
+      "name": "Smith Machine Hip Thrust",
+      "other_names": [],
+      "steps": [
+        "Sit with your upper back against a bench and the padded Smith machine bar across your hips.",
+        "Drive your hips up until your body is level from knee to shoulder.",
+        "Squeeze your glutes at the top.",
+        "Lower with control."
+      ]
+    },
+    "Smith_Machine_Incline_Press": {
+      "name": "Smith Machine Incline Press",
+      "other_names": [],
+      "steps": [
+        "Lie on an incline bench under the Smith machine bar.",
+        "Unhook the bar and lower it to your upper chest.",
+        "Press it back up.",
+        "Hook the bar when you finish."
+      ]
+    },
+    "Smith_Machine_Kneeling_Squat": {
+      "name": "Smith Machine Kneeling Squat",
+      "other_names": [],
+      "steps": [
+        "Kneel on a pad under the Smith machine bar with it on your upper back.",
+        "Sit your hips back towards your heels.",
+        "Drive your hips forward to come back up.",
+        "Squeeze your glutes at the top."
+      ]
+    },
+    "Smith_Machine_Lunge": {
+      "name": "Smith Machine Lunge",
+      "other_names": [],
+      "steps": [
+        "Stand under the Smith machine bar with it on your upper back.",
+        "Step forward and lower until your back knee nearly touches the floor.",
+        "Push back to the start.",
+        "Alternate legs."
+      ]
+    },
     "Smith_Machine_Overhead_Shoulder_Press": {
       "name": "Smith Machine Shoulder Press",
       "other_names": [],
@@ -2866,6 +5480,56 @@
         "Keep your back against the pad and your stomach braced."
       ]
     },
+    "Smith_Machine_Reverse_Lunge": {
+      "name": "Smith Machine Reverse Lunge",
+      "other_names": [],
+      "steps": [
+        "Stand under the Smith machine bar with it on your upper back.",
+        "Step back and lower until your back knee nearly touches the floor.",
+        "Push through the front foot to return.",
+        "Finish the set and switch legs."
+      ]
+    },
+    "Smith_Machine_Romanian_Deadlift": {
+      "name": "Smith Machine Romanian Deadlift",
+      "other_names": [],
+      "steps": [
+        "Stand holding the Smith machine bar at your thighs.",
+        "Push your hips back and lower the bar along your legs.",
+        "Stop when you feel a stretch in your hamstrings.",
+        "Squeeze your glutes to stand."
+      ]
+    },
+    "Smith_Machine_Row": {
+      "name": "Smith Machine Row",
+      "other_names": [],
+      "steps": [
+        "Hinge forward holding the Smith machine bar, back flat.",
+        "Row the bar to your lower ribs.",
+        "Squeeze your shoulder blades together.",
+        "Lower with control."
+      ]
+    },
+    "Smith_Machine_Shrug": {
+      "name": "Smith Machine Shrug",
+      "other_names": [],
+      "steps": [
+        "Stand holding the Smith machine bar at your thighs.",
+        "Shrug your shoulders up towards your ears.",
+        "Hold for a moment.",
+        "Lower with control."
+      ]
+    },
+    "Smith_Machine_Sissy_Squat": {
+      "name": "Smith Machine Sissy Squat",
+      "other_names": [],
+      "steps": [
+        "Stand under the Smith machine bar with it on your upper back, feet slightly forward.",
+        "Bend your knees forward and lean back as you lower.",
+        "Go as low as you comfortably can.",
+        "Push back up through your quads."
+      ]
+    },
     "Smith_Machine_Squat": {
       "name": "Smith Machine Squat",
       "other_names": [],
@@ -2875,6 +5539,16 @@
         "Bend your knees and hips to squat until your thighs are about level with the floor.",
         "Push through your whole foot to stand back up.",
         "Set the safety stops just below your lowest point, and keep your knees in line with your toes."
+      ]
+    },
+    "Smith_Machine_Upright_Row": {
+      "name": "Smith Machine Upright Row",
+      "other_names": [],
+      "steps": [
+        "Stand holding the Smith machine bar at your thighs, overhand.",
+        "Pull it up to just below your chin, elbows high.",
+        "Pause at the top.",
+        "Lower with control."
       ]
     },
     "Smith_Single-Leg_Split_Squat": {
@@ -2899,6 +5573,28 @@
         "Lift the bar off the floor, then extend your hips and knees explosively as it passes your thighs.",
         "Pull yourself under the bar and catch it locked out overhead at the bottom of a full squat.",
         "Stand up with the bar overhead, then lower it."
+      ]
+    },
+    "Snatch-Grip_High_Pull": {
+      "name": "Snatch-Grip High Pull",
+      "other_names": [],
+      "steps": [
+        "Set up over the bar with a wide snatch grip.",
+        "Lift the bar and extend your hips and knees explosively.",
+        "Pull the bar up to chest height, elbows high and out.",
+        "Lower the bar with control."
+      ]
+    },
+    "Snatch-Grip_Romanian_Deadlift": {
+      "name": "Snatch-Grip Romanian Deadlift",
+      "other_names": [
+        "Snatch-Grip RDL"
+      ],
+      "steps": [
+        "Stand holding a barbell at your hips with a wide snatch grip.",
+        "Push your hips back and lower the bar along your thighs, knees slightly bent.",
+        "Go down until you feel a stretch in your hamstrings, back flat.",
+        "Squeeze your glutes to stand back up."
       ]
     },
     "Snatch_Balance": {
@@ -2931,6 +5627,16 @@
         "Lower the bar back to the floor with control."
       ]
     },
+    "Sots_Press": {
+      "name": "Sots Press",
+      "other_names": [],
+      "steps": [
+        "Squat to the bottom of a front squat with a barbell on your shoulders.",
+        "Stay in the squat and press the bar overhead behind your head.",
+        "Lower it back to your shoulders with control.",
+        "Keep your chest up and heels down throughout."
+      ]
+    },
     "Spider_Curl": {
       "name": "Spider Curl",
       "other_names": [],
@@ -2961,6 +5667,16 @@
         "Bend both knees to lower your back knee towards the floor, keeping your upper body upright.",
         "Push through your front foot to rise back up, keeping your feet in place, then switch legs after the set.",
         "Keep your front knee in line with your toes."
+      ]
+    },
+    "Spoto_Press": {
+      "name": "Spoto Press",
+      "other_names": [],
+      "steps": [
+        "Lie on the bench and unrack the bar with your bench press grip.",
+        "Lower the bar until it is a few centimetres above your chest.",
+        "Hold it there without touching your chest.",
+        "Press it back up to straight arms."
       ]
     },
     "Standing_Barbell_Calf_Raise": {
@@ -2998,6 +5714,36 @@
         "Curl the bar up towards your shoulders.",
         "Squeeze your biceps, then lower slowly until your arms are straight.",
         "Keep your upper arms still and don't lean back."
+      ]
+    },
+    "Standing_Cable_Crunch": {
+      "name": "Standing Cable Crunch",
+      "other_names": [],
+      "steps": [
+        "Stand facing away from a high pulley holding the rope beside your head.",
+        "Crunch forward and down, bringing your ribs towards your hips.",
+        "Return with control.",
+        "Keep your hips still."
+      ]
+    },
+    "Standing_Cable_Leg_Curl": {
+      "name": "Standing Cable Leg Curl",
+      "other_names": [],
+      "steps": [
+        "Attach an ankle strap to a low pulley and face it.",
+        "Curl your heel up towards your buttock.",
+        "Lower with control.",
+        "Finish the set and switch legs."
+      ]
+    },
+    "Standing_Cable_Row": {
+      "name": "Standing Cable Row",
+      "other_names": [],
+      "steps": [
+        "Stand facing a low pulley in a split stance holding a bar or handles.",
+        "Hinge slightly and row towards your stomach.",
+        "Squeeze your shoulder blades together.",
+        "Return with control."
       ]
     },
     "Standing_Cable_Wood_Chop": {
@@ -3168,6 +5914,18 @@
         "Lower the bar the same way with a flat back."
       ]
     },
+    "Sumo_Romanian_Deadlift": {
+      "name": "Sumo Romanian Deadlift",
+      "other_names": [
+        "Sumo RDL"
+      ],
+      "steps": [
+        "Stand in a wide stance, toes out, holding a barbell with your hands inside your legs.",
+        "Push your hips back and lower the bar towards your shins, knees slightly bent.",
+        "Keep your back flat and stop when you feel a stretch in your hamstrings.",
+        "Squeeze your glutes to stand back up."
+      ]
+    },
     "Superman": {
       "name": "Superman",
       "other_names": [],
@@ -3187,6 +5945,16 @@
         "Bend your knees slightly and lean forward with a flat back, arms straight.",
         "Pull the plates up towards your chest, squeezing your shoulder blades together, then lower slowly.",
         "Keep your back flat and your upper body still throughout."
+      ]
+    },
+    "Tate_Press": {
+      "name": "Tate Press",
+      "other_names": [],
+      "steps": [
+        "Lie on a bench holding dumbbells over your chest, palms facing your feet.",
+        "Bend your elbows out to the sides, lowering the dumbbells to touch your chest.",
+        "Keep your upper arms still.",
+        "Straighten your arms back up."
       ]
     },
     "Thigh_Abductor": {
@@ -3217,6 +5985,18 @@
         "Keep your back against the pad and don't let the weight pull your legs open quickly."
       ]
     },
+    "Trap_Bar_Carry": {
+      "name": "Trap Bar Carry",
+      "other_names": [
+        "Hex Bar Farmer's Walk"
+      ],
+      "steps": [
+        "Stand inside a trap bar and lift it by the handles.",
+        "Stand tall with your shoulders back and your core braced.",
+        "Walk forward with short, steady steps.",
+        "Stop and set the bar down with a flat back."
+      ]
+    },
     "Trap_Bar_Deadlift": {
       "name": "Trap Bar Deadlift",
       "other_names": [
@@ -3228,6 +6008,50 @@
         "Flatten your back, brace your stomach and lift your chest.",
         "Push through your feet to stand up tall.",
         "Lower the bar to the floor the same way, keeping your back flat."
+      ]
+    },
+    "Trap_Bar_Floor_Press": {
+      "name": "Trap Bar Floor Press",
+      "other_names": [],
+      "steps": [
+        "Lie on the floor inside a trap bar's frame with the handles beside your chest.",
+        "Grip the handles with palms facing in.",
+        "Press the bar up until your arms are straight.",
+        "Lower until your upper arms touch the floor."
+      ]
+    },
+    "Trap_Bar_Romanian_Deadlift": {
+      "name": "Trap Bar Romanian Deadlift",
+      "other_names": [
+        "Hex Bar RDL"
+      ],
+      "steps": [
+        "Stand inside a trap bar holding the handles, standing tall.",
+        "Push your hips back and lower the bar along your legs, knees slightly bent.",
+        "Stop when you feel a stretch in your hamstrings, back flat.",
+        "Squeeze your glutes to stand back up."
+      ]
+    },
+    "Trap_Bar_Row": {
+      "name": "Trap Bar Row",
+      "other_names": [],
+      "steps": [
+        "Stand inside a trap bar, hinge forward and grip the handles.",
+        "Keep your back flat, torso at about 45 degrees.",
+        "Row the handles up towards your hips.",
+        "Lower with control."
+      ]
+    },
+    "Trap_Bar_Shrug": {
+      "name": "Trap Bar Shrug",
+      "other_names": [
+        "Hex Bar Shrug"
+      ],
+      "steps": [
+        "Stand inside a trap bar and lift it by the handles, arms straight at your sides.",
+        "Shrug your shoulders up towards your ears as high as you can.",
+        "Hold for a moment at the top.",
+        "Lower with control."
       ]
     },
     "Tricep_Dumbbell_Kickback": {
@@ -3275,6 +6099,26 @@
         "Straighten your arms to push the rope down, separating the ends at the bottom.",
         "Let it rise slowly until your forearms are about level with the floor.",
         "Keep your elbows still at your sides."
+      ]
+    },
+    "Triceps_Pushdown_One-Arm_Underhand": {
+      "name": "Triceps Pushdown, One-Arm Underhand",
+      "other_names": [],
+      "steps": [
+        "Stand facing a high pulley holding a single handle underhand.",
+        "Push the handle down until your arm is straight.",
+        "Keep your elbow at your side.",
+        "Return; finish the set and switch sides."
+      ]
+    },
+    "Triceps_Pushdown_V-Bar": {
+      "name": "Triceps Pushdown, V-Bar",
+      "other_names": [],
+      "steps": [
+        "Stand facing a high pulley holding a V-bar.",
+        "Push the bar down until your arms are straight.",
+        "Keep your elbows at your sides.",
+        "Return with control."
       ]
     },
     "Two-Arm_Kettlebell_Military_Press": {
@@ -3326,6 +6170,16 @@
         "Lean back slightly and pull the handle to your upper chest.",
         "Let it rise slowly until your arms are straight.",
         "Keep your chest up and don't swing back to pull."
+      ]
+    },
+    "Waiter_Carry": {
+      "name": "Waiter Carry",
+      "other_names": [],
+      "steps": [
+        "Hold a dumbbell overhead in one hand with your palm facing up, like a tray.",
+        "Keep your arm straight and your wrist stacked over your shoulder.",
+        "Walk forward with short, steady steps.",
+        "Lower the dumbbell, switch hands and walk back."
       ]
     },
     "Wall_Angel": {
@@ -3383,6 +6237,16 @@
         "Hold the bar at your upper chest with a grip just outside your shoulders.",
         "Press the bar overhead until your arms are straight, without leaning back.",
         "Lower it to your upper chest under control."
+      ]
+    },
+    "Zercher_Carry": {
+      "name": "Zercher Carry",
+      "other_names": [],
+      "steps": [
+        "Hold a barbell in the crooks of your elbows, hands together in front of your chest.",
+        "Stand tall with your elbows close to your body and your core braced.",
+        "Walk forward with short, steady steps.",
+        "Stop, lower the bar to a rack or blocks and rest."
       ]
     },
     "Zercher_Squat": {
@@ -3543,5 +6407,5 @@
       "cardio": "Cardio"
     }
   },
-  "version": "0.3.0"
+  "version": "0.4.0"
 }

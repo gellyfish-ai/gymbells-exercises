@@ -2,14 +2,14 @@
 
 **[Browse the catalogue →](https://gellyfish-ai.github.io/gymbells-exercises/)**
 
-297 gym exercises with illustrations and 35 training programs, free for non-commercial use. They are made
-for the [GymBells](https://gymbells.gellyfish.dev) app and shared here. Release 0.3.0 (2026-10-06).
+576 gym exercises with illustrations and 35 training programs, free for non-commercial use. They are made
+for the [GymBells](https://gymbells.gellyfish.dev) app and shared here. Release 0.4.0 (2026-10-07).
 
 [![The catalogue: search, filters by muscle and equipment, a start and an end picture per exercise](docs/catalogue.png)](https://gellyfish-ai.github.io/gymbells-exercises/)
 
 ## What is here
 
-- **297 exercises**, each with a start and an end picture (512 px, on white), a name, other names it goes by,
+- **576 exercises**, each with a start and an end picture (512 px, on white), a name, other names it goes by,
   steps, equipment, primary and secondary muscles, level, and which exercises can replace it or are easier or harder.
 - **35 training programs** written out in full: phases, days, exercises, sets, repetitions, rests,
   starting weights and swaps.
@@ -17,7 +17,7 @@ for the [GymBells](https://gymbells.gellyfish.dev) app and shared here. Release 
   [programs](https://gellyfish-ai.github.io/gymbells-exercises/programs.html),
   [samples and licensing](https://gellyfish-ai.github.io/gymbells-exercises/more.html).
 
-By equipment: Barbell 71, Dumbbell 59, Bodyweight 33, Cable machine 32, Kettlebell 21, Band 6, Lat pulldown machine 6, Smith machine 6, Flat bench 5, Pull-up bar 5, EZ bar 4, Seated cable row 4, Dip bars 3, Leg press machine 3, Medicine ball 3, other 36.
+By equipment: Dumbbell 131, Barbell 127, Cable machine 78, Kettlebell 62, Band 35, Bodyweight 33, Smith machine 22, EZ bar 13, Lat pulldown machine 9, Seated cable row 6, Trap bar 6, Flat bench 5, Pull-up bar 5, Dip bars 3, Leg press machine 3, Medicine ball 3, other 35.
 
 <table>
 <tr>

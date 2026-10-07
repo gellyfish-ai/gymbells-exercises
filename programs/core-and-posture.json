@@ -33,6 +33,8 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Dumbbell_Dead_Bug",
+                "Band_Dead_Bug",
                 "Hollow_Hold",
                 "Plank"
               ]
@@ -53,6 +55,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Landmine_Anti-Rotation_Press",
+                "Cable_Anti-Rotation_Hold",
+                "Pallof_Walkout",
                 "Plank_Shoulder_Tap"
               ]
             },
@@ -73,6 +78,7 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Side_Bend",
+                "Cable_Side_Bend",
                 "Dumbbell_Suitcase_Carry"
               ]
             },
@@ -111,7 +117,12 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Band_Face_Pull",
+                "Cable_Rear_Delt_Row",
+                "Dumbbell_Rear_Delt_Row",
+                "Barbell_Rear_Delt_Row"
+              ]
             },
             {
               "name": "Wall Angel",
@@ -177,7 +188,8 @@
               "restSeconds": null,
               "swaps": [
                 "Flat_Bench_Lying_Leg_Raise",
-                "Hanging_Knee_Raise"
+                "Hanging_Knee_Raise",
+                "Cable_Reverse_Crunch"
               ]
             },
             {
@@ -198,7 +210,8 @@
               "swaps": [
                 "Kettlebell_Suitcase_Carry",
                 "Farmers_Walk",
-                "Kettlebell_Farmers_Walk"
+                "Kettlebell_Farmers_Walk",
+                "Trap_Bar_Carry"
               ]
             },
             {
@@ -240,7 +253,8 @@
               "swaps": [
                 "Face_Pull",
                 "Reverse_Flyes",
-                "Cable_Rear_Delt_Fly"
+                "Cable_Rear_Delt_Fly",
+                "Band_Face_Pull"
               ]
             },
             {
@@ -293,6 +307,8 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Dumbbell_Dead_Bug",
+                "Band_Dead_Bug",
                 "Hollow_Hold",
                 "Plank"
               ]
@@ -313,6 +329,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Landmine_Anti-Rotation_Press",
+                "Cable_Anti-Rotation_Hold",
+                "Pallof_Walkout",
                 "Plank_Shoulder_Tap"
               ]
             },
@@ -333,6 +352,7 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Side_Bend",
+                "Cable_Side_Bend",
                 "Dumbbell_Suitcase_Carry"
               ]
             },
@@ -371,7 +391,12 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Band_Face_Pull",
+                "Cable_Rear_Delt_Row",
+                "Dumbbell_Rear_Delt_Row",
+                "Barbell_Rear_Delt_Row"
+              ]
             },
             {
               "name": "Wall Angel",
@@ -437,7 +462,8 @@
               "restSeconds": null,
               "swaps": [
                 "Flat_Bench_Lying_Leg_Raise",
-                "Hanging_Knee_Raise"
+                "Hanging_Knee_Raise",
+                "Cable_Reverse_Crunch"
               ]
             },
             {
@@ -458,7 +484,8 @@
               "swaps": [
                 "Kettlebell_Suitcase_Carry",
                 "Farmers_Walk",
-                "Kettlebell_Farmers_Walk"
+                "Kettlebell_Farmers_Walk",
+                "Trap_Bar_Carry"
               ]
             },
             {
@@ -500,7 +527,8 @@
               "swaps": [
                 "Face_Pull",
                 "Reverse_Flyes",
-                "Cable_Rear_Delt_Fly"
+                "Cable_Rear_Delt_Fly",
+                "Band_Face_Pull"
               ]
             },
             {

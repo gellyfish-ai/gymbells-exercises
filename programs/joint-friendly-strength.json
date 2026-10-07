@@ -80,6 +80,8 @@
               "swaps": [
                 "Seated_Cable_Row_V-Bar",
                 "Leverage_Iso_Row",
+                "Standing_Cable_Row",
+                "Seated_Band_Row",
                 "Dumbbell_Incline_Row",
                 "Bent_Over_Barbell_Row",
                 "Inverted_Row"
@@ -103,7 +105,9 @@
               "swaps": [
                 "Barbell_Glute_Bridge",
                 "Butt_Lift_Bridge",
-                "Dumbbell_Hip_Thrust"
+                "Dumbbell_Hip_Thrust",
+                "Band_Glute_Bridge",
+                "Dumbbell_Frog_Pump"
               ]
             },
             {
@@ -121,7 +125,12 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Band_Face_Pull",
+                "Cable_Rear_Delt_Row",
+                "Dumbbell_Rear_Delt_Row",
+                "Barbell_Rear_Delt_Row"
+              ]
             },
             {
               "name": "Bird Dog",
@@ -167,7 +176,9 @@
               "swaps": [
                 "Dumbbell_Goblet_Squat",
                 "Front_Squats_With_Two_Kettlebells",
+                "Cable_Goblet_Squat",
                 "Dumbbell_Squat",
+                "Landmine_Squat",
                 "Bodyweight_Squat"
               ]
             },
@@ -189,6 +200,8 @@
               "swaps": [
                 "Barbell_Incline_Bench_Press_-_Medium_Grip",
                 "Hammer_Grip_Incline_DB_Bench_Press",
+                "Smith_Machine_Incline_Press",
+                "Incline_Cable_Press",
                 "Landmine_Press",
                 "Push-Ups_With_Feet_Elevated"
               ]
@@ -231,7 +244,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Step-Up",
                 "Barbell_Step_Ups",
+                "Dumbbell_Lateral_Step-Up",
                 "Dumbbell_Lunges"
               ]
             },
@@ -253,6 +268,7 @@
               "swaps": [
                 "Side_Lateral_Raise",
                 "Cable_Seated_Lateral_Raise",
+                "Kettlebell_Lateral_Raise",
                 "Machine_Lateral_Raise"
               ]
             },
@@ -274,7 +290,8 @@
               "swaps": [
                 "Kettlebell_Suitcase_Carry",
                 "Farmers_Walk",
-                "Kettlebell_Farmers_Walk"
+                "Kettlebell_Farmers_Walk",
+                "Trap_Bar_Carry"
               ]
             }
           ]
@@ -300,7 +317,10 @@
               "restSeconds": null,
               "swaps": [
                 "Barbell_Deadlift",
+                "Landmine_Deadlift",
                 "Dumbbell_Deadlift",
+                "Kettlebell_Deadlift",
+                "Smith_Machine_Deadlift",
                 "Sumo_Deadlift"
               ]
             },
@@ -320,6 +340,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Landmine_Press_One-Arm",
                 "Incline_Dumbbell_Press",
                 "Single_Arm_Dumbbell_Press",
                 "Dumbbell_Shoulder_Press",
@@ -343,6 +364,7 @@
               "restSeconds": null,
               "swaps": [
                 "Incline_Bench_Pull",
+                "Dumbbell_Seal_Row",
                 "Seal_Row",
                 "Bent_Over_Two-Dumbbell_Row",
                 "Leverage_Iso_Row",
@@ -368,6 +390,7 @@
               "swaps": [
                 "Lying_Leg_Curls",
                 "Standing_Leg_Curl",
+                "Standing_Cable_Leg_Curl",
                 "Ball_Leg_Curl",
                 "Glute_Ham_Raise"
               ]
@@ -390,7 +413,8 @@
               "swaps": [
                 "Face_Pull",
                 "Reverse_Flyes",
-                "Cable_Rear_Delt_Fly"
+                "Cable_Rear_Delt_Fly",
+                "Band_Face_Pull"
               ]
             },
             {
@@ -410,6 +434,8 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Dumbbell_Dead_Bug",
+                "Band_Dead_Bug",
                 "Hollow_Hold",
                 "Plank"
               ]
@@ -494,6 +520,8 @@
               "swaps": [
                 "Seated_Cable_Row_V-Bar",
                 "Leverage_Iso_Row",
+                "Standing_Cable_Row",
+                "Seated_Band_Row",
                 "Dumbbell_Incline_Row",
                 "Bent_Over_Barbell_Row",
                 "Inverted_Row"
@@ -517,7 +545,9 @@
               "swaps": [
                 "Barbell_Glute_Bridge",
                 "Butt_Lift_Bridge",
-                "Dumbbell_Hip_Thrust"
+                "Dumbbell_Hip_Thrust",
+                "Band_Glute_Bridge",
+                "Dumbbell_Frog_Pump"
               ]
             },
             {
@@ -535,7 +565,12 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Band_Face_Pull",
+                "Cable_Rear_Delt_Row",
+                "Dumbbell_Rear_Delt_Row",
+                "Barbell_Rear_Delt_Row"
+              ]
             },
             {
               "name": "Bird Dog",
@@ -581,7 +616,9 @@
               "swaps": [
                 "Dumbbell_Goblet_Squat",
                 "Front_Squats_With_Two_Kettlebells",
+                "Cable_Goblet_Squat",
                 "Dumbbell_Squat",
+                "Landmine_Squat",
                 "Bodyweight_Squat"
               ]
             },
@@ -603,6 +640,8 @@
               "swaps": [
                 "Barbell_Incline_Bench_Press_-_Medium_Grip",
                 "Hammer_Grip_Incline_DB_Bench_Press",
+                "Smith_Machine_Incline_Press",
+                "Incline_Cable_Press",
                 "Landmine_Press",
                 "Push-Ups_With_Feet_Elevated"
               ]
@@ -645,7 +684,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Step-Up",
                 "Barbell_Step_Ups",
+                "Dumbbell_Lateral_Step-Up",
                 "Dumbbell_Lunges"
               ]
             },
@@ -667,6 +708,7 @@
               "swaps": [
                 "Side_Lateral_Raise",
                 "Cable_Seated_Lateral_Raise",
+                "Kettlebell_Lateral_Raise",
                 "Machine_Lateral_Raise"
               ]
             },
@@ -688,7 +730,8 @@
               "swaps": [
                 "Kettlebell_Suitcase_Carry",
                 "Farmers_Walk",
-                "Kettlebell_Farmers_Walk"
+                "Kettlebell_Farmers_Walk",
+                "Trap_Bar_Carry"
               ]
             }
           ]
@@ -714,7 +757,10 @@
               "restSeconds": null,
               "swaps": [
                 "Barbell_Deadlift",
+                "Landmine_Deadlift",
                 "Dumbbell_Deadlift",
+                "Kettlebell_Deadlift",
+                "Smith_Machine_Deadlift",
                 "Sumo_Deadlift"
               ]
             },
@@ -734,6 +780,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Landmine_Press_One-Arm",
                 "Incline_Dumbbell_Press",
                 "Single_Arm_Dumbbell_Press",
                 "Dumbbell_Shoulder_Press",
@@ -757,6 +804,7 @@
               "restSeconds": null,
               "swaps": [
                 "Incline_Bench_Pull",
+                "Dumbbell_Seal_Row",
                 "Seal_Row",
                 "Bent_Over_Two-Dumbbell_Row",
                 "Leverage_Iso_Row",
@@ -782,6 +830,7 @@
               "swaps": [
                 "Lying_Leg_Curls",
                 "Standing_Leg_Curl",
+                "Standing_Cable_Leg_Curl",
                 "Ball_Leg_Curl",
                 "Glute_Ham_Raise"
               ]
@@ -804,7 +853,8 @@
               "swaps": [
                 "Face_Pull",
                 "Reverse_Flyes",
-                "Cable_Rear_Delt_Fly"
+                "Cable_Rear_Delt_Fly",
+                "Band_Face_Pull"
               ]
             },
             {
@@ -824,6 +874,8 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Dumbbell_Dead_Bug",
+                "Band_Dead_Bug",
                 "Hollow_Hold",
                 "Plank"
               ]
@@ -908,6 +960,8 @@
               "swaps": [
                 "Seated_Cable_Row_V-Bar",
                 "Leverage_Iso_Row",
+                "Standing_Cable_Row",
+                "Seated_Band_Row",
                 "Dumbbell_Incline_Row",
                 "Bent_Over_Barbell_Row",
                 "Inverted_Row"
@@ -931,7 +985,9 @@
               "swaps": [
                 "Barbell_Glute_Bridge",
                 "Butt_Lift_Bridge",
-                "Dumbbell_Hip_Thrust"
+                "Dumbbell_Hip_Thrust",
+                "Band_Glute_Bridge",
+                "Dumbbell_Frog_Pump"
               ]
             },
             {
@@ -949,7 +1005,12 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Band_Face_Pull",
+                "Cable_Rear_Delt_Row",
+                "Dumbbell_Rear_Delt_Row",
+                "Barbell_Rear_Delt_Row"
+              ]
             },
             {
               "name": "Bird Dog",
@@ -995,7 +1056,9 @@
               "swaps": [
                 "Dumbbell_Goblet_Squat",
                 "Front_Squats_With_Two_Kettlebells",
+                "Cable_Goblet_Squat",
                 "Dumbbell_Squat",
+                "Landmine_Squat",
                 "Bodyweight_Squat"
               ]
             },
@@ -1017,6 +1080,8 @@
               "swaps": [
                 "Barbell_Incline_Bench_Press_-_Medium_Grip",
                 "Hammer_Grip_Incline_DB_Bench_Press",
+                "Smith_Machine_Incline_Press",
+                "Incline_Cable_Press",
                 "Landmine_Press",
                 "Push-Ups_With_Feet_Elevated"
               ]
@@ -1059,7 +1124,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kettlebell_Step-Up",
                 "Barbell_Step_Ups",
+                "Dumbbell_Lateral_Step-Up",
                 "Dumbbell_Lunges"
               ]
             },
@@ -1081,6 +1148,7 @@
               "swaps": [
                 "Side_Lateral_Raise",
                 "Cable_Seated_Lateral_Raise",
+                "Kettlebell_Lateral_Raise",
                 "Machine_Lateral_Raise"
               ]
             },
@@ -1102,7 +1170,8 @@
               "swaps": [
                 "Kettlebell_Suitcase_Carry",
                 "Farmers_Walk",
-                "Kettlebell_Farmers_Walk"
+                "Kettlebell_Farmers_Walk",
+                "Trap_Bar_Carry"
               ]
             }
           ]
@@ -1128,7 +1197,10 @@
               "restSeconds": null,
               "swaps": [
                 "Barbell_Deadlift",
+                "Landmine_Deadlift",
                 "Dumbbell_Deadlift",
+                "Kettlebell_Deadlift",
+                "Smith_Machine_Deadlift",
                 "Sumo_Deadlift"
               ]
             },
@@ -1148,6 +1220,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Landmine_Press_One-Arm",
                 "Incline_Dumbbell_Press",
                 "Single_Arm_Dumbbell_Press",
                 "Dumbbell_Shoulder_Press",
@@ -1171,6 +1244,7 @@
               "restSeconds": null,
               "swaps": [
                 "Incline_Bench_Pull",
+                "Dumbbell_Seal_Row",
                 "Seal_Row",
                 "Bent_Over_Two-Dumbbell_Row",
                 "Leverage_Iso_Row",
@@ -1196,6 +1270,7 @@
               "swaps": [
                 "Lying_Leg_Curls",
                 "Standing_Leg_Curl",
+                "Standing_Cable_Leg_Curl",
                 "Ball_Leg_Curl",
                 "Glute_Ham_Raise"
               ]
@@ -1218,7 +1293,8 @@
               "swaps": [
                 "Face_Pull",
                 "Reverse_Flyes",
-                "Cable_Rear_Delt_Fly"
+                "Cable_Rear_Delt_Fly",
+                "Band_Face_Pull"
               ]
             },
             {
@@ -1238,6 +1314,8 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Dumbbell_Dead_Bug",
+                "Band_Dead_Bug",
                 "Hollow_Hold",
                 "Plank"
               ]

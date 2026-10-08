@@ -32,9 +32,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Bird_Dog",
                 "Dumbbell_Dead_Bug",
                 "Band_Dead_Bug",
+                "Bird_Dog",
+                "Dead_Bug_Arms_Only",
                 "Hollow_Hold",
                 "Plank"
               ]
@@ -56,9 +57,10 @@
               "restSeconds": null,
               "swaps": [
                 "Landmine_Anti-Rotation_Press",
+                "Plank_Shoulder_Tap",
+                "Half-Kneeling_Pallof_Press",
                 "Cable_Anti-Rotation_Hold",
-                "Pallof_Walkout",
-                "Plank_Shoulder_Tap"
+                "Pallof_Walkout"
               ]
             },
             {
@@ -79,7 +81,10 @@
               "swaps": [
                 "Dumbbell_Side_Bend",
                 "Cable_Side_Bend",
-                "Dumbbell_Suitcase_Carry"
+                "Dumbbell_Suitcase_Carry",
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
               ]
             },
             {
@@ -99,7 +104,8 @@
               "restSeconds": null,
               "swaps": [
                 "Dead_Bug",
-                "Superman"
+                "Superman",
+                "Plank_Reach"
               ]
             },
             {
@@ -119,9 +125,9 @@
               "restSeconds": null,
               "swaps": [
                 "Band_Face_Pull",
-                "Cable_Rear_Delt_Row",
+                "Prone_T_Raise",
                 "Dumbbell_Rear_Delt_Row",
-                "Barbell_Rear_Delt_Row"
+                "Cable_Rear_Delt_Row"
               ]
             },
             {
@@ -140,6 +146,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Shoulder_Dislocate",
+                "Arm_Circles",
                 "Prone_Y_Raise"
               ]
             }
@@ -165,9 +173,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Plank_Shoulder_Tap",
-                "Dead_Bug",
                 "Ab_Roller",
+                "Plank_Shoulder_Tap",
+                "Plank_Reach",
+                "Dead_Bug",
                 "Hollow_Hold"
               ]
             },
@@ -187,9 +196,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Flat_Bench_Lying_Leg_Raise",
                 "Hanging_Knee_Raise",
-                "Cable_Reverse_Crunch"
+                "Cable_Reverse_Crunch",
+                "Flat_Bench_Lying_Leg_Raise",
+                "Seated_Knee_Tuck",
+                "Leg_Raise_with_Hip_Lift"
               ]
             },
             {
@@ -209,9 +220,9 @@
               "restSeconds": null,
               "swaps": [
                 "Kettlebell_Suitcase_Carry",
-                "Farmers_Walk",
                 "Kettlebell_Farmers_Walk",
-                "Trap_Bar_Carry"
+                "Trap_Bar_Carry",
+                "Farmers_Walk"
               ]
             },
             {
@@ -254,6 +265,7 @@
                 "Face_Pull",
                 "Reverse_Flyes",
                 "Cable_Rear_Delt_Fly",
+                "Prone_T_Raise",
                 "Band_Face_Pull"
               ]
             },
@@ -306,9 +318,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Bird_Dog",
                 "Dumbbell_Dead_Bug",
                 "Band_Dead_Bug",
+                "Bird_Dog",
+                "Dead_Bug_Arms_Only",
                 "Hollow_Hold",
                 "Plank"
               ]
@@ -330,9 +343,10 @@
               "restSeconds": null,
               "swaps": [
                 "Landmine_Anti-Rotation_Press",
+                "Plank_Shoulder_Tap",
+                "Half-Kneeling_Pallof_Press",
                 "Cable_Anti-Rotation_Hold",
-                "Pallof_Walkout",
-                "Plank_Shoulder_Tap"
+                "Pallof_Walkout"
               ]
             },
             {
@@ -353,7 +367,10 @@
               "swaps": [
                 "Dumbbell_Side_Bend",
                 "Cable_Side_Bend",
-                "Dumbbell_Suitcase_Carry"
+                "Dumbbell_Suitcase_Carry",
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
               ]
             },
             {
@@ -373,7 +390,8 @@
               "restSeconds": null,
               "swaps": [
                 "Dead_Bug",
-                "Superman"
+                "Superman",
+                "Plank_Reach"
               ]
             },
             {
@@ -393,9 +411,9 @@
               "restSeconds": null,
               "swaps": [
                 "Band_Face_Pull",
-                "Cable_Rear_Delt_Row",
+                "Prone_T_Raise",
                 "Dumbbell_Rear_Delt_Row",
-                "Barbell_Rear_Delt_Row"
+                "Cable_Rear_Delt_Row"
               ]
             },
             {
@@ -414,6 +432,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Shoulder_Dislocate",
+                "Arm_Circles",
                 "Prone_Y_Raise"
               ]
             }
@@ -439,9 +459,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Plank_Shoulder_Tap",
-                "Dead_Bug",
                 "Ab_Roller",
+                "Plank_Shoulder_Tap",
+                "Plank_Reach",
+                "Dead_Bug",
                 "Hollow_Hold"
               ]
             },
@@ -461,9 +482,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Flat_Bench_Lying_Leg_Raise",
                 "Hanging_Knee_Raise",
-                "Cable_Reverse_Crunch"
+                "Cable_Reverse_Crunch",
+                "Flat_Bench_Lying_Leg_Raise",
+                "Seated_Knee_Tuck",
+                "Leg_Raise_with_Hip_Lift"
               ]
             },
             {
@@ -483,9 +506,9 @@
               "restSeconds": null,
               "swaps": [
                 "Kettlebell_Suitcase_Carry",
-                "Farmers_Walk",
                 "Kettlebell_Farmers_Walk",
-                "Trap_Bar_Carry"
+                "Trap_Bar_Carry",
+                "Farmers_Walk"
               ]
             },
             {
@@ -528,6 +551,7 @@
                 "Face_Pull",
                 "Reverse_Flyes",
                 "Cable_Rear_Delt_Fly",
+                "Prone_T_Raise",
                 "Band_Face_Pull"
               ]
             },

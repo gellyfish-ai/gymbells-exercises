@@ -31,7 +31,10 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Pulse_Squat",
+                "Wall_Sit"
+              ]
             },
             {
               "name": "Push-Up",
@@ -48,7 +51,10 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Knee_Push-Up",
+                "Push-Up_Wide_Grip"
+              ]
             },
             {
               "name": "Bodyweight Reverse Lunge",
@@ -66,7 +72,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Bodyweight_Walking_Lunge"
+                "Forward_Lunge",
+                "Bodyweight_Walking_Lunge",
+                "Curtsy_Lunge"
               ]
             },
             {
@@ -86,6 +94,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Superman_Pull",
                 "Prone_Y_Raise"
               ]
             },
@@ -106,6 +115,7 @@
               "restSeconds": null,
               "swaps": [
                 "Plank_Shoulder_Tap",
+                "Plank_Reach",
                 "Dead_Bug",
                 "Hollow_Hold"
               ]
@@ -125,7 +135,33 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Star_Jump",
+                "High_Knees",
+                "Plank_Jack",
+                "Butt_Kicks"
+              ]
+            },
+            {
+              "name": "Bodyweight Calf Raise",
+              "catalogueId": "Bodyweight_Calf_Raise",
+              "sets": 2,
+              "repRangeMin": 15,
+              "repRangeMax": 20,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Standing_Dumbbell_Calf_Raise",
+                "Standing_Calf_Raises",
+                "Single-Leg_Calf_Raise"
+              ]
             }
           ]
         },
@@ -148,7 +184,10 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Glute_Bridge_March",
+                "Frog_Pump"
+              ]
             },
             {
               "name": "Push-Up, Close Grip",
@@ -166,7 +205,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Pushups"
+                "Pushups",
+                "Sphinx_Push-Up",
+                "Knee_Push-Up"
               ]
             },
             {
@@ -184,7 +225,10 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Cossack_Squat",
+                "Curtsy_Lunge"
+              ]
             },
             {
               "name": "Prone Y Raise",
@@ -202,6 +246,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Prone_T_Raise",
                 "Wall_Angel"
               ]
             },
@@ -222,6 +267,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Dead_Bug_Arms_Only",
                 "Hollow_Hold",
                 "Plank"
               ]
@@ -242,7 +288,31 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Cross-Body_Mountain_Climber",
+                "Plank_Jack",
+                "High_Knees",
                 "Burpee"
+              ]
+            },
+            {
+              "name": "Frog Pump",
+              "catalogueId": "Frog_Pump",
+              "sets": 2,
+              "repRangeMin": 15,
+              "repRangeMax": 20,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Frog_Pump",
+                "Band_Glute_Bridge",
+                "Butt_Lift_Bridge"
               ]
             }
           ]
@@ -267,7 +337,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Tuck_Jump",
                 "Broad_Jump",
+                "Split_Squat_Jump",
                 "Bodyweight_Squat"
               ]
             },
@@ -287,7 +359,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Handstand_Push-Ups"
+                "Handstand_Push-Ups",
+                "Dive_Bomber_Push-Up"
               ]
             },
             {
@@ -306,6 +379,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Glute_Bridge_March",
                 "Butt_Lift_Bridge"
               ]
             },
@@ -326,7 +400,8 @@
               "restSeconds": null,
               "swaps": [
                 "Dead_Bug",
-                "Superman"
+                "Superman",
+                "Plank_Reach"
               ]
             },
             {
@@ -344,7 +419,11 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
+              ]
             },
             {
               "name": "Burpee",
@@ -362,8 +441,31 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Squat_Thrust",
+                "Sprawl",
                 "Mountain_Climbers",
                 "Jumping_Jack"
+              ]
+            },
+            {
+              "name": "Flutter Kicks",
+              "catalogueId": "Flutter_Kicks",
+              "sets": 2,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hollow_Hold",
+                "Flat_Bench_Lying_Leg_Raise",
+                "Hollow_Rock"
               ]
             }
           ]
@@ -397,7 +499,10 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Pulse_Squat",
+                "Wall_Sit"
+              ]
             },
             {
               "name": "Push-Up",
@@ -414,7 +519,10 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Knee_Push-Up",
+                "Push-Up_Wide_Grip"
+              ]
             },
             {
               "name": "Bodyweight Reverse Lunge",
@@ -432,7 +540,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Bodyweight_Walking_Lunge"
+                "Forward_Lunge",
+                "Bodyweight_Walking_Lunge",
+                "Curtsy_Lunge"
               ]
             },
             {
@@ -452,6 +562,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Superman_Pull",
                 "Prone_Y_Raise"
               ]
             },
@@ -472,6 +583,7 @@
               "restSeconds": null,
               "swaps": [
                 "Plank_Shoulder_Tap",
+                "Plank_Reach",
                 "Dead_Bug",
                 "Hollow_Hold"
               ]
@@ -491,7 +603,33 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Star_Jump",
+                "High_Knees",
+                "Plank_Jack",
+                "Butt_Kicks"
+              ]
+            },
+            {
+              "name": "Bodyweight Calf Raise",
+              "catalogueId": "Bodyweight_Calf_Raise",
+              "sets": 3,
+              "repRangeMin": 15,
+              "repRangeMax": 20,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Standing_Dumbbell_Calf_Raise",
+                "Standing_Calf_Raises",
+                "Single-Leg_Calf_Raise"
+              ]
             }
           ]
         },
@@ -514,7 +652,10 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Glute_Bridge_March",
+                "Frog_Pump"
+              ]
             },
             {
               "name": "Push-Up, Close Grip",
@@ -532,7 +673,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Pushups"
+                "Pushups",
+                "Sphinx_Push-Up",
+                "Knee_Push-Up"
               ]
             },
             {
@@ -550,7 +693,10 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Cossack_Squat",
+                "Curtsy_Lunge"
+              ]
             },
             {
               "name": "Prone Y Raise",
@@ -568,6 +714,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Prone_T_Raise",
                 "Wall_Angel"
               ]
             },
@@ -588,6 +735,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Dead_Bug_Arms_Only",
                 "Hollow_Hold",
                 "Plank"
               ]
@@ -608,7 +756,31 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Cross-Body_Mountain_Climber",
+                "Plank_Jack",
+                "High_Knees",
                 "Burpee"
+              ]
+            },
+            {
+              "name": "Frog Pump",
+              "catalogueId": "Frog_Pump",
+              "sets": 3,
+              "repRangeMin": 15,
+              "repRangeMax": 20,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Frog_Pump",
+                "Band_Glute_Bridge",
+                "Butt_Lift_Bridge"
               ]
             }
           ]
@@ -633,7 +805,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Tuck_Jump",
                 "Broad_Jump",
+                "Split_Squat_Jump",
                 "Bodyweight_Squat"
               ]
             },
@@ -653,7 +827,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Handstand_Push-Ups"
+                "Handstand_Push-Ups",
+                "Dive_Bomber_Push-Up"
               ]
             },
             {
@@ -672,6 +847,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Glute_Bridge_March",
                 "Butt_Lift_Bridge"
               ]
             },
@@ -692,7 +868,8 @@
               "restSeconds": null,
               "swaps": [
                 "Dead_Bug",
-                "Superman"
+                "Superman",
+                "Plank_Reach"
               ]
             },
             {
@@ -710,7 +887,11 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
+              ]
             },
             {
               "name": "Burpee",
@@ -728,8 +909,31 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Squat_Thrust",
+                "Sprawl",
                 "Mountain_Climbers",
                 "Jumping_Jack"
+              ]
+            },
+            {
+              "name": "Flutter Kicks",
+              "catalogueId": "Flutter_Kicks",
+              "sets": 3,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hollow_Hold",
+                "Flat_Bench_Lying_Leg_Raise",
+                "Hollow_Rock"
               ]
             }
           ]

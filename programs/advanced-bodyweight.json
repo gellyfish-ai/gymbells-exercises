@@ -1,0 +1,1705 @@
+{
+  "id": "advanced-bodyweight",
+  "name": "Advanced Bodyweight",
+  "description": "Four workouts a week for 10 weeks with a pull-up bar and floor space, for someone who already does ten pull-ups and twenty push-ups. Harder versions take the place of weight: archer and handstand push-ups, commando and neutral-grip pull-ups, pistol and shrimp squats, Nordic curls, toes to bar and hollow rocks, with one day of jumps and core. Four weeks of volume, a lighter week, then five weeks of the hardest versions with fewer reps and slower lowering. Meant to be done as written.",
+  "level": "advanced",
+  "phases": [
+    {
+      "name": "Volume",
+      "description": "Four sets on the main movements, stopping two reps before failure",
+      "weekStart": 1,
+      "weekEnd": 4,
+      "restBetweenExercises": 90,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Push",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Archer Push-Up",
+              "catalogueId": "Archer_Push-Up",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Bench_Press_One-Arm",
+                "Push-Ups_With_Feet_Elevated",
+                "Push-Up_Wide_Grip"
+              ]
+            },
+            {
+              "name": "Pike Push-Up",
+              "catalogueId": "Pike_Push-Up",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Shoulder_Press",
+                "Shoulder_Press_-_With_Bands",
+                "Handstand_Push-Ups",
+                "Dive_Bomber_Push-Up"
+              ]
+            },
+            {
+              "name": "Dive Bomber Push-Up",
+              "catalogueId": "Dive_Bomber_Push-Up",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pike_Push-Up",
+                "Pushups",
+                "Push-Ups_With_Feet_Elevated"
+              ]
+            },
+            {
+              "name": "Sphinx Push-Up",
+              "catalogueId": "Sphinx_Push-Up",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Band_Skull_Crusher",
+                "Push-Ups_-_Close_Triceps_Position",
+                "Bench_Dips"
+              ]
+            },
+            {
+              "name": "Push-Up, Wide Grip",
+              "catalogueId": "Push-Up_Wide_Grip",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Wide-Grip_Barbell_Bench_Press",
+                "Dumbbell_Bench_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Plank Reach",
+              "catalogueId": "Plank_Reach",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per arm",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Bird_Dog",
+                "Plank"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pull",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Pull-Up",
+              "catalogueId": "Pullups",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Wide-Grip_Lat_Pulldown",
+                "Band_Assisted_Pull-Up",
+                "Lat_Pulldown_Neutral_Grip",
+                "Inverted_Row",
+                "Chin-Up",
+                "Pull-Up_Neutral_Grip"
+              ]
+            },
+            {
+              "name": "Commando Pull-Up",
+              "catalogueId": "Commando_Pull-Up",
+              "sets": 3,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Lat_Pulldown_Neutral_Grip",
+                "Chin-Up",
+                "Pullups",
+                "Pull-Up_Neutral_Grip"
+              ]
+            },
+            {
+              "name": "Pull-Up, Neutral Grip",
+              "catalogueId": "Pull-Up_Neutral_Grip",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Lat_Pulldown_Neutral_Grip",
+                "Chin-Up",
+                "Pullups",
+                "Commando_Pull-Up"
+              ]
+            },
+            {
+              "name": "Scapular Pull-Up",
+              "catalogueId": "Scapular_Pull-Up",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Band_Straight-Arm_Pulldown",
+                "Active_Hang",
+                "Dead_Hang"
+              ]
+            },
+            {
+              "name": "Superman Pull",
+              "catalogueId": "Superman_Pull",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Superman",
+                "Prone_Y_Raise",
+                "Bird_Dog"
+              ]
+            },
+            {
+              "name": "Dead Hang",
+              "catalogueId": "Dead_Hang",
+              "sets": 3,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Farmers_Walk",
+                "Active_Hang"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Legs",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Pistol Squat",
+              "catalogueId": "Pistol_Squat",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Pistol_Squat",
+                "Shrimp_Squat",
+                "Bodyweight_Bulgarian_Split_Squat"
+              ]
+            },
+            {
+              "name": "Nordic Hamstring Curl",
+              "catalogueId": "Nordic_Hamstring_Curl",
+              "sets": 4,
+              "repRangeMin": 5,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Control the way down; push off the floor to come up",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Glute_Ham_Raise",
+                "Lying_Leg_Curls",
+                "Ball_Leg_Curl",
+                "Floor_Glute-Ham_Raise"
+              ]
+            },
+            {
+              "name": "Cossack Squat",
+              "catalogueId": "Cossack_Squat",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Cossack_Squat",
+                "Dumbbell_Lateral_Lunge",
+                "Bodyweight_Lateral_Lunge"
+              ]
+            },
+            {
+              "name": "Sissy Squat",
+              "catalogueId": "Sissy_Squat",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Leg_Extensions",
+                "Smith_Machine_Sissy_Squat",
+                "Barbell_Sissy_Squat"
+              ]
+            },
+            {
+              "name": "Bodyweight Single-Leg Deadlift",
+              "catalogueId": "Bodyweight_Single-Leg_Deadlift",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_One-Legged_Deadlift",
+                "Dumbbell_Single-Leg_Romanian_Deadlift",
+                "Bodyweight_Good_Morning",
+                "Single_Leg_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Single-Leg Calf Raise",
+              "catalogueId": "Single-Leg_Calf_Raise",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Calf_Raise_Single_Leg",
+                "Standing_Dumbbell_Calf_Raise",
+                "Bodyweight_Calf_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jumps and Core",
+          "dayNumber": 4,
+          "exercises": [
+            {
+              "name": "Broad Jump",
+              "catalogueId": "Broad_Jump",
+              "sets": 4,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Full rest between jumps",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Box_Jump",
+                "Jump_Squat",
+                "Tuck_Jump"
+              ]
+            },
+            {
+              "name": "Split Squat Jump",
+              "catalogueId": "Split_Squat_Jump",
+              "sets": 3,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Box_Jump",
+                "Jump_Squat",
+                "Tuck_Jump"
+              ]
+            },
+            {
+              "name": "Tuck Jump",
+              "catalogueId": "Tuck_Jump",
+              "sets": 3,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Box_Jump",
+                "Jump_Squat",
+                "Star_Jump"
+              ]
+            },
+            {
+              "name": "Toes to Bar",
+              "catalogueId": "Toes_to_Bar",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Knees_to_Elbows",
+                "Hanging_Leg_Raise",
+                "Hanging_Knee_Raise"
+              ]
+            },
+            {
+              "name": "Hollow Rock",
+              "catalogueId": "Hollow_Rock",
+              "sets": 3,
+              "repRangeMin": 15,
+              "repRangeMax": 20,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hollow_Hold",
+                "Boat_Hold",
+                "Flutter_Kicks"
+              ]
+            },
+            {
+              "name": "Side Plank Leg Raise",
+              "catalogueId": "Side_Plank_Leg_Raise",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Side_Bridge",
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Rotation"
+              ]
+            },
+            {
+              "name": "Leg Raise with Hip Lift",
+              "catalogueId": "Leg_Raise_with_Hip_Lift",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Leg_Raise",
+                "Reverse_Crunch",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deload",
+      "description": "One lighter week: two sets of everything, so you start the next phase recovered",
+      "weekStart": 5,
+      "weekEnd": 5,
+      "restBetweenExercises": 90,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Push",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Archer Push-Up",
+              "catalogueId": "Archer_Push-Up",
+              "sets": 2,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Bench_Press_One-Arm",
+                "Push-Ups_With_Feet_Elevated",
+                "Push-Up_Wide_Grip"
+              ]
+            },
+            {
+              "name": "Pike Push-Up",
+              "catalogueId": "Pike_Push-Up",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Shoulder_Press",
+                "Shoulder_Press_-_With_Bands",
+                "Handstand_Push-Ups",
+                "Dive_Bomber_Push-Up"
+              ]
+            },
+            {
+              "name": "Dive Bomber Push-Up",
+              "catalogueId": "Dive_Bomber_Push-Up",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pike_Push-Up",
+                "Pushups",
+                "Push-Ups_With_Feet_Elevated"
+              ]
+            },
+            {
+              "name": "Sphinx Push-Up",
+              "catalogueId": "Sphinx_Push-Up",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Band_Skull_Crusher",
+                "Push-Ups_-_Close_Triceps_Position",
+                "Bench_Dips"
+              ]
+            },
+            {
+              "name": "Push-Up, Wide Grip",
+              "catalogueId": "Push-Up_Wide_Grip",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Wide-Grip_Barbell_Bench_Press",
+                "Dumbbell_Bench_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Plank Reach",
+              "catalogueId": "Plank_Reach",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per arm",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Bird_Dog",
+                "Plank"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pull",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Pull-Up",
+              "catalogueId": "Pullups",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Wide-Grip_Lat_Pulldown",
+                "Band_Assisted_Pull-Up",
+                "Lat_Pulldown_Neutral_Grip",
+                "Inverted_Row",
+                "Chin-Up",
+                "Pull-Up_Neutral_Grip"
+              ]
+            },
+            {
+              "name": "Commando Pull-Up",
+              "catalogueId": "Commando_Pull-Up",
+              "sets": 2,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Lat_Pulldown_Neutral_Grip",
+                "Chin-Up",
+                "Pullups",
+                "Pull-Up_Neutral_Grip"
+              ]
+            },
+            {
+              "name": "Pull-Up, Neutral Grip",
+              "catalogueId": "Pull-Up_Neutral_Grip",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Lat_Pulldown_Neutral_Grip",
+                "Chin-Up",
+                "Pullups",
+                "Commando_Pull-Up"
+              ]
+            },
+            {
+              "name": "Scapular Pull-Up",
+              "catalogueId": "Scapular_Pull-Up",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Band_Straight-Arm_Pulldown",
+                "Active_Hang",
+                "Dead_Hang"
+              ]
+            },
+            {
+              "name": "Superman Pull",
+              "catalogueId": "Superman_Pull",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Superman",
+                "Prone_Y_Raise",
+                "Bird_Dog"
+              ]
+            },
+            {
+              "name": "Dead Hang",
+              "catalogueId": "Dead_Hang",
+              "sets": 2,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Farmers_Walk",
+                "Active_Hang"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Legs",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Pistol Squat",
+              "catalogueId": "Pistol_Squat",
+              "sets": 2,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Pistol_Squat",
+                "Shrimp_Squat",
+                "Bodyweight_Bulgarian_Split_Squat"
+              ]
+            },
+            {
+              "name": "Nordic Hamstring Curl",
+              "catalogueId": "Nordic_Hamstring_Curl",
+              "sets": 2,
+              "repRangeMin": 5,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Control the way down; push off the floor to come up",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Glute_Ham_Raise",
+                "Lying_Leg_Curls",
+                "Ball_Leg_Curl",
+                "Floor_Glute-Ham_Raise"
+              ]
+            },
+            {
+              "name": "Cossack Squat",
+              "catalogueId": "Cossack_Squat",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Cossack_Squat",
+                "Dumbbell_Lateral_Lunge",
+                "Bodyweight_Lateral_Lunge"
+              ]
+            },
+            {
+              "name": "Sissy Squat",
+              "catalogueId": "Sissy_Squat",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Leg_Extensions",
+                "Smith_Machine_Sissy_Squat",
+                "Barbell_Sissy_Squat"
+              ]
+            },
+            {
+              "name": "Bodyweight Single-Leg Deadlift",
+              "catalogueId": "Bodyweight_Single-Leg_Deadlift",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_One-Legged_Deadlift",
+                "Dumbbell_Single-Leg_Romanian_Deadlift",
+                "Bodyweight_Good_Morning",
+                "Single_Leg_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Single-Leg Calf Raise",
+              "catalogueId": "Single-Leg_Calf_Raise",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Calf_Raise_Single_Leg",
+                "Standing_Dumbbell_Calf_Raise",
+                "Bodyweight_Calf_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jumps and Core",
+          "dayNumber": 4,
+          "exercises": [
+            {
+              "name": "Broad Jump",
+              "catalogueId": "Broad_Jump",
+              "sets": 2,
+              "repRangeMin": 5,
+              "repRangeMax": 5,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Full rest between jumps",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Box_Jump",
+                "Jump_Squat",
+                "Tuck_Jump"
+              ]
+            },
+            {
+              "name": "Split Squat Jump",
+              "catalogueId": "Split_Squat_Jump",
+              "sets": 2,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Box_Jump",
+                "Jump_Squat",
+                "Tuck_Jump"
+              ]
+            },
+            {
+              "name": "Tuck Jump",
+              "catalogueId": "Tuck_Jump",
+              "sets": 2,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Box_Jump",
+                "Jump_Squat",
+                "Star_Jump"
+              ]
+            },
+            {
+              "name": "Toes to Bar",
+              "catalogueId": "Toes_to_Bar",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Knees_to_Elbows",
+                "Hanging_Leg_Raise",
+                "Hanging_Knee_Raise"
+              ]
+            },
+            {
+              "name": "Hollow Rock",
+              "catalogueId": "Hollow_Rock",
+              "sets": 2,
+              "repRangeMin": 15,
+              "repRangeMax": 20,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hollow_Hold",
+                "Boat_Hold",
+                "Flutter_Kicks"
+              ]
+            },
+            {
+              "name": "Side Plank Leg Raise",
+              "catalogueId": "Side_Plank_Leg_Raise",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Side_Bridge",
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Rotation"
+              ]
+            },
+            {
+              "name": "Leg Raise with Hip Lift",
+              "catalogueId": "Leg_Raise_with_Hip_Lift",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Leg_Raise",
+                "Reverse_Crunch",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hardest Versions",
+      "description": "Handstand push-ups, shrimp squats, slow pull-ups and five sets on the main movements",
+      "weekStart": 6,
+      "weekEnd": 10,
+      "restBetweenExercises": 120,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Push",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Archer Push-Up",
+              "catalogueId": "Archer_Push-Up",
+              "sets": 5,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Bench_Press_One-Arm",
+                "Push-Ups_With_Feet_Elevated",
+                "Push-Up_Wide_Grip"
+              ]
+            },
+            {
+              "name": "Handstand Push-Up",
+              "catalogueId": "Handstand_Push-Ups",
+              "sets": 4,
+              "repRangeMin": 4,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Against a wall; pike push-ups with the feet raised if you cannot do four",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Standing_Military_Press",
+                "Dumbbell_Shoulder_Press",
+                "Pike_Push-Up"
+              ]
+            },
+            {
+              "name": "Dive Bomber Push-Up",
+              "catalogueId": "Dive_Bomber_Push-Up",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pike_Push-Up",
+                "Pushups",
+                "Push-Ups_With_Feet_Elevated"
+              ]
+            },
+            {
+              "name": "Sphinx Push-Up",
+              "catalogueId": "Sphinx_Push-Up",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Band_Skull_Crusher",
+                "Push-Ups_-_Close_Triceps_Position",
+                "Bench_Dips"
+              ]
+            },
+            {
+              "name": "Push-Up, Wide Grip",
+              "catalogueId": "Push-Up_Wide_Grip",
+              "sets": 3,
+              "repRangeMin": 15,
+              "repRangeMax": 20,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Wide-Grip_Barbell_Bench_Press",
+                "Dumbbell_Bench_Press",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Plank Reach",
+              "catalogueId": "Plank_Reach",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per arm",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Plank_Shoulder_Tap",
+                "Bird_Dog",
+                "Plank"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pull",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Pull-Up",
+              "catalogueId": "Pullups",
+              "sets": 5,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Three seconds down on every rep",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Wide-Grip_Lat_Pulldown",
+                "Band_Assisted_Pull-Up",
+                "Lat_Pulldown_Neutral_Grip",
+                "Inverted_Row",
+                "Chin-Up",
+                "Pull-Up_Neutral_Grip"
+              ]
+            },
+            {
+              "name": "Commando Pull-Up",
+              "catalogueId": "Commando_Pull-Up",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Lat_Pulldown_Neutral_Grip",
+                "Chin-Up",
+                "Pullups",
+                "Pull-Up_Neutral_Grip"
+              ]
+            },
+            {
+              "name": "Pull-Up, Neutral Grip",
+              "catalogueId": "Pull-Up_Neutral_Grip",
+              "sets": 4,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Lat_Pulldown_Neutral_Grip",
+                "Chin-Up",
+                "Pullups",
+                "Commando_Pull-Up"
+              ]
+            },
+            {
+              "name": "Scapular Pull-Up",
+              "catalogueId": "Scapular_Pull-Up",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Band_Straight-Arm_Pulldown",
+                "Active_Hang",
+                "Dead_Hang"
+              ]
+            },
+            {
+              "name": "Superman Pull",
+              "catalogueId": "Superman_Pull",
+              "sets": 3,
+              "repRangeMin": 15,
+              "repRangeMax": 20,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Superman",
+                "Prone_Y_Raise",
+                "Bird_Dog"
+              ]
+            },
+            {
+              "name": "Dead Hang",
+              "catalogueId": "Dead_Hang",
+              "sets": 3,
+              "repRangeMin": 45,
+              "repRangeMax": 60,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Farmers_Walk",
+                "Active_Hang"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Legs",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Pistol Squat",
+              "catalogueId": "Pistol_Squat",
+              "sets": 5,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Pistol_Squat",
+                "Shrimp_Squat",
+                "Bodyweight_Bulgarian_Split_Squat"
+              ]
+            },
+            {
+              "name": "Nordic Hamstring Curl",
+              "catalogueId": "Nordic_Hamstring_Curl",
+              "sets": 5,
+              "repRangeMin": 5,
+              "repRangeMax": 6,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Control the way down; push off the floor to come up",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Glute_Ham_Raise",
+                "Lying_Leg_Curls",
+                "Ball_Leg_Curl",
+                "Floor_Glute-Ham_Raise"
+              ]
+            },
+            {
+              "name": "Shrimp Squat",
+              "catalogueId": "Shrimp_Squat",
+              "sets": 3,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_Pistol_Squat",
+                "Pistol_Squat",
+                "Bodyweight_Bulgarian_Split_Squat"
+              ]
+            },
+            {
+              "name": "Sissy Squat",
+              "catalogueId": "Sissy_Squat",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Leg_Extensions",
+                "Smith_Machine_Sissy_Squat",
+                "Barbell_Sissy_Squat"
+              ]
+            },
+            {
+              "name": "Bodyweight Single-Leg Deadlift",
+              "catalogueId": "Bodyweight_Single-Leg_Deadlift",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Kettlebell_One-Legged_Deadlift",
+                "Dumbbell_Single-Leg_Romanian_Deadlift",
+                "Bodyweight_Good_Morning",
+                "Single_Leg_Glute_Bridge"
+              ]
+            },
+            {
+              "name": "Single-Leg Calf Raise",
+              "catalogueId": "Single-Leg_Calf_Raise",
+              "sets": 3,
+              "repRangeMin": 15,
+              "repRangeMax": 20,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Calf_Raise_Single_Leg",
+                "Standing_Dumbbell_Calf_Raise",
+                "Bodyweight_Calf_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jumps and Core",
+          "dayNumber": 4,
+          "exercises": [
+            {
+              "name": "Broad Jump",
+              "catalogueId": "Broad_Jump",
+              "sets": 5,
+              "repRangeMin": 3,
+              "repRangeMax": 4,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": "Full rest between jumps",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Box_Jump",
+                "Jump_Squat",
+                "Tuck_Jump"
+              ]
+            },
+            {
+              "name": "Split Squat Jump",
+              "catalogueId": "Split_Squat_Jump",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Box_Jump",
+                "Jump_Squat",
+                "Tuck_Jump"
+              ]
+            },
+            {
+              "name": "Tuck Jump",
+              "catalogueId": "Tuck_Jump",
+              "sets": 4,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Box_Jump",
+                "Jump_Squat",
+                "Star_Jump"
+              ]
+            },
+            {
+              "name": "Toes to Bar",
+              "catalogueId": "Toes_to_Bar",
+              "sets": 4,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Knees_to_Elbows",
+                "Hanging_Leg_Raise",
+                "Hanging_Knee_Raise"
+              ]
+            },
+            {
+              "name": "Hollow Rock",
+              "catalogueId": "Hollow_Rock",
+              "sets": 4,
+              "repRangeMin": 20,
+              "repRangeMax": 25,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hollow_Hold",
+                "Boat_Hold",
+                "Flutter_Kicks"
+              ]
+            },
+            {
+              "name": "Side Plank Leg Raise",
+              "catalogueId": "Side_Plank_Leg_Raise",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Side_Bridge",
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Rotation"
+              ]
+            },
+            {
+              "name": "Leg Raise with Hip Lift",
+              "catalogueId": "Leg_Raise_with_Hip_Lift",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hanging_Leg_Raise",
+                "Reverse_Crunch",
+                "Flat_Bench_Lying_Leg_Raise"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

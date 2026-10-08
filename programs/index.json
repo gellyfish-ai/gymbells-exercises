@@ -1,6 +1,14 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "programs": [
+    {
+      "id": "advanced-bodyweight",
+      "name": "Advanced Bodyweight",
+      "level": "advanced",
+      "description": "Four workouts a week for 10 weeks with a pull-up bar and floor space, for someone who already does ten pull-ups and twenty push-ups. Harder versions take the place of weight: archer and handstand push-ups, commando and neutral-grip pull-ups, pistol and shrimp squats, Nordic curls, toes to bar and hollow rocks, with one day of jumps and core. Four weeks of volume, a lighter week, then five weeks of the hardest versions with fewer reps and slower lowering. Meant to be done as written.",
+      "days": 4,
+      "weeks": 10
+    },
     {
       "id": "athletic-power",
       "name": "Athletic Power",
@@ -32,6 +40,22 @@
       "description": "Five days a week, one muscle group a day: chest, back, legs, shoulders, then arms. Each session works its muscles with four or five exercises from several angles, and each muscle gets most of the week to recover. Eight weeks: a block of higher reps, then a heavier block. Add weight when every set reaches the top of the rep range.",
       "days": 5,
       "weeks": 8
+    },
+    {
+      "id": "bodyweight-basics",
+      "name": "Bodyweight Basics",
+      "level": "beginner",
+      "description": "Two short full-body workouts a week for 6 weeks for someone starting from nothing or coming back after a long break, with nothing but floor space and a wall. No jumping and no burpees: a squat or bridge, a push, a back exercise, a lunge and core work each day, two sets at first and three later. When every set reaches the top of its range, move on to the No Equipment program. The optional exercises add calves and an easy back stretch.",
+      "days": 2,
+      "weeks": 6
+    },
+    {
+      "id": "bodyweight-conditioning",
+      "name": "Bodyweight Conditioning",
+      "level": "beginner",
+      "description": "Three interval workouts a week for 6 weeks with no equipment, for fitness and to sweat. Each workout is a circuit of six exercises done in order for a set time each, with a short rest between them; one round is one set. The rounds go from three to five and the work time grows while the rest stays short. If jumping is hard on your knees, take the low-impact version from the swaps: a squat for the jump squat, a squat thrust for the burpee, high knees for the jumping jacks.",
+      "days": 3,
+      "weeks": 6
     },
     {
       "id": "bodyweight-pull-up-bar",
@@ -296,6 +320,9 @@
     "Air_Bike": [
       "strength-and-conditioning-circuits"
     ],
+    "Archer_Push-Up": [
+      "advanced-bodyweight"
+    ],
     "Arnold_Dumbbell_Press": [
       "body-part-split",
       "dumbbell-upper-lower",
@@ -448,6 +475,7 @@
       "dumbbells-and-a-bench"
     ],
     "Bird_Dog": [
+      "bodyweight-basics",
       "core-and-posture",
       "joint-friendly-strength",
       "no-equipment"
@@ -455,17 +483,29 @@
     "Bodyweight_Bulgarian_Split_Squat": [
       "bodyweight-pull-up-bar"
     ],
+    "Bodyweight_Calf_Raise": [
+      "bodyweight-basics",
+      "no-equipment"
+    ],
     "Bodyweight_Lateral_Lunge": [
+      "bodyweight-conditioning",
       "no-equipment"
     ],
     "Bodyweight_Reverse_Lunge": [
+      "bodyweight-conditioning",
       "no-equipment"
     ],
     "Bodyweight_Single-Leg_Deadlift": [
+      "advanced-bodyweight",
       "bodyweight-pull-up-bar"
     ],
     "Bodyweight_Squat": [
+      "bodyweight-basics",
       "no-equipment"
+    ],
+    "Bodyweight_Sumo_Squat": [
+      "bodyweight-basics",
+      "bodyweight-conditioning"
     ],
     "Bodyweight_Walking_Lunge": [
       "bodyweight-pull-up-bar"
@@ -478,13 +518,20 @@
       "squat-bench-deadlift-peak"
     ],
     "Broad_Jump": [
+      "advanced-bodyweight",
       "athletic-power"
     ],
     "Burpee": [
+      "bodyweight-conditioning",
       "no-equipment",
       "strength-and-conditioning-circuits"
     ],
+    "Butt_Kicks": [
+      "bodyweight-conditioning"
+    ],
     "Butt_Lift_Bridge": [
+      "bodyweight-basics",
+      "bodyweight-conditioning",
       "no-equipment"
     ],
     "Butterfly": [
@@ -556,6 +603,7 @@
       "high-volume-push-pull-legs"
     ],
     "Cat-Cow": [
+      "bodyweight-basics",
       "core-and-posture"
     ],
     "Chin-Up": [
@@ -585,6 +633,15 @@
       "joint-friendly-strength",
       "upper-lower-hypertrophy"
     ],
+    "Commando_Pull-Up": [
+      "advanced-bodyweight"
+    ],
+    "Cossack_Squat": [
+      "advanced-bodyweight"
+    ],
+    "Cross-Body_Mountain_Climber": [
+      "bodyweight-conditioning"
+    ],
     "Dead_Bug": [
       "core-and-posture",
       "dumbbell-only",
@@ -596,6 +653,13 @@
       "lower-body-and-glutes",
       "no-equipment",
       "two-days-a-week"
+    ],
+    "Dead_Bug_Arms_Only": [
+      "bodyweight-basics"
+    ],
+    "Dead_Hang": [
+      "advanced-bodyweight",
+      "bodyweight-pull-up-bar"
     ],
     "Decline_Dumbbell_Bench_Press": [
       "body-part-split"
@@ -609,6 +673,9 @@
     "Dips_-_Triceps_Version": [
       "squat-bench-deadlift-peak",
       "upper-body-and-arms"
+    ],
+    "Dive_Bomber_Push-Up": [
+      "advanced-bodyweight"
     ],
     "Dumbbell_Alternate_Bicep_Curl": [
       "dumbbell-upper-lower"
@@ -756,6 +823,16 @@
       "athletic-power",
       "strength-and-conditioning-circuits"
     ],
+    "Flutter_Kicks": [
+      "bodyweight-conditioning",
+      "no-equipment"
+    ],
+    "Forward_Lunge": [
+      "bodyweight-basics"
+    ],
+    "Frog_Pump": [
+      "no-equipment"
+    ],
     "Front_Barbell_Squat": [
       "athletic-power",
       "barbell-garage-gym",
@@ -800,6 +877,9 @@
       "upper-lower",
       "upper-lower-hypertrophy"
     ],
+    "Handstand_Push-Ups": [
+      "advanced-bodyweight"
+    ],
     "Hang_Clean": [
       "olympic-lifting-basics"
     ],
@@ -833,8 +913,14 @@
       "upper-lower",
       "upper-lower-hypertrophy"
     ],
+    "High_Knees": [
+      "bodyweight-conditioning"
+    ],
     "Hollow_Hold": [
       "bodyweight-pull-up-bar"
+    ],
+    "Hollow_Rock": [
+      "advanced-bodyweight"
     ],
     "Hyperextensions_Back_Extensions": [
       "core-and-posture",
@@ -878,9 +964,11 @@
       "strength-and-conditioning-circuits"
     ],
     "Jump_Squat": [
+      "bodyweight-conditioning",
       "no-equipment"
     ],
     "Jumping_Jack": [
+      "bodyweight-conditioning",
       "no-equipment"
     ],
     "Kettlebell_Bent-Over_Row": [
@@ -925,6 +1013,9 @@
     ],
     "Kettlebell_Windmill": [
       "kettlebell-only"
+    ],
+    "Knee_Push-Up": [
+      "bodyweight-basics"
     ],
     "Landmine_Press": [
       "joint-friendly-strength"
@@ -972,6 +1063,9 @@
       "top-set-upper-lower",
       "upper-lower",
       "upper-lower-hypertrophy"
+    ],
+    "Leg_Raise_with_Hip_Lift": [
+      "advanced-bodyweight"
     ],
     "Leverage_Chest_Press": [
       "machines-and-cables"
@@ -1051,6 +1145,7 @@
       "olympic-lifting-basics"
     ],
     "Nordic_Hamstring_Curl": [
+      "advanced-bodyweight",
       "athletic-power",
       "bodyweight-pull-up-bar"
     ],
@@ -1084,15 +1179,18 @@
       "intermediate-strength-upper-lower"
     ],
     "Pike_Push-Up": [
+      "advanced-bodyweight",
       "bodyweight-pull-up-bar",
       "no-equipment"
     ],
     "Pistol_Squat": [
+      "advanced-bodyweight",
       "bodyweight-pull-up-bar"
     ],
     "Plank": [
       "barbell-garage-gym",
       "beginner-barbell-strength",
+      "bodyweight-basics",
       "bodyweight-pull-up-bar",
       "core-and-posture",
       "first-month-in-the-gym",
@@ -1102,7 +1200,14 @@
       "squat-bench-deadlift-peak",
       "two-days-a-week"
     ],
+    "Plank_Jack": [
+      "bodyweight-conditioning"
+    ],
+    "Plank_Reach": [
+      "advanced-bodyweight"
+    ],
     "Plank_Shoulder_Tap": [
+      "bodyweight-conditioning",
       "strength-and-conditioning-circuits"
     ],
     "Power_Clean": [
@@ -1120,10 +1225,14 @@
     "Prone_Y_Raise": [
       "no-equipment"
     ],
+    "Pull-Up_Neutral_Grip": [
+      "advanced-bodyweight"
+    ],
     "Pull_Through": [
       "lower-body-and-glutes"
     ],
     "Pullups": [
+      "advanced-bodyweight",
       "athletic-power",
       "barbell-garage-gym",
       "bodyweight-pull-up-bar",
@@ -1134,6 +1243,9 @@
       "squat-bench-deadlift-peak",
       "upper-lower",
       "upper-lower-hypertrophy"
+    ],
+    "Push-Up_Wide_Grip": [
+      "advanced-bodyweight"
     ],
     "Push-Ups_-_Close_Triceps_Position": [
       "no-equipment"
@@ -1150,6 +1262,8 @@
       "strength-and-conditioning-circuits"
     ],
     "Pushups": [
+      "bodyweight-basics",
+      "bodyweight-conditioning",
       "bodyweight-pull-up-bar",
       "no-equipment",
       "strength-and-conditioning-circuits"
@@ -1200,7 +1314,11 @@
     "Rowing_Machine": [
       "strength-and-conditioning-circuits"
     ],
+    "Russian_Twist": [
+      "bodyweight-conditioning"
+    ],
     "Scapular_Pull-Up": [
+      "advanced-bodyweight",
       "bodyweight-pull-up-bar"
     ],
     "Seated_Barbell_Press": [
@@ -1274,7 +1392,12 @@
       "top-set-upper-lower",
       "upper-lower-hypertrophy"
     ],
+    "Shrimp_Squat": [
+      "advanced-bodyweight"
+    ],
     "Side_Bridge": [
+      "bodyweight-basics",
+      "bodyweight-conditioning",
       "bodyweight-pull-up-bar",
       "core-and-posture",
       "no-equipment"
@@ -1302,11 +1425,20 @@
       "upper-lower",
       "upper-lower-hypertrophy"
     ],
+    "Side_Plank_Leg_Raise": [
+      "advanced-bodyweight"
+    ],
+    "Single-Leg_Calf_Raise": [
+      "advanced-bodyweight"
+    ],
     "Single_Leg_Glute_Bridge": [
       "athletic-power",
       "bodyweight-pull-up-bar",
       "lower-body-and-glutes",
       "no-equipment"
+    ],
+    "Sissy_Squat": [
+      "advanced-bodyweight"
     ],
     "Sled_Push": [
       "strength-and-conditioning-circuits"
@@ -1323,12 +1455,21 @@
     "Snatch_Pull": [
       "olympic-lifting-basics"
     ],
+    "Sphinx_Push-Up": [
+      "advanced-bodyweight"
+    ],
     "Split_Jerk": [
       "olympic-lifting-basics"
+    ],
+    "Split_Squat_Jump": [
+      "advanced-bodyweight"
     ],
     "Split_Squat_with_Dumbbells": [
       "dumbbell-only",
       "full-body-phases"
+    ],
+    "Squat_Thrust": [
+      "bodyweight-conditioning"
     ],
     "Standing_Calf_Raises": [
       "body-part-split",
@@ -1372,6 +1513,9 @@
       "top-set-upper-lower",
       "upper-lower"
     ],
+    "Star_Jump": [
+      "bodyweight-conditioning"
+    ],
     "Stiff-Legged_Barbell_Deadlift": [
       "high-volume-push-pull-legs"
     ],
@@ -1394,6 +1538,10 @@
     "Superman": [
       "no-equipment"
     ],
+    "Superman_Pull": [
+      "advanced-bodyweight",
+      "bodyweight-basics"
+    ],
     "T-Bar_Row_with_Handle": [
       "body-part-split",
       "five-day-hypertrophy-split",
@@ -1401,6 +1549,9 @@
     ],
     "Thigh_Abductor": [
       "lower-body-and-glutes"
+    ],
+    "Toes_to_Bar": [
+      "advanced-bodyweight"
     ],
     "Trap_Bar_Deadlift": [
       "athletic-power",
@@ -1439,11 +1590,17 @@
       "powerbuilding",
       "push-pull-legs-six-day"
     ],
+    "Tuck_Jump": [
+      "advanced-bodyweight"
+    ],
     "Two-Arm_Kettlebell_Military_Press": [
       "kettlebell-only"
     ],
     "Wall_Angel": [
       "core-and-posture"
+    ],
+    "Wall_Sit": [
+      "bodyweight-basics"
     ],
     "Weighted_Pull_Ups": [
       "five-day-hypertrophy-split",

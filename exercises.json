@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "version": "0.4.0",
+  "version": "0.5.0",
   "exercises": {
     "Ab_Crunch_Machine": {
       "pose": "ab-crunch-machine",
@@ -43,10 +43,36 @@
       "aliases": [],
       "swaps": [
         "Barbell_Ab_Rollout_-_On_Knees",
+        "Standing_Barbell_Rollout",
         "Plank"
       ],
       "easier": null,
-      "harder": null
+      "harder": "Standing_Barbell_Rollout"
+    },
+    "Active_Hang": {
+      "pose": "active-hang",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "primary_muscles": [
+        "lats",
+        "forearms"
+      ],
+      "secondary_muscles": [
+        "shoulders",
+        "traps"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dead_Hang",
+        "Scapular_Pull-Up"
+      ],
+      "easier": "Dead_Hang",
+      "harder": "Scapular_Pull-Up"
     },
     "Air_Bike": {
       "pose": "air-bike",
@@ -69,7 +95,8 @@
       "aliases": [],
       "swaps": [
         "Rowing_Machine",
-        "Burpee"
+        "Burpee",
+        "Mountain_Climbers"
       ],
       "easier": null,
       "harder": null
@@ -91,10 +118,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Hammer_Curls",
-        "Cross-Body_Hammer_Curl",
         "Kettlebell_Hammer_Curl",
-        "Cable_Hammer_Curls_-_Rope_Attachment"
+        "Cable_Hammer_Curls_-_Rope_Attachment",
+        "Hammer_Curls",
+        "Cross-Body_Hammer_Curl"
       ],
       "easier": null,
       "harder": null
@@ -120,8 +147,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Gorilla_Row",
         "One-Arm_Dumbbell_Row",
+        "Gorilla_Row",
         "Kettlebell_Row_Staggered_Stance"
       ],
       "easier": null,
@@ -146,9 +173,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Swing",
         "Kettlebell_Swing",
         "Double_Kettlebell_Swing",
-        "Dumbbell_Swing",
         "One-Arm_Kettlebell_Swings"
       ],
       "easier": null,
@@ -182,6 +209,49 @@
       "easier": null,
       "harder": null
     },
+    "Archer_Push-Up": {
+      "pose": "archer-push-up",
+      "equipment": [],
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [
+        "triceps",
+        "shoulders"
+      ],
+      "level": "expert",
+      "mechanic": "compound",
+      "pattern": "push_horizontal",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Bench_Press_One-Arm",
+        "Push-Ups_With_Feet_Elevated",
+        "Push-Up_Wide_Grip"
+      ],
+      "easier": "Push-Ups_With_Feet_Elevated",
+      "harder": null
+    },
+    "Arm_Circles": {
+      "pose": "arm-circles",
+      "equipment": [],
+      "primary_muscles": [
+        "shoulders"
+      ],
+      "secondary_muscles": [],
+      "level": "beginner",
+      "mechanic": null,
+      "pattern": "mobility",
+      "category": "stretching",
+      "aliases": [],
+      "swaps": [
+        "Kettlebell_Halo",
+        "Wall_Angel",
+        "Shoulder_Dislocate"
+      ],
+      "easier": null,
+      "harder": null
+    },
     "Arnold_Dumbbell_Press": {
       "pose": "arnold-dumbbell-press",
       "equipment": [
@@ -200,11 +270,11 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Machine_Shoulder_Military_Press",
+        "Kettlebell_Press",
         "Seated_Dumbbell_Press",
         "Dumbbell_Shoulder_Press",
-        "Seated_Dumbbell_Press_Neutral_Grip",
-        "Machine_Shoulder_Military_Press",
-        "Kettlebell_Press"
+        "Seated_Dumbbell_Press_Neutral_Grip"
       ],
       "easier": null,
       "harder": null
@@ -228,10 +298,11 @@
       "aliases": [],
       "swaps": [
         "Band_Leg_Curl",
-        "Lying_Leg_Curls"
+        "Lying_Leg_Curls",
+        "Floor_Glute-Ham_Raise"
       ],
       "easier": null,
-      "harder": null
+      "harder": "Floor_Glute-Ham_Raise"
     },
     "Band_Assisted_Pull-Up": {
       "pose": "band-assisted-pull-up",
@@ -254,7 +325,8 @@
       "aliases": [],
       "swaps": [
         "Wide-Grip_Lat_Pulldown",
-        "Band_Lat_Pulldown"
+        "Band_Lat_Pulldown",
+        "Lat_Pulldown_Neutral_Grip"
       ],
       "easier": null,
       "harder": null
@@ -300,6 +372,7 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Cable_Hip_Abduction",
         "Seated_Band_Hip_Abduction",
         "Band_Fire_Hydrant"
       ],
@@ -324,7 +397,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Bicep_Curl",
-        "Standing_Biceps_Cable_Curl"
+        "Standing_Biceps_Cable_Curl",
+        "Barbell_Curl"
       ],
       "easier": null,
       "harder": null
@@ -396,7 +470,8 @@
       "aliases": [],
       "swaps": [
         "Face_Pull",
-        "Dumbbell_Rear_Delt_Row"
+        "Dumbbell_Rear_Delt_Row",
+        "Cable_Rear_Delt_Row"
       ],
       "easier": null,
       "harder": null
@@ -417,8 +492,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Cable_Hip_Abduction",
         "Band_Clamshell",
-        "Cable_Hip_Abduction"
+        "Seated_Band_Hip_Abduction"
       ],
       "easier": null,
       "harder": null
@@ -439,7 +515,8 @@
       "aliases": [],
       "swaps": [
         "Front_Dumbbell_Raise",
-        "Cable_Front_Raise"
+        "Cable_Front_Raise",
+        "Kettlebell_Front_Raise"
       ],
       "easier": null,
       "harder": null
@@ -464,6 +541,7 @@
       "swaps": [
         "Butt_Lift_Bridge",
         "Dumbbell_Glute_Bridge",
+        "Frog_Pump",
         "Band_Hip_Thrust"
       ],
       "easier": null,
@@ -486,7 +564,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "One-Legged_Cable_Kickback"
+        "One-Legged_Cable_Kickback",
+        "Cable_Glute_Kickback_Bent_Knee"
       ],
       "easier": null,
       "harder": null
@@ -509,9 +588,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Bodyweight_Good_Morning",
         "Kettlebell_Good_Morning",
-        "Band_Romanian_Deadlift",
-        "Good_Morning"
+        "Good_Morning",
+        "Band_Romanian_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -558,8 +638,9 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Hip_Thrust",
-        "Band_Glute_Bridge",
-        "Kettlebell_Hip_Thrust"
+        "Kettlebell_Hip_Thrust",
+        "Single-Leg_Hip_Thrust",
+        "Band_Glute_Bridge"
       ],
       "easier": null,
       "harder": null
@@ -582,7 +663,9 @@
       "category": "plyometrics",
       "aliases": [],
       "swaps": [
-        "Jump_Squat"
+        "Jump_Squat",
+        "Tuck_Jump",
+        "Box_Jump"
       ],
       "easier": null,
       "harder": null
@@ -699,6 +782,7 @@
         "Face_Pull",
         "Reverse_Flyes",
         "Cable_Rear_Delt_Fly",
+        "Prone_T_Raise",
         "Band_Face_Pull"
       ],
       "easier": null,
@@ -869,7 +953,8 @@
       "aliases": [],
       "swaps": [
         "Tricep_Dumbbell_Kickback",
-        "Cable_Triceps_Kickback"
+        "Cable_Triceps_Kickback",
+        "Dumbbell_Triceps_Kickback_Two-Arm"
       ],
       "easier": null,
       "harder": null
@@ -963,9 +1048,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Barbell_Curl",
         "EZ-Bar_Curl",
-        "Dumbbell_Bicep_Curl"
+        "Dumbbell_Bicep_Curl",
+        "Barbell_Curl"
       ],
       "easier": null,
       "harder": null
@@ -988,7 +1073,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Ab_Roller"
+        "Ab_Roller",
+        "Plank",
+        "Standing_Barbell_Rollout"
       ],
       "easier": null,
       "harder": null
@@ -1014,11 +1101,11 @@
       "category": "powerlifting",
       "aliases": [],
       "swaps": [
+        "Smith_Machine_Squat",
+        "Hack_Squat",
         "Barbell_Squat",
         "Box_Squat",
-        "Barbell_Back_Squat_Paused",
-        "Smith_Machine_Squat",
-        "Hack_Squat"
+        "Barbell_Back_Squat_Paused"
       ],
       "easier": null,
       "harder": null
@@ -1077,9 +1164,9 @@
         "Machine_Bench_Press",
         "Leverage_Chest_Press",
         "Cable_Chest_Press",
-        "Barbell_Floor_Press",
         "Pushups",
-        "Dumbbell_Floor_Press"
+        "Dumbbell_Floor_Press",
+        "Barbell_Floor_Press"
       ],
       "easier": null,
       "harder": null
@@ -1104,10 +1191,10 @@
       "category": "powerlifting",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Bench_Press",
         "Barbell_Bench_Press_-_Medium_Grip",
         "Spoto_Press",
-        "Larsen_Press",
-        "Dumbbell_Bench_Press"
+        "Larsen_Press"
       ],
       "easier": null,
       "harder": null
@@ -1161,8 +1248,8 @@
       "swaps": [
         "Dumbbell_Bulgarian_Split_Squat",
         "Smith_Single-Leg_Split_Squat",
-        "Barbell_Split_Squat",
-        "Bodyweight_Bulgarian_Split_Squat"
+        "Bodyweight_Bulgarian_Split_Squat",
+        "Barbell_Split_Squat"
       ],
       "easier": null,
       "harder": null
@@ -1185,7 +1272,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Cuban_Press",
-        "Dumbbell_L_Raise"
+        "Dumbbell_L_Raise",
+        "Side-Lying_Dumbbell_External_Rotation"
       ],
       "easier": null,
       "harder": null
@@ -1212,9 +1300,9 @@
         "Standing_Biceps_Cable_Curl",
         "Machine_Bicep_Curl",
         "Preacher_Curl",
-        "Barbell_Curl_Close_Grip",
         "Band_Curl",
-        "Kettlebell_Curl"
+        "Kettlebell_Curl",
+        "Barbell_Curl_Close_Grip"
       ],
       "easier": null,
       "harder": null
@@ -1236,9 +1324,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Barbell_Curl",
         "EZ-Bar_Curl",
-        "Standing_Biceps_Cable_Curl"
+        "Standing_Biceps_Cable_Curl",
+        "Barbell_Curl"
       ],
       "easier": null,
       "harder": null
@@ -1260,9 +1348,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Barbell_Curl",
         "EZ-Bar_Curl",
-        "Standing_Biceps_Cable_Curl"
+        "Standing_Biceps_Cable_Curl",
+        "Barbell_Curl"
       ],
       "easier": null,
       "harder": null
@@ -1292,12 +1380,12 @@
       "aliases": [],
       "swaps": [
         "Trap_Bar_Deadlift",
-        "Sumo_Deadlift",
         "Dumbbell_Deadlift",
         "Smith_Machine_Deadlift",
         "Landmine_Deadlift",
-        "Rack_Pull",
-        "Kettlebell_Deadlift"
+        "Kettlebell_Deadlift",
+        "Sumo_Deadlift",
+        "Rack_Pull"
       ],
       "easier": null,
       "harder": null
@@ -1353,9 +1441,9 @@
       "category": "powerlifting",
       "aliases": [],
       "swaps": [
+        "Trap_Bar_Deadlift",
         "Barbell_Deadlift",
-        "Deficit_Deadlift",
-        "Trap_Bar_Deadlift"
+        "Deficit_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -1404,6 +1492,7 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Frog_Pump",
+        "Frog_Pump",
         "Barbell_Glute_Bridge"
       ],
       "easier": null,
@@ -1429,9 +1518,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Lunges",
         "Barbell_Lunge",
-        "Barbell_Reverse_Lunge",
-        "Dumbbell_Lunges"
+        "Barbell_Reverse_Lunge"
       ],
       "easier": null,
       "harder": null
@@ -1481,12 +1570,12 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Barbell_Squat",
-        "Front_Barbell_Squat",
         "Smith_Machine_Squat",
         "Hack_Squat",
         "Dumbbell_Goblet_Squat",
-        "Leg_Press"
+        "Leg_Press",
+        "Barbell_Squat",
+        "Front_Barbell_Squat"
       ],
       "easier": null,
       "harder": null
@@ -1509,10 +1598,10 @@
       "category": "powerlifting",
       "aliases": [],
       "swaps": [
-        "Barbell_Hip_Thrust",
         "Dumbbell_Glute_Bridge",
         "Smith_Machine_Hip_Thrust",
-        "Butt_Lift_Bridge"
+        "Butt_Lift_Bridge",
+        "Barbell_Hip_Thrust"
       ],
       "easier": null,
       "harder": null
@@ -1536,10 +1625,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Clean_High_Pull",
-        "Snatch-Grip_High_Pull",
         "Dumbbell_High_Pull",
-        "Kettlebell_High_Pull"
+        "Kettlebell_High_Pull",
+        "Clean_High_Pull",
+        "Snatch-Grip_High_Pull"
       ],
       "easier": null,
       "harder": null
@@ -1565,9 +1654,10 @@
       "swaps": [
         "Smith_Machine_Hip_Thrust",
         "Dumbbell_Hip_Thrust",
-        "Barbell_Glute_Bridge",
         "Kettlebell_Hip_Thrust",
-        "Band_Hip_Thrust"
+        "Band_Hip_Thrust",
+        "Single-Leg_Hip_Thrust",
+        "Barbell_Glute_Bridge"
       ],
       "easier": null,
       "harder": null
@@ -1590,6 +1680,7 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Single-Leg_Hip_Thrust",
         "Single_Leg_Glute_Bridge",
         "Barbell_Hip_Thrust"
       ],
@@ -1620,8 +1711,8 @@
         "Smith_Machine_Incline_Press",
         "Incline_Cable_Press",
         "Hammer_Grip_Incline_DB_Bench_Press",
-        "Incline_Barbell_Bench_Press_Close_Grip",
-        "Push-Ups_With_Feet_Elevated"
+        "Push-Ups_With_Feet_Elevated",
+        "Incline_Barbell_Bench_Press_Close_Grip"
       ],
       "easier": null,
       "harder": null
@@ -1647,7 +1738,9 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Lateral_Lunge",
-        "Bodyweight_Lateral_Lunge"
+        "Kettlebell_Cossack_Squat",
+        "Bodyweight_Lateral_Lunge",
+        "Cossack_Squat"
       ],
       "easier": null,
       "harder": null
@@ -1674,6 +1767,7 @@
       "swaps": [
         "Dumbbell_Lunges",
         "Smith_Machine_Lunge",
+        "Forward_Lunge",
         "Barbell_Reverse_Lunge",
         "Barbell_Walking_Lunge",
         "Barbell_Front_Rack_Lunge"
@@ -1701,7 +1795,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Overhead_Carry",
-        "Kettlebell_Overhead_Carry"
+        "Kettlebell_Overhead_Carry",
+        "Waiter_Carry"
       ],
       "easier": null,
       "harder": null
@@ -1726,7 +1821,8 @@
       "aliases": [],
       "swaps": [
         "Kettlebell_Overhead_Lunge",
-        "Barbell_Lunge"
+        "Barbell_Lunge",
+        "Barbell_Front_Rack_Lunge"
       ],
       "easier": null,
       "harder": null
@@ -1807,8 +1903,8 @@
         "Landmine_Reverse_Lunge",
         "Kettlebell_Goblet_Reverse_Lunge",
         "Cable_Reverse_Lunge",
-        "Barbell_Lunge",
-        "Bodyweight_Reverse_Lunge"
+        "Bodyweight_Reverse_Lunge",
+        "Barbell_Lunge"
       ],
       "easier": null,
       "harder": null
@@ -1831,9 +1927,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Half-Kneeling_Landmine_Rotation",
         "Dumbbell_Russian_Twist",
-        "Cable_Rotation"
+        "Cable_Rotation",
+        "Half-Kneeling_Landmine_Rotation"
       ],
       "easier": null,
       "harder": null
@@ -1855,7 +1951,8 @@
       "aliases": [],
       "swaps": [
         "Seated_Calf_Raise",
-        "Seated_Dumbbell_Calf_Raise"
+        "Seated_Dumbbell_Calf_Raise",
+        "Standing_Barbell_Calf_Raise"
       ],
       "easier": null,
       "harder": null
@@ -1880,10 +1977,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Seated_Barbell_Press",
         "Seated_Dumbbell_Press",
         "Smith_Machine_Overhead_Shoulder_Press",
         "Machine_Shoulder_Military_Press",
+        "Seated_Barbell_Press",
         "Standing_Military_Press"
       ],
       "easier": null,
@@ -1933,9 +2030,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Barbell_Shrug",
         "Smith_Machine_Shrug",
-        "Dumbbell_Shrug"
+        "Dumbbell_Shrug",
+        "Barbell_Shrug"
       ],
       "easier": null,
       "harder": null
@@ -2039,10 +2136,10 @@
         "Smith_Machine_Squat",
         "Hack_Squat",
         "Leg_Press",
-        "Front_Barbell_Squat",
         "Dumbbell_Squat",
         "Goblet_Squat",
-        "Landmine_Squat"
+        "Landmine_Squat",
+        "Front_Barbell_Squat"
       ],
       "easier": null,
       "harder": null
@@ -2168,9 +2265,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Palms-Up_Barbell_Wrist_Curl_Over_A_Bench",
         "Dumbbell_Wrist_Curl",
-        "Cable_Wrist_Curl"
+        "Cable_Wrist_Curl",
+        "Palms-Up_Barbell_Wrist_Curl_Over_A_Bench"
       ],
       "easier": null,
       "harder": null
@@ -2222,7 +2319,8 @@
       "aliases": [],
       "swaps": [
         "Barbell_Bench_Press_-_Medium_Grip",
-        "Barbell_Bench_Press_Paused"
+        "Barbell_Bench_Press_Paused",
+        "Dumbbell_Bench_Press"
       ],
       "easier": null,
       "harder": null
@@ -2247,9 +2345,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Straight-Arm_Dumbbell_Pullover",
         "Barbell_Pullover",
-        "Kettlebell_Pullover"
+        "Kettlebell_Pullover",
+        "Straight-Arm_Dumbbell_Pullover"
       ],
       "easier": null,
       "harder": null
@@ -2272,9 +2370,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Bent_Over_Two-Dumbbell_Row",
         "Reverse_Grip_Bent-Over_Rows",
-        "Bent_Over_Barbell_Row",
-        "Bent_Over_Two-Dumbbell_Row"
+        "Bent_Over_Barbell_Row"
       ],
       "easier": null,
       "harder": null
@@ -2299,13 +2397,13 @@
       "aliases": [],
       "swaps": [
         "Bent_Over_Two-Dumbbell_Row",
-        "Pendlay_Row",
         "T-Bar_Row_with_Handle",
         "Seated_Cable_Rows",
         "Smith_Machine_Row",
         "Leverage_Iso_Row",
         "Dumbbell_Incline_Row",
-        "Trap_Bar_Row"
+        "Trap_Bar_Row",
+        "Pendlay_Row"
       ],
       "easier": null,
       "harder": null
@@ -2330,10 +2428,10 @@
       "aliases": [],
       "swaps": [
         "Bent_Over_Barbell_Row",
-        "Dumbbell_Incline_Row",
         "Kettlebell_Bent-Over_Row",
-        "One-Arm_Dumbbell_Row",
         "Seated_Cable_Rows",
+        "Dumbbell_Incline_Row",
+        "One-Arm_Dumbbell_Row",
         "Dumbbell_Pendlay_Row"
       ],
       "easier": null,
@@ -2357,7 +2455,30 @@
       "aliases": [],
       "swaps": [
         "Dead_Bug",
-        "Superman"
+        "Superman",
+        "Plank_Reach"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Boat_Hold": {
+      "pose": "boat-hold",
+      "equipment": [],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "quadriceps"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Hollow_Hold",
+        "Seated_Knee_Tuck",
+        "Hollow_Rock"
       ],
       "easier": null,
       "harder": null
@@ -2381,7 +2502,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Bulgarian_Split_Squat",
-        "Bodyweight_Reverse_Lunge"
+        "Bodyweight_Reverse_Lunge",
+        "Forward_Lunge"
       ],
       "easier": "Bodyweight_Walking_Lunge",
       "harder": null
@@ -2400,10 +2522,34 @@
       "aliases": [],
       "swaps": [
         "Standing_Dumbbell_Calf_Raise",
-        "Standing_Calf_Raises"
+        "Standing_Calf_Raises",
+        "Single-Leg_Calf_Raise"
       ],
       "easier": null,
-      "harder": null
+      "harder": "Single-Leg_Calf_Raise"
+    },
+    "Bodyweight_Good_Morning": {
+      "pose": "bodyweight-good-morning",
+      "equipment": [],
+      "primary_muscles": [
+        "hamstrings",
+        "lower_back"
+      ],
+      "secondary_muscles": [
+        "glutes"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Band_Good_Morning",
+        "Kettlebell_Good_Morning",
+        "Bodyweight_Single-Leg_Deadlift"
+      ],
+      "easier": null,
+      "harder": "Bodyweight_Single-Leg_Deadlift"
     },
     "Bodyweight_Lateral_Lunge": {
       "pose": "bodyweight-lateral-lunge",
@@ -2422,10 +2568,12 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Lateral_Lunge"
+        "Dumbbell_Lateral_Lunge",
+        "Cossack_Squat",
+        "Curtsy_Lunge"
       ],
       "easier": null,
-      "harder": null
+      "harder": "Cossack_Squat"
     },
     "Bodyweight_Reverse_Lunge": {
       "pose": "bodyweight-reverse-lunge",
@@ -2444,11 +2592,13 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Rear_Lunge",
+        "Forward_Lunge",
         "Bodyweight_Walking_Lunge",
-        "Dumbbell_Rear_Lunge"
+        "Curtsy_Lunge"
       ],
       "easier": null,
-      "harder": null
+      "harder": "Forward_Lunge"
     },
     "Bodyweight_Single-Leg_Deadlift": {
       "pose": "bodyweight-single-leg-deadlift",
@@ -2468,9 +2618,10 @@
       "swaps": [
         "Kettlebell_One-Legged_Deadlift",
         "Dumbbell_Single-Leg_Romanian_Deadlift",
+        "Bodyweight_Good_Morning",
         "Single_Leg_Glute_Bridge"
       ],
-      "easier": null,
+      "easier": "Bodyweight_Good_Morning",
       "harder": null
     },
     "Bodyweight_Squat": {
@@ -2491,7 +2642,33 @@
       "swaps": [
         "Band_Squat",
         "Dumbbell_Goblet_Squat",
-        "Goblet_Squat"
+        "Goblet_Squat",
+        "Wall_Sit",
+        "Pulse_Squat"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Bodyweight_Sumo_Squat": {
+      "pose": "bodyweight-sumo-squat",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "adductors"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "squat",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Sumo_Squat",
+        "Landmine_Sumo_Squat",
+        "Bodyweight_Squat"
       ],
       "easier": null,
       "harder": null
@@ -2513,10 +2690,11 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Bodyweight_Reverse_Lunge",
-        "Dumbbell_Walking_Lunge"
+        "Dumbbell_Walking_Lunge",
+        "Forward_Lunge",
+        "Bodyweight_Reverse_Lunge"
       ],
-      "easier": null,
+      "easier": "Forward_Lunge",
       "harder": "Bodyweight_Bulgarian_Split_Squat"
     },
     "Box_Jump": {
@@ -2540,6 +2718,7 @@
       "swaps": [
         "Jump_Squat",
         "Broad_Jump",
+        "Tuck_Jump",
         "Lateral_Box_Jump"
       ],
       "easier": null,
@@ -2568,9 +2747,9 @@
       "category": "powerlifting",
       "aliases": [],
       "swaps": [
+        "Smith_Machine_Squat",
         "Barbell_Squat",
         "Pin_Squat",
-        "Smith_Machine_Squat",
         "Barbell_Back_Squat_Low_Bar"
       ],
       "easier": null,
@@ -2594,9 +2773,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Shoulder_Press",
         "Standing_Barbell_Press_Behind_Neck",
-        "Standing_Military_Press",
-        "Dumbbell_Shoulder_Press"
+        "Standing_Military_Press"
       ],
       "easier": null,
       "harder": null
@@ -2619,7 +2798,8 @@
       "aliases": [],
       "swaps": [
         "Box_Jump",
-        "Jump_Squat"
+        "Jump_Squat",
+        "Tuck_Jump"
       ],
       "easier": null,
       "harder": null
@@ -2644,9 +2824,33 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Burpee",
+        "Air_Bike",
+        "Squat_Thrust",
+        "Sprawl",
         "Mountain_Climbers",
-        "Jumping_Jack",
-        "Air_Bike"
+        "Jumping_Jack"
+      ],
+      "easier": "Squat_Thrust",
+      "harder": null
+    },
+    "Butt_Kicks": {
+      "pose": "butt-kicks",
+      "equipment": [],
+      "primary_muscles": [
+        "hamstrings"
+      ],
+      "secondary_muscles": [
+        "quadriceps",
+        "calves"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "cardio",
+      "aliases": [],
+      "swaps": [
+        "High_Knees",
+        "Jumping_Jack"
       ],
       "easier": null,
       "harder": null
@@ -2667,10 +2871,12 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Glute_Bridge",
-        "Band_Glute_Bridge"
+        "Band_Glute_Bridge",
+        "Glute_Bridge_March",
+        "Frog_Pump"
       ],
       "easier": null,
-      "harder": null
+      "harder": "Glute_Bridge_March"
     },
     "Butterfly": {
       "pose": "butterfly",
@@ -2710,7 +2916,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Pallof_Press"
+        "Landmine_Anti-Rotation_Press",
+        "Pallof_Press",
+        "Half-Kneeling_Pallof_Press"
       ],
       "easier": null,
       "harder": null
@@ -2757,10 +2965,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Cable_Chest_Press_Split_Stance",
-        "Cable_Chest_Press_One-Arm",
         "Machine_Bench_Press",
-        "Dumbbell_Bench_Press"
+        "Dumbbell_Bench_Press",
+        "Cable_Chest_Press_Split_Stance",
+        "Cable_Chest_Press_One-Arm"
       ],
       "easier": null,
       "harder": null
@@ -2786,6 +2994,7 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Bench_Press_One-Arm",
+        "Dumbbell_Bench_Press",
         "Cable_Chest_Press"
       ],
       "easier": null,
@@ -2810,6 +3019,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Bench_Press",
+        "Pushups",
         "Cable_Chest_Press"
       ],
       "easier": null,
@@ -2832,8 +3043,8 @@
       "aliases": [],
       "swaps": [
         "Concentration_Curls",
-        "Cable_Curl_One-Arm",
-        "Dumbbell_Preacher_Curl"
+        "Dumbbell_Preacher_Curl",
+        "Cable_Curl_One-Arm"
       ],
       "easier": null,
       "harder": null
@@ -2854,10 +3065,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Standing_Low-Pulley_Deltoid_Raise",
         "Side_Lateral_Raise",
-        "Cable_Seated_Lateral_Raise",
-        "Leaning_Dumbbell_Lateral_Raise"
+        "Leaning_Dumbbell_Lateral_Raise",
+        "Standing_Low-Pulley_Deltoid_Raise",
+        "Cable_Seated_Lateral_Raise"
       ],
       "easier": null,
       "harder": null
@@ -2880,9 +3091,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Cable_Fly_Mid_Height",
         "Butterfly",
         "Dumbbell_Flyes",
+        "Cable_Fly_Mid_Height",
         "Cable_Fly_High_to_Low",
         "Low_Cable_Crossover"
       ],
@@ -2905,10 +3116,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Standing_Cable_Crunch",
         "Ab_Crunch_Machine",
         "Decline_Crunch",
-        "Crunches"
+        "Crunches",
+        "Standing_Cable_Crunch"
       ],
       "easier": null,
       "harder": null
@@ -2932,9 +3143,9 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Alternate_Bicep_Curl",
+        "Standing_Biceps_Cable_Curl",
         "Bayesian_Curl",
-        "Cable_Concentration_Curl",
-        "Standing_Biceps_Cable_Curl"
+        "Cable_Concentration_Curl"
       ],
       "easier": null,
       "harder": null
@@ -2983,9 +3194,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Cable_Crossover",
         "Decline_Dumbbell_Fly",
-        "Butterfly"
+        "Butterfly",
+        "Cable_Crossover"
       ],
       "easier": null,
       "harder": null
@@ -3008,9 +3219,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Cable_Crossover",
         "Butterfly",
-        "Dumbbell_Flyes"
+        "Dumbbell_Flyes",
+        "Cable_Crossover"
       ],
       "easier": null,
       "harder": null
@@ -3033,9 +3244,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Butterfly",
         "Cable_Crossover",
-        "Cable_Fly_Mid_Height",
-        "Butterfly"
+        "Cable_Fly_Mid_Height"
       ],
       "easier": null,
       "harder": null
@@ -3085,7 +3296,8 @@
       "aliases": [],
       "swaps": [
         "Cable_Front_Raise",
-        "Front_Dumbbell_Raise"
+        "Front_Dumbbell_Raise",
+        "Barbell_Front_Raise"
       ],
       "easier": null,
       "harder": null
@@ -3109,11 +3321,11 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Cable_Squat",
         "Cable_Goblet_Squat",
         "Dumbbell_Front_Squat",
         "Front_Barbell_Squat",
-        "Smith_Machine_Front_Squat"
+        "Smith_Machine_Front_Squat",
+        "Cable_Squat"
       ],
       "easier": null,
       "harder": null
@@ -3135,6 +3347,7 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Band_Glute_Kickback",
         "One-Legged_Cable_Kickback"
       ],
       "easier": null,
@@ -3182,9 +3395,9 @@
       "aliases": [],
       "swaps": [
         "Hammer_Curls",
-        "Cable_Rope_Curl",
         "Band_Hammer_Curl",
-        "Alternate_Hammer_Curl"
+        "Alternate_Hammer_Curl",
+        "Cable_Rope_Curl"
       ],
       "easier": null,
       "harder": null
@@ -3209,9 +3422,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Face_Pull",
         "Seated_Cable_Row_Wide_Grip",
-        "Leverage_High_Row"
+        "Leverage_High_Row",
+        "Face_Pull"
       ],
       "easier": null,
       "harder": null
@@ -3233,7 +3446,8 @@
       "aliases": [],
       "swaps": [
         "Thigh_Abductor",
-        "Band_Lateral_Walk"
+        "Band_Lateral_Walk",
+        "Seated_Band_Hip_Abduction"
       ],
       "easier": null,
       "harder": null
@@ -3319,9 +3533,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Triceps_Pushdown",
         "Triceps_Pushdown_One-Arm_Underhand",
-        "Cable_Overhead_Extension_One-Arm",
-        "Triceps_Pushdown"
+        "Cable_Overhead_Extension_One-Arm"
       ],
       "easier": null,
       "harder": null
@@ -3444,8 +3658,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Rear_Delt_Row",
-        "Face_Pull",
-        "Barbell_Rear_Delt_Row"
+        "Barbell_Rear_Delt_Row",
+        "Face_Pull"
       ],
       "easier": null,
       "harder": null
@@ -3517,8 +3731,8 @@
       "swaps": [
         "Dumbbell_Rear_Lunge",
         "Landmine_Reverse_Lunge",
-        "Cable_Split_Squat",
-        "Barbell_Reverse_Lunge"
+        "Barbell_Reverse_Lunge",
+        "Cable_Split_Squat"
       ],
       "easier": null,
       "harder": null
@@ -3567,9 +3781,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Cable_Hammer_Curls_-_Rope_Attachment",
         "Hammer_Curls",
-        "Standing_Biceps_Cable_Curl"
+        "Standing_Biceps_Cable_Curl",
+        "Cable_Hammer_Curls_-_Rope_Attachment"
       ],
       "easier": null,
       "harder": null
@@ -3592,9 +3806,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Cable_Woodchop_Low_to_High",
         "Half-Kneeling_Landmine_Rotation",
-        "Medicine_Ball_Rotational_Throw"
+        "Medicine_Ball_Rotational_Throw",
+        "Cable_Woodchop_Low_to_High"
       ],
       "easier": null,
       "harder": null
@@ -3619,11 +3833,11 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Standing_Low-Pulley_Deltoid_Raise",
         "Side_Lateral_Raise",
         "Seated_Side_Lateral_Raise",
         "Machine_Lateral_Raise",
-        "Lateral_Raise_-_With_Bands"
+        "Lateral_Raise_-_With_Bands",
+        "Standing_Low-Pulley_Deltoid_Raise"
       ],
       "easier": null,
       "harder": null
@@ -3696,7 +3910,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Side_Bend",
-        "Side_Bridge"
+        "Side_Bridge",
+        "Side_Plank_Hip_Dip"
       ],
       "easier": null,
       "harder": null
@@ -3745,10 +3960,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Cable_Front_Squat",
         "Cable_Goblet_Squat",
         "Barbell_Squat",
-        "Smith_Machine_Squat"
+        "Smith_Machine_Squat",
+        "Cable_Front_Squat"
       ],
       "easier": null,
       "harder": null
@@ -3874,9 +4089,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Standing_Cable_Wood_Chop",
         "Band_Woodchop",
         "Dumbbell_Woodchop",
+        "Standing_Cable_Wood_Chop",
         "Cable_Rotation"
       ],
       "easier": null,
@@ -3948,7 +4163,8 @@
       "aliases": [],
       "swaps": [
         "Standing_Calf_Raises",
-        "Smith_Machine_Calf_Raise"
+        "Smith_Machine_Calf_Raise",
+        "Standing_Barbell_Calf_Raise"
       ],
       "easier": null,
       "harder": null
@@ -3991,9 +4207,11 @@
       "aliases": [],
       "swaps": [
         "Underhand_Cable_Pulldowns",
-        "Pullups",
         "Lat_Pulldown_Wide_Underhand",
-        "Band_Assisted_Pull-Up"
+        "Band_Assisted_Pull-Up",
+        "Pullups",
+        "Commando_Pull-Up",
+        "Pull-Up_Neutral_Grip"
       ],
       "easier": null,
       "harder": null
@@ -4018,11 +4236,11 @@
       "category": "olympic_weightlifting",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Clean",
+        "Kettlebell_Clean",
         "Power_Clean",
         "Hang_Clean",
-        "Hang_Power_Clean",
-        "Dumbbell_Clean",
-        "Kettlebell_Clean"
+        "Hang_Power_Clean"
       ],
       "easier": "Power_Clean",
       "harder": null
@@ -4046,10 +4264,10 @@
       "category": "olympic_weightlifting",
       "aliases": [],
       "swaps": [
-        "Barbell_High_Pull",
-        "Clean_Pull",
         "Dumbbell_High_Pull",
-        "Kettlebell_Sumo_High_Pull"
+        "Kettlebell_Sumo_High_Pull",
+        "Barbell_High_Pull",
+        "Clean_Pull"
       ],
       "easier": null,
       "harder": null
@@ -4074,10 +4292,10 @@
       "category": "olympic_weightlifting",
       "aliases": [],
       "swaps": [
+        "Trap_Bar_Deadlift",
         "Clean_High_Pull",
         "Snatch_Pull",
-        "Barbell_Deadlift",
-        "Trap_Bar_Deadlift"
+        "Barbell_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -4139,9 +4357,9 @@
         "Dumbbell_Bench_Press_Close_Grip",
         "Smith_Machine_Bench_Press_Close_Grip",
         "Push-Ups_-_Close_Triceps_Position",
+        "Dips_-_Triceps_Version",
         "Barbell_Floor_Press",
-        "Decline_Barbell_Bench_Press_Close_Grip",
-        "Dips_-_Triceps_Version"
+        "Decline_Barbell_Bench_Press_Close_Grip"
       ],
       "easier": null,
       "harder": null
@@ -4168,8 +4386,35 @@
       "swaps": [
         "Lat_Pulldown_Neutral_Grip",
         "V-Bar_Pulldown",
-        "Underhand_Cable_Pulldowns",
-        "Wide-Grip_Lat_Pulldown"
+        "Wide-Grip_Lat_Pulldown",
+        "Underhand_Cable_Pulldowns"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Commando_Pull-Up": {
+      "pose": "commando-pull-up",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "primary_muscles": [
+        "lats",
+        "biceps"
+      ],
+      "secondary_muscles": [
+        "middle_back",
+        "abdominals"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "pull_vertical",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Lat_Pulldown_Neutral_Grip",
+        "Chin-Up",
+        "Pullups",
+        "Pull-Up_Neutral_Grip"
       ],
       "easier": null,
       "harder": null
@@ -4199,6 +4444,30 @@
       "easier": null,
       "harder": null
     },
+    "Cossack_Squat": {
+      "pose": "bodyweight-cossack-squat",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "adductors"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "lunge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Kettlebell_Cossack_Squat",
+        "Dumbbell_Lateral_Lunge",
+        "Bodyweight_Lateral_Lunge"
+      ],
+      "easier": "Bodyweight_Lateral_Lunge",
+      "harder": null
+    },
     "Cross-Body_Dumbbell_Triceps_Extension": {
       "pose": "cross-body-dumbbell-triceps-extension",
       "equipment": [
@@ -4215,9 +4484,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Cable_One_Arm_Tricep_Extension",
         "Lying_Dumbbell_Tricep_Extension",
-        "Tate_Press",
-        "Cable_One_Arm_Tricep_Extension"
+        "Tate_Press"
       ],
       "easier": null,
       "harder": null
@@ -4238,9 +4507,32 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Cable_Hammer_Curls_-_Rope_Attachment",
         "Hammer_Curls",
-        "Alternate_Hammer_Curl",
-        "Cable_Hammer_Curls_-_Rope_Attachment"
+        "Alternate_Hammer_Curl"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Cross-Body_Mountain_Climber": {
+      "pose": "cross-body-mountain-climber",
+      "equipment": [],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "shoulders",
+        "quadriceps"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "cardio",
+      "aliases": [],
+      "swaps": [
+        "Mountain_Climbers",
+        "Plank_Jack",
+        "Squat_Thrust"
       ],
       "easier": null,
       "harder": null
@@ -4259,11 +4551,36 @@
       "aliases": [],
       "swaps": [
         "Cable_Crunch",
-        "Sit-Up",
-        "Ab_Crunch_Machine"
+        "Ab_Crunch_Machine",
+        "Sit-Up"
       ],
       "easier": null,
       "harder": "Sit-Up"
+    },
+    "Curtsy_Lunge": {
+      "pose": "curtsy-lunge",
+      "equipment": [],
+      "primary_muscles": [
+        "glutes",
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "abductors",
+        "adductors"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "lunge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Curtsy_Lunge",
+        "Kettlebell_Goblet_Curtsy_Lunge",
+        "Bodyweight_Reverse_Lunge",
+        "Bodyweight_Lateral_Lunge"
+      ],
+      "easier": null,
+      "harder": null
     },
     "Dead_Bug": {
       "pose": "dead-bug",
@@ -4278,14 +4595,61 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Bird_Dog",
         "Dumbbell_Dead_Bug",
         "Band_Dead_Bug",
+        "Bird_Dog",
+        "Dead_Bug_Arms_Only",
         "Hollow_Hold",
         "Plank"
       ],
-      "easier": null,
+      "easier": "Dead_Bug_Arms_Only",
       "harder": "Hollow_Hold"
+    },
+    "Dead_Bug_Arms_Only": {
+      "pose": "dead-bug-arms-only",
+      "equipment": [],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "shoulders"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Band_Dead_Bug",
+        "Dead_Bug",
+        "Bird_Dog"
+      ],
+      "easier": null,
+      "harder": "Dead_Bug"
+    },
+    "Dead_Hang": {
+      "pose": "dead-hang",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "primary_muscles": [
+        "forearms"
+      ],
+      "secondary_muscles": [
+        "lats",
+        "shoulders"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Farmers_Walk",
+        "Active_Hang"
+      ],
+      "easier": null,
+      "harder": "Active_Hang"
     },
     "Decline_Barbell_Bench_Press": {
       "pose": "decline-barbell-bench-press",
@@ -4335,8 +4699,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Close-Grip_Barbell_Bench_Press",
         "Dumbbell_Bench_Press_Close_Grip",
+        "Close-Grip_Barbell_Bench_Press",
         "Decline_Barbell_Bench_Press"
       ],
       "easier": null,
@@ -4358,8 +4722,8 @@
       "aliases": [],
       "swaps": [
         "Cable_Crunch",
-        "Sit-Up",
-        "Ab_Crunch_Machine"
+        "Ab_Crunch_Machine",
+        "Sit-Up"
       ],
       "easier": null,
       "harder": null
@@ -4410,8 +4774,8 @@
       "aliases": [],
       "swaps": [
         "Cable_Fly_High_to_Low",
-        "Dumbbell_Flyes",
-        "Cable_Crossover"
+        "Cable_Crossover",
+        "Dumbbell_Flyes"
       ],
       "easier": null,
       "harder": null
@@ -4515,8 +4879,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dips_-_Triceps_Version",
-        "Decline_Barbell_Bench_Press"
+        "Decline_Barbell_Bench_Press",
+        "Dips_-_Triceps_Version"
       ],
       "easier": null,
       "harder": null
@@ -4541,8 +4905,31 @@
       "swaps": [
         "Dip_Machine",
         "Bench_Dips",
-        "Dips_-_Chest_Version",
-        "Close-Grip_Barbell_Bench_Press"
+        "Close-Grip_Barbell_Bench_Press",
+        "Dips_-_Chest_Version"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Dive_Bomber_Push-Up": {
+      "pose": "dive-bomber-push-up",
+      "equipment": [],
+      "primary_muscles": [
+        "chest",
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "triceps"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "push_horizontal",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Pike_Push-Up",
+        "Pushups",
+        "Push-Ups_With_Feet_Elevated"
       ],
       "easier": null,
       "harder": null
@@ -4567,9 +4954,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Kettlebell_Clean",
         "Dumbbell_Clean",
-        "Power_Clean"
+        "Power_Clean",
+        "Kettlebell_Clean"
       ],
       "easier": null,
       "harder": null
@@ -4593,9 +4980,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Swing",
         "Kettlebell_Swing",
-        "American_Kettlebell_Swing",
-        "Dumbbell_Swing"
+        "American_Kettlebell_Swing"
       ],
       "easier": null,
       "harder": null
@@ -4643,11 +5030,11 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Bicep_Curl",
-        "Seated_Dumbbell_Curl_Alternating",
         "Kettlebell_Curl",
         "Cable_Curl_One-Arm",
-        "Barbell_Curl"
+        "Barbell_Curl",
+        "Dumbbell_Bicep_Curl",
+        "Seated_Dumbbell_Curl_Alternating"
       ],
       "easier": null,
       "harder": null
@@ -4672,7 +5059,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Flyes",
-        "Straight-Arm_Dumbbell_Pullover"
+        "Straight-Arm_Dumbbell_Pullover",
+        "Incline_Dumbbell_Flyes"
       ],
       "easier": null,
       "harder": null
@@ -4697,12 +5085,12 @@
       "aliases": [],
       "swaps": [
         "Barbell_Bench_Press_-_Medium_Grip",
-        "Dumbbell_Bench_Press_Neutral_Grip",
         "Machine_Bench_Press",
         "Smith_Machine_Bench_Press",
         "Cable_Chest_Press",
-        "Dumbbell_Floor_Press",
-        "Pushups"
+        "Pushups",
+        "Dumbbell_Bench_Press_Neutral_Grip",
+        "Dumbbell_Floor_Press"
       ],
       "easier": null,
       "harder": null
@@ -4726,9 +5114,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Cable_Chest_Press",
         "Dumbbell_Bench_Press",
-        "Dumbbell_Bench_Press_One-Arm",
-        "Cable_Chest_Press"
+        "Dumbbell_Bench_Press_One-Arm"
       ],
       "easier": null,
       "harder": null
@@ -4753,8 +5141,8 @@
       "aliases": [],
       "swaps": [
         "Close-Grip_Barbell_Bench_Press",
-        "Dumbbell_Squeeze_Press",
-        "Push-Ups_-_Close_Triceps_Position"
+        "Push-Ups_-_Close_Triceps_Position",
+        "Dumbbell_Squeeze_Press"
       ],
       "easier": null,
       "harder": null
@@ -4778,9 +5166,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Machine_Bench_Press",
         "Dumbbell_Bench_Press",
-        "Dumbbell_Floor_Press",
-        "Machine_Bench_Press"
+        "Dumbbell_Floor_Press"
       ],
       "easier": null,
       "harder": null
@@ -4832,6 +5220,7 @@
       "aliases": [],
       "swaps": [
         "Barbell_Bench_Press_Reverse_Grip",
+        "Barbell_Bench_Press_-_Medium_Grip",
         "Dumbbell_Bench_Press"
       ],
       "easier": null,
@@ -4854,14 +5243,14 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Alternate_Bicep_Curl",
         "Barbell_Curl",
         "EZ-Bar_Curl",
         "Standing_Biceps_Cable_Curl",
-        "Seated_Dumbbell_Curl",
         "Kettlebell_Curl",
         "Machine_Bicep_Curl",
-        "Band_Curl"
+        "Band_Curl",
+        "Dumbbell_Alternate_Bicep_Curl",
+        "Seated_Dumbbell_Curl"
       ],
       "easier": null,
       "harder": null
@@ -4887,8 +5276,8 @@
       "swaps": [
         "Barbell_Bulgarian_Split_Squat",
         "Smith_Single-Leg_Split_Squat",
-        "Split_Squat_with_Dumbbells",
-        "Bodyweight_Bulgarian_Split_Squat"
+        "Bodyweight_Bulgarian_Split_Squat",
+        "Split_Squat_with_Dumbbells"
       ],
       "easier": null,
       "harder": null
@@ -4914,6 +5303,7 @@
       "aliases": [],
       "swaps": [
         "Burpee",
+        "Squat_Thrust",
         "Devil_Press"
       ],
       "easier": null,
@@ -4934,8 +5324,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Standing_Dumbbell_Calf_Raise",
-        "Kettlebell_Calf_Raise"
+        "Single-Leg_Calf_Raise",
+        "Kettlebell_Calf_Raise",
+        "Standing_Dumbbell_Calf_Raise"
       ],
       "easier": null,
       "harder": null
@@ -4960,10 +5351,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Hang_Clean",
         "Kettlebell_Clean",
         "Power_Clean",
-        "Double_Kettlebell_Clean"
+        "Double_Kettlebell_Clean",
+        "Dumbbell_Hang_Clean"
       ],
       "easier": null,
       "harder": null
@@ -5012,6 +5403,7 @@
       "aliases": [],
       "swaps": [
         "Kettlebell_Goblet_Curtsy_Lunge",
+        "Curtsy_Lunge",
         "Dumbbell_Rear_Lunge"
       ],
       "easier": null,
@@ -5063,8 +5455,8 @@
         "Kettlebell_Deadlift",
         "Trap_Bar_Deadlift",
         "Barbell_Deadlift",
-        "Dumbbell_Romanian_Deadlift",
-        "Landmine_Deadlift"
+        "Landmine_Deadlift",
+        "Dumbbell_Romanian_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -5110,8 +5502,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Flyes",
-        "Cable_Crossover"
+        "Cable_Crossover",
+        "Cable_Fly_Mid_Height",
+        "Dumbbell_Flyes"
       ],
       "easier": null,
       "harder": null
@@ -5136,8 +5529,8 @@
       "swaps": [
         "Barbell_Floor_Press",
         "Kettlebell_Floor_Press",
-        "Dumbbell_Bench_Press",
-        "Pushups"
+        "Pushups",
+        "Dumbbell_Bench_Press"
       ],
       "easier": null,
       "harder": null
@@ -5184,6 +5577,7 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Frog_Pump",
         "Barbell_Frog_Pump",
         "Dumbbell_Glute_Bridge"
       ],
@@ -5209,7 +5603,8 @@
       "aliases": [],
       "swaps": [
         "Kettlebell_Rack_Carry",
-        "Zercher_Carry"
+        "Zercher_Carry",
+        "Dumbbell_Suitcase_Carry"
       ],
       "easier": null,
       "harder": null
@@ -5231,9 +5626,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Front_Dumbbell_Raise",
         "Kettlebell_Front_Raise",
-        "Cable_Front_Raise"
+        "Cable_Front_Raise",
+        "Front_Dumbbell_Raise"
       ],
       "easier": null,
       "harder": null
@@ -5256,9 +5651,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Goblet_Squat",
         "Front_Squats_With_Two_Kettlebells",
         "Front_Barbell_Squat",
+        "Dumbbell_Goblet_Squat",
         "Dumbbell_Squat"
       ],
       "easier": null,
@@ -5283,8 +5678,8 @@
       "swaps": [
         "Barbell_Glute_Bridge",
         "Butt_Lift_Bridge",
-        "Dumbbell_Hip_Thrust",
         "Band_Glute_Bridge",
+        "Dumbbell_Hip_Thrust",
         "Dumbbell_Frog_Pump"
       ],
       "easier": null,
@@ -5308,12 +5703,12 @@
       "aliases": [],
       "swaps": [
         "Goblet_Squat",
-        "Dumbbell_Squat",
         "Cable_Goblet_Squat",
-        "Dumbbell_Front_Squat",
         "Landmine_Squat",
         "Leg_Press",
-        "Bodyweight_Squat"
+        "Bodyweight_Squat",
+        "Dumbbell_Squat",
+        "Dumbbell_Front_Squat"
       ],
       "easier": null,
       "harder": null
@@ -5338,9 +5733,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Clean",
         "Hang_Power_Clean",
-        "Kettlebell_Clean"
+        "Kettlebell_Clean",
+        "Dumbbell_Clean"
       ],
       "easier": null,
       "harder": null
@@ -5392,8 +5787,9 @@
         "Barbell_Hip_Thrust",
         "Kettlebell_Hip_Thrust",
         "Smith_Machine_Hip_Thrust",
-        "Dumbbell_Glute_Bridge",
-        "Band_Hip_Thrust"
+        "Band_Hip_Thrust",
+        "Single-Leg_Hip_Thrust",
+        "Dumbbell_Glute_Bridge"
       ],
       "easier": null,
       "harder": null
@@ -5420,12 +5816,12 @@
       "aliases": [],
       "swaps": [
         "Incline_Bench_Pull",
-        "Dumbbell_Seal_Row",
         "Seal_Row",
-        "Bent_Over_Two-Dumbbell_Row",
         "Leverage_Iso_Row",
         "Seated_Cable_Rows",
-        "Inverted_Row"
+        "Inverted_Row",
+        "Dumbbell_Seal_Row",
+        "Bent_Over_Two-Dumbbell_Row"
       ],
       "easier": null,
       "harder": null
@@ -5492,6 +5888,7 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "External_Rotation_with_Cable",
         "Dumbbell_Cuban_Press",
         "Side-Lying_Dumbbell_External_Rotation"
       ],
@@ -5517,6 +5914,7 @@
       "aliases": [],
       "swaps": [
         "Barbell_Lateral_Lunge",
+        "Kettlebell_Cossack_Squat",
         "Bodyweight_Lateral_Lunge",
         "Dumbbell_Lateral_Step-Up"
       ],
@@ -5542,6 +5940,7 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Kettlebell_Step-Up",
         "Dumbbell_Step_Ups",
         "Dumbbell_Lateral_Lunge"
       ],
@@ -5567,11 +5966,12 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Rear_Lunge",
-        "Dumbbell_Walking_Lunge",
         "Kettlebell_Goblet_Lunge",
         "Barbell_Lunge",
-        "Smith_Machine_Lunge"
+        "Smith_Machine_Lunge",
+        "Forward_Lunge",
+        "Dumbbell_Rear_Lunge",
+        "Dumbbell_Walking_Lunge"
       ],
       "easier": null,
       "harder": null
@@ -5596,8 +5996,8 @@
       "aliases": [],
       "swaps": [
         "Kettlebell_Overhead_Carry",
-        "Waiter_Carry",
-        "Barbell_Overhead_Carry"
+        "Barbell_Overhead_Carry",
+        "Waiter_Carry"
       ],
       "easier": null,
       "harder": null
@@ -5618,8 +6018,8 @@
       "aliases": [],
       "swaps": [
         "Cable_Overhead_Extension_One-Arm",
-        "Standing_Dumbbell_Triceps_Extension",
-        "Kettlebell_Overhead_Triceps_Extension"
+        "Kettlebell_Overhead_Triceps_Extension",
+        "Standing_Dumbbell_Triceps_Extension"
       ],
       "easier": null,
       "harder": null
@@ -5718,6 +6118,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Crunches",
+        "Decline_Crunch",
         "Dumbbell_Sit-Up"
       ],
       "easier": null,
@@ -5798,8 +6200,8 @@
         "Landmine_Reverse_Lunge",
         "Smith_Machine_Reverse_Lunge",
         "Cable_Reverse_Lunge",
-        "Dumbbell_Lunges",
-        "Bodyweight_Reverse_Lunge"
+        "Bodyweight_Reverse_Lunge",
+        "Dumbbell_Lunges"
       ],
       "easier": null,
       "harder": null
@@ -5869,11 +6271,11 @@
       "swaps": [
         "Romanian_Deadlift",
         "Kettlebell_Romanian_Deadlift",
-        "Stiff-Legged_Dumbbell_Deadlift",
         "Cable_Romanian_Deadlift",
         "Landmine_Romanian_Deadlift",
         "Smith_Machine_Romanian_Deadlift",
-        "Band_Romanian_Deadlift"
+        "Band_Romanian_Deadlift",
+        "Stiff-Legged_Dumbbell_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -5918,8 +6320,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Y_Raise",
         "Cable_Y_Raise",
+        "Dumbbell_Y_Raise",
         "Side_Lateral_Raise",
         "Front_Dumbbell_Raise"
       ],
@@ -5946,8 +6348,8 @@
       "aliases": [],
       "swaps": [
         "Seal_Row",
-        "Dumbbell_Incline_Row",
-        "Incline_Bench_Pull"
+        "Incline_Bench_Pull",
+        "Dumbbell_Incline_Row"
       ],
       "easier": null,
       "harder": null
@@ -5969,13 +6371,13 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Seated_Dumbbell_Press",
         "Standing_Military_Press",
         "Kettlebell_Press",
         "Two-Arm_Kettlebell_Military_Press",
         "Machine_Shoulder_Military_Press",
-        "Arnold_Dumbbell_Press",
-        "Landmine_Press"
+        "Landmine_Press",
+        "Seated_Dumbbell_Press",
+        "Arnold_Dumbbell_Press"
       ],
       "easier": null,
       "harder": null
@@ -5998,9 +6400,9 @@
         "Barbell_Shrug",
         "Trap_Bar_Shrug",
         "Kettlebell_Shrug",
-        "Seated_Dumbbell_Shrug",
         "Cable_Shrug",
-        "Machine_Shrug"
+        "Machine_Shrug",
+        "Seated_Dumbbell_Shrug"
       ],
       "easier": null,
       "harder": null
@@ -6068,7 +6470,8 @@
       "aliases": [],
       "swaps": [
         "Kettlebell_Sit-Up",
-        "Sit-Up"
+        "Sit-Up",
+        "Crunches"
       ],
       "easier": null,
       "harder": null
@@ -6119,8 +6522,8 @@
       "aliases": [],
       "swaps": [
         "Spider_Curl",
-        "Prone_Incline_Dumbbell_Curl",
-        "Dumbbell_Preacher_Curl"
+        "Dumbbell_Preacher_Curl",
+        "Prone_Incline_Dumbbell_Curl"
       ],
       "easier": null,
       "harder": null
@@ -6145,12 +6548,12 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Goblet_Squat",
         "Goblet_Squat",
-        "Dumbbell_Front_Squat",
         "Barbell_Squat",
         "Smith_Machine_Squat",
-        "Leg_Press"
+        "Leg_Press",
+        "Dumbbell_Goblet_Squat",
+        "Dumbbell_Front_Squat"
       ],
       "easier": null,
       "harder": null
@@ -6174,9 +6577,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Machine_Bench_Press",
         "Dumbbell_Bench_Press_Close_Grip",
-        "Dumbbell_Bench_Press",
-        "Machine_Bench_Press"
+        "Dumbbell_Bench_Press"
       ],
       "easier": null,
       "harder": null
@@ -6228,9 +6631,9 @@
       "aliases": [],
       "swaps": [
         "Kettlebell_Suitcase_Carry",
-        "Farmers_Walk",
         "Kettlebell_Farmers_Walk",
-        "Trap_Bar_Carry"
+        "Trap_Bar_Carry",
+        "Farmers_Walk"
       ],
       "easier": null,
       "harder": null
@@ -6255,7 +6658,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Kettlebell_Suitcase_Deadlift"
+        "Kettlebell_Suitcase_Deadlift",
+        "Kettlebell_Deadlift",
+        "Dumbbell_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -6279,6 +6684,7 @@
       "aliases": [],
       "swaps": [
         "Landmine_Sumo_Squat",
+        "Bodyweight_Sumo_Squat",
         "Dumbbell_Goblet_Squat"
       ],
       "easier": null,
@@ -6351,8 +6757,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_V-Up",
-        "Crunches"
+        "Crunches",
+        "Sit-Up",
+        "Dumbbell_V-Up"
       ],
       "easier": null,
       "harder": null
@@ -6372,9 +6779,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Tricep_Dumbbell_Kickback",
         "Cable_Triceps_Kickback",
-        "Band_Triceps_Kickback"
+        "Band_Triceps_Kickback",
+        "Tricep_Dumbbell_Kickback"
       ],
       "easier": null,
       "harder": null
@@ -6396,6 +6803,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Hollow_Rock",
+        "Seated_Knee_Tuck",
         "Dumbbell_Toe_Touch"
       ],
       "easier": null,
@@ -6420,6 +6829,7 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Prone_T_Raise",
         "Dumbbell_Y_Raise",
         "Incline_Dumbbell_Reverse_Fly"
       ],
@@ -6445,8 +6855,8 @@
       "aliases": [],
       "swaps": [
         "Barbell_Walking_Lunge",
-        "Dumbbell_Lunges",
-        "Bodyweight_Walking_Lunge"
+        "Bodyweight_Walking_Lunge",
+        "Dumbbell_Lunges"
       ],
       "easier": null,
       "harder": null
@@ -6640,7 +7050,8 @@
       "aliases": [],
       "swaps": [
         "Barbell_Front_Raise",
-        "Front_Dumbbell_Raise"
+        "Front_Dumbbell_Raise",
+        "Kettlebell_Front_Raise"
       ],
       "easier": null,
       "harder": null
@@ -6785,12 +7196,12 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Lying_Triceps_Press",
         "Barbell_Skull_Crusher",
         "Lying_Dumbbell_Tricep_Extension",
         "Lying_Cable_Triceps_Extension",
         "Kettlebell_Skull_Crusher",
-        "Machine_Triceps_Extension"
+        "Machine_Triceps_Extension",
+        "Lying_Triceps_Press"
       ],
       "easier": null,
       "harder": null
@@ -6862,9 +7273,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Seated_Cable_Rows",
         "Seated_Cable_Row_V-Bar",
-        "Leverage_Iso_Row"
+        "Leverage_Iso_Row",
+        "Seated_Cable_Rows"
       ],
       "easier": null,
       "harder": null
@@ -6886,7 +7297,8 @@
       "aliases": [],
       "swaps": [
         "Side-Lying_Dumbbell_External_Rotation",
-        "Dumbbell_L_Raise"
+        "Dumbbell_L_Raise",
+        "Dumbbell_Cuban_Press"
       ],
       "easier": null,
       "harder": null
@@ -6910,9 +7322,9 @@
       "aliases": [],
       "swaps": [
         "Band_Face_Pull",
-        "Cable_Rear_Delt_Row",
         "Dumbbell_Rear_Delt_Row",
-        "Barbell_Rear_Delt_Row"
+        "Barbell_Rear_Delt_Row",
+        "Cable_Rear_Delt_Row"
       ],
       "easier": null,
       "harder": null
@@ -6941,8 +7353,8 @@
       "swaps": [
         "Kettlebell_Farmers_Walk",
         "Trap_Bar_Carry",
-        "Dumbbell_Suitcase_Carry",
-        "Kettlebell_Suitcase_Carry"
+        "Kettlebell_Suitcase_Carry",
+        "Dumbbell_Suitcase_Carry"
       ],
       "easier": null,
       "harder": null
@@ -6962,8 +7374,100 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Hanging_Knee_Raise",
         "Reverse_Crunch",
-        "Hanging_Knee_Raise"
+        "Leg_Raise_with_Hip_Lift"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Floor_Glute-Ham_Raise": {
+      "pose": "floor-glute-ham-raise",
+      "equipment": [],
+      "primary_muscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "calves"
+      ],
+      "level": "expert",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Glute_Ham_Raise",
+        "Ball_Leg_Curl",
+        "Nordic_Hamstring_Curl"
+      ],
+      "easier": "Ball_Leg_Curl",
+      "harder": "Nordic_Hamstring_Curl"
+    },
+    "Flutter_Kicks": {
+      "pose": "flutter-kicks",
+      "equipment": [],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "quadriceps"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Hollow_Hold",
+        "Flat_Bench_Lying_Leg_Raise",
+        "Hollow_Rock"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Forward_Lunge": {
+      "pose": "bodyweight-forward-lunge",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "calves"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "lunge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Lunges",
+        "Bodyweight_Reverse_Lunge",
+        "Bodyweight_Walking_Lunge"
+      ],
+      "easier": "Bodyweight_Reverse_Lunge",
+      "harder": "Bodyweight_Walking_Lunge"
+    },
+    "Frog_Pump": {
+      "pose": "frog-pump",
+      "equipment": [],
+      "primary_muscles": [
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "adductors"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "hinge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Frog_Pump",
+        "Band_Glute_Bridge",
+        "Butt_Lift_Bridge"
       ],
       "easier": null,
       "harder": null
@@ -6991,10 +7495,10 @@
         "Smith_Machine_Front_Squat",
         "Dumbbell_Front_Squat",
         "Front_Squats_With_Two_Kettlebells",
-        "Zercher_Squat",
-        "Barbell_Squat",
         "Hack_Squat",
-        "Dumbbell_Goblet_Squat"
+        "Dumbbell_Goblet_Squat",
+        "Zercher_Squat",
+        "Barbell_Squat"
       ],
       "easier": null,
       "harder": null
@@ -7014,11 +7518,11 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Front_Raise_Alternating",
         "Cable_Front_Raise",
         "Barbell_Front_Raise",
         "Kettlebell_Front_Raise",
-        "Band_Front_Raise"
+        "Band_Front_Raise",
+        "Dumbbell_Front_Raise_Alternating"
       ],
       "easier": null,
       "harder": null
@@ -7042,12 +7546,35 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Front_Squat",
+        "Front_Barbell_Squat",
         "Kettlebell_Front_Squat_One-Arm",
-        "Goblet_Squat",
-        "Front_Barbell_Squat"
+        "Goblet_Squat"
       ],
       "easier": null,
       "harder": null
+    },
+    "Glute_Bridge_March": {
+      "pose": "glute-bridge-march",
+      "equipment": [],
+      "primary_muscles": [
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "abdominals"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Band_Glute_Bridge",
+        "Butt_Lift_Bridge",
+        "Single_Leg_Glute_Bridge"
+      ],
+      "easier": "Butt_Lift_Bridge",
+      "harder": "Single_Leg_Glute_Bridge"
     },
     "Glute_Ham_Raise": {
       "pose": "glute-ham-raise",
@@ -7068,6 +7595,7 @@
       "aliases": [],
       "swaps": [
         "Nordic_Hamstring_Curl",
+        "Floor_Glute-Ham_Raise",
         "Lying_Leg_Curls",
         "Seated_Leg_Curl"
       ],
@@ -7095,11 +7623,11 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Goblet_Squat",
-        "Front_Squats_With_Two_Kettlebells",
         "Cable_Goblet_Squat",
         "Dumbbell_Squat",
         "Landmine_Squat",
-        "Bodyweight_Squat"
+        "Bodyweight_Squat",
+        "Front_Squats_With_Two_Kettlebells"
       ],
       "easier": null,
       "harder": null
@@ -7124,11 +7652,12 @@
       "category": "powerlifting",
       "aliases": [],
       "swaps": [
-        "Romanian_Deadlift",
+        "Smith_Machine_Good_Morning",
         "Kettlebell_Good_Morning",
-        "Seated_Good_Morning",
         "Band_Good_Morning",
-        "Hyperextensions_Back_Extensions"
+        "Hyperextensions_Back_Extensions",
+        "Romanian_Deadlift",
+        "Seated_Good_Morning"
       ],
       "easier": null,
       "harder": null
@@ -7152,9 +7681,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Bent_Over_Two-Dumbbell_Row",
         "Alternating_Renegade_Row",
-        "Kettlebell_Bent-Over_Row",
-        "Bent_Over_Two-Dumbbell_Row"
+        "Kettlebell_Bent-Over_Row"
       ],
       "easier": null,
       "harder": null
@@ -7179,9 +7708,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Bench_Press",
         "Wide-Grip_Barbell_Bench_Press",
-        "Barbell_Bench_Press_-_Medium_Grip",
-        "Dumbbell_Bench_Press"
+        "Barbell_Bench_Press_-_Medium_Grip"
       ],
       "easier": null,
       "harder": null
@@ -7230,9 +7759,32 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Barbell_Russian_Twist",
         "Cable_Rotation",
-        "Cable_Woodchop_Low_to_High"
+        "Cable_Woodchop_Low_to_High",
+        "Barbell_Russian_Twist"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Half-Kneeling_Pallof_Press": {
+      "pose": "cable-half-kneeling-pallof",
+      "equipment": [
+        "cable_machine",
+        "single_handle"
+      ],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Landmine_Anti-Rotation_Press",
+        "Pallof_Press",
+        "Cable_Anti-Rotation_Hold"
       ],
       "easier": null,
       "harder": null
@@ -7252,13 +7804,13 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Alternate_Hammer_Curl",
         "Cable_Hammer_Curls_-_Rope_Attachment",
-        "Cross-Body_Hammer_Curl",
         "Kettlebell_Hammer_Curl",
-        "Incline_Hammer_Curl",
         "Band_Hammer_Curl",
-        "Reverse_Barbell_Curl"
+        "Reverse_Barbell_Curl",
+        "Alternate_Hammer_Curl",
+        "Cross-Body_Hammer_Curl",
+        "Incline_Hammer_Curl"
       ],
       "easier": null,
       "harder": null
@@ -7282,9 +7834,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Incline_Dumbbell_Press",
         "Barbell_Incline_Bench_Press_-_Medium_Grip",
-        "Landmine_Press"
+        "Landmine_Press",
+        "Incline_Dumbbell_Press"
       ],
       "easier": null,
       "harder": null
@@ -7304,9 +7856,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Pike_Push-Up",
         "Standing_Military_Press",
-        "Dumbbell_Shoulder_Press"
+        "Dumbbell_Shoulder_Press",
+        "Pike_Push-Up"
       ],
       "easier": "Pike_Push-Up",
       "harder": null
@@ -7334,10 +7886,10 @@
       "category": "olympic_weightlifting",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Hang_Clean",
         "Hang_Power_Clean",
         "Power_Clean",
-        "Clean",
-        "Dumbbell_Hang_Clean"
+        "Clean"
       ],
       "easier": null,
       "harder": null
@@ -7362,10 +7914,10 @@
       "category": "olympic_weightlifting",
       "aliases": [],
       "swaps": [
-        "Power_Clean",
-        "Hang_Clean",
         "Dumbbell_Hang_Clean",
         "Kettlebell_Clean",
+        "Power_Clean",
+        "Hang_Clean",
         "Clean_High_Pull"
       ],
       "easier": null,
@@ -7391,11 +7943,11 @@
       "category": "olympic_weightlifting",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Snatch",
+        "Kettlebell_Snatch",
         "Power_Snatch",
         "Hang_Snatch",
         "Muscle_Snatch",
-        "Dumbbell_Snatch",
-        "Kettlebell_Snatch",
         "Snatch-Grip_High_Pull"
       ],
       "easier": "Muscle_Snatch",
@@ -7448,7 +8000,8 @@
         "Knee_Hip_Raise_On_Parallel_Bars",
         "Reverse_Crunch",
         "Flat_Bench_Lying_Leg_Raise",
-        "Cable_Reverse_Crunch"
+        "Cable_Reverse_Crunch",
+        "Seated_Knee_Tuck"
       ],
       "easier": null,
       "harder": "Hanging_Leg_Raise"
@@ -7468,10 +8021,37 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Hanging_Knee_Raise",
-        "Flat_Bench_Lying_Leg_Raise"
+        "Flat_Bench_Lying_Leg_Raise",
+        "Leg_Raise_with_Hip_Lift",
+        "Toes_to_Bar",
+        "Knees_to_Elbows",
+        "Hanging_Knee_Raise"
       ],
       "easier": "Hanging_Knee_Raise",
+      "harder": "Toes_to_Bar"
+    },
+    "High_Knees": {
+      "pose": "high-knees",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "calves",
+        "abdominals",
+        "hamstrings"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "cardio",
+      "aliases": [],
+      "swaps": [
+        "Butt_Kicks",
+        "Mountain_Climbers",
+        "Jumping_Jack"
+      ],
+      "easier": null,
       "harder": null
     },
     "Hollow_Hold": {
@@ -7487,10 +8067,33 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Boat_Hold",
+        "Hollow_Rock",
         "Dead_Bug",
+        "Flutter_Kicks",
         "Plank"
       ],
       "easier": "Dead_Bug",
+      "harder": "Hollow_Rock"
+    },
+    "Hollow_Rock": {
+      "pose": "hollow-rock",
+      "equipment": [],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [],
+      "level": "intermediate",
+      "mechanic": "isolation",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Hollow_Hold",
+        "Boat_Hold",
+        "Flutter_Kicks"
+      ],
+      "easier": "Hollow_Hold",
       "harder": null
     },
     "Hyperextensions_Back_Extensions": {
@@ -7538,8 +8141,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Barbell_Incline_Bench_Press_-_Medium_Grip",
         "Hammer_Grip_Incline_DB_Bench_Press",
+        "Barbell_Incline_Bench_Press_-_Medium_Grip",
         "Close-Grip_Barbell_Bench_Press"
       ],
       "easier": null,
@@ -7564,9 +8167,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Seal_Row",
         "Dumbbell_Incline_Row",
-        "Dumbbell_Seal_Row"
+        "Dumbbell_Seal_Row",
+        "Seal_Row"
       ],
       "easier": null,
       "harder": null
@@ -7615,9 +8218,9 @@
       "aliases": [],
       "swaps": [
         "Incline_Dumbbell_Flyes",
-        "Low_Cable_Crossover",
         "Incline_Dumbbell_Fly_Hammer_Grip",
-        "Butterfly"
+        "Butterfly",
+        "Low_Cable_Crossover"
       ],
       "easier": null,
       "harder": null
@@ -7643,6 +8246,7 @@
       "aliases": [],
       "swaps": [
         "Incline_Dumbbell_Press",
+        "Smith_Machine_Incline_Press",
         "Cable_Chest_Press"
       ],
       "easier": null,
@@ -7691,9 +8295,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Incline_Dumbbell_Flyes",
         "Incline_Cable_Flye",
-        "Low_Cable_Crossover"
+        "Low_Cable_Crossover",
+        "Incline_Dumbbell_Flyes"
       ],
       "easier": null,
       "harder": null
@@ -7740,9 +8344,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Cable_Seated_Lateral_Raise",
         "Side_Lateral_Raise",
-        "Leaning_Dumbbell_Lateral_Raise",
-        "Cable_Seated_Lateral_Raise"
+        "Leaning_Dumbbell_Lateral_Raise"
       ],
       "easier": null,
       "harder": null
@@ -7767,11 +8371,11 @@
       "aliases": [],
       "swaps": [
         "Barbell_Incline_Bench_Press_-_Medium_Grip",
-        "Hammer_Grip_Incline_DB_Bench_Press",
         "Smith_Machine_Incline_Press",
         "Incline_Cable_Press",
         "Landmine_Press",
-        "Push-Ups_With_Feet_Elevated"
+        "Push-Ups_With_Feet_Elevated",
+        "Hammer_Grip_Incline_DB_Bench_Press"
       ],
       "easier": null,
       "harder": null
@@ -7795,10 +8399,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Reverse_Machine_Flyes",
         "Reverse_Flyes",
         "Lying_Dumbbell_Reverse_Fly",
-        "Seated_Bent-Over_Rear_Delt_Raise",
-        "Reverse_Machine_Flyes"
+        "Seated_Bent-Over_Rear_Delt_Raise"
       ],
       "easier": null,
       "harder": null
@@ -7823,7 +8427,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Incline_Row",
-        "One-Arm_Dumbbell_Row"
+        "One-Arm_Dumbbell_Row",
+        "Kneeling_Dumbbell_Row"
       ],
       "easier": null,
       "harder": null
@@ -7870,10 +8475,12 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Machine_Bench_Press",
+        "Knee_Push-Up",
         "Pushups"
       ],
       "easier": null,
-      "harder": null
+      "harder": "Knee_Push-Up"
     },
     "Inverted_Row": {
       "pose": "inverted-row",
@@ -7945,11 +8552,13 @@
       "swaps": [
         "Box_Jump",
         "Band_Jump_Squat",
+        "Tuck_Jump",
         "Broad_Jump",
+        "Split_Squat_Jump",
         "Bodyweight_Squat"
       ],
       "easier": null,
-      "harder": null
+      "harder": "Tuck_Jump"
     },
     "Jumping_Jack": {
       "pose": "jumping-jack",
@@ -7967,7 +8576,35 @@
       "pattern": "conditioning",
       "category": "cardio",
       "aliases": [],
-      "swaps": [],
+      "swaps": [
+        "Star_Jump",
+        "High_Knees",
+        "Plank_Jack",
+        "Butt_Kicks"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Kettlebell_Arm_Bar": {
+      "pose": "kettlebell-arm-bar",
+      "equipment": [
+        "kettlebell"
+      ],
+      "primary_muscles": [
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "abdominals"
+      ],
+      "level": "intermediate",
+      "mechanic": "isolation",
+      "pattern": "mobility",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Wall_Angel",
+        "Kettlebell_Halo"
+      ],
       "easier": null,
       "harder": null
     },
@@ -7989,7 +8626,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Kettlebell_Halo"
+        "Kettlebell_Figure_Eight",
+        "Kettlebell_Halo",
+        "Kettlebell_Russian_Twist"
       ],
       "easier": null,
       "harder": null
@@ -8013,10 +8652,10 @@
       "aliases": [],
       "swaps": [
         "Bent_Over_Two-Dumbbell_Row",
+        "Bent_Over_Barbell_Row",
         "One-Arm_Kettlebell_Row",
         "Kettlebell_Row_Staggered_Stance",
-        "Gorilla_Row",
-        "Bent_Over_Barbell_Row"
+        "Gorilla_Row"
       ],
       "easier": null,
       "harder": null
@@ -8064,8 +8703,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Kettlebell_Press",
-        "Single_Arm_Dumbbell_Press"
+        "Single_Arm_Dumbbell_Press",
+        "Dumbbell_Shoulder_Press",
+        "Kettlebell_Press"
       ],
       "easier": null,
       "harder": null
@@ -8113,9 +8753,9 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Clean",
+        "Dumbbell_Hang_Clean",
         "Double_Kettlebell_Clean",
-        "Kettlebell_Dead_Clean",
-        "Dumbbell_Hang_Clean"
+        "Kettlebell_Dead_Clean"
       ],
       "easier": null,
       "harder": null
@@ -8140,9 +8780,34 @@
       "aliases": [],
       "swaps": [
         "Clean_and_Press",
-        "Kettlebell_Clean",
         "Dumbbell_Clean",
+        "Kettlebell_Clean",
         "Kettlebell_Press"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Kettlebell_Cossack_Squat": {
+      "pose": "kettlebell-cossack-squat",
+      "equipment": [
+        "kettlebell"
+      ],
+      "primary_muscles": [
+        "quadriceps",
+        "adductors"
+      ],
+      "secondary_muscles": [
+        "glutes"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "lunge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Cossack_Squat",
+        "Dumbbell_Lateral_Lunge",
+        "Barbell_Lateral_Lunge"
       ],
       "easier": null,
       "harder": null
@@ -8189,7 +8854,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Dead_Bug",
-        "Dead_Bug"
+        "Dead_Bug",
+        "Band_Dead_Bug"
       ],
       "easier": null,
       "harder": null
@@ -8213,8 +8879,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Kettlebell_Clean",
         "Dumbbell_Clean",
+        "Kettlebell_Clean",
         "Double_Kettlebell_Clean"
       ],
       "easier": null,
@@ -8240,9 +8906,9 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Deadlift",
-        "Kettlebell_Sumo_Deadlift",
         "Trap_Bar_Deadlift",
-        "Band_Deadlift"
+        "Band_Deadlift",
+        "Kettlebell_Sumo_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -8269,6 +8935,32 @@
         "Farmers_Walk",
         "Trap_Bar_Carry",
         "Kettlebell_Suitcase_Carry"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Kettlebell_Figure_Eight": {
+      "pose": "kettlebell-figure-eight",
+      "equipment": [
+        "kettlebell"
+      ],
+      "primary_muscles": [
+        "abdominals",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "forearms",
+        "hamstrings"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Russian_Twist",
+        "Kettlebell_Around_the_World",
+        "Kettlebell_Russian_Twist"
       ],
       "easier": null,
       "harder": null
@@ -8317,7 +9009,8 @@
       "aliases": [],
       "swaps": [
         "Front_Dumbbell_Raise",
-        "Dumbbell_Front_Raise_Alternating"
+        "Dumbbell_Front_Raise_Alternating",
+        "Cable_Front_Raise"
       ],
       "easier": null,
       "harder": null
@@ -8340,9 +9033,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Front_Squat",
         "Front_Squats_With_Two_Kettlebells",
-        "Goblet_Squat",
-        "Dumbbell_Front_Squat"
+        "Goblet_Squat"
       ],
       "easier": null,
       "harder": null
@@ -8367,6 +9060,7 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Curtsy_Lunge",
+        "Curtsy_Lunge",
         "Kettlebell_Goblet_Reverse_Lunge"
       ],
       "easier": null,
@@ -8391,6 +9085,7 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Lunges",
+        "Forward_Lunge",
         "Kettlebell_Goblet_Reverse_Lunge"
       ],
       "easier": null,
@@ -8415,10 +9110,10 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Rear_Lunge",
-        "Kettlebell_Goblet_Lunge",
         "Landmine_Reverse_Lunge",
         "Bodyweight_Reverse_Lunge",
-        "Barbell_Reverse_Lunge"
+        "Barbell_Reverse_Lunge",
+        "Kettlebell_Goblet_Lunge"
       ],
       "easier": null,
       "harder": null
@@ -8465,7 +9160,11 @@
       "pattern": "mobility",
       "category": "strength",
       "aliases": [],
-      "swaps": [],
+      "swaps": [
+        "Arm_Circles",
+        "Shoulder_Dislocate",
+        "Kettlebell_Arm_Bar"
+      ],
       "easier": null,
       "harder": null
     },
@@ -8512,8 +9211,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_High_Pull",
-        "Kettlebell_Sumo_High_Pull",
-        "Barbell_High_Pull"
+        "Barbell_High_Pull",
+        "Kettlebell_Sumo_High_Pull"
       ],
       "easier": null,
       "harder": null
@@ -8562,8 +9261,8 @@
       "aliases": [],
       "swaps": [
         "Push_Jerk",
-        "Kettlebell_Push_Press",
-        "Dumbbell_Push_Press"
+        "Dumbbell_Push_Press",
+        "Kettlebell_Push_Press"
       ],
       "easier": null,
       "harder": null
@@ -8661,6 +9360,7 @@
       "aliases": [],
       "swaps": [
         "Barbell_Overhead_Lunge",
+        "Forward_Lunge",
         "Kettlebell_Goblet_Lunge"
       ],
       "easier": null,
@@ -8686,7 +9386,8 @@
       "aliases": [],
       "swaps": [
         "Overhead_Squat",
-        "Front_Squats_With_Two_Kettlebells"
+        "Front_Squats_With_Two_Kettlebells",
+        "Goblet_Squat"
       ],
       "easier": null,
       "harder": null
@@ -8733,7 +9434,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Pistol_Squat",
-        "Pistol_Squat"
+        "Pistol_Squat",
+        "Shrimp_Squat"
       ],
       "easier": null,
       "harder": null
@@ -8757,10 +9459,10 @@
       "aliases": [],
       "swaps": [
         "Single_Arm_Dumbbell_Press",
-        "Two-Arm_Kettlebell_Military_Press",
         "Dumbbell_Shoulder_Press",
-        "Kettlebell_Bottoms-Up_Press",
-        "Landmine_Press_One-Arm"
+        "Landmine_Press_One-Arm",
+        "Two-Arm_Kettlebell_Military_Press",
+        "Kettlebell_Bottoms-Up_Press"
       ],
       "easier": null,
       "harder": null
@@ -8835,7 +9537,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Front_Rack_Carry",
-        "Zercher_Carry"
+        "Zercher_Carry",
+        "Kettlebell_Suitcase_Carry"
       ],
       "easier": null,
       "harder": null
@@ -8860,9 +9563,9 @@
       "swaps": [
         "Dumbbell_Romanian_Deadlift",
         "Romanian_Deadlift",
+        "Band_Romanian_Deadlift",
         "Kettlebell_Deadlift",
-        "Kettlebell_One-Legged_Deadlift",
-        "Band_Romanian_Deadlift"
+        "Kettlebell_One-Legged_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -8885,10 +9588,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "One-Arm_Kettlebell_Row",
         "One-Arm_Dumbbell_Row",
-        "Kettlebell_Bent-Over_Row",
-        "Landmine_Row_One-Arm"
+        "Landmine_Row_One-Arm",
+        "One-Arm_Kettlebell_Row",
+        "Kettlebell_Bent-Over_Row"
       ],
       "easier": null,
       "harder": null
@@ -8955,7 +9658,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Sit-Up",
-        "Sit-Up"
+        "Sit-Up",
+        "Crunches"
       ],
       "easier": null,
       "harder": null
@@ -8977,7 +9681,8 @@
       "aliases": [],
       "swaps": [
         "Lying_Dumbbell_Tricep_Extension",
-        "EZ-Bar_Skullcrusher"
+        "EZ-Bar_Skullcrusher",
+        "Lying_Triceps_Press"
       ],
       "easier": null,
       "harder": null
@@ -9030,7 +9735,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Step_Ups",
-        "Barbell_Step_Ups"
+        "Barbell_Step_Ups",
+        "Dumbbell_Lateral_Step-Up"
       ],
       "easier": null,
       "harder": null
@@ -9054,8 +9760,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Suitcase_Carry",
-        "Kettlebell_Farmers_Walk",
-        "Farmers_Walk"
+        "Farmers_Walk",
+        "Kettlebell_Farmers_Walk"
       ],
       "easier": null,
       "harder": null
@@ -9079,7 +9785,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Suitcase_Deadlift"
+        "Dumbbell_Suitcase_Deadlift",
+        "Dumbbell_Deadlift",
+        "Kettlebell_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -9103,9 +9811,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Kettlebell_Deadlift",
         "Sumo_Deadlift",
-        "Dumbbell_Deadlift"
+        "Dumbbell_Deadlift",
+        "Kettlebell_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -9129,9 +9837,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Kettlebell_High_Pull",
         "Dumbbell_High_Pull",
-        "Barbell_High_Pull"
+        "Barbell_High_Pull",
+        "Kettlebell_High_Pull"
       ],
       "easier": null,
       "harder": null
@@ -9155,11 +9863,11 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Swing",
+        "Pull_Through",
         "American_Kettlebell_Swing",
         "Double_Kettlebell_Swing",
         "One-Arm_Kettlebell_Swings",
-        "Dumbbell_Swing",
-        "Pull_Through",
         "Kettlebell_Romanian_Deadlift"
       ],
       "easier": null,
@@ -9263,8 +9971,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Windmill",
-        "Kettlebell_Turkish_Get-Up_Squat_style",
-        "Side_Plank_with_Dumbbell_Raise"
+        "Side_Plank_with_Dumbbell_Raise",
+        "Kettlebell_Turkish_Get-Up_Squat_style"
       ],
       "easier": null,
       "harder": null
@@ -9285,10 +9993,34 @@
       "aliases": [],
       "swaps": [
         "Hanging_Knee_Raise",
-        "Reverse_Crunch"
+        "Reverse_Crunch",
+        "Flat_Bench_Lying_Leg_Raise"
       ],
       "easier": null,
       "harder": null
+    },
+    "Knee_Push-Up": {
+      "pose": "knee-push-up",
+      "equipment": [],
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [
+        "triceps",
+        "shoulders"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "push_horizontal",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Machine_Bench_Press",
+        "Incline_Push-Up",
+        "Pushups"
+      ],
+      "easier": "Incline_Push-Up",
+      "harder": "Pushups"
     },
     "Kneeling_Cable_Pullover": {
       "pose": "cable-pullover-kneeling",
@@ -9308,9 +10040,60 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Band_Straight-Arm_Pulldown",
         "Straight-Arm_Pulldown",
-        "Lying_Cable_Pullover",
-        "Band_Straight-Arm_Pulldown"
+        "Lying_Cable_Pullover"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Kneeling_Dumbbell_Row": {
+      "pose": "kneeling-dumbbell-row",
+      "equipment": [
+        "dumbbell",
+        "flat_bench"
+      ],
+      "primary_muscles": [
+        "middle_back",
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "pull_horizontal",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "One-Arm_Kettlebell_Row",
+        "One-Arm_Dumbbell_Row",
+        "Incline_Dumbbell_Row_One-Arm"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Knees_to_Elbows": {
+      "pose": "knees-to-elbows",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "lats",
+        "forearms"
+      ],
+      "level": "intermediate",
+      "mechanic": "isolation",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Toes_to_Bar",
+        "Hanging_Leg_Raise",
+        "Hanging_Knee_Raise"
       ],
       "easier": null,
       "harder": null
@@ -9335,9 +10118,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "One-Arm_Dumbbell_Row",
         "Meadows_Row",
-        "Landmine_Row_One-Arm"
+        "Landmine_Row_One-Arm",
+        "One-Arm_Dumbbell_Row"
       ],
       "easier": null,
       "harder": null
@@ -9360,7 +10143,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Pallof_Press"
+        "Pallof_Press",
+        "Half-Kneeling_Pallof_Press",
+        "Cable_Anti-Rotation_Hold"
       ],
       "easier": null,
       "harder": null
@@ -9435,11 +10220,11 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Landmine_Press_One-Arm",
         "Incline_Dumbbell_Press",
         "Single_Arm_Dumbbell_Press",
         "Dumbbell_Shoulder_Press",
-        "Machine_Shoulder_Military_Press"
+        "Machine_Shoulder_Military_Press",
+        "Landmine_Press_One-Arm"
       ],
       "easier": null,
       "harder": null
@@ -9464,9 +10249,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Landmine_Press",
         "Single_Arm_Dumbbell_Press",
-        "Kettlebell_Press"
+        "Kettlebell_Press",
+        "Landmine_Press"
       ],
       "easier": null,
       "harder": null
@@ -9543,10 +10328,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Meadows_Row",
         "One-Arm_Dumbbell_Row",
         "T-Bar_Row_with_Handle",
-        "Seated_Cable_Row_One-Arm"
+        "Seated_Cable_Row_One-Arm",
+        "Meadows_Row"
       ],
       "easier": null,
       "harder": null
@@ -9599,6 +10384,7 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Sumo_Squat",
+        "Bodyweight_Sumo_Squat",
         "Landmine_Squat"
       ],
       "easier": null,
@@ -9651,9 +10437,9 @@
       "category": "powerlifting",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Bench_Press",
         "Barbell_Bench_Press_Paused",
-        "Barbell_Bench_Press_-_Medium_Grip",
-        "Dumbbell_Bench_Press"
+        "Barbell_Bench_Press_-_Medium_Grip"
       ],
       "easier": null,
       "harder": null
@@ -9677,6 +10463,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Pullups",
+        "Lat_Pulldown_Neutral_Grip",
         "Wide-Grip_Lat_Pulldown"
       ],
       "easier": null,
@@ -9703,7 +10491,8 @@
         "V-Bar_Pulldown",
         "Close-Grip_Front_Lat_Pulldown",
         "Wide-Grip_Lat_Pulldown",
-        "Lat_Pulldown_Rope"
+        "Lat_Pulldown_Rope",
+        "Pull-Up_Neutral_Grip"
       ],
       "easier": null,
       "harder": null
@@ -9778,6 +10567,8 @@
       "category": "plyometrics",
       "aliases": [],
       "swaps": [
+        "Jump_Squat",
+        "Broad_Jump",
         "Box_Jump"
       ],
       "easier": null,
@@ -9821,9 +10612,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Side_Lateral_Raise",
         "Cable_Cross-Body_Lateral_Raise",
-        "Standing_Low-Pulley_Deltoid_Raise"
+        "Standing_Low-Pulley_Deltoid_Raise",
+        "Side_Lateral_Raise"
       ],
       "easier": null,
       "harder": null
@@ -9877,6 +10668,26 @@
       "easier": null,
       "harder": null
     },
+    "Leg_Raise_with_Hip_Lift": {
+      "pose": "leg-raise-hip-lift",
+      "equipment": [],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [],
+      "level": "intermediate",
+      "mechanic": "isolation",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Hanging_Leg_Raise",
+        "Reverse_Crunch",
+        "Flat_Bench_Lying_Leg_Raise"
+      ],
+      "easier": null,
+      "harder": null
+    },
     "Leverage_Chest_Press": {
       "pose": "leverage-chest-press",
       "equipment": [
@@ -9895,11 +10706,11 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Machine_Bench_Press",
         "Cable_Chest_Press",
         "Dumbbell_Bench_Press",
         "Smith_Machine_Bench_Press",
-        "Barbell_Bench_Press_-_Medium_Grip"
+        "Barbell_Bench_Press_-_Medium_Grip",
+        "Machine_Bench_Press"
       ],
       "easier": null,
       "harder": null
@@ -9971,8 +10782,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Incline_Cable_Flye",
         "Incline_Dumbbell_Flyes",
+        "Incline_Cable_Flye",
         "Cable_Crossover"
       ],
       "easier": null,
@@ -9999,7 +10810,8 @@
       "aliases": [],
       "swaps": [
         "Straight-Arm_Dumbbell_Pullover",
-        "Kneeling_Cable_Pullover"
+        "Kneeling_Cable_Pullover",
+        "Straight-Arm_Pulldown"
       ],
       "easier": null,
       "harder": null
@@ -10075,9 +10887,9 @@
         "EZ-Bar_Skullcrusher",
         "Lying_Triceps_Press",
         "Kettlebell_Skull_Crusher",
-        "Tate_Press",
         "Lying_Cable_Triceps_Extension",
-        "Band_Skull_Crusher"
+        "Band_Skull_Crusher",
+        "Tate_Press"
       ],
       "easier": null,
       "harder": null
@@ -10123,11 +10935,11 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "EZ-Bar_Skullcrusher",
         "Barbell_Skull_Crusher",
         "Lying_Dumbbell_Tricep_Extension",
         "Lying_Cable_Triceps_Extension",
-        "Machine_Triceps_Extension"
+        "Machine_Triceps_Extension",
+        "EZ-Bar_Skullcrusher"
       ],
       "easier": null,
       "harder": null
@@ -10150,12 +10962,12 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Leverage_Chest_Press",
         "Cable_Chest_Press",
         "Dumbbell_Bench_Press",
         "Smith_Machine_Bench_Press",
         "Barbell_Bench_Press_-_Medium_Grip",
-        "Pushups"
+        "Pushups",
+        "Leverage_Chest_Press"
       ],
       "easier": null,
       "harder": null
@@ -10299,9 +11111,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Burpee",
         "Devil_Press",
-        "Dumbbell_Burpee",
-        "Burpee"
+        "Dumbbell_Burpee"
       ],
       "easier": null,
       "harder": null
@@ -10326,9 +11138,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Landmine_Row_One-Arm",
         "Kroc_Row",
-        "One-Arm_Dumbbell_Row"
+        "One-Arm_Dumbbell_Row",
+        "Landmine_Row_One-Arm"
       ],
       "easier": null,
       "harder": null
@@ -10352,7 +11164,9 @@
       "category": "plyometrics",
       "aliases": [],
       "swaps": [
-        "Pushups"
+        "Pushups",
+        "Push-Up_Wide_Grip",
+        "Dumbbell_Bench_Press"
       ],
       "easier": null,
       "harder": null
@@ -10401,7 +11215,8 @@
       "aliases": [],
       "swaps": [
         "Burpee",
-        "Kettlebell_Swing"
+        "Kettlebell_Swing",
+        "Medicine_Ball_Rotational_Throw"
       ],
       "easier": null,
       "harder": null
@@ -10421,10 +11236,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Band_Lateral_Walk",
-        "Seated_Band_Hip_Abduction",
         "Thigh_Abductor",
-        "Cable_Hip_Abduction"
+        "Cable_Hip_Abduction",
+        "Band_Lateral_Walk",
+        "Seated_Band_Hip_Abduction"
       ],
       "easier": null,
       "harder": null
@@ -10446,6 +11261,9 @@
       "category": "plyometrics",
       "aliases": [],
       "swaps": [
+        "Cross-Body_Mountain_Climber",
+        "Plank_Jack",
+        "High_Knees",
         "Burpee"
       ],
       "easier": null,
@@ -10470,10 +11288,10 @@
       "category": "olympic_weightlifting",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Snatch",
         "Hang_Power_Snatch",
         "Snatch-Grip_High_Pull",
-        "Power_Snatch",
-        "Dumbbell_Snatch"
+        "Power_Snatch"
       ],
       "easier": null,
       "harder": "Hang_Power_Snatch"
@@ -10497,8 +11315,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Leg_Press",
-        "Hack_Squat"
+        "Hack_Squat",
+        "Smith_Machine_Squat",
+        "Leg_Press"
       ],
       "easier": null,
       "harder": null
@@ -10521,9 +11340,10 @@
       "swaps": [
         "Glute_Ham_Raise",
         "Lying_Leg_Curls",
-        "Ball_Leg_Curl"
+        "Ball_Leg_Curl",
+        "Floor_Glute-Ham_Raise"
       ],
-      "easier": null,
+      "easier": "Floor_Glute-Ham_Raise",
       "harder": null
     },
     "One-Arm_Dumbbell_Row": {
@@ -10547,10 +11367,11 @@
       "aliases": [],
       "swaps": [
         "One-Arm_Kettlebell_Row",
-        "Incline_Dumbbell_Row_One-Arm",
         "Seated_Cable_Row_One-Arm",
         "Landmine_Row_One-Arm",
         "Band_Row_One-Arm",
+        "Kneeling_Dumbbell_Row",
+        "Incline_Dumbbell_Row_One-Arm",
         "Bent_Over_Two-Dumbbell_Row"
       ],
       "easier": null,
@@ -10602,8 +11423,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Kettlebell_Swing",
         "Dumbbell_Swing",
+        "Kettlebell_Swing",
         "American_Kettlebell_Swing"
       ],
       "easier": null,
@@ -10626,9 +11447,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Cable_Glute_Kickback_Bent_Knee",
         "Band_Glute_Kickback",
-        "Single_Leg_Glute_Bridge"
+        "Single_Leg_Glute_Bridge",
+        "Cable_Glute_Kickback_Bent_Knee"
       ],
       "easier": null,
       "harder": null
@@ -10653,7 +11474,8 @@
       "aliases": [],
       "swaps": [
         "Lat_Pulldown_Neutral_Grip",
-        "Seated_Cable_Row_One-Arm"
+        "Seated_Cable_Row_One-Arm",
+        "Wide-Grip_Lat_Pulldown"
       ],
       "easier": null,
       "harder": null
@@ -10729,9 +11551,10 @@
       "aliases": [],
       "swaps": [
         "Landmine_Anti-Rotation_Press",
+        "Plank_Shoulder_Tap",
+        "Half-Kneeling_Pallof_Press",
         "Cable_Anti-Rotation_Hold",
-        "Pallof_Walkout",
-        "Plank_Shoulder_Tap"
+        "Pallof_Walkout"
       ],
       "easier": null,
       "harder": null
@@ -10753,7 +11576,8 @@
       "aliases": [],
       "swaps": [
         "Pallof_Press",
-        "Cable_Anti-Rotation_Hold"
+        "Cable_Anti-Rotation_Hold",
+        "Half-Kneeling_Pallof_Press"
       ],
       "easier": null,
       "harder": null
@@ -10822,9 +11646,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Bent_Over_Barbell_Row",
         "Dumbbell_Pendlay_Row",
         "T-Bar_Row_with_Handle",
+        "Bent_Over_Barbell_Row",
         "Seal_Row"
       ],
       "easier": null,
@@ -10846,9 +11670,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Handstand_Push-Ups",
         "Dumbbell_Shoulder_Press",
-        "Shoulder_Press_-_With_Bands"
+        "Shoulder_Press_-_With_Bands",
+        "Handstand_Push-Ups",
+        "Dive_Bomber_Push-Up"
       ],
       "easier": null,
       "harder": "Handstand_Push-Ups"
@@ -10900,6 +11725,7 @@
       "aliases": [],
       "swaps": [
         "Kettlebell_Pistol_Squat",
+        "Shrimp_Squat",
         "Bodyweight_Bulgarian_Split_Squat"
       ],
       "easier": null,
@@ -10918,13 +11744,61 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Plank_Shoulder_Tap",
-        "Dead_Bug",
         "Ab_Roller",
+        "Plank_Shoulder_Tap",
+        "Plank_Reach",
+        "Dead_Bug",
         "Hollow_Hold"
       ],
       "easier": null,
       "harder": "Plank_Shoulder_Tap"
+    },
+    "Plank_Jack": {
+      "pose": "plank-jack",
+      "equipment": [],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "shoulders",
+        "quadriceps",
+        "abductors"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "cardio",
+      "aliases": [],
+      "swaps": [
+        "Jumping_Jack",
+        "Mountain_Climbers",
+        "Cross-Body_Mountain_Climber"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Plank_Reach": {
+      "pose": "plank-reach",
+      "equipment": [],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "shoulders",
+        "lower_back"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Plank_Shoulder_Tap",
+        "Bird_Dog",
+        "Plank"
+      ],
+      "easier": "Plank_Shoulder_Tap",
+      "harder": null
     },
     "Plank_Shoulder_Tap": {
       "pose": "plank-shoulder-tap",
@@ -10943,10 +11817,11 @@
       "aliases": [],
       "swaps": [
         "Pallof_Press",
+        "Plank_Reach",
         "Plank"
       ],
       "easier": "Plank",
-      "harder": null
+      "harder": "Plank_Reach"
     },
     "Power_Clean": {
       "pose": "power-clean",
@@ -10973,11 +11848,11 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Clean",
+        "Kettlebell_Clean",
         "Hang_Power_Clean",
         "Clean",
         "Hang_Clean",
-        "Dumbbell_Clean",
-        "Kettlebell_Clean",
         "Clean_High_Pull"
       ],
       "easier": "Hang_Power_Clean",
@@ -11001,9 +11876,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Trap_Bar_Shrug",
         "Barbell_Shrug",
-        "Clean_High_Pull",
-        "Trap_Bar_Shrug"
+        "Clean_High_Pull"
       ],
       "easier": null,
       "harder": null
@@ -11028,11 +11903,11 @@
       "category": "olympic_weightlifting",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Snatch",
+        "Kettlebell_Snatch",
         "Hang_Power_Snatch",
         "Snatch",
-        "Muscle_Snatch",
-        "Dumbbell_Snatch",
-        "Kettlebell_Snatch"
+        "Muscle_Snatch"
       ],
       "easier": "Hang_Power_Snatch",
       "harder": "Snatch"
@@ -11080,9 +11955,32 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Spider_Curl",
         "Spider_Curl",
-        "Dumbbell_Preacher_Curl"
+        "Dumbbell_Preacher_Curl",
+        "Dumbbell_Spider_Curl"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Prone_T_Raise": {
+      "pose": "prone-t-raise",
+      "equipment": [],
+      "primary_muscles": [
+        "middle_back",
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "traps"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Incline_Dumbbell_Reverse_Fly",
+        "Band_Pull_Apart",
+        "Prone_Y_Raise"
       ],
       "easier": null,
       "harder": null
@@ -11105,7 +12003,34 @@
       "swaps": [
         "Dumbbell_Y_Raise",
         "Cable_Y_Raise",
-        "Wall_Angel"
+        "Wall_Angel",
+        "Prone_T_Raise"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Pull-Up_Neutral_Grip": {
+      "pose": "pull-up-neutral-grip",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "middle_back"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "pull_vertical",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Lat_Pulldown_Neutral_Grip",
+        "Chin-Up",
+        "Pullups",
+        "Commando_Pull-Up"
       ],
       "easier": null,
       "harder": null
@@ -11157,10 +12082,57 @@
       "aliases": [],
       "swaps": [
         "Wide-Grip_Lat_Pulldown",
-        "Chin-Up",
         "Band_Assisted_Pull-Up",
         "Lat_Pulldown_Neutral_Grip",
-        "Inverted_Row"
+        "Inverted_Row",
+        "Chin-Up",
+        "Pull-Up_Neutral_Grip"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Pulse_Squat": {
+      "pose": "pulse-squat",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "squat",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Wall_Sit",
+        "Band_Squat",
+        "Bodyweight_Squat"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Push-Up_Wide_Grip": {
+      "pose": "wide-push-up",
+      "equipment": [],
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [
+        "shoulders",
+        "triceps"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "push_horizontal",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Wide-Grip_Barbell_Bench_Press",
+        "Dumbbell_Bench_Press",
+        "Pushups"
       ],
       "easier": null,
       "harder": null
@@ -11183,8 +12155,8 @@
       "swaps": [
         "Close-Grip_Barbell_Bench_Press",
         "Dumbbell_Bench_Press_Close_Grip",
-        "Bench_Dips",
         "Dips_-_Triceps_Version",
+        "Bench_Dips",
         "Pushups"
       ],
       "easier": null,
@@ -11209,10 +12181,11 @@
       "aliases": [],
       "swaps": [
         "Incline_Dumbbell_Press",
-        "Pushups"
+        "Pushups",
+        "Archer_Push-Up"
       ],
       "easier": "Pushups",
-      "harder": null
+      "harder": "Archer_Push-Up"
     },
     "Push_Jerk": {
       "pose": "push-jerk",
@@ -11233,10 +12206,10 @@
       "category": "olympic_weightlifting",
       "aliases": [],
       "swaps": [
-        "Split_Jerk",
-        "Push_Press",
         "Kettlebell_Jerk",
-        "Dumbbell_Push_Press"
+        "Dumbbell_Push_Press",
+        "Split_Jerk",
+        "Push_Press"
       ],
       "easier": null,
       "harder": null
@@ -11261,6 +12234,7 @@
       "swaps": [
         "Dumbbell_Push_Press",
         "Kettlebell_Push_Press",
+        "Trap_Bar_Overhead_Press",
         "Standing_Military_Press"
       ],
       "easier": null,
@@ -11282,11 +12256,13 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Incline_Push-Up",
         "Dumbbell_Bench_Press",
-        "Machine_Bench_Press"
+        "Machine_Bench_Press",
+        "Knee_Push-Up",
+        "Incline_Push-Up",
+        "Push-Up_Wide_Grip"
       ],
-      "easier": null,
+      "easier": "Knee_Push-Up",
       "harder": "Push-Ups_With_Feet_Elevated"
     },
     "Rack_Pull": {
@@ -11310,9 +12286,9 @@
       "category": "powerlifting",
       "aliases": [],
       "swaps": [
-        "Barbell_Deadlift",
         "Trap_Bar_Deadlift",
-        "Smith_Machine_Deadlift"
+        "Smith_Machine_Deadlift",
+        "Barbell_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -11356,9 +12332,11 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Flat_Bench_Lying_Leg_Raise",
         "Hanging_Knee_Raise",
-        "Cable_Reverse_Crunch"
+        "Cable_Reverse_Crunch",
+        "Flat_Bench_Lying_Leg_Raise",
+        "Seated_Knee_Tuck",
+        "Leg_Raise_with_Hip_Lift"
       ],
       "easier": null,
       "harder": null
@@ -11378,12 +12356,12 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Seated_Bent-Over_Rear_Delt_Raise",
         "Reverse_Machine_Flyes",
         "Cable_Rear_Delt_Fly",
-        "Incline_Dumbbell_Reverse_Fly",
         "Band_Pull_Apart",
-        "Face_Pull"
+        "Face_Pull",
+        "Seated_Bent-Over_Rear_Delt_Raise",
+        "Incline_Dumbbell_Reverse_Fly"
       ],
       "easier": null,
       "harder": null
@@ -11407,9 +12385,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Seated_Cable_Row_V-Bar",
         "Bent-Over_Barbell_Row_Wide_Underhand",
-        "Bent_Over_Barbell_Row",
-        "Seated_Cable_Row_V-Bar"
+        "Bent_Over_Barbell_Row"
       ],
       "easier": null,
       "harder": null
@@ -11431,8 +12409,8 @@
       "aliases": [],
       "swaps": [
         "Triceps_Pushdown_One-Arm_Underhand",
-        "Triceps_Pushdown",
-        "Triceps_Pushdown_V-Bar"
+        "Triceps_Pushdown_V-Bar",
+        "Triceps_Pushdown"
       ],
       "easier": null,
       "harder": null
@@ -11455,7 +12433,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Hyperextensions_Back_Extensions"
+        "Hyperextensions_Back_Extensions",
+        "Good_Morning",
+        "Romanian_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -11528,12 +12508,12 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Romanian_Deadlift",
-        "Stiff-Legged_Barbell_Deadlift",
         "Smith_Machine_Romanian_Deadlift",
         "Landmine_Romanian_Deadlift",
         "Trap_Bar_Romanian_Deadlift",
         "Cable_Romanian_Deadlift",
         "Kettlebell_Romanian_Deadlift",
+        "Stiff-Legged_Barbell_Deadlift",
         "Good_Morning"
       ],
       "easier": null,
@@ -11584,7 +12564,8 @@
       "category": "cardio",
       "aliases": [],
       "swaps": [
-        "Air_Bike"
+        "Air_Bike",
+        "Burpee"
       ],
       "easier": null,
       "harder": null
@@ -11605,7 +12586,8 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Russian_Twist",
-        "Cable_Rotation"
+        "Cable_Rotation",
+        "Kettlebell_Russian_Twist"
       ],
       "easier": null,
       "harder": null
@@ -11628,9 +12610,11 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Band_Straight-Arm_Pulldown"
+        "Band_Straight-Arm_Pulldown",
+        "Active_Hang",
+        "Dead_Hang"
       ],
-      "easier": null,
+      "easier": "Active_Hang",
       "harder": null
     },
     "Seal_Row": {
@@ -11654,9 +12638,9 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Seal_Row",
+        "Dumbbell_Incline_Row",
         "Incline_Bench_Pull",
-        "Pendlay_Row",
-        "Dumbbell_Incline_Row"
+        "Pendlay_Row"
       ],
       "easier": null,
       "harder": null
@@ -11704,8 +12688,8 @@
       "aliases": [],
       "swaps": [
         "Seated_Cable_Rows",
-        "Band_Bent-Over_Row",
-        "Ring_Row"
+        "Ring_Row",
+        "Band_Bent-Over_Row"
       ],
       "easier": null,
       "harder": null
@@ -11729,10 +12713,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Barbell_Shoulder_Press",
         "Smith_Machine_Overhead_Shoulder_Press",
         "Seated_Dumbbell_Press",
         "Machine_Shoulder_Military_Press",
+        "Barbell_Shoulder_Press",
         "Standing_Military_Press"
       ],
       "easier": null,
@@ -11754,9 +12738,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Standing_Overhead_Barbell_Triceps_Extension",
         "EZ-Bar_Overhead_Triceps_Extension",
-        "Seated_Dumbbell_Triceps_Extension"
+        "Seated_Dumbbell_Triceps_Extension",
+        "Standing_Overhead_Barbell_Triceps_Extension"
       ],
       "easier": null,
       "harder": null
@@ -11777,11 +12761,11 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Reverse_Flyes",
-        "Incline_Dumbbell_Reverse_Fly",
         "Reverse_Machine_Flyes",
         "Cable_Rear_Delt_Fly",
-        "Band_Pull_Apart"
+        "Band_Pull_Apart",
+        "Reverse_Flyes",
+        "Incline_Dumbbell_Reverse_Fly"
       ],
       "easier": null,
       "harder": null
@@ -11806,7 +12790,8 @@
       "aliases": [],
       "swaps": [
         "One-Arm_Dumbbell_Row",
-        "Band_Row_One-Arm"
+        "Band_Row_One-Arm",
+        "Seated_Cable_Row_V-Bar"
       ],
       "easier": null,
       "harder": null
@@ -11885,7 +12870,8 @@
       "aliases": [],
       "swaps": [
         "Seated_Cable_Rows",
-        "Cable_High_Row"
+        "Cable_High_Row",
+        "Bent_Over_Barbell_Row"
       ],
       "easier": null,
       "harder": null
@@ -11937,7 +12923,8 @@
       "aliases": [],
       "swaps": [
         "Barbell_Seated_Calf_Raise",
-        "Seated_Dumbbell_Calf_Raise"
+        "Seated_Dumbbell_Calf_Raise",
+        "Standing_Calf_Raises"
       ],
       "easier": null,
       "harder": null
@@ -11959,7 +12946,8 @@
       "aliases": [],
       "swaps": [
         "Seated_Calf_Raise",
-        "Barbell_Seated_Calf_Raise"
+        "Barbell_Seated_Calf_Raise",
+        "Standing_Dumbbell_Calf_Raise"
       ],
       "easier": null,
       "harder": null
@@ -12009,7 +12997,8 @@
       "aliases": [],
       "swaps": [
         "Seated_Dumbbell_Curl",
-        "Dumbbell_Alternate_Bicep_Curl"
+        "Dumbbell_Alternate_Bicep_Curl",
+        "Dumbbell_Bicep_Curl"
       ],
       "easier": null,
       "harder": null
@@ -12032,13 +13021,13 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Shoulder_Press",
-        "Seated_Dumbbell_Press_Neutral_Grip",
-        "Arnold_Dumbbell_Press",
         "Machine_Shoulder_Military_Press",
         "Seated_Barbell_Press",
         "Smith_Machine_Overhead_Shoulder_Press",
-        "Cable_Shoulder_Press"
+        "Cable_Shoulder_Press",
+        "Dumbbell_Shoulder_Press",
+        "Seated_Dumbbell_Press_Neutral_Grip",
+        "Arnold_Dumbbell_Press"
       ],
       "easier": null,
       "harder": null
@@ -12061,9 +13050,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Seated_Dumbbell_Press",
         "Landmine_Press",
-        "Machine_Shoulder_Military_Press"
+        "Machine_Shoulder_Military_Press",
+        "Seated_Dumbbell_Press"
       ],
       "easier": null,
       "harder": null
@@ -12084,8 +13073,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Shrug",
-        "Cable_Shrug"
+        "Cable_Shrug",
+        "Machine_Shrug",
+        "Dumbbell_Shrug"
       ],
       "easier": null,
       "harder": null
@@ -12106,9 +13096,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Standing_Dumbbell_Triceps_Extension",
         "Seated_Barbell_Triceps_Extension",
-        "Triceps_Overhead_Extension_with_Rope"
+        "Triceps_Overhead_Extension_with_Rope",
+        "Standing_Dumbbell_Triceps_Extension"
       ],
       "easier": null,
       "harder": null
@@ -12132,9 +13122,31 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Good_Morning",
         "Hyperextensions_Back_Extensions",
-        "Kettlebell_Good_Morning"
+        "Kettlebell_Good_Morning",
+        "Good_Morning"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Seated_Knee_Tuck": {
+      "pose": "seated-knee-tuck",
+      "equipment": [],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "quadriceps"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Reverse_Crunch",
+        "Boat_Hold",
+        "Flat_Bench_Lying_Leg_Raise"
       ],
       "easier": null,
       "harder": null
@@ -12179,9 +13191,31 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Side_Lateral_Raise",
         "Cable_Seated_Lateral_Raise",
-        "Machine_Lateral_Raise"
+        "Machine_Lateral_Raise",
+        "Side_Lateral_Raise"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Shoulder_Dislocate": {
+      "pose": "shoulder-dislocate",
+      "equipment": [],
+      "primary_muscles": [
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "chest"
+      ],
+      "level": "beginner",
+      "mechanic": null,
+      "pattern": "mobility",
+      "category": "stretching",
+      "aliases": [],
+      "swaps": [
+        "Wall_Angel",
+        "Kettlebell_Halo",
+        "Arm_Circles"
       ],
       "easier": null,
       "harder": null
@@ -12210,6 +13244,30 @@
       "easier": null,
       "harder": null
     },
+    "Shrimp_Squat": {
+      "pose": "shrimp-squat",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "calves"
+      ],
+      "level": "expert",
+      "mechanic": "compound",
+      "pattern": "squat",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Kettlebell_Pistol_Squat",
+        "Pistol_Squat",
+        "Bodyweight_Bulgarian_Split_Squat"
+      ],
+      "easier": null,
+      "harder": null
+    },
     "Side-Lying_Dumbbell_External_Rotation": {
       "pose": "dumbbell-external-rotation-side-lying",
       "equipment": [
@@ -12226,7 +13284,8 @@
       "aliases": [],
       "swaps": [
         "External_Rotation_with_Cable",
-        "Dumbbell_L_Raise"
+        "Dumbbell_L_Raise",
+        "Dumbbell_Cuban_Press"
       ],
       "easier": null,
       "harder": null
@@ -12248,10 +13307,13 @@
       "swaps": [
         "Dumbbell_Side_Bend",
         "Cable_Side_Bend",
-        "Dumbbell_Suitcase_Carry"
+        "Dumbbell_Suitcase_Carry",
+        "Side_Plank_Hip_Dip",
+        "Side_Plank_Leg_Raise",
+        "Side_Plank_Rotation"
       ],
       "easier": null,
-      "harder": null
+      "harder": "Side_Plank_Leg_Raise"
     },
     "Side_Lateral_Raise": {
       "pose": "dumbbell-lateral-raise",
@@ -12271,10 +13333,79 @@
         "Cable_Seated_Lateral_Raise",
         "Machine_Lateral_Raise",
         "Lateral_Raise_-_With_Bands",
-        "Seated_Side_Lateral_Raise",
-        "Leaning_Dumbbell_Lateral_Raise",
         "Kettlebell_Lateral_Raise",
-        "Standing_Low-Pulley_Deltoid_Raise"
+        "Standing_Low-Pulley_Deltoid_Raise",
+        "Seated_Side_Lateral_Raise",
+        "Leaning_Dumbbell_Lateral_Raise"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Side_Plank_Hip_Dip": {
+      "pose": "side-plank-hip-dip",
+      "equipment": [],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "shoulders"
+      ],
+      "level": "intermediate",
+      "mechanic": "isolation",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Side_Bridge",
+        "Side_Plank_Rotation",
+        "Side_Plank_Leg_Raise"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Side_Plank_Leg_Raise": {
+      "pose": "side-plank-leg-raise",
+      "equipment": [],
+      "primary_muscles": [
+        "abdominals",
+        "abductors"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "shoulders"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Side_Bridge",
+        "Side_Plank_Hip_Dip",
+        "Side_Plank_Rotation"
+      ],
+      "easier": "Side_Bridge",
+      "harder": null
+    },
+    "Side_Plank_Rotation": {
+      "pose": "side-plank-rotation",
+      "equipment": [],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "shoulders"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Side_Plank_with_Dumbbell_Raise",
+        "Side_Plank_Hip_Dip",
+        "Side_Bridge"
       ],
       "easier": null,
       "harder": null
@@ -12295,10 +13426,55 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Side_Plank_Rotation",
         "Kettlebell_Windmill",
         "Side_Bridge"
       ],
       "easier": null,
+      "harder": null
+    },
+    "Single-Leg_Calf_Raise": {
+      "pose": "bodyweight-single-leg-calf-raise",
+      "equipment": [],
+      "primary_muscles": [
+        "calves"
+      ],
+      "secondary_muscles": [],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Dumbbell_Calf_Raise_Single_Leg",
+        "Standing_Dumbbell_Calf_Raise",
+        "Bodyweight_Calf_Raise"
+      ],
+      "easier": "Bodyweight_Calf_Raise",
+      "harder": null
+    },
+    "Single-Leg_Hip_Thrust": {
+      "pose": "bodyweight-single-leg-hip-thrust",
+      "equipment": [
+        "flat_bench"
+      ],
+      "primary_muscles": [
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Barbell_Hip_Thrust_Single_Leg",
+        "Dumbbell_Hip_Thrust",
+        "Single_Leg_Glute_Bridge"
+      ],
+      "easier": "Single_Leg_Glute_Bridge",
       "harder": null
     },
     "Single_Arm_Dumbbell_Press": {
@@ -12341,11 +13517,13 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Butt_Lift_Bridge",
-        "Dumbbell_Glute_Bridge"
+        "Dumbbell_Glute_Bridge",
+        "Glute_Bridge_March",
+        "Single-Leg_Hip_Thrust",
+        "Butt_Lift_Bridge"
       ],
-      "easier": null,
-      "harder": null
+      "easier": "Glute_Bridge_March",
+      "harder": "Single-Leg_Hip_Thrust"
     },
     "Sissy_Squat": {
       "pose": "sissy-squat",
@@ -12380,8 +13558,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Crunches",
         "Dumbbell_Sit-Up",
+        "Crunches",
         "Decline_Crunch"
       ],
       "easier": "Crunches",
@@ -12407,7 +13585,8 @@
       "aliases": [],
       "swaps": [
         "Air_Bike",
-        "Bodyweight_Walking_Lunge"
+        "Bodyweight_Walking_Lunge",
+        "Rowing_Machine"
       ],
       "easier": null,
       "harder": null
@@ -12431,8 +13610,8 @@
       "aliases": [],
       "swaps": [
         "Standing_Barbell_Press_Behind_Neck",
-        "Smith_Machine_Overhead_Shoulder_Press",
-        "Seated_Barbell_Press"
+        "Seated_Barbell_Press",
+        "Smith_Machine_Overhead_Shoulder_Press"
       ],
       "easier": null,
       "harder": null
@@ -12558,7 +13737,8 @@
       "aliases": [],
       "swaps": [
         "Decline_Barbell_Bench_Press",
-        "Decline_Dumbbell_Bench_Press"
+        "Decline_Dumbbell_Bench_Press",
+        "Machine_Bench_Press"
       ],
       "easier": null,
       "harder": null
@@ -12606,9 +13786,34 @@
       "aliases": [],
       "swaps": [
         "Front_Barbell_Squat",
-        "Smith_Machine_Squat",
         "Hack_Squat",
-        "Dumbbell_Front_Squat"
+        "Dumbbell_Front_Squat",
+        "Smith_Machine_Squat"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Smith_Machine_Good_Morning": {
+      "pose": "smith-machine-good-morning",
+      "equipment": [
+        "smith_machine"
+      ],
+      "primary_muscles": [
+        "hamstrings",
+        "lower_back"
+      ],
+      "secondary_muscles": [
+        "glutes"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "hinge",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Good_Morning",
+        "Kettlebell_Good_Morning",
+        "Smith_Machine_Romanian_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -12632,7 +13837,8 @@
       "aliases": [],
       "swaps": [
         "Barbell_Hip_Thrust",
-        "Dumbbell_Hip_Thrust"
+        "Dumbbell_Hip_Thrust",
+        "Band_Hip_Thrust"
       ],
       "easier": null,
       "harder": null
@@ -12657,7 +13863,8 @@
       "aliases": [],
       "swaps": [
         "Barbell_Incline_Bench_Press_-_Medium_Grip",
-        "Incline_Dumbbell_Press"
+        "Incline_Dumbbell_Press",
+        "Hammer_Grip_Incline_DB_Bench_Press"
       ],
       "easier": null,
       "harder": null
@@ -12758,8 +13965,8 @@
       "swaps": [
         "Barbell_Reverse_Lunge",
         "Dumbbell_Rear_Lunge",
-        "Smith_Machine_Lunge",
-        "Landmine_Reverse_Lunge"
+        "Landmine_Reverse_Lunge",
+        "Smith_Machine_Lunge"
       ],
       "easier": null,
       "harder": null
@@ -12959,10 +14166,10 @@
       "category": "olympic_weightlifting",
       "aliases": [],
       "swaps": [
+        "Dumbbell_Snatch",
         "Power_Snatch",
         "Hang_Snatch",
-        "Hang_Power_Snatch",
-        "Dumbbell_Snatch"
+        "Hang_Power_Snatch"
       ],
       "easier": "Power_Snatch",
       "harder": null
@@ -12986,10 +14193,10 @@
       "category": "olympic_weightlifting",
       "aliases": [],
       "swaps": [
+        "Dumbbell_High_Pull",
         "Snatch_Pull",
         "Muscle_Snatch",
-        "Barbell_High_Pull",
-        "Dumbbell_High_Pull"
+        "Barbell_High_Pull"
       ],
       "easier": null,
       "harder": null
@@ -13126,6 +14333,29 @@
       "easier": null,
       "harder": null
     },
+    "Sphinx_Push-Up": {
+      "pose": "sphinx-push-up",
+      "equipment": [],
+      "primary_muscles": [
+        "triceps"
+      ],
+      "secondary_muscles": [
+        "chest",
+        "shoulders"
+      ],
+      "level": "intermediate",
+      "mechanic": "isolation",
+      "pattern": "isolation",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Band_Skull_Crusher",
+        "Push-Ups_-_Close_Triceps_Position",
+        "Bench_Dips"
+      ],
+      "easier": null,
+      "harder": null
+    },
     "Spider_Curl": {
       "pose": "spider-curl",
       "equipment": [
@@ -13169,9 +14399,33 @@
       "category": "olympic_weightlifting",
       "aliases": [],
       "swaps": [
+        "Kettlebell_Jerk",
         "Push_Jerk",
-        "Push_Press",
-        "Kettlebell_Jerk"
+        "Push_Press"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Split_Squat_Jump": {
+      "pose": "split-squat-jump",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "calves"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "plyometrics",
+      "aliases": [],
+      "swaps": [
+        "Box_Jump",
+        "Jump_Squat",
+        "Tuck_Jump"
       ],
       "easier": null,
       "harder": null
@@ -13197,9 +14451,9 @@
         "Barbell_Split_Squat",
         "Smith_Single-Leg_Split_Squat",
         "Cable_Split_Squat",
+        "Bodyweight_Reverse_Lunge",
         "Dumbbell_Bulgarian_Split_Squat",
-        "Dumbbell_Rear_Lunge",
-        "Bodyweight_Reverse_Lunge"
+        "Dumbbell_Rear_Lunge"
       ],
       "easier": null,
       "harder": null
@@ -13230,6 +14484,56 @@
       ],
       "easier": null,
       "harder": null
+    },
+    "Sprawl": {
+      "pose": "sprawl",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "chest",
+        "shoulders",
+        "glutes"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "cardio",
+      "aliases": [],
+      "swaps": [
+        "Burpee",
+        "Squat_Thrust",
+        "Mountain_Climbers"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Squat_Thrust": {
+      "pose": "squat-thrust",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "shoulders",
+        "chest",
+        "glutes"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "cardio",
+      "aliases": [],
+      "swaps": [
+        "Burpee",
+        "Sprawl",
+        "Mountain_Climbers"
+      ],
+      "easier": null,
+      "harder": "Burpee"
     },
     "Standing_Barbell_Calf_Raise": {
       "pose": "standing-barbell-calf-raise",
@@ -13272,11 +14576,36 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Standing_Military_Press",
         "Smith_Machine_Behind-the-Neck_Press",
+        "Standing_Military_Press",
         "Bradford_Press"
       ],
       "easier": null,
+      "harder": null
+    },
+    "Standing_Barbell_Rollout": {
+      "pose": "standing-barbell-rollout",
+      "equipment": [
+        "barbell"
+      ],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "lats",
+        "shoulders"
+      ],
+      "level": "expert",
+      "mechanic": "compound",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Ab_Roller",
+        "Plank",
+        "Barbell_Ab_Rollout_-_On_Knees"
+      ],
+      "easier": "Ab_Roller",
       "harder": null
     },
     "Standing_Biceps_Cable_Curl": {
@@ -13321,8 +14650,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Cable_Crunch",
-        "Ab_Crunch_Machine"
+        "Ab_Crunch_Machine",
+        "Decline_Crunch",
+        "Cable_Crunch"
       ],
       "easier": null,
       "harder": null
@@ -13343,7 +14673,8 @@
       "aliases": [],
       "swaps": [
         "Standing_Leg_Curl",
-        "Band_Leg_Curl"
+        "Band_Leg_Curl",
+        "Lying_Leg_Curls"
       ],
       "easier": null,
       "harder": null
@@ -13368,7 +14699,8 @@
       "aliases": [],
       "swaps": [
         "Seated_Cable_Rows",
-        "Band_Bent-Over_Row"
+        "Band_Bent-Over_Row",
+        "Seated_Cable_Row_V-Bar"
       ],
       "easier": null,
       "harder": null
@@ -13391,9 +14723,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Cable_Woodchop_Low_to_High",
         "Band_Woodchop",
         "Dumbbell_Woodchop",
+        "Cable_Woodchop_Low_to_High",
         "Cable_Rotation"
       ],
       "easier": null,
@@ -13418,7 +14750,8 @@
         "Calf_Press_On_The_Leg_Press_Machine",
         "Standing_Dumbbell_Calf_Raise",
         "Cable_Calf_Raise",
-        "Standing_Barbell_Calf_Raise"
+        "Standing_Barbell_Calf_Raise",
+        "Single-Leg_Calf_Raise"
       ],
       "easier": null,
       "harder": null
@@ -13438,11 +14771,12 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Calf_Raise_Single_Leg",
         "Kettlebell_Calf_Raise",
         "Standing_Calf_Raises",
         "Smith_Machine_Calf_Raise",
-        "Bodyweight_Calf_Raise"
+        "Single-Leg_Calf_Raise",
+        "Bodyweight_Calf_Raise",
+        "Dumbbell_Calf_Raise_Single_Leg"
       ],
       "easier": null,
       "harder": null
@@ -13462,12 +14796,12 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Seated_Dumbbell_Triceps_Extension",
         "Triceps_Overhead_Extension_with_Rope",
         "EZ-Bar_Overhead_Triceps_Extension",
-        "Dumbbell_Overhead_Extension_One-Arm",
         "Kettlebell_Overhead_Triceps_Extension",
-        "Band_Overhead_Triceps_Extension"
+        "Band_Overhead_Triceps_Extension",
+        "Seated_Dumbbell_Triceps_Extension",
+        "Dumbbell_Overhead_Extension_One-Arm"
       ],
       "easier": null,
       "harder": null
@@ -13515,7 +14849,8 @@
       "aliases": [],
       "swaps": [
         "Standing_Cable_Leg_Curl",
-        "Seated_Leg_Curl"
+        "Seated_Leg_Curl",
+        "Lying_Leg_Curls"
       ],
       "easier": null,
       "harder": null
@@ -13538,9 +14873,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Side_Lateral_Raise",
         "Cable_Seated_Lateral_Raise",
-        "Cable_Cross-Body_Lateral_Raise",
-        "Side_Lateral_Raise"
+        "Cable_Cross-Body_Lateral_Raise"
       ],
       "easier": null,
       "harder": null
@@ -13564,12 +14899,13 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Shoulder_Press",
-        "Seated_Barbell_Press",
         "Smith_Machine_Overhead_Shoulder_Press",
         "Machine_Shoulder_Military_Press",
         "Two-Arm_Kettlebell_Military_Press",
-        "Push_Press",
-        "Landmine_Press"
+        "Trap_Bar_Overhead_Press",
+        "Landmine_Press",
+        "Seated_Barbell_Press",
+        "Push_Press"
       ],
       "easier": null,
       "harder": null
@@ -13592,8 +14928,32 @@
       "aliases": [],
       "swaps": [
         "EZ-Bar_Overhead_Triceps_Extension",
-        "Seated_Barbell_Triceps_Extension",
-        "Cable_Overhead_Triceps_Extension_Bar"
+        "Cable_Overhead_Triceps_Extension_Bar",
+        "Seated_Barbell_Triceps_Extension"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Star_Jump": {
+      "pose": "star-jump",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "calves",
+        "shoulders"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "plyometrics",
+      "aliases": [],
+      "swaps": [
+        "Jumping_Jack",
+        "Tuck_Jump",
+        "Jump_Squat"
       ],
       "easier": null,
       "harder": null
@@ -13616,8 +14976,8 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Romanian_Deadlift",
         "Stiff-Legged_Dumbbell_Deadlift",
+        "Romanian_Deadlift",
         "Good_Morning"
       ],
       "easier": null,
@@ -13641,9 +15001,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Romanian_Deadlift",
         "Stiff-Legged_Barbell_Deadlift",
-        "Kettlebell_Romanian_Deadlift"
+        "Kettlebell_Romanian_Deadlift",
+        "Dumbbell_Romanian_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -13668,12 +15028,12 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Bent-Arm_Dumbbell_Pullover",
         "Barbell_Pullover",
         "Kettlebell_Pullover",
         "EZ-Bar_Pullover",
         "Lying_Cable_Pullover",
-        "Straight-Arm_Pulldown"
+        "Straight-Arm_Pulldown",
+        "Bent-Arm_Dumbbell_Pullover"
       ],
       "easier": null,
       "harder": null
@@ -13695,8 +15055,8 @@
       "aliases": [],
       "swaps": [
         "Band_Straight-Arm_Pulldown",
-        "Kneeling_Cable_Pullover",
         "Straight-Arm_Dumbbell_Pullover",
+        "Kneeling_Cable_Pullover",
         "Lying_Cable_Pullover"
       ],
       "easier": null,
@@ -13752,9 +15112,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Kettlebell_Sumo_Deadlift",
         "Sumo_Deadlift",
-        "Romanian_Deadlift",
-        "Kettlebell_Sumo_Deadlift"
+        "Romanian_Deadlift"
       ],
       "easier": null,
       "harder": null
@@ -13775,9 +15135,33 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Bird_Dog",
         "Hyperextensions_Back_Extensions",
+        "Bird_Dog",
+        "Superman_Pull",
         "Prone_Y_Raise"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Superman_Pull": {
+      "pose": "superman-pull",
+      "equipment": [],
+      "primary_muscles": [
+        "middle_back",
+        "lower_back"
+      ],
+      "secondary_muscles": [
+        "lats"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Superman",
+        "Prone_Y_Raise",
+        "Bird_Dog"
       ],
       "easier": null,
       "harder": null
@@ -13878,9 +15262,35 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Cable_Hip_Adduction"
+        "Cable_Hip_Adduction",
+        "Kettlebell_Cossack_Squat"
       ],
       "easier": null,
+      "harder": null
+    },
+    "Toes_to_Bar": {
+      "pose": "toes-to-bar",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "primary_muscles": [
+        "abdominals"
+      ],
+      "secondary_muscles": [
+        "lats",
+        "forearms"
+      ],
+      "level": "expert",
+      "mechanic": "isolation",
+      "pattern": "core",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Knees_to_Elbows",
+        "Hanging_Leg_Raise",
+        "Hanging_Knee_Raise"
+      ],
+      "easier": "Hanging_Leg_Raise",
       "harder": null
     },
     "Trap_Bar_Carry": {
@@ -13957,6 +15367,30 @@
         "Barbell_Floor_Press",
         "Dumbbell_Floor_Press",
         "Kettlebell_Floor_Press"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Trap_Bar_Overhead_Press": {
+      "pose": "trap-bar-overhead-press",
+      "equipment": [
+        "trap_bar"
+      ],
+      "primary_muscles": [
+        "shoulders"
+      ],
+      "secondary_muscles": [
+        "triceps"
+      ],
+      "level": "beginner",
+      "mechanic": "compound",
+      "pattern": "push_vertical",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Standing_Military_Press",
+        "Dumbbell_Shoulder_Press",
+        "Push_Press"
       ],
       "easier": null,
       "harder": null
@@ -14052,9 +15486,9 @@
       "aliases": [],
       "swaps": [
         "Cable_Triceps_Kickback",
-        "Dumbbell_Triceps_Kickback_Two-Arm",
         "Band_Triceps_Kickback",
-        "Triceps_Pushdown"
+        "Triceps_Pushdown",
+        "Dumbbell_Triceps_Kickback_Two-Arm"
       ],
       "easier": null,
       "harder": null
@@ -14102,11 +15536,11 @@
       "swaps": [
         "Triceps_Pushdown_-_Rope_Attachment",
         "Triceps_Pushdown_V-Bar",
-        "Reverse_Grip_Triceps_Pushdown",
         "Band_Triceps_Pushdown",
         "Machine_Triceps_Extension",
         "Bench_Dips",
-        "Tricep_Dumbbell_Kickback"
+        "Tricep_Dumbbell_Kickback",
+        "Reverse_Grip_Triceps_Pushdown"
       ],
       "easier": null,
       "harder": null
@@ -14153,6 +15587,7 @@
       "aliases": [],
       "swaps": [
         "Reverse_Grip_Triceps_Pushdown",
+        "Band_Triceps_Pushdown",
         "Cable_One_Arm_Tricep_Extension"
       ],
       "easier": null,
@@ -14181,6 +15616,31 @@
       "easier": null,
       "harder": null
     },
+    "Tuck_Jump": {
+      "pose": "tuck-jump",
+      "equipment": [],
+      "primary_muscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "calves",
+        "abdominals",
+        "hamstrings"
+      ],
+      "level": "intermediate",
+      "mechanic": "compound",
+      "pattern": "conditioning",
+      "category": "plyometrics",
+      "aliases": [],
+      "swaps": [
+        "Box_Jump",
+        "Jump_Squat",
+        "Star_Jump"
+      ],
+      "easier": "Jump_Squat",
+      "harder": null
+    },
     "Two-Arm_Kettlebell_Military_Press": {
       "pose": "two-arm-kettlebell-military-press",
       "equipment": [
@@ -14199,9 +15659,9 @@
       "aliases": [],
       "swaps": [
         "Dumbbell_Shoulder_Press",
-        "Kettlebell_Press",
         "Standing_Military_Press",
-        "Seated_Dumbbell_Press"
+        "Seated_Dumbbell_Press",
+        "Kettlebell_Press"
       ],
       "easier": null,
       "harder": null
@@ -14228,8 +15688,8 @@
       "swaps": [
         "Chin-Up",
         "Lat_Pulldown_Wide_Underhand",
-        "Close-Grip_Front_Lat_Pulldown",
-        "V-Bar_Pulldown"
+        "V-Bar_Pulldown",
+        "Close-Grip_Front_Lat_Pulldown"
       ],
       "easier": null,
       "harder": null
@@ -14282,7 +15742,8 @@
       "swaps": [
         "Lat_Pulldown_Neutral_Grip",
         "Close-Grip_Front_Lat_Pulldown",
-        "Seated_Cable_Row_V-Bar"
+        "Seated_Cable_Row_V-Bar",
+        "Pull-Up_Neutral_Grip"
       ],
       "easier": null,
       "harder": null
@@ -14305,9 +15766,9 @@
       "category": "strongman",
       "aliases": [],
       "swaps": [
-        "Dumbbell_Overhead_Carry",
         "Kettlebell_Overhead_Carry",
-        "Kettlebell_Bottoms-Up_Carry"
+        "Kettlebell_Bottoms-Up_Carry",
+        "Dumbbell_Overhead_Carry"
       ],
       "easier": null,
       "harder": null
@@ -14330,7 +15791,33 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Shoulder_Dislocate",
+        "Arm_Circles",
         "Prone_Y_Raise"
+      ],
+      "easier": null,
+      "harder": null
+    },
+    "Wall_Sit": {
+      "pose": "wall-sit",
+      "equipment": [
+        "wall"
+      ],
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "glutes"
+      ],
+      "level": "beginner",
+      "mechanic": "isolation",
+      "pattern": "squat",
+      "category": "strength",
+      "aliases": [],
+      "swaps": [
+        "Pulse_Squat",
+        "Bodyweight_Squat",
+        "Goblet_Squat"
       ],
       "easier": null,
       "harder": null
@@ -14381,9 +15868,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
-        "Barbell_Bench_Press_-_Medium_Grip",
         "Dumbbell_Bench_Press",
-        "Machine_Bench_Press"
+        "Push-Up_Wide_Grip",
+        "Machine_Bench_Press",
+        "Barbell_Bench_Press_-_Medium_Grip"
       ],
       "easier": null,
       "harder": null
@@ -14487,9 +15975,9 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Goblet_Squat",
         "Front_Barbell_Squat",
-        "Barbell_Squat",
-        "Goblet_Squat"
+        "Barbell_Squat"
       ],
       "easier": null,
       "harder": null
@@ -14511,10 +15999,10 @@
       "category": "strength",
       "aliases": [],
       "swaps": [
+        "Reverse_Barbell_Curl",
         "Dumbbell_Reverse_Curl",
         "Dumbbell_Alternate_Bicep_Curl",
-        "Hammer_Curls",
-        "Reverse_Barbell_Curl"
+        "Hammer_Curls"
       ],
       "easier": null,
       "harder": null

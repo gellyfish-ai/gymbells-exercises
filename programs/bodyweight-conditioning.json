@@ -1,0 +1,1265 @@
+{
+  "id": "bodyweight-conditioning",
+  "name": "Bodyweight Conditioning",
+  "description": "Three interval workouts a week for 6 weeks with no equipment, for fitness and to sweat. Each workout is a circuit of six exercises done in order for a set time each, with a short rest between them; one round is one set. The rounds go from three to five and the work time grows while the rest stays short. If jumping is hard on your knees, take the low-impact version from the swaps: a squat for the jump squat, a squat thrust for the burpee, high knees for the jumping jacks.",
+  "level": "beginner",
+  "phases": [
+    {
+      "name": "Three Rounds",
+      "description": "Three rounds of twenty to thirty seconds",
+      "weekStart": 1,
+      "weekEnd": 2,
+      "restBetweenExercises": 30,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Circuit A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Jumping Jack",
+              "catalogueId": "Jumping_Jack",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Star_Jump",
+                "High_Knees",
+                "Plank_Jack",
+                "Butt_Kicks"
+              ]
+            },
+            {
+              "name": "Squat Thrust",
+              "catalogueId": "Squat_Thrust",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Burpee",
+                "Sprawl",
+                "Mountain_Climbers"
+              ]
+            },
+            {
+              "name": "Bodyweight Reverse Lunge",
+              "catalogueId": "Bodyweight_Reverse_Lunge",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Alternate legs",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Rear_Lunge",
+                "Forward_Lunge",
+                "Bodyweight_Walking_Lunge",
+                "Curtsy_Lunge"
+              ]
+            },
+            {
+              "name": "Plank Jack",
+              "catalogueId": "Plank_Jack",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Jumping_Jack",
+                "Mountain_Climbers",
+                "Cross-Body_Mountain_Climber"
+              ]
+            },
+            {
+              "name": "Glute Bridge",
+              "catalogueId": "Butt_Lift_Bridge",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Glute_Bridge",
+                "Band_Glute_Bridge",
+                "Glute_Bridge_March",
+                "Frog_Pump"
+              ]
+            },
+            {
+              "name": "Flutter Kicks",
+              "catalogueId": "Flutter_Kicks",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hollow_Hold",
+                "Flat_Bench_Lying_Leg_Raise",
+                "Hollow_Rock"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Circuit B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "High Knees",
+              "catalogueId": "High_Knees",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Butt_Kicks",
+                "Mountain_Climbers",
+                "Jumping_Jack"
+              ]
+            },
+            {
+              "name": "Push-Up",
+              "catalogueId": "Pushups",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "From the knees if the form goes",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Bench_Press",
+                "Machine_Bench_Press",
+                "Knee_Push-Up",
+                "Incline_Push-Up",
+                "Push-Up_Wide_Grip"
+              ]
+            },
+            {
+              "name": "Jump Squat",
+              "catalogueId": "Jump_Squat",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Box_Jump",
+                "Band_Jump_Squat",
+                "Tuck_Jump",
+                "Broad_Jump",
+                "Split_Squat_Jump",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Cross-Body Mountain Climber",
+              "catalogueId": "Cross-Body_Mountain_Climber",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Mountain_Climbers",
+                "Plank_Jack",
+                "Squat_Thrust"
+              ]
+            },
+            {
+              "name": "Bodyweight Lateral Lunge",
+              "catalogueId": "Bodyweight_Lateral_Lunge",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Alternate sides",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Lateral_Lunge",
+                "Cossack_Squat",
+                "Curtsy_Lunge"
+              ]
+            },
+            {
+              "name": "Russian Twist",
+              "catalogueId": "Russian_Twist",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Russian_Twist",
+                "Cable_Rotation",
+                "Kettlebell_Russian_Twist"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Circuit C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Butt Kicks",
+              "catalogueId": "Butt_Kicks",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "High_Knees",
+                "Jumping_Jack"
+              ]
+            },
+            {
+              "name": "Star Jump",
+              "catalogueId": "Star_Jump",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Jumping_Jack",
+                "Tuck_Jump",
+                "Jump_Squat"
+              ]
+            },
+            {
+              "name": "Burpee",
+              "catalogueId": "Burpee",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Burpee",
+                "Air_Bike",
+                "Squat_Thrust",
+                "Sprawl",
+                "Mountain_Climbers",
+                "Jumping_Jack"
+              ]
+            },
+            {
+              "name": "Bodyweight Sumo Squat",
+              "catalogueId": "Bodyweight_Sumo_Squat",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Sumo_Squat",
+                "Landmine_Sumo_Squat",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Plank Shoulder Tap",
+              "catalogueId": "Plank_Shoulder_Tap",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pallof_Press",
+                "Plank_Reach",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Side Plank",
+              "catalogueId": "Side_Bridge",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Half the time each side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Side_Bend",
+                "Cable_Side_Bend",
+                "Dumbbell_Suitcase_Carry",
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Four Rounds",
+      "description": "Four rounds, longer work, shorter rest",
+      "weekStart": 3,
+      "weekEnd": 4,
+      "restBetweenExercises": 20,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Circuit A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Jumping Jack",
+              "catalogueId": "Jumping_Jack",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Star_Jump",
+                "High_Knees",
+                "Plank_Jack",
+                "Butt_Kicks"
+              ]
+            },
+            {
+              "name": "Squat Thrust",
+              "catalogueId": "Squat_Thrust",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Burpee",
+                "Sprawl",
+                "Mountain_Climbers"
+              ]
+            },
+            {
+              "name": "Bodyweight Reverse Lunge",
+              "catalogueId": "Bodyweight_Reverse_Lunge",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Alternate legs",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Rear_Lunge",
+                "Forward_Lunge",
+                "Bodyweight_Walking_Lunge",
+                "Curtsy_Lunge"
+              ]
+            },
+            {
+              "name": "Plank Jack",
+              "catalogueId": "Plank_Jack",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Jumping_Jack",
+                "Mountain_Climbers",
+                "Cross-Body_Mountain_Climber"
+              ]
+            },
+            {
+              "name": "Glute Bridge",
+              "catalogueId": "Butt_Lift_Bridge",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Glute_Bridge",
+                "Band_Glute_Bridge",
+                "Glute_Bridge_March",
+                "Frog_Pump"
+              ]
+            },
+            {
+              "name": "Flutter Kicks",
+              "catalogueId": "Flutter_Kicks",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hollow_Hold",
+                "Flat_Bench_Lying_Leg_Raise",
+                "Hollow_Rock"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Circuit B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "High Knees",
+              "catalogueId": "High_Knees",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Butt_Kicks",
+                "Mountain_Climbers",
+                "Jumping_Jack"
+              ]
+            },
+            {
+              "name": "Push-Up",
+              "catalogueId": "Pushups",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "From the knees if the form goes",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Bench_Press",
+                "Machine_Bench_Press",
+                "Knee_Push-Up",
+                "Incline_Push-Up",
+                "Push-Up_Wide_Grip"
+              ]
+            },
+            {
+              "name": "Jump Squat",
+              "catalogueId": "Jump_Squat",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Box_Jump",
+                "Band_Jump_Squat",
+                "Tuck_Jump",
+                "Broad_Jump",
+                "Split_Squat_Jump",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Cross-Body Mountain Climber",
+              "catalogueId": "Cross-Body_Mountain_Climber",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Mountain_Climbers",
+                "Plank_Jack",
+                "Squat_Thrust"
+              ]
+            },
+            {
+              "name": "Bodyweight Lateral Lunge",
+              "catalogueId": "Bodyweight_Lateral_Lunge",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Alternate sides",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Lateral_Lunge",
+                "Cossack_Squat",
+                "Curtsy_Lunge"
+              ]
+            },
+            {
+              "name": "Russian Twist",
+              "catalogueId": "Russian_Twist",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Russian_Twist",
+                "Cable_Rotation",
+                "Kettlebell_Russian_Twist"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Circuit C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Butt Kicks",
+              "catalogueId": "Butt_Kicks",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "High_Knees",
+                "Jumping_Jack"
+              ]
+            },
+            {
+              "name": "Star Jump",
+              "catalogueId": "Star_Jump",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Jumping_Jack",
+                "Tuck_Jump",
+                "Jump_Squat"
+              ]
+            },
+            {
+              "name": "Burpee",
+              "catalogueId": "Burpee",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Burpee",
+                "Air_Bike",
+                "Squat_Thrust",
+                "Sprawl",
+                "Mountain_Climbers",
+                "Jumping_Jack"
+              ]
+            },
+            {
+              "name": "Bodyweight Sumo Squat",
+              "catalogueId": "Bodyweight_Sumo_Squat",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Sumo_Squat",
+                "Landmine_Sumo_Squat",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Plank Shoulder Tap",
+              "catalogueId": "Plank_Shoulder_Tap",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pallof_Press",
+                "Plank_Reach",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Side Plank",
+              "catalogueId": "Side_Bridge",
+              "sets": 4,
+              "repRangeMin": 30,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Half the time each side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Side_Bend",
+                "Cable_Side_Bend",
+                "Dumbbell_Suitcase_Carry",
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Five Rounds",
+      "description": "Five rounds to finish the program",
+      "weekStart": 5,
+      "weekEnd": 6,
+      "restBetweenExercises": 20,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Circuit A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Jumping Jack",
+              "catalogueId": "Jumping_Jack",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Star_Jump",
+                "High_Knees",
+                "Plank_Jack",
+                "Butt_Kicks"
+              ]
+            },
+            {
+              "name": "Squat Thrust",
+              "catalogueId": "Squat_Thrust",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Burpee",
+                "Sprawl",
+                "Mountain_Climbers"
+              ]
+            },
+            {
+              "name": "Bodyweight Reverse Lunge",
+              "catalogueId": "Bodyweight_Reverse_Lunge",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Alternate legs",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Rear_Lunge",
+                "Forward_Lunge",
+                "Bodyweight_Walking_Lunge",
+                "Curtsy_Lunge"
+              ]
+            },
+            {
+              "name": "Plank Jack",
+              "catalogueId": "Plank_Jack",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Jumping_Jack",
+                "Mountain_Climbers",
+                "Cross-Body_Mountain_Climber"
+              ]
+            },
+            {
+              "name": "Glute Bridge",
+              "catalogueId": "Butt_Lift_Bridge",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Glute_Bridge",
+                "Band_Glute_Bridge",
+                "Glute_Bridge_March",
+                "Frog_Pump"
+              ]
+            },
+            {
+              "name": "Flutter Kicks",
+              "catalogueId": "Flutter_Kicks",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Hollow_Hold",
+                "Flat_Bench_Lying_Leg_Raise",
+                "Hollow_Rock"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Circuit B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "High Knees",
+              "catalogueId": "High_Knees",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Butt_Kicks",
+                "Mountain_Climbers",
+                "Jumping_Jack"
+              ]
+            },
+            {
+              "name": "Push-Up",
+              "catalogueId": "Pushups",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 2,
+              "isFoundational": false,
+              "notes": "From the knees if the form goes",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Bench_Press",
+                "Machine_Bench_Press",
+                "Knee_Push-Up",
+                "Incline_Push-Up",
+                "Push-Up_Wide_Grip"
+              ]
+            },
+            {
+              "name": "Jump Squat",
+              "catalogueId": "Jump_Squat",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Box_Jump",
+                "Band_Jump_Squat",
+                "Tuck_Jump",
+                "Broad_Jump",
+                "Split_Squat_Jump",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Cross-Body Mountain Climber",
+              "catalogueId": "Cross-Body_Mountain_Climber",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Mountain_Climbers",
+                "Plank_Jack",
+                "Squat_Thrust"
+              ]
+            },
+            {
+              "name": "Bodyweight Lateral Lunge",
+              "catalogueId": "Bodyweight_Lateral_Lunge",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": "Alternate sides",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Lateral_Lunge",
+                "Cossack_Squat",
+                "Curtsy_Lunge"
+              ]
+            },
+            {
+              "name": "Russian Twist",
+              "catalogueId": "Russian_Twist",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Russian_Twist",
+                "Cable_Rotation",
+                "Kettlebell_Russian_Twist"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Circuit C",
+          "dayNumber": 3,
+          "exercises": [
+            {
+              "name": "Butt Kicks",
+              "catalogueId": "Butt_Kicks",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "High_Knees",
+                "Jumping_Jack"
+              ]
+            },
+            {
+              "name": "Star Jump",
+              "catalogueId": "Star_Jump",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 2,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Jumping_Jack",
+                "Tuck_Jump",
+                "Jump_Squat"
+              ]
+            },
+            {
+              "name": "Burpee",
+              "catalogueId": "Burpee",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Burpee",
+                "Air_Bike",
+                "Squat_Thrust",
+                "Sprawl",
+                "Mountain_Climbers",
+                "Jumping_Jack"
+              ]
+            },
+            {
+              "name": "Bodyweight Sumo Squat",
+              "catalogueId": "Bodyweight_Sumo_Squat",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Sumo_Squat",
+                "Landmine_Sumo_Squat",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Plank Shoulder Tap",
+              "catalogueId": "Plank_Shoulder_Tap",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pallof_Press",
+                "Plank_Reach",
+                "Plank"
+              ]
+            },
+            {
+              "name": "Side Plank",
+              "catalogueId": "Side_Bridge",
+              "sets": 5,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Half the time each side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Side_Bend",
+                "Cable_Side_Bend",
+                "Dumbbell_Suitcase_Carry",
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

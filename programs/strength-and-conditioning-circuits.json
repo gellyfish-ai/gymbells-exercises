@@ -32,11 +32,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Swing",
+                "Pull_Through",
                 "American_Kettlebell_Swing",
                 "Double_Kettlebell_Swing",
                 "One-Arm_Kettlebell_Swings",
-                "Dumbbell_Swing",
-                "Pull_Through",
                 "Kettlebell_Romanian_Deadlift"
               ]
             },
@@ -56,9 +56,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Incline_Push-Up",
                 "Dumbbell_Bench_Press",
-                "Machine_Bench_Press"
+                "Machine_Bench_Press",
+                "Knee_Push-Up",
+                "Incline_Push-Up",
+                "Push-Up_Wide_Grip"
               ]
             },
             {
@@ -78,12 +80,12 @@
               "restSeconds": null,
               "swaps": [
                 "Goblet_Squat",
-                "Dumbbell_Squat",
                 "Cable_Goblet_Squat",
-                "Dumbbell_Front_Squat",
                 "Landmine_Squat",
                 "Leg_Press",
-                "Bodyweight_Squat"
+                "Bodyweight_Squat",
+                "Dumbbell_Squat",
+                "Dumbbell_Front_Squat"
               ]
             },
             {
@@ -123,6 +125,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Cross-Body_Mountain_Climber",
+                "Plank_Jack",
+                "High_Knees",
                 "Burpee"
               ]
             },
@@ -142,7 +147,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Air_Bike"
+                "Air_Bike",
+                "Burpee"
               ]
             }
           ]
@@ -215,8 +221,8 @@
                 "Landmine_Reverse_Lunge",
                 "Smith_Machine_Reverse_Lunge",
                 "Cable_Reverse_Lunge",
-                "Dumbbell_Lunges",
-                "Bodyweight_Reverse_Lunge"
+                "Bodyweight_Reverse_Lunge",
+                "Dumbbell_Lunges"
               ]
             },
             {
@@ -236,7 +242,8 @@
               "restSeconds": null,
               "swaps": [
                 "Burpee",
-                "Kettlebell_Swing"
+                "Kettlebell_Swing",
+                "Medicine_Ball_Rotational_Throw"
               ]
             },
             {
@@ -256,6 +263,7 @@
               "restSeconds": null,
               "swaps": [
                 "Pallof_Press",
+                "Plank_Reach",
                 "Plank"
               ]
             },
@@ -276,7 +284,8 @@
               "restSeconds": null,
               "swaps": [
                 "Rowing_Machine",
-                "Burpee"
+                "Burpee",
+                "Mountain_Climbers"
               ]
             }
           ]
@@ -327,6 +336,7 @@
               "swaps": [
                 "Dumbbell_Push_Press",
                 "Kettlebell_Push_Press",
+                "Trap_Bar_Overhead_Press",
                 "Standing_Military_Press"
               ]
             },
@@ -348,6 +358,7 @@
               "swaps": [
                 "Jump_Squat",
                 "Broad_Jump",
+                "Tuck_Jump",
                 "Lateral_Box_Jump"
               ]
             },
@@ -369,8 +380,8 @@
               "swaps": [
                 "Kettlebell_Farmers_Walk",
                 "Trap_Bar_Carry",
-                "Dumbbell_Suitcase_Carry",
-                "Kettlebell_Suitcase_Carry"
+                "Kettlebell_Suitcase_Carry",
+                "Dumbbell_Suitcase_Carry"
               ]
             },
             {
@@ -390,9 +401,11 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Burpee",
+                "Air_Bike",
+                "Squat_Thrust",
+                "Sprawl",
                 "Mountain_Climbers",
-                "Jumping_Jack",
-                "Air_Bike"
+                "Jumping_Jack"
               ]
             },
             {
@@ -412,7 +425,8 @@
               "restSeconds": null,
               "swaps": [
                 "Air_Bike",
-                "Bodyweight_Walking_Lunge"
+                "Bodyweight_Walking_Lunge",
+                "Rowing_Machine"
               ]
             }
           ]
@@ -447,11 +461,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Swing",
+                "Pull_Through",
                 "American_Kettlebell_Swing",
                 "Double_Kettlebell_Swing",
                 "One-Arm_Kettlebell_Swings",
-                "Dumbbell_Swing",
-                "Pull_Through",
                 "Kettlebell_Romanian_Deadlift"
               ]
             },
@@ -471,9 +485,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Incline_Push-Up",
                 "Dumbbell_Bench_Press",
-                "Machine_Bench_Press"
+                "Machine_Bench_Press",
+                "Knee_Push-Up",
+                "Incline_Push-Up",
+                "Push-Up_Wide_Grip"
               ]
             },
             {
@@ -493,12 +509,12 @@
               "restSeconds": null,
               "swaps": [
                 "Goblet_Squat",
-                "Dumbbell_Squat",
                 "Cable_Goblet_Squat",
-                "Dumbbell_Front_Squat",
                 "Landmine_Squat",
                 "Leg_Press",
-                "Bodyweight_Squat"
+                "Bodyweight_Squat",
+                "Dumbbell_Squat",
+                "Dumbbell_Front_Squat"
               ]
             },
             {
@@ -538,6 +554,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Cross-Body_Mountain_Climber",
+                "Plank_Jack",
+                "High_Knees",
                 "Burpee"
               ]
             },
@@ -557,7 +576,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Air_Bike"
+                "Air_Bike",
+                "Burpee"
               ]
             }
           ]
@@ -630,8 +650,8 @@
                 "Landmine_Reverse_Lunge",
                 "Smith_Machine_Reverse_Lunge",
                 "Cable_Reverse_Lunge",
-                "Dumbbell_Lunges",
-                "Bodyweight_Reverse_Lunge"
+                "Bodyweight_Reverse_Lunge",
+                "Dumbbell_Lunges"
               ]
             },
             {
@@ -651,7 +671,8 @@
               "restSeconds": null,
               "swaps": [
                 "Burpee",
-                "Kettlebell_Swing"
+                "Kettlebell_Swing",
+                "Medicine_Ball_Rotational_Throw"
               ]
             },
             {
@@ -671,6 +692,7 @@
               "restSeconds": null,
               "swaps": [
                 "Pallof_Press",
+                "Plank_Reach",
                 "Plank"
               ]
             },
@@ -691,7 +713,8 @@
               "restSeconds": null,
               "swaps": [
                 "Rowing_Machine",
-                "Burpee"
+                "Burpee",
+                "Mountain_Climbers"
               ]
             }
           ]
@@ -742,6 +765,7 @@
               "swaps": [
                 "Dumbbell_Push_Press",
                 "Kettlebell_Push_Press",
+                "Trap_Bar_Overhead_Press",
                 "Standing_Military_Press"
               ]
             },
@@ -763,6 +787,7 @@
               "swaps": [
                 "Jump_Squat",
                 "Broad_Jump",
+                "Tuck_Jump",
                 "Lateral_Box_Jump"
               ]
             },
@@ -784,8 +809,8 @@
               "swaps": [
                 "Kettlebell_Farmers_Walk",
                 "Trap_Bar_Carry",
-                "Dumbbell_Suitcase_Carry",
-                "Kettlebell_Suitcase_Carry"
+                "Kettlebell_Suitcase_Carry",
+                "Dumbbell_Suitcase_Carry"
               ]
             },
             {
@@ -805,9 +830,11 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Burpee",
+                "Air_Bike",
+                "Squat_Thrust",
+                "Sprawl",
                 "Mountain_Climbers",
-                "Jumping_Jack",
-                "Air_Bike"
+                "Jumping_Jack"
               ]
             },
             {
@@ -827,7 +854,8 @@
               "restSeconds": null,
               "swaps": [
                 "Air_Bike",
-                "Bodyweight_Walking_Lunge"
+                "Bodyweight_Walking_Lunge",
+                "Rowing_Machine"
               ]
             }
           ]
@@ -862,11 +890,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Dumbbell_Swing",
+                "Pull_Through",
                 "American_Kettlebell_Swing",
                 "Double_Kettlebell_Swing",
                 "One-Arm_Kettlebell_Swings",
-                "Dumbbell_Swing",
-                "Pull_Through",
                 "Kettlebell_Romanian_Deadlift"
               ]
             },
@@ -886,9 +914,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Incline_Push-Up",
                 "Dumbbell_Bench_Press",
-                "Machine_Bench_Press"
+                "Machine_Bench_Press",
+                "Knee_Push-Up",
+                "Incline_Push-Up",
+                "Push-Up_Wide_Grip"
               ]
             },
             {
@@ -908,12 +938,12 @@
               "restSeconds": null,
               "swaps": [
                 "Goblet_Squat",
-                "Dumbbell_Squat",
                 "Cable_Goblet_Squat",
-                "Dumbbell_Front_Squat",
                 "Landmine_Squat",
                 "Leg_Press",
-                "Bodyweight_Squat"
+                "Bodyweight_Squat",
+                "Dumbbell_Squat",
+                "Dumbbell_Front_Squat"
               ]
             },
             {
@@ -953,6 +983,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Cross-Body_Mountain_Climber",
+                "Plank_Jack",
+                "High_Knees",
                 "Burpee"
               ]
             },
@@ -972,7 +1005,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Air_Bike"
+                "Air_Bike",
+                "Burpee"
               ]
             }
           ]
@@ -1045,8 +1079,8 @@
                 "Landmine_Reverse_Lunge",
                 "Smith_Machine_Reverse_Lunge",
                 "Cable_Reverse_Lunge",
-                "Dumbbell_Lunges",
-                "Bodyweight_Reverse_Lunge"
+                "Bodyweight_Reverse_Lunge",
+                "Dumbbell_Lunges"
               ]
             },
             {
@@ -1066,7 +1100,8 @@
               "restSeconds": null,
               "swaps": [
                 "Burpee",
-                "Kettlebell_Swing"
+                "Kettlebell_Swing",
+                "Medicine_Ball_Rotational_Throw"
               ]
             },
             {
@@ -1086,6 +1121,7 @@
               "restSeconds": null,
               "swaps": [
                 "Pallof_Press",
+                "Plank_Reach",
                 "Plank"
               ]
             },
@@ -1106,7 +1142,8 @@
               "restSeconds": null,
               "swaps": [
                 "Rowing_Machine",
-                "Burpee"
+                "Burpee",
+                "Mountain_Climbers"
               ]
             }
           ]
@@ -1157,6 +1194,7 @@
               "swaps": [
                 "Dumbbell_Push_Press",
                 "Kettlebell_Push_Press",
+                "Trap_Bar_Overhead_Press",
                 "Standing_Military_Press"
               ]
             },
@@ -1178,6 +1216,7 @@
               "swaps": [
                 "Jump_Squat",
                 "Broad_Jump",
+                "Tuck_Jump",
                 "Lateral_Box_Jump"
               ]
             },
@@ -1199,8 +1238,8 @@
               "swaps": [
                 "Kettlebell_Farmers_Walk",
                 "Trap_Bar_Carry",
-                "Dumbbell_Suitcase_Carry",
-                "Kettlebell_Suitcase_Carry"
+                "Kettlebell_Suitcase_Carry",
+                "Dumbbell_Suitcase_Carry"
               ]
             },
             {
@@ -1220,9 +1259,11 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Burpee",
+                "Air_Bike",
+                "Squat_Thrust",
+                "Sprawl",
                 "Mountain_Climbers",
-                "Jumping_Jack",
-                "Air_Bike"
+                "Jumping_Jack"
               ]
             },
             {
@@ -1242,7 +1283,8 @@
               "restSeconds": null,
               "swaps": [
                 "Air_Bike",
-                "Bodyweight_Walking_Lunge"
+                "Bodyweight_Walking_Lunge",
+                "Rowing_Machine"
               ]
             }
           ]

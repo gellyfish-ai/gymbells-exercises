@@ -35,10 +35,10 @@
                 "Smith_Machine_Squat",
                 "Hack_Squat",
                 "Leg_Press",
-                "Front_Barbell_Squat",
                 "Dumbbell_Squat",
                 "Goblet_Squat",
-                "Landmine_Squat"
+                "Landmine_Squat",
+                "Front_Barbell_Squat"
               ]
             },
             {
@@ -58,12 +58,12 @@
               "restSeconds": null,
               "swaps": [
                 "Barbell_Bench_Press_-_Medium_Grip",
-                "Dumbbell_Bench_Press_Neutral_Grip",
                 "Machine_Bench_Press",
                 "Smith_Machine_Bench_Press",
                 "Cable_Chest_Press",
-                "Dumbbell_Floor_Press",
-                "Pushups"
+                "Pushups",
+                "Dumbbell_Bench_Press_Neutral_Grip",
+                "Dumbbell_Floor_Press"
               ]
             },
             {
@@ -134,10 +134,10 @@
                 "Cable_Seated_Lateral_Raise",
                 "Machine_Lateral_Raise",
                 "Lateral_Raise_-_With_Bands",
-                "Seated_Side_Lateral_Raise",
-                "Leaning_Dumbbell_Lateral_Raise",
                 "Kettlebell_Lateral_Raise",
-                "Standing_Low-Pulley_Deltoid_Raise"
+                "Standing_Low-Pulley_Deltoid_Raise",
+                "Seated_Side_Lateral_Raise",
+                "Leaning_Dumbbell_Lateral_Raise"
               ]
             },
             {
@@ -156,10 +156,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Standing_Cable_Crunch",
                 "Ab_Crunch_Machine",
                 "Decline_Crunch",
-                "Crunches"
+                "Crunches",
+                "Standing_Cable_Crunch"
               ]
             },
             {
@@ -205,7 +205,8 @@
                 "Calf_Press_On_The_Leg_Press_Machine",
                 "Standing_Dumbbell_Calf_Raise",
                 "Cable_Calf_Raise",
-                "Standing_Barbell_Calf_Raise"
+                "Standing_Barbell_Calf_Raise",
+                "Single-Leg_Calf_Raise"
               ]
             }
           ]
@@ -231,12 +232,12 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Romanian_Deadlift",
-                "Stiff-Legged_Barbell_Deadlift",
                 "Smith_Machine_Romanian_Deadlift",
                 "Landmine_Romanian_Deadlift",
                 "Trap_Bar_Romanian_Deadlift",
                 "Cable_Romanian_Deadlift",
                 "Kettlebell_Romanian_Deadlift",
+                "Stiff-Legged_Barbell_Deadlift",
                 "Good_Morning"
               ]
             },
@@ -256,13 +257,13 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Shoulder_Press",
-                "Seated_Dumbbell_Press_Neutral_Grip",
-                "Arnold_Dumbbell_Press",
                 "Machine_Shoulder_Military_Press",
                 "Seated_Barbell_Press",
                 "Smith_Machine_Overhead_Shoulder_Press",
-                "Cable_Shoulder_Press"
+                "Cable_Shoulder_Press",
+                "Dumbbell_Shoulder_Press",
+                "Seated_Dumbbell_Press_Neutral_Grip",
+                "Arnold_Dumbbell_Press"
               ]
             },
             {
@@ -306,8 +307,8 @@
               "swaps": [
                 "Barbell_Bulgarian_Split_Squat",
                 "Smith_Single-Leg_Split_Squat",
-                "Split_Squat_with_Dumbbells",
-                "Bodyweight_Bulgarian_Split_Squat"
+                "Bodyweight_Bulgarian_Split_Squat",
+                "Split_Squat_with_Dumbbells"
               ]
             },
             {
@@ -396,8 +397,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift",
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
+                "Hanging_Knee_Raise"
               ]
             }
           ]
@@ -448,8 +452,8 @@
                 "Smith_Machine_Incline_Press",
                 "Incline_Cable_Press",
                 "Hammer_Grip_Incline_DB_Bench_Press",
-                "Incline_Barbell_Bench_Press_Close_Grip",
-                "Push-Ups_With_Feet_Elevated"
+                "Push-Ups_With_Feet_Elevated",
+                "Incline_Barbell_Bench_Press_Close_Grip"
               ]
             },
             {
@@ -469,10 +473,11 @@
               "restSeconds": null,
               "swaps": [
                 "One-Arm_Kettlebell_Row",
-                "Incline_Dumbbell_Row_One-Arm",
                 "Seated_Cable_Row_One-Arm",
                 "Landmine_Row_One-Arm",
                 "Band_Row_One-Arm",
+                "Kneeling_Dumbbell_Row",
+                "Incline_Dumbbell_Row_One-Arm",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
             },
@@ -494,9 +499,10 @@
               "swaps": [
                 "Smith_Machine_Hip_Thrust",
                 "Dumbbell_Hip_Thrust",
-                "Barbell_Glute_Bridge",
                 "Kettlebell_Hip_Thrust",
-                "Band_Hip_Thrust"
+                "Band_Hip_Thrust",
+                "Single-Leg_Hip_Thrust",
+                "Barbell_Glute_Bridge"
               ]
             },
             {
@@ -515,9 +521,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Cable_Fly_Mid_Height",
                 "Butterfly",
                 "Dumbbell_Flyes",
+                "Cable_Fly_Mid_Height",
                 "Cable_Fly_High_to_Low",
                 "Low_Cable_Crossover"
               ]
@@ -539,9 +545,9 @@
               "restSeconds": null,
               "swaps": [
                 "Band_Face_Pull",
-                "Cable_Rear_Delt_Row",
                 "Dumbbell_Rear_Delt_Row",
-                "Barbell_Rear_Delt_Row"
+                "Barbell_Rear_Delt_Row",
+                "Cable_Rear_Delt_Row"
               ]
             },
             {
@@ -564,7 +570,8 @@
                 "Calf_Press_On_The_Leg_Press_Machine",
                 "Standing_Dumbbell_Calf_Raise",
                 "Cable_Calf_Raise",
-                "Standing_Barbell_Calf_Raise"
+                "Standing_Barbell_Calf_Raise",
+                "Single-Leg_Calf_Raise"
               ]
             },
             {
@@ -583,13 +590,13 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Alternate_Hammer_Curl",
                 "Cable_Hammer_Curls_-_Rope_Attachment",
-                "Cross-Body_Hammer_Curl",
                 "Kettlebell_Hammer_Curl",
-                "Incline_Hammer_Curl",
                 "Band_Hammer_Curl",
-                "Reverse_Barbell_Curl"
+                "Reverse_Barbell_Curl",
+                "Alternate_Hammer_Curl",
+                "Cross-Body_Hammer_Curl",
+                "Incline_Hammer_Curl"
               ]
             },
             {
@@ -610,11 +617,11 @@
               "swaps": [
                 "Triceps_Pushdown_-_Rope_Attachment",
                 "Triceps_Pushdown_V-Bar",
-                "Reverse_Grip_Triceps_Pushdown",
                 "Band_Triceps_Pushdown",
                 "Machine_Triceps_Extension",
                 "Bench_Dips",
-                "Tricep_Dumbbell_Kickback"
+                "Tricep_Dumbbell_Kickback",
+                "Reverse_Grip_Triceps_Pushdown"
               ]
             }
           ]
@@ -652,10 +659,10 @@
                 "Smith_Machine_Squat",
                 "Hack_Squat",
                 "Leg_Press",
-                "Front_Barbell_Squat",
                 "Dumbbell_Squat",
                 "Goblet_Squat",
-                "Landmine_Squat"
+                "Landmine_Squat",
+                "Front_Barbell_Squat"
               ]
             },
             {
@@ -675,12 +682,12 @@
               "restSeconds": null,
               "swaps": [
                 "Barbell_Bench_Press_-_Medium_Grip",
-                "Dumbbell_Bench_Press_Neutral_Grip",
                 "Machine_Bench_Press",
                 "Smith_Machine_Bench_Press",
                 "Cable_Chest_Press",
-                "Dumbbell_Floor_Press",
-                "Pushups"
+                "Pushups",
+                "Dumbbell_Bench_Press_Neutral_Grip",
+                "Dumbbell_Floor_Press"
               ]
             },
             {
@@ -751,10 +758,10 @@
                 "Cable_Seated_Lateral_Raise",
                 "Machine_Lateral_Raise",
                 "Lateral_Raise_-_With_Bands",
-                "Seated_Side_Lateral_Raise",
-                "Leaning_Dumbbell_Lateral_Raise",
                 "Kettlebell_Lateral_Raise",
-                "Standing_Low-Pulley_Deltoid_Raise"
+                "Standing_Low-Pulley_Deltoid_Raise",
+                "Seated_Side_Lateral_Raise",
+                "Leaning_Dumbbell_Lateral_Raise"
               ]
             },
             {
@@ -773,10 +780,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Standing_Cable_Crunch",
                 "Ab_Crunch_Machine",
                 "Decline_Crunch",
-                "Crunches"
+                "Crunches",
+                "Standing_Cable_Crunch"
               ]
             },
             {
@@ -822,7 +829,8 @@
                 "Calf_Press_On_The_Leg_Press_Machine",
                 "Standing_Dumbbell_Calf_Raise",
                 "Cable_Calf_Raise",
-                "Standing_Barbell_Calf_Raise"
+                "Standing_Barbell_Calf_Raise",
+                "Single-Leg_Calf_Raise"
               ]
             }
           ]
@@ -848,12 +856,12 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Romanian_Deadlift",
-                "Stiff-Legged_Barbell_Deadlift",
                 "Smith_Machine_Romanian_Deadlift",
                 "Landmine_Romanian_Deadlift",
                 "Trap_Bar_Romanian_Deadlift",
                 "Cable_Romanian_Deadlift",
                 "Kettlebell_Romanian_Deadlift",
+                "Stiff-Legged_Barbell_Deadlift",
                 "Good_Morning"
               ]
             },
@@ -873,13 +881,13 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Shoulder_Press",
-                "Seated_Dumbbell_Press_Neutral_Grip",
-                "Arnold_Dumbbell_Press",
                 "Machine_Shoulder_Military_Press",
                 "Seated_Barbell_Press",
                 "Smith_Machine_Overhead_Shoulder_Press",
-                "Cable_Shoulder_Press"
+                "Cable_Shoulder_Press",
+                "Dumbbell_Shoulder_Press",
+                "Seated_Dumbbell_Press_Neutral_Grip",
+                "Arnold_Dumbbell_Press"
               ]
             },
             {
@@ -923,8 +931,8 @@
               "swaps": [
                 "Barbell_Bulgarian_Split_Squat",
                 "Smith_Single-Leg_Split_Squat",
-                "Split_Squat_with_Dumbbells",
-                "Bodyweight_Bulgarian_Split_Squat"
+                "Bodyweight_Bulgarian_Split_Squat",
+                "Split_Squat_with_Dumbbells"
               ]
             },
             {
@@ -1013,8 +1021,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift",
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
+                "Hanging_Knee_Raise"
               ]
             }
           ]
@@ -1065,8 +1076,8 @@
                 "Smith_Machine_Incline_Press",
                 "Incline_Cable_Press",
                 "Hammer_Grip_Incline_DB_Bench_Press",
-                "Incline_Barbell_Bench_Press_Close_Grip",
-                "Push-Ups_With_Feet_Elevated"
+                "Push-Ups_With_Feet_Elevated",
+                "Incline_Barbell_Bench_Press_Close_Grip"
               ]
             },
             {
@@ -1086,10 +1097,11 @@
               "restSeconds": null,
               "swaps": [
                 "One-Arm_Kettlebell_Row",
-                "Incline_Dumbbell_Row_One-Arm",
                 "Seated_Cable_Row_One-Arm",
                 "Landmine_Row_One-Arm",
                 "Band_Row_One-Arm",
+                "Kneeling_Dumbbell_Row",
+                "Incline_Dumbbell_Row_One-Arm",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
             },
@@ -1111,9 +1123,10 @@
               "swaps": [
                 "Smith_Machine_Hip_Thrust",
                 "Dumbbell_Hip_Thrust",
-                "Barbell_Glute_Bridge",
                 "Kettlebell_Hip_Thrust",
-                "Band_Hip_Thrust"
+                "Band_Hip_Thrust",
+                "Single-Leg_Hip_Thrust",
+                "Barbell_Glute_Bridge"
               ]
             },
             {
@@ -1132,9 +1145,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Cable_Fly_Mid_Height",
                 "Butterfly",
                 "Dumbbell_Flyes",
+                "Cable_Fly_Mid_Height",
                 "Cable_Fly_High_to_Low",
                 "Low_Cable_Crossover"
               ]
@@ -1156,9 +1169,9 @@
               "restSeconds": null,
               "swaps": [
                 "Band_Face_Pull",
-                "Cable_Rear_Delt_Row",
                 "Dumbbell_Rear_Delt_Row",
-                "Barbell_Rear_Delt_Row"
+                "Barbell_Rear_Delt_Row",
+                "Cable_Rear_Delt_Row"
               ]
             },
             {
@@ -1181,7 +1194,8 @@
                 "Calf_Press_On_The_Leg_Press_Machine",
                 "Standing_Dumbbell_Calf_Raise",
                 "Cable_Calf_Raise",
-                "Standing_Barbell_Calf_Raise"
+                "Standing_Barbell_Calf_Raise",
+                "Single-Leg_Calf_Raise"
               ]
             },
             {
@@ -1200,13 +1214,13 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Alternate_Hammer_Curl",
                 "Cable_Hammer_Curls_-_Rope_Attachment",
-                "Cross-Body_Hammer_Curl",
                 "Kettlebell_Hammer_Curl",
-                "Incline_Hammer_Curl",
                 "Band_Hammer_Curl",
-                "Reverse_Barbell_Curl"
+                "Reverse_Barbell_Curl",
+                "Alternate_Hammer_Curl",
+                "Cross-Body_Hammer_Curl",
+                "Incline_Hammer_Curl"
               ]
             },
             {
@@ -1227,11 +1241,11 @@
               "swaps": [
                 "Triceps_Pushdown_-_Rope_Attachment",
                 "Triceps_Pushdown_V-Bar",
-                "Reverse_Grip_Triceps_Pushdown",
                 "Band_Triceps_Pushdown",
                 "Machine_Triceps_Extension",
                 "Bench_Dips",
-                "Tricep_Dumbbell_Kickback"
+                "Tricep_Dumbbell_Kickback",
+                "Reverse_Grip_Triceps_Pushdown"
               ]
             }
           ]
@@ -1269,10 +1283,10 @@
                 "Smith_Machine_Squat",
                 "Hack_Squat",
                 "Leg_Press",
-                "Front_Barbell_Squat",
                 "Dumbbell_Squat",
                 "Goblet_Squat",
-                "Landmine_Squat"
+                "Landmine_Squat",
+                "Front_Barbell_Squat"
               ]
             },
             {
@@ -1292,12 +1306,12 @@
               "restSeconds": null,
               "swaps": [
                 "Barbell_Bench_Press_-_Medium_Grip",
-                "Dumbbell_Bench_Press_Neutral_Grip",
                 "Machine_Bench_Press",
                 "Smith_Machine_Bench_Press",
                 "Cable_Chest_Press",
-                "Dumbbell_Floor_Press",
-                "Pushups"
+                "Pushups",
+                "Dumbbell_Bench_Press_Neutral_Grip",
+                "Dumbbell_Floor_Press"
               ]
             },
             {
@@ -1368,10 +1382,10 @@
                 "Cable_Seated_Lateral_Raise",
                 "Machine_Lateral_Raise",
                 "Lateral_Raise_-_With_Bands",
-                "Seated_Side_Lateral_Raise",
-                "Leaning_Dumbbell_Lateral_Raise",
                 "Kettlebell_Lateral_Raise",
-                "Standing_Low-Pulley_Deltoid_Raise"
+                "Standing_Low-Pulley_Deltoid_Raise",
+                "Seated_Side_Lateral_Raise",
+                "Leaning_Dumbbell_Lateral_Raise"
               ]
             },
             {
@@ -1390,10 +1404,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Standing_Cable_Crunch",
                 "Ab_Crunch_Machine",
                 "Decline_Crunch",
-                "Crunches"
+                "Crunches",
+                "Standing_Cable_Crunch"
               ]
             },
             {
@@ -1439,7 +1453,8 @@
                 "Calf_Press_On_The_Leg_Press_Machine",
                 "Standing_Dumbbell_Calf_Raise",
                 "Cable_Calf_Raise",
-                "Standing_Barbell_Calf_Raise"
+                "Standing_Barbell_Calf_Raise",
+                "Single-Leg_Calf_Raise"
               ]
             }
           ]
@@ -1465,12 +1480,12 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Romanian_Deadlift",
-                "Stiff-Legged_Barbell_Deadlift",
                 "Smith_Machine_Romanian_Deadlift",
                 "Landmine_Romanian_Deadlift",
                 "Trap_Bar_Romanian_Deadlift",
                 "Cable_Romanian_Deadlift",
                 "Kettlebell_Romanian_Deadlift",
+                "Stiff-Legged_Barbell_Deadlift",
                 "Good_Morning"
               ]
             },
@@ -1490,13 +1505,13 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Shoulder_Press",
-                "Seated_Dumbbell_Press_Neutral_Grip",
-                "Arnold_Dumbbell_Press",
                 "Machine_Shoulder_Military_Press",
                 "Seated_Barbell_Press",
                 "Smith_Machine_Overhead_Shoulder_Press",
-                "Cable_Shoulder_Press"
+                "Cable_Shoulder_Press",
+                "Dumbbell_Shoulder_Press",
+                "Seated_Dumbbell_Press_Neutral_Grip",
+                "Arnold_Dumbbell_Press"
               ]
             },
             {
@@ -1540,8 +1555,8 @@
               "swaps": [
                 "Barbell_Bulgarian_Split_Squat",
                 "Smith_Single-Leg_Split_Squat",
-                "Split_Squat_with_Dumbbells",
-                "Bodyweight_Bulgarian_Split_Squat"
+                "Bodyweight_Bulgarian_Split_Squat",
+                "Split_Squat_with_Dumbbells"
               ]
             },
             {
@@ -1630,8 +1645,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift",
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
+                "Hanging_Knee_Raise"
               ]
             }
           ]
@@ -1682,8 +1700,8 @@
                 "Smith_Machine_Incline_Press",
                 "Incline_Cable_Press",
                 "Hammer_Grip_Incline_DB_Bench_Press",
-                "Incline_Barbell_Bench_Press_Close_Grip",
-                "Push-Ups_With_Feet_Elevated"
+                "Push-Ups_With_Feet_Elevated",
+                "Incline_Barbell_Bench_Press_Close_Grip"
               ]
             },
             {
@@ -1703,10 +1721,11 @@
               "restSeconds": null,
               "swaps": [
                 "One-Arm_Kettlebell_Row",
-                "Incline_Dumbbell_Row_One-Arm",
                 "Seated_Cable_Row_One-Arm",
                 "Landmine_Row_One-Arm",
                 "Band_Row_One-Arm",
+                "Kneeling_Dumbbell_Row",
+                "Incline_Dumbbell_Row_One-Arm",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
             },
@@ -1728,9 +1747,10 @@
               "swaps": [
                 "Smith_Machine_Hip_Thrust",
                 "Dumbbell_Hip_Thrust",
-                "Barbell_Glute_Bridge",
                 "Kettlebell_Hip_Thrust",
-                "Band_Hip_Thrust"
+                "Band_Hip_Thrust",
+                "Single-Leg_Hip_Thrust",
+                "Barbell_Glute_Bridge"
               ]
             },
             {
@@ -1749,9 +1769,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Cable_Fly_Mid_Height",
                 "Butterfly",
                 "Dumbbell_Flyes",
+                "Cable_Fly_Mid_Height",
                 "Cable_Fly_High_to_Low",
                 "Low_Cable_Crossover"
               ]
@@ -1773,9 +1793,9 @@
               "restSeconds": null,
               "swaps": [
                 "Band_Face_Pull",
-                "Cable_Rear_Delt_Row",
                 "Dumbbell_Rear_Delt_Row",
-                "Barbell_Rear_Delt_Row"
+                "Barbell_Rear_Delt_Row",
+                "Cable_Rear_Delt_Row"
               ]
             },
             {
@@ -1798,7 +1818,8 @@
                 "Calf_Press_On_The_Leg_Press_Machine",
                 "Standing_Dumbbell_Calf_Raise",
                 "Cable_Calf_Raise",
-                "Standing_Barbell_Calf_Raise"
+                "Standing_Barbell_Calf_Raise",
+                "Single-Leg_Calf_Raise"
               ]
             },
             {
@@ -1817,13 +1838,13 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Alternate_Hammer_Curl",
                 "Cable_Hammer_Curls_-_Rope_Attachment",
-                "Cross-Body_Hammer_Curl",
                 "Kettlebell_Hammer_Curl",
-                "Incline_Hammer_Curl",
                 "Band_Hammer_Curl",
-                "Reverse_Barbell_Curl"
+                "Reverse_Barbell_Curl",
+                "Alternate_Hammer_Curl",
+                "Cross-Body_Hammer_Curl",
+                "Incline_Hammer_Curl"
               ]
             },
             {
@@ -1844,11 +1865,11 @@
               "swaps": [
                 "Triceps_Pushdown_-_Rope_Attachment",
                 "Triceps_Pushdown_V-Bar",
-                "Reverse_Grip_Triceps_Pushdown",
                 "Band_Triceps_Pushdown",
                 "Machine_Triceps_Extension",
                 "Bench_Dips",
-                "Tricep_Dumbbell_Kickback"
+                "Tricep_Dumbbell_Kickback",
+                "Reverse_Grip_Triceps_Pushdown"
               ]
             }
           ]
@@ -1886,10 +1907,10 @@
                 "Smith_Machine_Squat",
                 "Hack_Squat",
                 "Leg_Press",
-                "Front_Barbell_Squat",
                 "Dumbbell_Squat",
                 "Goblet_Squat",
-                "Landmine_Squat"
+                "Landmine_Squat",
+                "Front_Barbell_Squat"
               ]
             },
             {
@@ -1909,12 +1930,12 @@
               "restSeconds": null,
               "swaps": [
                 "Barbell_Bench_Press_-_Medium_Grip",
-                "Dumbbell_Bench_Press_Neutral_Grip",
                 "Machine_Bench_Press",
                 "Smith_Machine_Bench_Press",
                 "Cable_Chest_Press",
-                "Dumbbell_Floor_Press",
-                "Pushups"
+                "Pushups",
+                "Dumbbell_Bench_Press_Neutral_Grip",
+                "Dumbbell_Floor_Press"
               ]
             },
             {
@@ -1985,10 +2006,10 @@
                 "Cable_Seated_Lateral_Raise",
                 "Machine_Lateral_Raise",
                 "Lateral_Raise_-_With_Bands",
-                "Seated_Side_Lateral_Raise",
-                "Leaning_Dumbbell_Lateral_Raise",
                 "Kettlebell_Lateral_Raise",
-                "Standing_Low-Pulley_Deltoid_Raise"
+                "Standing_Low-Pulley_Deltoid_Raise",
+                "Seated_Side_Lateral_Raise",
+                "Leaning_Dumbbell_Lateral_Raise"
               ]
             },
             {
@@ -2007,10 +2028,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Standing_Cable_Crunch",
                 "Ab_Crunch_Machine",
                 "Decline_Crunch",
-                "Crunches"
+                "Crunches",
+                "Standing_Cable_Crunch"
               ]
             },
             {
@@ -2056,7 +2077,8 @@
                 "Calf_Press_On_The_Leg_Press_Machine",
                 "Standing_Dumbbell_Calf_Raise",
                 "Cable_Calf_Raise",
-                "Standing_Barbell_Calf_Raise"
+                "Standing_Barbell_Calf_Raise",
+                "Single-Leg_Calf_Raise"
               ]
             }
           ]
@@ -2082,12 +2104,12 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Romanian_Deadlift",
-                "Stiff-Legged_Barbell_Deadlift",
                 "Smith_Machine_Romanian_Deadlift",
                 "Landmine_Romanian_Deadlift",
                 "Trap_Bar_Romanian_Deadlift",
                 "Cable_Romanian_Deadlift",
                 "Kettlebell_Romanian_Deadlift",
+                "Stiff-Legged_Barbell_Deadlift",
                 "Good_Morning"
               ]
             },
@@ -2107,13 +2129,13 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Shoulder_Press",
-                "Seated_Dumbbell_Press_Neutral_Grip",
-                "Arnold_Dumbbell_Press",
                 "Machine_Shoulder_Military_Press",
                 "Seated_Barbell_Press",
                 "Smith_Machine_Overhead_Shoulder_Press",
-                "Cable_Shoulder_Press"
+                "Cable_Shoulder_Press",
+                "Dumbbell_Shoulder_Press",
+                "Seated_Dumbbell_Press_Neutral_Grip",
+                "Arnold_Dumbbell_Press"
               ]
             },
             {
@@ -2157,8 +2179,8 @@
               "swaps": [
                 "Barbell_Bulgarian_Split_Squat",
                 "Smith_Single-Leg_Split_Squat",
-                "Split_Squat_with_Dumbbells",
-                "Bodyweight_Bulgarian_Split_Squat"
+                "Bodyweight_Bulgarian_Split_Squat",
+                "Split_Squat_with_Dumbbells"
               ]
             },
             {
@@ -2247,8 +2269,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift",
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
+                "Hanging_Knee_Raise"
               ]
             }
           ]
@@ -2299,8 +2324,8 @@
                 "Smith_Machine_Incline_Press",
                 "Incline_Cable_Press",
                 "Hammer_Grip_Incline_DB_Bench_Press",
-                "Incline_Barbell_Bench_Press_Close_Grip",
-                "Push-Ups_With_Feet_Elevated"
+                "Push-Ups_With_Feet_Elevated",
+                "Incline_Barbell_Bench_Press_Close_Grip"
               ]
             },
             {
@@ -2320,10 +2345,11 @@
               "restSeconds": null,
               "swaps": [
                 "One-Arm_Kettlebell_Row",
-                "Incline_Dumbbell_Row_One-Arm",
                 "Seated_Cable_Row_One-Arm",
                 "Landmine_Row_One-Arm",
                 "Band_Row_One-Arm",
+                "Kneeling_Dumbbell_Row",
+                "Incline_Dumbbell_Row_One-Arm",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
             },
@@ -2345,9 +2371,10 @@
               "swaps": [
                 "Smith_Machine_Hip_Thrust",
                 "Dumbbell_Hip_Thrust",
-                "Barbell_Glute_Bridge",
                 "Kettlebell_Hip_Thrust",
-                "Band_Hip_Thrust"
+                "Band_Hip_Thrust",
+                "Single-Leg_Hip_Thrust",
+                "Barbell_Glute_Bridge"
               ]
             },
             {
@@ -2366,9 +2393,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Cable_Fly_Mid_Height",
                 "Butterfly",
                 "Dumbbell_Flyes",
+                "Cable_Fly_Mid_Height",
                 "Cable_Fly_High_to_Low",
                 "Low_Cable_Crossover"
               ]
@@ -2390,9 +2417,9 @@
               "restSeconds": null,
               "swaps": [
                 "Band_Face_Pull",
-                "Cable_Rear_Delt_Row",
                 "Dumbbell_Rear_Delt_Row",
-                "Barbell_Rear_Delt_Row"
+                "Barbell_Rear_Delt_Row",
+                "Cable_Rear_Delt_Row"
               ]
             },
             {
@@ -2415,7 +2442,8 @@
                 "Calf_Press_On_The_Leg_Press_Machine",
                 "Standing_Dumbbell_Calf_Raise",
                 "Cable_Calf_Raise",
-                "Standing_Barbell_Calf_Raise"
+                "Standing_Barbell_Calf_Raise",
+                "Single-Leg_Calf_Raise"
               ]
             },
             {
@@ -2434,13 +2462,13 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Alternate_Hammer_Curl",
                 "Cable_Hammer_Curls_-_Rope_Attachment",
-                "Cross-Body_Hammer_Curl",
                 "Kettlebell_Hammer_Curl",
-                "Incline_Hammer_Curl",
                 "Band_Hammer_Curl",
-                "Reverse_Barbell_Curl"
+                "Reverse_Barbell_Curl",
+                "Alternate_Hammer_Curl",
+                "Cross-Body_Hammer_Curl",
+                "Incline_Hammer_Curl"
               ]
             },
             {
@@ -2461,11 +2489,11 @@
               "swaps": [
                 "Triceps_Pushdown_-_Rope_Attachment",
                 "Triceps_Pushdown_V-Bar",
-                "Reverse_Grip_Triceps_Pushdown",
                 "Band_Triceps_Pushdown",
                 "Machine_Triceps_Extension",
                 "Bench_Dips",
-                "Tricep_Dumbbell_Kickback"
+                "Tricep_Dumbbell_Kickback",
+                "Reverse_Grip_Triceps_Pushdown"
               ]
             }
           ]

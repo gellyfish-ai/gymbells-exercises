@@ -83,9 +83,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Plank_Shoulder_Tap",
-                "Dead_Bug",
                 "Ab_Roller",
+                "Plank_Shoulder_Tap",
+                "Plank_Reach",
+                "Dead_Bug",
                 "Hollow_Hold"
               ]
             }
@@ -163,9 +164,11 @@
               "restSeconds": null,
               "swaps": [
                 "Underhand_Cable_Pulldowns",
-                "Pullups",
                 "Lat_Pulldown_Wide_Underhand",
-                "Band_Assisted_Pull-Up"
+                "Band_Assisted_Pull-Up",
+                "Pullups",
+                "Commando_Pull-Up",
+                "Pull-Up_Neutral_Grip"
               ]
             }
           ]
@@ -251,9 +254,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Plank_Shoulder_Tap",
-                "Dead_Bug",
                 "Ab_Roller",
+                "Plank_Shoulder_Tap",
+                "Plank_Reach",
+                "Dead_Bug",
                 "Hollow_Hold"
               ]
             }
@@ -331,9 +335,11 @@
               "restSeconds": null,
               "swaps": [
                 "Underhand_Cable_Pulldowns",
-                "Pullups",
                 "Lat_Pulldown_Wide_Underhand",
-                "Band_Assisted_Pull-Up"
+                "Band_Assisted_Pull-Up",
+                "Pullups",
+                "Commando_Pull-Up",
+                "Pull-Up_Neutral_Grip"
               ]
             }
           ]
@@ -419,9 +425,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Plank_Shoulder_Tap",
-                "Dead_Bug",
                 "Ab_Roller",
+                "Plank_Shoulder_Tap",
+                "Plank_Reach",
+                "Dead_Bug",
                 "Hollow_Hold"
               ]
             }
@@ -499,9 +506,11 @@
               "restSeconds": null,
               "swaps": [
                 "Underhand_Cable_Pulldowns",
-                "Pullups",
                 "Lat_Pulldown_Wide_Underhand",
-                "Band_Assisted_Pull-Up"
+                "Band_Assisted_Pull-Up",
+                "Pullups",
+                "Commando_Pull-Up",
+                "Pull-Up_Neutral_Grip"
               ]
             }
           ]

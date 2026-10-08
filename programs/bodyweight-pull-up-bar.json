@@ -32,7 +32,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Chin-Up"
+                "Chin-Up",
+                "Pull-Up_Neutral_Grip"
               ]
             },
             {
@@ -51,7 +52,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Incline_Push-Up"
+                "Knee_Push-Up",
+                "Incline_Push-Up",
+                "Push-Up_Wide_Grip"
               ]
             },
             {
@@ -71,6 +74,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bodyweight_Reverse_Lunge",
+                "Forward_Lunge",
                 "Bodyweight_Walking_Lunge"
               ]
             },
@@ -90,6 +94,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Glute_Bridge_March",
+                "Single-Leg_Hip_Thrust",
                 "Butt_Lift_Bridge"
               ]
             },
@@ -110,7 +116,8 @@
               "restSeconds": null,
               "swaps": [
                 "Reverse_Crunch",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Seated_Knee_Tuck"
               ]
             },
             {
@@ -129,7 +136,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Boat_Hold",
+                "Hollow_Rock",
                 "Dead_Bug",
+                "Flutter_Kicks",
                 "Plank"
               ]
             },
@@ -148,7 +158,10 @@
               "isOptional": true,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Active_Hang",
+                "Dead_Hang"
+              ]
             },
             {
               "name": "Side Plank",
@@ -165,7 +178,11 @@
               "isOptional": true,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
+              ]
             }
           ]
         },
@@ -189,7 +206,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Pullups"
+                "Pullups",
+                "Pull-Up_Neutral_Grip",
+                "Commando_Pull-Up"
               ]
             },
             {
@@ -208,7 +227,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Handstand_Push-Ups"
+                "Handstand_Push-Ups",
+                "Dive_Bomber_Push-Up"
               ]
             },
             {
@@ -227,6 +247,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Forward_Lunge",
                 "Bodyweight_Reverse_Lunge"
               ]
             },
@@ -246,6 +267,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Floor_Glute-Ham_Raise",
                 "Bodyweight_Single-Leg_Deadlift"
               ]
             },
@@ -264,7 +286,10 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Active_Hang",
+                "Dead_Hang"
+              ]
             },
             {
               "name": "Side Plank",
@@ -281,7 +306,11 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
+              ]
             },
             {
               "name": "Hollow Hold",
@@ -299,7 +328,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Boat_Hold",
+                "Hollow_Rock",
                 "Dead_Bug",
+                "Flutter_Kicks",
                 "Plank"
               ]
             },
@@ -320,7 +352,8 @@
               "restSeconds": null,
               "swaps": [
                 "Reverse_Crunch",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Seated_Knee_Tuck"
               ]
             }
           ]
@@ -365,7 +398,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Pushups"
+                "Pushups",
+                "Archer_Push-Up"
               ]
             },
             {
@@ -384,6 +418,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Shrimp_Squat",
                 "Bodyweight_Bulgarian_Split_Squat"
               ]
             },
@@ -403,6 +438,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Bodyweight_Good_Morning",
                 "Single_Leg_Glute_Bridge"
               ]
             },
@@ -422,8 +458,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
                 "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift"
               ]
             },
             {
@@ -443,6 +482,7 @@
               "restSeconds": null,
               "swaps": [
                 "Plank_Shoulder_Tap",
+                "Plank_Reach",
                 "Dead_Bug",
                 "Hollow_Hold"
               ]
@@ -462,7 +502,31 @@
               "isOptional": true,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
+              ]
+            },
+            {
+              "name": "Dead Hang",
+              "catalogueId": "Dead_Hang",
+              "sets": 2,
+              "repRangeMin": 20,
+              "repRangeMax": 40,
+              "measure": "seconds",
+              "order": 8,
+              "isFoundational": false,
+              "notes": "For the grip; let the shoulders relax",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Farmers_Walk",
+                "Active_Hang"
+              ]
             }
           ]
         }
@@ -496,7 +560,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Chin-Up"
+                "Chin-Up",
+                "Pull-Up_Neutral_Grip"
               ]
             },
             {
@@ -515,7 +580,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Incline_Push-Up"
+                "Knee_Push-Up",
+                "Incline_Push-Up",
+                "Push-Up_Wide_Grip"
               ]
             },
             {
@@ -535,6 +602,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bodyweight_Reverse_Lunge",
+                "Forward_Lunge",
                 "Bodyweight_Walking_Lunge"
               ]
             },
@@ -554,6 +622,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Glute_Bridge_March",
+                "Single-Leg_Hip_Thrust",
                 "Butt_Lift_Bridge"
               ]
             },
@@ -574,7 +644,8 @@
               "restSeconds": null,
               "swaps": [
                 "Reverse_Crunch",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Seated_Knee_Tuck"
               ]
             },
             {
@@ -593,7 +664,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Boat_Hold",
+                "Hollow_Rock",
                 "Dead_Bug",
+                "Flutter_Kicks",
                 "Plank"
               ]
             },
@@ -612,7 +686,10 @@
               "isOptional": true,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Active_Hang",
+                "Dead_Hang"
+              ]
             },
             {
               "name": "Side Plank",
@@ -629,7 +706,11 @@
               "isOptional": true,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
+              ]
             }
           ]
         },
@@ -653,7 +734,9 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Pullups"
+                "Pullups",
+                "Pull-Up_Neutral_Grip",
+                "Commando_Pull-Up"
               ]
             },
             {
@@ -672,7 +755,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Handstand_Push-Ups"
+                "Handstand_Push-Ups",
+                "Dive_Bomber_Push-Up"
               ]
             },
             {
@@ -691,6 +775,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Forward_Lunge",
                 "Bodyweight_Reverse_Lunge"
               ]
             },
@@ -710,6 +795,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Floor_Glute-Ham_Raise",
                 "Bodyweight_Single-Leg_Deadlift"
               ]
             },
@@ -728,7 +814,10 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Active_Hang",
+                "Dead_Hang"
+              ]
             },
             {
               "name": "Side Plank",
@@ -745,7 +834,11 @@
               "isOptional": false,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
+              ]
             },
             {
               "name": "Hollow Hold",
@@ -763,7 +856,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Boat_Hold",
+                "Hollow_Rock",
                 "Dead_Bug",
+                "Flutter_Kicks",
                 "Plank"
               ]
             },
@@ -784,7 +880,8 @@
               "restSeconds": null,
               "swaps": [
                 "Reverse_Crunch",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Seated_Knee_Tuck"
               ]
             }
           ]
@@ -829,7 +926,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Pushups"
+                "Pushups",
+                "Archer_Push-Up"
               ]
             },
             {
@@ -848,6 +946,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Shrimp_Squat",
                 "Bodyweight_Bulgarian_Split_Squat"
               ]
             },
@@ -867,6 +966,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Bodyweight_Good_Morning",
                 "Single_Leg_Glute_Bridge"
               ]
             },
@@ -886,8 +986,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
                 "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift"
               ]
             },
             {
@@ -907,6 +1010,7 @@
               "restSeconds": null,
               "swaps": [
                 "Plank_Shoulder_Tap",
+                "Plank_Reach",
                 "Dead_Bug",
                 "Hollow_Hold"
               ]
@@ -926,7 +1030,31 @@
               "isOptional": true,
               "setPlan": null,
               "restSeconds": null,
-              "swaps": []
+              "swaps": [
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
+              ]
+            },
+            {
+              "name": "Dead Hang",
+              "catalogueId": "Dead_Hang",
+              "sets": 3,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 8,
+              "isFoundational": false,
+              "notes": "For the grip; let the shoulders relax",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Farmers_Walk",
+                "Active_Hang"
+              ]
             }
           ]
         }

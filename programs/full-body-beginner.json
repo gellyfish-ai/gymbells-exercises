@@ -35,10 +35,10 @@
                 "Smith_Machine_Squat",
                 "Hack_Squat",
                 "Leg_Press",
-                "Front_Barbell_Squat",
                 "Dumbbell_Squat",
                 "Goblet_Squat",
-                "Landmine_Squat"
+                "Landmine_Squat",
+                "Front_Barbell_Squat"
               ]
             },
             {
@@ -62,9 +62,9 @@
                 "Machine_Bench_Press",
                 "Leverage_Chest_Press",
                 "Cable_Chest_Press",
-                "Barbell_Floor_Press",
                 "Pushups",
-                "Dumbbell_Floor_Press"
+                "Dumbbell_Floor_Press",
+                "Barbell_Floor_Press"
               ]
             },
             {
@@ -84,13 +84,13 @@
               "restSeconds": null,
               "swaps": [
                 "Bent_Over_Two-Dumbbell_Row",
-                "Pendlay_Row",
                 "T-Bar_Row_with_Handle",
                 "Seated_Cable_Rows",
                 "Smith_Machine_Row",
                 "Leverage_Iso_Row",
                 "Dumbbell_Incline_Row",
-                "Trap_Bar_Row"
+                "Trap_Bar_Row",
+                "Pendlay_Row"
               ]
             },
             {
@@ -112,10 +112,10 @@
                 "Cable_Seated_Lateral_Raise",
                 "Machine_Lateral_Raise",
                 "Lateral_Raise_-_With_Bands",
-                "Seated_Side_Lateral_Raise",
-                "Leaning_Dumbbell_Lateral_Raise",
                 "Kettlebell_Lateral_Raise",
-                "Standing_Low-Pulley_Deltoid_Raise"
+                "Standing_Low-Pulley_Deltoid_Raise",
+                "Seated_Side_Lateral_Raise",
+                "Leaning_Dumbbell_Lateral_Raise"
               ]
             },
             {
@@ -134,9 +134,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Bird_Dog",
                 "Dumbbell_Dead_Bug",
                 "Band_Dead_Bug",
+                "Bird_Dog",
+                "Dead_Bug_Arms_Only",
                 "Hollow_Hold",
                 "Plank"
               ]
@@ -164,12 +165,12 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Romanian_Deadlift",
-                "Stiff-Legged_Barbell_Deadlift",
                 "Smith_Machine_Romanian_Deadlift",
                 "Landmine_Romanian_Deadlift",
                 "Trap_Bar_Romanian_Deadlift",
                 "Cable_Romanian_Deadlift",
                 "Kettlebell_Romanian_Deadlift",
+                "Stiff-Legged_Barbell_Deadlift",
                 "Good_Morning"
               ]
             },
@@ -190,12 +191,13 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Shoulder_Press",
-                "Seated_Barbell_Press",
                 "Smith_Machine_Overhead_Shoulder_Press",
                 "Machine_Shoulder_Military_Press",
                 "Two-Arm_Kettlebell_Military_Press",
-                "Push_Press",
-                "Landmine_Press"
+                "Trap_Bar_Overhead_Press",
+                "Landmine_Press",
+                "Seated_Barbell_Press",
+                "Push_Press"
               ]
             },
             {
@@ -238,11 +240,11 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Goblet_Squat",
-                "Front_Squats_With_Two_Kettlebells",
                 "Cable_Goblet_Squat",
                 "Dumbbell_Squat",
                 "Landmine_Squat",
-                "Bodyweight_Squat"
+                "Bodyweight_Squat",
+                "Front_Squats_With_Two_Kettlebells"
               ]
             },
             {
@@ -261,14 +263,14 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Alternate_Bicep_Curl",
                 "Barbell_Curl",
                 "EZ-Bar_Curl",
                 "Standing_Biceps_Cable_Curl",
-                "Seated_Dumbbell_Curl",
                 "Kettlebell_Curl",
                 "Machine_Bicep_Curl",
-                "Band_Curl"
+                "Band_Curl",
+                "Dumbbell_Alternate_Bicep_Curl",
+                "Seated_Dumbbell_Curl"
               ]
             }
           ]

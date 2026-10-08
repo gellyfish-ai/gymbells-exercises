@@ -116,9 +116,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Plank_Shoulder_Tap",
-                "Dead_Bug",
                 "Ab_Roller",
+                "Plank_Shoulder_Tap",
+                "Plank_Reach",
+                "Dead_Bug",
                 "Hollow_Hold"
               ]
             }
@@ -167,6 +168,7 @@
               "swaps": [
                 "Dumbbell_Push_Press",
                 "Kettlebell_Push_Press",
+                "Trap_Bar_Overhead_Press",
                 "Standing_Military_Press"
               ]
             },
@@ -189,10 +191,10 @@
                 "Smith_Machine_Front_Squat",
                 "Dumbbell_Front_Squat",
                 "Front_Squats_With_Two_Kettlebells",
-                "Zercher_Squat",
-                "Barbell_Squat",
                 "Hack_Squat",
-                "Dumbbell_Goblet_Squat"
+                "Dumbbell_Goblet_Squat",
+                "Zercher_Squat",
+                "Barbell_Squat"
               ]
             },
             {
@@ -231,8 +233,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift",
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
+                "Hanging_Knee_Raise"
               ]
             }
           ]
@@ -280,10 +285,10 @@
                 "Smith_Machine_Squat",
                 "Hack_Squat",
                 "Leg_Press",
-                "Front_Barbell_Squat",
                 "Dumbbell_Squat",
                 "Goblet_Squat",
-                "Landmine_Squat"
+                "Landmine_Squat",
+                "Front_Barbell_Squat"
               ]
             },
             {
@@ -322,12 +327,12 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Romanian_Deadlift",
-                "Stiff-Legged_Barbell_Deadlift",
                 "Smith_Machine_Romanian_Deadlift",
                 "Landmine_Romanian_Deadlift",
                 "Trap_Bar_Romanian_Deadlift",
                 "Cable_Romanian_Deadlift",
                 "Kettlebell_Romanian_Deadlift",
+                "Stiff-Legged_Barbell_Deadlift",
                 "Good_Morning"
               ]
             },
@@ -467,9 +472,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Plank_Shoulder_Tap",
-                "Dead_Bug",
                 "Ab_Roller",
+                "Plank_Shoulder_Tap",
+                "Plank_Reach",
+                "Dead_Bug",
                 "Hollow_Hold"
               ]
             }
@@ -560,10 +566,10 @@
                 "Smith_Machine_Front_Squat",
                 "Dumbbell_Front_Squat",
                 "Front_Squats_With_Two_Kettlebells",
-                "Zercher_Squat",
-                "Barbell_Squat",
                 "Hack_Squat",
-                "Dumbbell_Goblet_Squat"
+                "Dumbbell_Goblet_Squat",
+                "Zercher_Squat",
+                "Barbell_Squat"
               ]
             },
             {
@@ -582,8 +588,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift",
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
+                "Hanging_Knee_Raise"
               ]
             }
           ]
@@ -651,10 +660,10 @@
                 "Smith_Machine_Squat",
                 "Hack_Squat",
                 "Leg_Press",
-                "Front_Barbell_Squat",
                 "Dumbbell_Squat",
                 "Goblet_Squat",
-                "Landmine_Squat"
+                "Landmine_Squat",
+                "Front_Barbell_Squat"
               ]
             },
             {
@@ -813,9 +822,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Plank_Shoulder_Tap",
-                "Dead_Bug",
                 "Ab_Roller",
+                "Plank_Shoulder_Tap",
+                "Plank_Reach",
+                "Dead_Bug",
                 "Hollow_Hold"
               ]
             }
@@ -906,10 +916,10 @@
                 "Smith_Machine_Front_Squat",
                 "Dumbbell_Front_Squat",
                 "Front_Squats_With_Two_Kettlebells",
-                "Zercher_Squat",
-                "Barbell_Squat",
                 "Hack_Squat",
-                "Dumbbell_Goblet_Squat"
+                "Dumbbell_Goblet_Squat",
+                "Zercher_Squat",
+                "Barbell_Squat"
               ]
             },
             {
@@ -928,8 +938,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift",
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
+                "Hanging_Knee_Raise"
               ]
             }
           ]
@@ -997,10 +1010,10 @@
                 "Smith_Machine_Squat",
                 "Hack_Squat",
                 "Leg_Press",
-                "Front_Barbell_Squat",
                 "Dumbbell_Squat",
                 "Goblet_Squat",
-                "Landmine_Squat"
+                "Landmine_Squat",
+                "Front_Barbell_Squat"
               ]
             },
             {

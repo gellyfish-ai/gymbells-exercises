@@ -54,12 +54,12 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Leverage_Chest_Press",
                 "Cable_Chest_Press",
                 "Dumbbell_Bench_Press",
                 "Smith_Machine_Bench_Press",
                 "Barbell_Bench_Press_-_Medium_Grip",
-                "Pushups"
+                "Pushups",
+                "Leverage_Chest_Press"
               ]
             },
             {
@@ -148,9 +148,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Plank_Shoulder_Tap",
-                "Dead_Bug",
                 "Ab_Roller",
+                "Plank_Shoulder_Tap",
+                "Plank_Reach",
+                "Dead_Bug",
                 "Hollow_Hold"
               ]
             }
@@ -177,11 +178,11 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Goblet_Squat",
-                "Front_Squats_With_Two_Kettlebells",
                 "Cable_Goblet_Squat",
                 "Dumbbell_Squat",
                 "Landmine_Squat",
-                "Bodyweight_Squat"
+                "Bodyweight_Squat",
+                "Front_Squats_With_Two_Kettlebells"
               ]
             },
             {
@@ -201,12 +202,12 @@
               "restSeconds": null,
               "swaps": [
                 "Barbell_Bench_Press_-_Medium_Grip",
-                "Dumbbell_Bench_Press_Neutral_Grip",
                 "Machine_Bench_Press",
                 "Smith_Machine_Bench_Press",
                 "Cable_Chest_Press",
-                "Dumbbell_Floor_Press",
-                "Pushups"
+                "Pushups",
+                "Dumbbell_Bench_Press_Neutral_Grip",
+                "Dumbbell_Floor_Press"
               ]
             },
             {
@@ -252,8 +253,8 @@
               "swaps": [
                 "Barbell_Glute_Bridge",
                 "Butt_Lift_Bridge",
-                "Dumbbell_Hip_Thrust",
                 "Band_Glute_Bridge",
+                "Dumbbell_Hip_Thrust",
                 "Dumbbell_Frog_Pump"
               ]
             },
@@ -273,14 +274,14 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Alternate_Bicep_Curl",
                 "Barbell_Curl",
                 "EZ-Bar_Curl",
                 "Standing_Biceps_Cable_Curl",
-                "Seated_Dumbbell_Curl",
                 "Kettlebell_Curl",
                 "Machine_Bicep_Curl",
-                "Band_Curl"
+                "Band_Curl",
+                "Dumbbell_Alternate_Bicep_Curl",
+                "Seated_Dumbbell_Curl"
               ]
             },
             {
@@ -301,11 +302,11 @@
               "swaps": [
                 "Triceps_Pushdown_-_Rope_Attachment",
                 "Triceps_Pushdown_V-Bar",
-                "Reverse_Grip_Triceps_Pushdown",
                 "Band_Triceps_Pushdown",
                 "Machine_Triceps_Extension",
                 "Bench_Dips",
-                "Tricep_Dumbbell_Kickback"
+                "Tricep_Dumbbell_Kickback",
+                "Reverse_Grip_Triceps_Pushdown"
               ]
             },
             {
@@ -324,9 +325,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Bird_Dog",
                 "Dumbbell_Dead_Bug",
                 "Band_Dead_Bug",
+                "Bird_Dog",
+                "Dead_Bug_Arms_Only",
                 "Hollow_Hold",
                 "Plank"
               ]
@@ -385,12 +387,12 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Leverage_Chest_Press",
                 "Cable_Chest_Press",
                 "Dumbbell_Bench_Press",
                 "Smith_Machine_Bench_Press",
                 "Barbell_Bench_Press_-_Medium_Grip",
-                "Pushups"
+                "Pushups",
+                "Leverage_Chest_Press"
               ]
             },
             {
@@ -479,9 +481,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Plank_Shoulder_Tap",
-                "Dead_Bug",
                 "Ab_Roller",
+                "Plank_Shoulder_Tap",
+                "Plank_Reach",
+                "Dead_Bug",
                 "Hollow_Hold"
               ]
             }
@@ -508,11 +511,11 @@
               "restSeconds": null,
               "swaps": [
                 "Dumbbell_Goblet_Squat",
-                "Front_Squats_With_Two_Kettlebells",
                 "Cable_Goblet_Squat",
                 "Dumbbell_Squat",
                 "Landmine_Squat",
-                "Bodyweight_Squat"
+                "Bodyweight_Squat",
+                "Front_Squats_With_Two_Kettlebells"
               ]
             },
             {
@@ -532,12 +535,12 @@
               "restSeconds": null,
               "swaps": [
                 "Barbell_Bench_Press_-_Medium_Grip",
-                "Dumbbell_Bench_Press_Neutral_Grip",
                 "Machine_Bench_Press",
                 "Smith_Machine_Bench_Press",
                 "Cable_Chest_Press",
-                "Dumbbell_Floor_Press",
-                "Pushups"
+                "Pushups",
+                "Dumbbell_Bench_Press_Neutral_Grip",
+                "Dumbbell_Floor_Press"
               ]
             },
             {
@@ -583,8 +586,8 @@
               "swaps": [
                 "Barbell_Glute_Bridge",
                 "Butt_Lift_Bridge",
-                "Dumbbell_Hip_Thrust",
                 "Band_Glute_Bridge",
+                "Dumbbell_Hip_Thrust",
                 "Dumbbell_Frog_Pump"
               ]
             },
@@ -604,14 +607,14 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Alternate_Bicep_Curl",
                 "Barbell_Curl",
                 "EZ-Bar_Curl",
                 "Standing_Biceps_Cable_Curl",
-                "Seated_Dumbbell_Curl",
                 "Kettlebell_Curl",
                 "Machine_Bicep_Curl",
-                "Band_Curl"
+                "Band_Curl",
+                "Dumbbell_Alternate_Bicep_Curl",
+                "Seated_Dumbbell_Curl"
               ]
             },
             {
@@ -632,11 +635,11 @@
               "swaps": [
                 "Triceps_Pushdown_-_Rope_Attachment",
                 "Triceps_Pushdown_V-Bar",
-                "Reverse_Grip_Triceps_Pushdown",
                 "Band_Triceps_Pushdown",
                 "Machine_Triceps_Extension",
                 "Bench_Dips",
-                "Tricep_Dumbbell_Kickback"
+                "Tricep_Dumbbell_Kickback",
+                "Reverse_Grip_Triceps_Pushdown"
               ]
             },
             {
@@ -655,9 +658,10 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Bird_Dog",
                 "Dumbbell_Dead_Bug",
                 "Band_Dead_Bug",
+                "Bird_Dog",
+                "Dead_Bug_Arms_Only",
                 "Hollow_Hold",
                 "Plank"
               ]

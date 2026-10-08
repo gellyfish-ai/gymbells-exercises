@@ -2,22 +2,22 @@
 
 **[Browse the catalogue →](https://gellyfish-ai.github.io/gymbells-exercises/)**
 
-576 gym exercises with illustrations and 35 training programs, free for non-commercial use. They are made
-for the [GymBells](https://gymbells.gellyfish.dev) app and shared here. Release 0.4.0 (2026-10-07).
+631 gym exercises with illustrations and 38 training programs, free for non-commercial use. They are made
+for the [GymBells](https://gymbells.gellyfish.dev) app and shared here. Release 0.5.0 (2026-10-08).
 
 [![The catalogue: search, filters by muscle and equipment, a start and an end picture per exercise](docs/catalogue.png)](https://gellyfish-ai.github.io/gymbells-exercises/)
 
 ## What is here
 
-- **576 exercises**, each with a start and an end picture (512 px, on white), a name, other names it goes by,
+- **631 exercises**, each with a start and an end picture (512 px, on white), a name, other names it goes by,
   steps, equipment, primary and secondary muscles, level, and which exercises can replace it or are easier or harder.
-- **35 training programs** written out in full: phases, days, exercises, sets, repetitions, rests,
+- **38 training programs** written out in full: phases, days, exercises, sets, repetitions, rests,
   starting weights and swaps.
 - **A site** to browse both: [catalogue](https://gellyfish-ai.github.io/gymbells-exercises/),
   [programs](https://gellyfish-ai.github.io/gymbells-exercises/programs.html),
   [samples and licensing](https://gellyfish-ai.github.io/gymbells-exercises/more.html).
 
-By equipment: Dumbbell 131, Barbell 127, Cable machine 78, Kettlebell 62, Band 35, Bodyweight 33, Smith machine 22, EZ bar 13, Lat pulldown machine 9, Seated cable row 6, Trap bar 6, Flat bench 5, Pull-up bar 5, Dip bars 3, Leg press machine 3, Medicine ball 3, other 35.
+By equipment: Dumbbell 132, Barbell 128, Cable machine 79, Bodyweight 72, Kettlebell 65, Band 35, Smith machine 23, EZ bar 13, Pull-up bar 11, Lat pulldown machine 9, Trap bar 7, Flat bench 6, Seated cable row 6, Dip bars 3, Leg press machine 3, Medicine ball 3, other 36.
 
 <table>
 <tr>

@@ -74,6 +74,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kneeling_Dumbbell_Row",
                 "Incline_Dumbbell_Row_One-Arm",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
@@ -95,6 +96,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bodyweight_Lateral_Lunge",
+                "Cossack_Squat",
                 "Dumbbell_Lunges"
               ]
             },
@@ -135,6 +137,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Dead_Bug_Arms_Only",
                 "Dumbbell_Dead_Bug",
                 "Hollow_Hold",
                 "Plank"
@@ -375,7 +378,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Glute_Bridge"
+                "Dumbbell_Glute_Bridge",
+                "Single-Leg_Hip_Thrust"
               ]
             },
             {
@@ -618,6 +622,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kneeling_Dumbbell_Row",
                 "Incline_Dumbbell_Row_One-Arm",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
@@ -639,6 +644,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bodyweight_Lateral_Lunge",
+                "Cossack_Squat",
                 "Dumbbell_Lunges"
               ]
             },
@@ -679,6 +685,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Dead_Bug_Arms_Only",
                 "Dumbbell_Dead_Bug",
                 "Hollow_Hold",
                 "Plank"
@@ -919,7 +926,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Glute_Bridge"
+                "Dumbbell_Glute_Bridge",
+                "Single-Leg_Hip_Thrust"
               ]
             },
             {
@@ -1162,6 +1170,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kneeling_Dumbbell_Row",
                 "Incline_Dumbbell_Row_One-Arm",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
@@ -1183,6 +1192,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bodyweight_Lateral_Lunge",
+                "Cossack_Squat",
                 "Dumbbell_Lunges"
               ]
             },
@@ -1223,6 +1233,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Dead_Bug_Arms_Only",
                 "Dumbbell_Dead_Bug",
                 "Hollow_Hold",
                 "Plank"
@@ -1463,7 +1474,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Glute_Bridge"
+                "Dumbbell_Glute_Bridge",
+                "Single-Leg_Hip_Thrust"
               ]
             },
             {
@@ -1706,6 +1718,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Kneeling_Dumbbell_Row",
                 "Incline_Dumbbell_Row_One-Arm",
                 "Bent_Over_Two-Dumbbell_Row"
               ]
@@ -1727,6 +1740,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bodyweight_Lateral_Lunge",
+                "Cossack_Squat",
                 "Dumbbell_Lunges"
               ]
             },
@@ -1767,6 +1781,7 @@
               "restSeconds": null,
               "swaps": [
                 "Bird_Dog",
+                "Dead_Bug_Arms_Only",
                 "Dumbbell_Dead_Bug",
                 "Hollow_Hold",
                 "Plank"
@@ -2007,7 +2022,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Dumbbell_Glute_Bridge"
+                "Dumbbell_Glute_Bridge",
+                "Single-Leg_Hip_Thrust"
               ]
             },
             {

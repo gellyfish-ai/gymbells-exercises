@@ -115,6 +115,7 @@
               "restSeconds": null,
               "swaps": [
                 "Plank_Shoulder_Tap",
+                "Plank_Reach",
                 "Dead_Bug",
                 "Hollow_Hold"
               ]
@@ -155,8 +156,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
                 "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift"
               ]
             }
           ]
@@ -221,7 +225,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Chin-Up"
+                "Chin-Up",
+                "Pull-Up_Neutral_Grip"
               ]
             },
             {
@@ -260,6 +265,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Standing_Barbell_Rollout",
                 "Hanging_Knee_Raise",
                 "Plank"
               ]
@@ -301,6 +307,7 @@
               "restSeconds": null,
               "swaps": [
                 "Plank_Shoulder_Tap",
+                "Plank_Reach",
                 "Dead_Bug",
                 "Hollow_Hold"
               ]
@@ -388,7 +395,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Barbell_Glute_Bridge"
+                "Barbell_Glute_Bridge",
+                "Single-Leg_Hip_Thrust"
               ]
             },
             {
@@ -427,8 +435,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
                 "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift"
               ]
             },
             {
@@ -566,6 +577,7 @@
               "restSeconds": null,
               "swaps": [
                 "Plank_Shoulder_Tap",
+                "Plank_Reach",
                 "Dead_Bug",
                 "Hollow_Hold"
               ]
@@ -606,8 +618,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
                 "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift"
               ]
             }
           ]
@@ -672,7 +687,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Chin-Up"
+                "Chin-Up",
+                "Pull-Up_Neutral_Grip"
               ]
             },
             {
@@ -711,6 +727,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Standing_Barbell_Rollout",
                 "Hanging_Knee_Raise",
                 "Plank"
               ]
@@ -752,6 +769,7 @@
               "restSeconds": null,
               "swaps": [
                 "Plank_Shoulder_Tap",
+                "Plank_Reach",
                 "Dead_Bug",
                 "Hollow_Hold"
               ]
@@ -839,7 +857,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Barbell_Glute_Bridge"
+                "Barbell_Glute_Bridge",
+                "Single-Leg_Hip_Thrust"
               ]
             },
             {
@@ -878,8 +897,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
                 "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift"
               ]
             },
             {
@@ -1017,6 +1039,7 @@
               "restSeconds": null,
               "swaps": [
                 "Plank_Shoulder_Tap",
+                "Plank_Reach",
                 "Dead_Bug",
                 "Hollow_Hold"
               ]
@@ -1057,8 +1080,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
                 "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift"
               ]
             }
           ]
@@ -1123,7 +1149,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Chin-Up"
+                "Chin-Up",
+                "Pull-Up_Neutral_Grip"
               ]
             },
             {
@@ -1162,6 +1189,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Standing_Barbell_Rollout",
                 "Hanging_Knee_Raise",
                 "Plank"
               ]
@@ -1203,6 +1231,7 @@
               "restSeconds": null,
               "swaps": [
                 "Plank_Shoulder_Tap",
+                "Plank_Reach",
                 "Dead_Bug",
                 "Hollow_Hold"
               ]
@@ -1290,7 +1319,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Barbell_Glute_Bridge"
+                "Barbell_Glute_Bridge",
+                "Single-Leg_Hip_Thrust"
               ]
             },
             {
@@ -1329,8 +1359,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
                 "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift"
               ]
             },
             {
@@ -1468,6 +1501,7 @@
               "restSeconds": null,
               "swaps": [
                 "Plank_Shoulder_Tap",
+                "Plank_Reach",
                 "Dead_Bug",
                 "Hollow_Hold"
               ]
@@ -1508,8 +1542,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
                 "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift"
               ]
             }
           ]
@@ -1574,7 +1611,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Chin-Up"
+                "Chin-Up",
+                "Pull-Up_Neutral_Grip"
               ]
             },
             {
@@ -1613,6 +1651,7 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Standing_Barbell_Rollout",
                 "Hanging_Knee_Raise",
                 "Plank"
               ]
@@ -1654,6 +1693,7 @@
               "restSeconds": null,
               "swaps": [
                 "Plank_Shoulder_Tap",
+                "Plank_Reach",
                 "Dead_Bug",
                 "Hollow_Hold"
               ]
@@ -1741,7 +1781,8 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
-                "Barbell_Glute_Bridge"
+                "Barbell_Glute_Bridge",
+                "Single-Leg_Hip_Thrust"
               ]
             },
             {
@@ -1780,8 +1821,11 @@
               "setPlan": null,
               "restSeconds": null,
               "swaps": [
+                "Toes_to_Bar",
+                "Knees_to_Elbows",
                 "Hanging_Knee_Raise",
-                "Flat_Bench_Lying_Leg_Raise"
+                "Flat_Bench_Lying_Leg_Raise",
+                "Leg_Raise_with_Hip_Lift"
               ]
             },
             {

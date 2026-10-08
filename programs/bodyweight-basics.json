@@ -1,0 +1,652 @@
+{
+  "id": "bodyweight-basics",
+  "name": "Bodyweight Basics",
+  "description": "Two short full-body workouts a week for 6 weeks for someone starting from nothing or coming back after a long break, with nothing but floor space and a wall. No jumping and no burpees: a squat or bridge, a push, a back exercise, a lunge and core work each day, two sets at first and three later. When every set reaches the top of its range, move on to the No Equipment program. The optional exercises add calves and an easy back stretch.",
+  "level": "beginner",
+  "phases": [
+    {
+      "name": "Learn",
+      "description": "Two sets at an easy pace, learning each movement",
+      "weekStart": 1,
+      "weekEnd": 3,
+      "restBetweenExercises": 60,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Bodyweight Squat",
+              "catalogueId": "Bodyweight_Squat",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Band_Squat",
+                "Dumbbell_Goblet_Squat",
+                "Goblet_Squat",
+                "Wall_Sit",
+                "Pulse_Squat"
+              ]
+            },
+            {
+              "name": "Knee Push-Up",
+              "catalogueId": "Knee_Push-Up",
+              "sets": 2,
+              "repRangeMin": 6,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Machine_Bench_Press",
+                "Incline_Push-Up",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Superman Pull",
+              "catalogueId": "Superman_Pull",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Superman",
+                "Prone_Y_Raise",
+                "Bird_Dog"
+              ]
+            },
+            {
+              "name": "Forward Lunge",
+              "catalogueId": "Forward_Lunge",
+              "sets": 2,
+              "repRangeMin": 6,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Lunges",
+                "Bodyweight_Reverse_Lunge",
+                "Bodyweight_Walking_Lunge"
+              ]
+            },
+            {
+              "name": "Dead Bug, Arms Only",
+              "catalogueId": "Dead_Bug_Arms_Only",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Band_Dead_Bug",
+                "Dead_Bug",
+                "Bird_Dog"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 2,
+              "repRangeMin": 15,
+              "repRangeMax": 20,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Ab_Roller",
+                "Plank_Shoulder_Tap",
+                "Plank_Reach",
+                "Dead_Bug",
+                "Hollow_Hold"
+              ]
+            },
+            {
+              "name": "Bodyweight Calf Raise",
+              "catalogueId": "Bodyweight_Calf_Raise",
+              "sets": 2,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Standing_Dumbbell_Calf_Raise",
+                "Standing_Calf_Raises",
+                "Single-Leg_Calf_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Glute Bridge",
+              "catalogueId": "Butt_Lift_Bridge",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Glute_Bridge",
+                "Band_Glute_Bridge",
+                "Glute_Bridge_March",
+                "Frog_Pump"
+              ]
+            },
+            {
+              "name": "Push-Up",
+              "catalogueId": "Pushups",
+              "sets": 2,
+              "repRangeMin": 3,
+              "repRangeMax": 8,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": "From the knees until you can do three",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Bench_Press",
+                "Machine_Bench_Press",
+                "Knee_Push-Up",
+                "Incline_Push-Up",
+                "Push-Up_Wide_Grip"
+              ]
+            },
+            {
+              "name": "Bird Dog",
+              "catalogueId": "Bird_Dog",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dead_Bug",
+                "Superman",
+                "Plank_Reach"
+              ]
+            },
+            {
+              "name": "Wall Sit",
+              "catalogueId": "Wall_Sit",
+              "sets": 2,
+              "repRangeMin": 15,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pulse_Squat",
+                "Bodyweight_Squat",
+                "Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Bodyweight Sumo Squat",
+              "catalogueId": "Bodyweight_Sumo_Squat",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Sumo_Squat",
+                "Landmine_Sumo_Squat",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Side Plank",
+              "catalogueId": "Side_Bridge",
+              "sets": 2,
+              "repRangeMin": 10,
+              "repRangeMax": 20,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Each side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Side_Bend",
+                "Cable_Side_Bend",
+                "Dumbbell_Suitcase_Carry",
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
+              ]
+            },
+            {
+              "name": "Cat-Cow",
+              "catalogueId": "Cat-Cow",
+              "sets": 2,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Build",
+      "description": "Three sets and more reps",
+      "weekStart": 4,
+      "weekEnd": 6,
+      "restBetweenExercises": 60,
+      "restBetweenDays": null,
+      "workoutDays": [
+        {
+          "name": "Workout A",
+          "dayNumber": 1,
+          "exercises": [
+            {
+              "name": "Bodyweight Squat",
+              "catalogueId": "Bodyweight_Squat",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Band_Squat",
+                "Dumbbell_Goblet_Squat",
+                "Goblet_Squat",
+                "Wall_Sit",
+                "Pulse_Squat"
+              ]
+            },
+            {
+              "name": "Knee Push-Up",
+              "catalogueId": "Knee_Push-Up",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Machine_Bench_Press",
+                "Incline_Push-Up",
+                "Pushups"
+              ]
+            },
+            {
+              "name": "Superman Pull",
+              "catalogueId": "Superman_Pull",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Superman",
+                "Prone_Y_Raise",
+                "Bird_Dog"
+              ]
+            },
+            {
+              "name": "Forward Lunge",
+              "catalogueId": "Forward_Lunge",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 4,
+              "isFoundational": false,
+              "notes": "Reps per leg",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Lunges",
+                "Bodyweight_Reverse_Lunge",
+                "Bodyweight_Walking_Lunge"
+              ]
+            },
+            {
+              "name": "Dead Bug, Arms Only",
+              "catalogueId": "Dead_Bug_Arms_Only",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Band_Dead_Bug",
+                "Dead_Bug",
+                "Bird_Dog"
+              ]
+            },
+            {
+              "name": "Plank",
+              "catalogueId": "Plank",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Ab_Roller",
+                "Plank_Shoulder_Tap",
+                "Plank_Reach",
+                "Dead_Bug",
+                "Hollow_Hold"
+              ]
+            },
+            {
+              "name": "Bodyweight Calf Raise",
+              "catalogueId": "Bodyweight_Calf_Raise",
+              "sets": 3,
+              "repRangeMin": 15,
+              "repRangeMax": 20,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Standing_Dumbbell_Calf_Raise",
+                "Standing_Calf_Raises",
+                "Single-Leg_Calf_Raise"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workout B",
+          "dayNumber": 2,
+          "exercises": [
+            {
+              "name": "Glute Bridge",
+              "catalogueId": "Butt_Lift_Bridge",
+              "sets": 3,
+              "repRangeMin": 12,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 1,
+              "isFoundational": true,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Glute_Bridge",
+                "Band_Glute_Bridge",
+                "Glute_Bridge_March",
+                "Frog_Pump"
+              ]
+            },
+            {
+              "name": "Push-Up",
+              "catalogueId": "Pushups",
+              "sets": 3,
+              "repRangeMin": 5,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 2,
+              "isFoundational": true,
+              "notes": "From the knees until you can do three",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Bench_Press",
+                "Machine_Bench_Press",
+                "Knee_Push-Up",
+                "Incline_Push-Up",
+                "Push-Up_Wide_Grip"
+              ]
+            },
+            {
+              "name": "Bird Dog",
+              "catalogueId": "Bird_Dog",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 12,
+              "measure": "reps",
+              "order": 3,
+              "isFoundational": false,
+              "notes": "Reps per side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dead_Bug",
+                "Superman",
+                "Plank_Reach"
+              ]
+            },
+            {
+              "name": "Wall Sit",
+              "catalogueId": "Wall_Sit",
+              "sets": 3,
+              "repRangeMin": 30,
+              "repRangeMax": 45,
+              "measure": "seconds",
+              "order": 4,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Pulse_Squat",
+                "Bodyweight_Squat",
+                "Goblet_Squat"
+              ]
+            },
+            {
+              "name": "Bodyweight Sumo Squat",
+              "catalogueId": "Bodyweight_Sumo_Squat",
+              "sets": 3,
+              "repRangeMin": 10,
+              "repRangeMax": 15,
+              "measure": "reps",
+              "order": 5,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Sumo_Squat",
+                "Landmine_Sumo_Squat",
+                "Bodyweight_Squat"
+              ]
+            },
+            {
+              "name": "Side Plank",
+              "catalogueId": "Side_Bridge",
+              "sets": 3,
+              "repRangeMin": 20,
+              "repRangeMax": 30,
+              "measure": "seconds",
+              "order": 6,
+              "isFoundational": false,
+              "notes": "Each side",
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": false,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": [
+                "Dumbbell_Side_Bend",
+                "Cable_Side_Bend",
+                "Dumbbell_Suitcase_Carry",
+                "Side_Plank_Hip_Dip",
+                "Side_Plank_Leg_Raise",
+                "Side_Plank_Rotation"
+              ]
+            },
+            {
+              "name": "Cat-Cow",
+              "catalogueId": "Cat-Cow",
+              "sets": 3,
+              "repRangeMin": 8,
+              "repRangeMax": 10,
+              "measure": "reps",
+              "order": 7,
+              "isFoundational": false,
+              "notes": null,
+              "defaultWeight": 0.0,
+              "supersetWithOrder": null,
+              "isOptional": true,
+              "setPlan": null,
+              "restSeconds": null,
+              "swaps": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
